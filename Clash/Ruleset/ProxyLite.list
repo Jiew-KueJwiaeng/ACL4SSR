@@ -1,0 +1,45 @@
+# 代理列表
+
+# MyList && Other
+DOMAIN-SUFFIX,hoyolab.com
+
+# Amazon
+
+# BBC
+
+# Discord
+
+# Facebook
+
+# Github
+DOMAIN-SUFFIX,github.com
+
+# Instagram
+
+# Kakao Talk
+
+# Line
+
+# Porn
+
+# Pixiv
+DOMAIN-SUFFIX,pixiv.net
+# DOMAIN-SUFFIX,pximg.net
+
+# Spark
+
+# Steam
+DOMAIN-SUFFIX,steamcommunity.com
+
+# TapTap
+
+# Twitch
+
+# Twitter
+
+# TeraBox
+# DOMAIN-SUFFIX,terabox.com
+# DOMAIN-SUFFIX,teraboxcdn.com
+
+# Wikipedia 维基相关域名
+DOMAIN-SUFFIX,wikipedia.org
