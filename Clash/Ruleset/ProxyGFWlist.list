@@ -1,58 +1,26 @@
 # 代理列表
 
 # MyList && Other
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,adguard.org
-DOMAIN-SUFFIX,bit.no.com
-DOMAIN-SUFFIX,btlibrary.me
-DOMAIN-SUFFIX,cccat.io
-DOMAIN-SUFFIX,cloudcone.com
-DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,garena.com
+# DOMAIN-SUFFIX,1password.com
+# DOMAIN-SUFFIX,adguard.org
+# DOMAIN-SUFFIX,bit.no.com
+# DOMAIN-SUFFIX,btlibrary.me
+# DOMAIN-SUFFIX,cccat.io
+# DOMAIN-SUFFIX,cloudcone.com
+# DOMAIN-SUFFIX,gameloft.com
+# DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,hoyolab.com
-DOMAIN-SUFFIX,inoreader.com
-DOMAIN-SUFFIX,ip138.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,myteamspeak.com
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,teddysun.com
-DOMAIN-SUFFIX,tumbex.com
-DOMAIN-SUFFIX,twdvd.com
-DOMAIN-SUFFIX,unsplash.com
-
-# 国外域名
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,us
-
-# 国外域名关键字
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,abema
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,avtb
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
+# DOMAIN-SUFFIX,inoreader.com
+# DOMAIN-SUFFIX,ip138.com
+# DOMAIN-SUFFIX,linkedin.com
+# DOMAIN-SUFFIX,myteamspeak.com
+# DOMAIN-SUFFIX,notion.so
+# DOMAIN-SUFFIX,ping.pe
+# DOMAIN-SUFFIX,reddit.com
+# DOMAIN-SUFFIX,teddysun.com
+# DOMAIN-SUFFIX,tumbex.com
+# DOMAIN-SUFFIX,twdvd.com
+3 DOMAIN-SUFFIX,unsplash.com
 
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
@@ -1931,7 +1899,6 @@ DOMAIN-SUFFIX,gfsale.com
 DOMAIN-SUFFIX,gfw.org.ua
 DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,gfw.report
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ggssl.com
 DOMAIN-SUFFIX,ghidra-sre.org
 DOMAIN-SUFFIX,ghostpath.com
@@ -1946,11 +1913,6 @@ DOMAIN-SUFFIX,girlbanker.com
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbooks.io
 DOMAIN-SUFFIX,githack.com
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gizlen.net
 DOMAIN-SUFFIX,gjczz.com
 DOMAIN-SUFFIX,glass8.eu
@@ -1967,7 +1929,6 @@ DOMAIN-SUFFIX,gloryhole.com
 DOMAIN-SUFFIX,glorystar.me
 DOMAIN-SUFFIX,gluckman.com
 DOMAIN-SUFFIX,glype.com
-DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmgard.com
 DOMAIN-SUFFIX,gmhz.org
 DOMAIN-SUFFIX,gmiddle.com
@@ -2006,8 +1967,6 @@ DOMAIN-SUFFIX,gongm.in
 DOMAIN-SUFFIX,gongmeng.info
 DOMAIN-SUFFIX,gongminliliang.com
 DOMAIN-SUFFIX,gongwt.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,goo.gle
 DOMAIN-SUFFIX,goo.ne.jp
 DOMAIN-SUFFIX,gooday.xyz
 DOMAIN-SUFFIX,gooddns.info
@@ -2017,240 +1976,6 @@ DOMAIN-SUFFIX,goodreads.com
 DOMAIN-SUFFIX,goodtv.com.tw
 DOMAIN-SUFFIX,goodtv.tv
 DOMAIN-SUFFIX,goofind.com
-DOMAIN-SUFFIX,google.ac
-DOMAIN-SUFFIX,google.ad
-DOMAIN-SUFFIX,google.ae
-DOMAIN-SUFFIX,google.af
-DOMAIN-SUFFIX,google.ai
-DOMAIN-SUFFIX,google.al
-DOMAIN-SUFFIX,google.am
-DOMAIN-SUFFIX,google.as
-DOMAIN-SUFFIX,google.at
-DOMAIN-SUFFIX,google.az
-DOMAIN-SUFFIX,google.ba
-DOMAIN-SUFFIX,google.be
-DOMAIN-SUFFIX,google.bf
-DOMAIN-SUFFIX,google.bg
-DOMAIN-SUFFIX,google.bi
-DOMAIN-SUFFIX,google.bj
-DOMAIN-SUFFIX,google.bs
-DOMAIN-SUFFIX,google.bt
-DOMAIN-SUFFIX,google.by
-DOMAIN-SUFFIX,google.ca
-DOMAIN-SUFFIX,google.cat
-DOMAIN-SUFFIX,google.cd
-DOMAIN-SUFFIX,google.cf
-DOMAIN-SUFFIX,google.cg
-DOMAIN-SUFFIX,google.ch
-DOMAIN-SUFFIX,google.ci
-DOMAIN-SUFFIX,google.cl
-DOMAIN-SUFFIX,google.cm
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,google.co.ao
-DOMAIN-SUFFIX,google.co.bw
-DOMAIN-SUFFIX,google.co.ck
-DOMAIN-SUFFIX,google.co.cr
-DOMAIN-SUFFIX,google.co.id
-DOMAIN-SUFFIX,google.co.il
-DOMAIN-SUFFIX,google.co.in
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,google.co.ke
-DOMAIN-SUFFIX,google.co.kr
-DOMAIN-SUFFIX,google.co.ls
-DOMAIN-SUFFIX,google.co.ma
-DOMAIN-SUFFIX,google.co.mz
-DOMAIN-SUFFIX,google.co.nz
-DOMAIN-SUFFIX,google.co.th
-DOMAIN-SUFFIX,google.co.tz
-DOMAIN-SUFFIX,google.co.ug
-DOMAIN-SUFFIX,google.co.uk
-DOMAIN-SUFFIX,google.co.uz
-DOMAIN-SUFFIX,google.co.ve
-DOMAIN-SUFFIX,google.co.vi
-DOMAIN-SUFFIX,google.co.za
-DOMAIN-SUFFIX,google.co.zm
-DOMAIN-SUFFIX,google.co.zw
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.com.af
-DOMAIN-SUFFIX,google.com.ag
-DOMAIN-SUFFIX,google.com.ai
-DOMAIN-SUFFIX,google.com.ar
-DOMAIN-SUFFIX,google.com.au
-DOMAIN-SUFFIX,google.com.bd
-DOMAIN-SUFFIX,google.com.bh
-DOMAIN-SUFFIX,google.com.bn
-DOMAIN-SUFFIX,google.com.bo
-DOMAIN-SUFFIX,google.com.br
-DOMAIN-SUFFIX,google.com.bz
-DOMAIN-SUFFIX,google.com.co
-DOMAIN-SUFFIX,google.com.cu
-DOMAIN-SUFFIX,google.com.cy
-DOMAIN-SUFFIX,google.com.do
-DOMAIN-SUFFIX,google.com.ec
-DOMAIN-SUFFIX,google.com.eg
-DOMAIN-SUFFIX,google.com.et
-DOMAIN-SUFFIX,google.com.fj
-DOMAIN-SUFFIX,google.com.gh
-DOMAIN-SUFFIX,google.com.gi
-DOMAIN-SUFFIX,google.com.gt
-DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,google.com.jm
-DOMAIN-SUFFIX,google.com.kh
-DOMAIN-SUFFIX,google.com.kw
-DOMAIN-SUFFIX,google.com.lb
-DOMAIN-SUFFIX,google.com.ly
-DOMAIN-SUFFIX,google.com.mm
-DOMAIN-SUFFIX,google.com.mt
-DOMAIN-SUFFIX,google.com.mx
-DOMAIN-SUFFIX,google.com.my
-DOMAIN-SUFFIX,google.com.na
-DOMAIN-SUFFIX,google.com.nf
-DOMAIN-SUFFIX,google.com.ng
-DOMAIN-SUFFIX,google.com.ni
-DOMAIN-SUFFIX,google.com.np
-DOMAIN-SUFFIX,google.com.om
-DOMAIN-SUFFIX,google.com.pa
-DOMAIN-SUFFIX,google.com.pe
-DOMAIN-SUFFIX,google.com.pg
-DOMAIN-SUFFIX,google.com.ph
-DOMAIN-SUFFIX,google.com.pk
-DOMAIN-SUFFIX,google.com.pr
-DOMAIN-SUFFIX,google.com.py
-DOMAIN-SUFFIX,google.com.qa
-DOMAIN-SUFFIX,google.com.sa
-DOMAIN-SUFFIX,google.com.sb
-DOMAIN-SUFFIX,google.com.sg
-DOMAIN-SUFFIX,google.com.sl
-DOMAIN-SUFFIX,google.com.sv
-DOMAIN-SUFFIX,google.com.tj
-DOMAIN-SUFFIX,google.com.tr
-DOMAIN-SUFFIX,google.com.tw
-DOMAIN-SUFFIX,google.com.ua
-DOMAIN-SUFFIX,google.com.uy
-DOMAIN-SUFFIX,google.com.vc
-DOMAIN-SUFFIX,google.com.vn
-DOMAIN-SUFFIX,google.cv
-DOMAIN-SUFFIX,google.cz
-DOMAIN-SUFFIX,google.de
-DOMAIN-SUFFIX,google.dev
-DOMAIN-SUFFIX,google.dj
-DOMAIN-SUFFIX,google.dk
-DOMAIN-SUFFIX,google.dm
-DOMAIN-SUFFIX,google.dz
-DOMAIN-SUFFIX,google.ee
-DOMAIN-SUFFIX,google.es
-DOMAIN-SUFFIX,google.eu
-DOMAIN-SUFFIX,google.fi
-DOMAIN-SUFFIX,google.fm
-DOMAIN-SUFFIX,google.fr
-DOMAIN-SUFFIX,google.ga
-DOMAIN-SUFFIX,google.ge
-DOMAIN-SUFFIX,google.gg
-DOMAIN-SUFFIX,google.gl
-DOMAIN-SUFFIX,google.gm
-DOMAIN-SUFFIX,google.gp
-DOMAIN-SUFFIX,google.gr
-DOMAIN-SUFFIX,google.gy
-DOMAIN-SUFFIX,google.hk
-DOMAIN-SUFFIX,google.hn
-DOMAIN-SUFFIX,google.hr
-DOMAIN-SUFFIX,google.ht
-DOMAIN-SUFFIX,google.hu
-DOMAIN-SUFFIX,google.ie
-DOMAIN-SUFFIX,google.im
-DOMAIN-SUFFIX,google.iq
-DOMAIN-SUFFIX,google.is
-DOMAIN-SUFFIX,google.it
-DOMAIN-SUFFIX,google.it.ao
-DOMAIN-SUFFIX,google.je
-DOMAIN-SUFFIX,google.jo
-DOMAIN-SUFFIX,google.kg
-DOMAIN-SUFFIX,google.ki
-DOMAIN-SUFFIX,google.kz
-DOMAIN-SUFFIX,google.la
-DOMAIN-SUFFIX,google.li
-DOMAIN-SUFFIX,google.lk
-DOMAIN-SUFFIX,google.lt
-DOMAIN-SUFFIX,google.lu
-DOMAIN-SUFFIX,google.lv
-DOMAIN-SUFFIX,google.md
-DOMAIN-SUFFIX,google.me
-DOMAIN-SUFFIX,google.mg
-DOMAIN-SUFFIX,google.mk
-DOMAIN-SUFFIX,google.ml
-DOMAIN-SUFFIX,google.mn
-DOMAIN-SUFFIX,google.ms
-DOMAIN-SUFFIX,google.mu
-DOMAIN-SUFFIX,google.mv
-DOMAIN-SUFFIX,google.mw
-DOMAIN-SUFFIX,google.mx
-DOMAIN-SUFFIX,google.ne
-DOMAIN-SUFFIX,google.nl
-DOMAIN-SUFFIX,google.no
-DOMAIN-SUFFIX,google.nr
-DOMAIN-SUFFIX,google.nu
-DOMAIN-SUFFIX,google.org
-DOMAIN-SUFFIX,google.pl
-DOMAIN-SUFFIX,google.pn
-DOMAIN-SUFFIX,google.ps
-DOMAIN-SUFFIX,google.pt
-DOMAIN-SUFFIX,google.ro
-DOMAIN-SUFFIX,google.rs
-DOMAIN-SUFFIX,google.ru
-DOMAIN-SUFFIX,google.rw
-DOMAIN-SUFFIX,google.sc
-DOMAIN-SUFFIX,google.se
-DOMAIN-SUFFIX,google.sh
-DOMAIN-SUFFIX,google.si
-DOMAIN-SUFFIX,google.sk
-DOMAIN-SUFFIX,google.sm
-DOMAIN-SUFFIX,google.sn
-DOMAIN-SUFFIX,google.so
-DOMAIN-SUFFIX,google.sr
-DOMAIN-SUFFIX,google.st
-DOMAIN-SUFFIX,google.td
-DOMAIN-SUFFIX,google.tg
-DOMAIN-SUFFIX,google.tk
-DOMAIN-SUFFIX,google.tl
-DOMAIN-SUFFIX,google.tm
-DOMAIN-SUFFIX,google.tn
-DOMAIN-SUFFIX,google.to
-DOMAIN-SUFFIX,google.tt
-DOMAIN-SUFFIX,google.us
-DOMAIN-SUFFIX,google.vg
-DOMAIN-SUFFIX,google.vn
-DOMAIN-SUFFIX,google.vu
-DOMAIN-SUFFIX,google.ws
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapps.com
-DOMAIN-SUFFIX,googlearth.com
-DOMAIN-SUFFIX,googleartproject.com
-DOMAIN-SUFFIX,googleblog.com
-DOMAIN-SUFFIX,googlebot.com
-DOMAIN-SUFFIX,googlechinawebmaster.com
-DOMAIN-SUFFIX,googlecode.com
-DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,googledomains.com
-DOMAIN-SUFFIX,googledrive.com
-DOMAIN-SUFFIX,googleearth.com
-DOMAIN-SUFFIX,googlefiber.net
-DOMAIN-SUFFIX,googlegroups.com
-DOMAIN-SUFFIX,googlehosted.com
-DOMAIN-SUFFIX,googleideas.com
-DOMAIN-SUFFIX,googleinsidesearch.com
-DOMAIN-SUFFIX,googlelabs.com
-DOMAIN-SUFFIX,googlemail.com
-DOMAIN-SUFFIX,googlemashups.com
-DOMAIN-SUFFIX,googlepagecreator.com
-DOMAIN-SUFFIX,googleplay.com
-DOMAIN-SUFFIX,googleplus.com
-DOMAIN-SUFFIX,googlesile.com
-DOMAIN-SUFFIX,googlesource.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,googleweblight.com
-DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,gopetition.com
 DOMAIN-SUFFIX,goproxing.net
 DOMAIN-SUFFIX,goreforum.com
@@ -5826,13 +5551,6 @@ DOMAIN-SUFFIX,youshun12.com
 DOMAIN-SUFFIX,youthforfreechina.org
 DOMAIN-SUFFIX,youthnetradio.org
 DOMAIN-SUFFIX,youthwant.com.tw
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubecn.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youversion.com
 DOMAIN-SUFFIX,youwin.com
 DOMAIN-SUFFIX,youxu.info
@@ -5933,52 +5651,6 @@ DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
 DOMAIN-SUFFIX,gfwlist.end
 
-# Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
-IP-CIDR,13.32.0.0/15,no-resolve
-IP-CIDR,13.35.0.0/17,no-resolve
-IP-CIDR,18.184.0.0/15,no-resolve
-IP-CIDR,18.194.0.0/15,no-resolve
-IP-CIDR,18.208.0.0/13,no-resolve
-IP-CIDR,18.232.0.0/14,no-resolve
-IP-CIDR,52.58.0.0/15,no-resolve
-IP-CIDR,52.74.0.0/16,no-resolve
-IP-CIDR,52.77.0.0/16,no-resolve
-IP-CIDR,52.84.0.0/15,no-resolve
-IP-CIDR,52.200.0.0/13,no-resolve
-IP-CIDR,54.93.0.0/16,no-resolve
-IP-CIDR,54.156.0.0/14,no-resolve
-IP-CIDR,54.226.0.0/15,no-resolve
-IP-CIDR,54.230.156.0/22,no-resolve
-
-# BBC
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.com
-
-# Developer 开发者常用国外网站、镜像和论坛
-DOMAIN-SUFFIX,apache.org
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,elastic.co
-DOMAIN-SUFFIX,elastic.com
-DOMAIN-SUFFIX,gcr.io
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,gitlab.io
-DOMAIN-SUFFIX,jitpack.io
-DOMAIN-SUFFIX,maven.org
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,mvnrepository.com
-DOMAIN-SUFFIX,quay.io
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redhat.com
-DOMAIN-SUFFIX,sonatype.org
-DOMAIN-SUFFIX,sourcegraph.com
-DOMAIN-SUFFIX,spring.io
-DOMAIN-SUFFIX,spring.net
-DOMAIN-SUFFIX,stackoverflow.com
-
 # Discord
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
@@ -6010,54 +5682,10 @@ IP-CIDR,204.15.20.0/22,no-resolve
 
 # Github
 DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
-
-# Google
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
-
-# GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-IP-CIDR,120.232.181.162/32,no-resolve
-IP-CIDR,120.241.147.226/32,no-resolve
-IP-CIDR,120.253.253.226/32,no-resolve
-IP-CIDR,120.253.255.162/32,no-resolve
-IP-CIDR,120.253.255.34/32,no-resolve
-IP-CIDR,120.253.255.98/32,no-resolve
-IP-CIDR,180.163.150.162/32,no-resolve
-IP-CIDR,180.163.150.34/32,no-resolve
-IP-CIDR,180.163.151.162/32,no-resolve
-IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,203.208.39.0/24,no-resolve
-IP-CIDR,203.208.40.0/24,no-resolve
-IP-CIDR,203.208.41.0/24,no-resolve
-IP-CIDR,203.208.43.0/24,no-resolve
-IP-CIDR,203.208.50.0/24,no-resolve
-IP-CIDR,220.181.174.162/32,no-resolve
-IP-CIDR,220.181.174.226/32,no-resolve
-IP-CIDR,220.181.174.34/32,no-resolve
+# DOMAIN-SUFFIX,github.io
+# DOMAIN-SUFFIX,githubapp.com
+# DOMAIN-SUFFIX,githubassets.com
+# DOMAIN-SUFFIX,githubusercontent.com
 
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com
@@ -6092,23 +5720,8 @@ IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 
-# OneDrive
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,skydrive.wns.windows.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
-#DOMAIN-SUFFIX,aria.microsoft.com
-
 # Porn
-DOMAIN-KEYWORD,porn
+# DOMAIN-KEYWORD,porn
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,bcvcdn.com
@@ -6143,26 +5756,6 @@ DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
-# Steam
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,underlords.com
-DOMAIN-SUFFIX,valvesoftware.com
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,steampipe.akamaized.net
-
 # TapTap
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
@@ -6178,20 +5771,6 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
-
-# Telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telesco.pe
-IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
 
 # TeraBox
 DOMAIN-SUFFIX,terabox.com
@@ -6213,20 +5792,6 @@ IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,75.126.150.0/16,no-resolve
 IP-CIDR,69.171.235.0/16,no-resolve
-
-# Wikipedia 维基相关域名
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
 
 #飞流直播
 DOMAIN-SUFFIX,neulion.com
