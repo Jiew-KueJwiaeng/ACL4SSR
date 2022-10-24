@@ -1,11 +1,17 @@
 # DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,p.bstarstatic.com
+# DOMAIN,p.bstarstatic.com
 # DOMAIN,upos-bstar-mirrorakam.akamaized.net
 # DOMAIN,upos-bstar1-mirrorakam.akamaized.net
 # DOMAIN,upos-hz-mirrorakam.akamaized.net
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
+# DOMAIN-SUFFIX,acgvideo.com
+DOMAIN,api.bilibili.com
+# DOMAIN,bangumi.bilibili.com
+DOMAIN,global.bilibili.com
+DOMAIN,api.global.bilibili.com
+# DOMAIN,interface.bilibili.com
+# DOMAIN-SUFFIX,bilibili.com
+DOMAIN,www.bilibili.tv
+# DOMAIN-SUFFIX,bilibili.tv
 # IP-CIDR,45.43.32.234/32,no-resolve
 # IP-CIDR,119.29.29.29/32,no-resolve
 # IP-CIDR,128.1.62.200/32,no-resolve
