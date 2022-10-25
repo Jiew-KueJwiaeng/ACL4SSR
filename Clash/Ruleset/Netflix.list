@@ -6,6 +6,7 @@
 # DOMAIN-KEYWORD,netflixdnstest
 # DOMAIN,netflix.com.edgesuite.net
 # DOMAIN-SUFFIX,fast.com
+DOMAIN,help.netflix.com
 DOMAIN,www.netflix.com
 # DOMAIN-SUFFIX,netflix.com
 # DOMAIN-SUFFIX,netflix.net
