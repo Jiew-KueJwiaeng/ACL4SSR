@@ -128,6 +128,12 @@ DOMAIN,dh-dns.global-idc.net
 DOMAIN,dh-dns.global-idt.net
 DOMAIN,test.global-idc.net
 IP-CIDR,46.3.242.35/32,no-resolve
+DOMAIN,b.iqiq.io
+DOMAIN,cdn.iqiq.io
+DOMAIN,h.iqiq.io
+DOMAIN,j.iqiq.io
+DOMAIN,proxy.iqiq.io
+DOMAIN,z.iqiq.io
 DOMAIN,i.passcloud.xyz
 DOMAIN,a.passcloud.xyz
 DOMAIN,c.passcloud.xyz
@@ -135,8 +141,6 @@ DOMAIN,x.passcloud.xyz
 DOMAIN,gz.passcloud.xyz
 DOMAIN,worldwide.passcloud.xyz
 DOMAIN,ipv6test.passcloud.xyz
-DOMAIN,b.iqiq.io
-DOMAIN,h.iqiq.io
 DOMAIN,v.233py.com
 DOMAIN,i.233py.com
 DOMAIN,dns.233py.com
