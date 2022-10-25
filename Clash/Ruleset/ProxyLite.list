@@ -1,7 +1,9 @@
 # 代理列表
 
 # MyList && Other
-DOMAIN-SUFFIX,hoyolab.com
+DOMAIN,duangvps.com
+DOMAIN,www.duangvps.com
+# DOMAIN-SUFFIX,hoyolab.com
 DOMAIN,v2rayssr.com
 
 # Amazon
@@ -13,7 +15,7 @@ DOMAIN,v2rayssr.com
 # Facebook
 
 # Github
-DOMAIN-SUFFIX,github.com
+DOMAIN,github.com
 
 # Instagram
 
@@ -24,13 +26,13 @@ DOMAIN-SUFFIX,github.com
 # Porn
 
 # Pixiv
-DOMAIN-SUFFIX,pixiv.net
+# DOMAIN-SUFFIX,pixiv.net
 # DOMAIN-SUFFIX,pximg.net
 
 # Spark
 
 # Steam
-DOMAIN-SUFFIX,steamcommunity.com
+# DOMAIN-SUFFIX,steamcommunity.com
 
 # TapTap
 
@@ -43,4 +45,4 @@ DOMAIN-SUFFIX,steamcommunity.com
 # DOMAIN-SUFFIX,teraboxcdn.com
 
 # Wikipedia 维基相关域名
-DOMAIN-SUFFIX,wikipedia.org
+DOMAIN,zh.wikipedia.org
