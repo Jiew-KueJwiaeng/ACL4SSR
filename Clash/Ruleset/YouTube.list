@@ -11,6 +11,7 @@ DOMAIN,yt3.ggpht.com
 # DOMAIN-SUFFIX,withyoutube.com
 # DOMAIN-SUFFIX,youtu.be
 # DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN,youtube.com
 DOMAIN,img.youtube.com
 DOMAIN,www.youtube.com
 # DOMAIN-SUFFIX,youtubeeducation.com
