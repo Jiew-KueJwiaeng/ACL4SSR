@@ -29,17 +29,10 @@ DOMAIN,v2rayssr.com
 # Spark
 
 # Steam
-# DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamcommunity.com
 
 # TapTap
 
 # Twitch
 
 # Twitter
-
-# TeraBox
-# DOMAIN-SUFFIX,terabox.com
-# DOMAIN-SUFFIX,teraboxcdn.com
-
-# Wikipedia 维基相关域名
-DOMAIN,zh.wikipedia.org
