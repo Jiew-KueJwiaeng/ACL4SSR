@@ -8,7 +8,9 @@ DOMAIN,v2rayssr.com
 
 # Amazon
 
-# BBC
+# BitTorrent
+DOMAIN,nyaa.si
+DOMAIN,sukebei.nyaa.si
 
 # Discord
 
@@ -21,10 +23,6 @@ DOMAIN,v2rayssr.com
 # Line
 
 # Porn
-
-# Pixiv
-# DOMAIN-SUFFIX,pixiv.net
-# DOMAIN-SUFFIX,pximg.net
 
 # Spark
 
