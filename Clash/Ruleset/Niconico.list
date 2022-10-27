@@ -3,5 +3,6 @@
 # USER-AGENT,Niconico*
 # DOMAIN-SUFFIX,dmc.nico
 DOMAIN,nicovideo.jp
+DOMAIN,sp.nicovideo.jp
 DOMAIN,www.nicovideo.jp
 # DOMAIN-SUFFIX,nimg.jp
