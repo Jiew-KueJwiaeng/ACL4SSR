@@ -15,8 +15,6 @@ DOMAIN,sukebei.nyaa.si
 
 # Discord
 
-# Facebook
-
 # Instagram
 
 # Kakao Talk
@@ -28,10 +26,8 @@ DOMAIN,sukebei.nyaa.si
 # Spark
 
 # Steam
-DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN,steamcommunity.com
 
 # TapTap
 
 # Twitch
-
-# Twitter
