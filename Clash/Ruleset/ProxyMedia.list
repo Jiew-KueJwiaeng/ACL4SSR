@@ -213,12 +213,6 @@ DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
-# Niconico
-USER-AGENT,Niconico*
-DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
-
 # PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
