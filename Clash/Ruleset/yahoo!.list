@@ -5,17 +5,17 @@
 # USER-AGENT,com.google.ios.youtube*
 # DOMAIN-KEYWORD,youtube
 # DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
-# DOMAIN-SUFFIX,googlevideo.com
+DOMAIN,tw.yahoo.com
+DOMAIN,www.yahoo.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
 # DOMAIN-SUFFIX,youtu.be
 # DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN,youtube.com
-DOMAIN,img.youtube.com
-DOMAIN,www.youtube.com
+DOMAIN,s.yimg.com
+# DOMAIN,img.youtube.com
+# DOMAIN,www.youtube.com
 # DOMAIN-SUFFIX,youtubeeducation.com
 # DOMAIN-SUFFIX,youtubegaming.com
 # DOMAIN-SUFFIX,youtubekids.com
 # DOMAIN-SUFFIX,yt.be
-DOMAIN,i.ytimg.com
+# DOMAIN,i.ytimg.com
