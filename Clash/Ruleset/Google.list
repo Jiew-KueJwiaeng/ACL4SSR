@@ -7,8 +7,11 @@
 # DOMAIN-SUFFIX,ggpht.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,google.com
+DOMAIN,accounts.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
+DOMAIN,maps.google.com
+DOMAIN,play.google.com
 DOMAIN,translate.google.com
 DOMAIN,www.google.com
 # DOMAIN-SUFFIX,google.com
@@ -18,10 +21,9 @@ DOMAIN,ipv6.google.com.hk
 DOMAIN,translate.google.com.hk
 DOMAIN,www.google.com.hk
 # DOMAIN-SUFFIX,google.com.hk
-# DOMAIN-SUFFIX,googleapis.cn
 # DOMAIN-SUFFIX,googleapis.com
+DOMAIN,lh3.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
-# DOMAIN-SUFFIX,gstatic.cn
 # DOMAIN-SUFFIX,gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
@@ -32,9 +34,7 @@ DOMAIN-SUFFIX,googlevideo.com
 # IP-CIDR,173.194.0.0/16,no-resolve
 # 内容：YouTube
 # 数量：17条
-# USER-AGENT,*youtube*
 # USER-AGENT,YouTube*
-# USER-AGENT,com.google.ios.youtube*
 # DOMAIN-KEYWORD,youtube
 # DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
