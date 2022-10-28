@@ -1,5 +1,6 @@
-DOMAIN,genshinimpact.mihoyo.com
-DOMAIN-SUFFIX,mihoyo.com
-DOMAIN,autopatchcn.yuanshen.com
-DOMAIN,autopatchhk.yuanshen.com
-DOMAIN-SUFFIX,yuanshen.com
+DOMAIN,hoyolab.com
+# DOMAIN,genshinimpact.mihoyo.com
+# DOMAIN-SUFFIX,mihoyo.com
+# DOMAIN,autopatchcn.yuanshen.com
+# DOMAIN,autopatchhk.yuanshen.com
+# DOMAIN-SUFFIX,yuanshen.com
