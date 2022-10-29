@@ -1,7 +1,6 @@
 # 内容：Amazon
 # 数量：37条
 # DOMAIN,atv-ps.amazon.com
-# DOMAIN,avodmp4s3ww-a.akamaihd.net
 # DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 # DOMAIN,d1xfray82862hr.cloudfront.net
 # DOMAIN,d22qjgkvxw22r6.cloudfront.net
@@ -14,6 +13,7 @@
 # DOMAIN-SUFFIX,aiv-cdn.net
 # DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN,amazon.co.jp
+DOMAIN,fls-fe.amazon.co.jp
 DOMAIN,www.amazon.co.jp
 # DOMAIN-SUFFIX,amazon.com
 # DOMAIN-SUFFIX,amazon.jobs
