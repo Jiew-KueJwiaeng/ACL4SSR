@@ -1,8 +1,8 @@
-# 内容：Niconico
-# 数量：4条
-# USER-AGENT,Niconico*
+# DOMAIN,
+# DOMAIN,
 # DOMAIN-SUFFIX,dmc.nico
 DOMAIN,nicovideo.jp
+DOMAIN,nvapi.nicovideo.jp
 DOMAIN,sp.nicovideo.jp
 DOMAIN,www.nicovideo.jp
-# DOMAIN-SUFFIX,nimg.jp
+DOMAIN,nicovideo.cdn.nimg.jp
