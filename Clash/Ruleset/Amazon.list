@@ -7,13 +7,13 @@
 # DOMAIN,d25xi40x97liuc.cloudfront.net
 # DOMAIN,d27xxe7juh1us6.cloudfront.net
 # DOMAIN,d3196yreox78o9.cloudfront.net
-# DOMAIN,dmqdd6hw24ucf.cloudfront.net
 # DOMAIN,ktpx.amazon.com
 # DOMAIN-SUFFIX,aboutamazon.com
 # DOMAIN-SUFFIX,aiv-cdn.net
 # DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN,amazon.co.jp
 DOMAIN,fls-fe.amazon.co.jp
+DOMAIN,unagi.amazon.co.jp
 DOMAIN,www.amazon.co.jp
 # DOMAIN-SUFFIX,amazon.com
 # DOMAIN-SUFFIX,amazon.jobs
