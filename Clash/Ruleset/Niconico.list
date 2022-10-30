@@ -1,8 +1,10 @@
 # DOMAIN,
-# DOMAIN,
 # DOMAIN-SUFFIX,dmc.nico
 DOMAIN,nicovideo.jp
+DOMAIN,dcdn.cdn.nicovideo.jp
+DOMAIN,api.nicoad.nicovideo.jp
 DOMAIN,nvapi.nicovideo.jp
 DOMAIN,sp.nicovideo.jp
+DOMAIN,wktk.nicovideo.jp
 DOMAIN,www.nicovideo.jp
 DOMAIN,nicovideo.cdn.nimg.jp
