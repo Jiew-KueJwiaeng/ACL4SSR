@@ -4,6 +4,7 @@
 # DOMAIN-SUFFIX,2mdn.net
 # DOMAIN-SUFFIX,app-measurement.net
 # DOMAIN-SUFFIX,g.co
+DOMAIN,yt3.ggpht.com
 # DOMAIN-SUFFIX,ggpht.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,google.com
@@ -24,7 +25,7 @@ DOMAIN,www.google.com.hk
 # DOMAIN-SUFFIX,googleapis.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
-# DOMAIN-SUFFIX,gstatic.com
+DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
 # DOMAIN-SUFFIX,gvt2.com
@@ -37,7 +38,6 @@ DOMAIN,www.recaptcha.net
 # 数量：17条
 # USER-AGENT,YouTube*
 # DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
 # DOMAIN-SUFFIX,youtu.be
