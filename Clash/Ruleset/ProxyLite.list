@@ -20,7 +20,11 @@ DOMAIN,sukebei.nyaa.si
 # Line
 
 # PikPak
+DOMAIN,access.mypikpak.com
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,access.mypikpak.net
 DOMAIN,access.pikpak.me
+DOMAIN,access.pikpakdrive.com
 
 # Spark
 
