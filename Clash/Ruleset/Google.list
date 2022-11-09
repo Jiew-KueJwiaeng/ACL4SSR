@@ -51,4 +51,4 @@ DOMAIN,www.youtube.com
 # DOMAIN-SUFFIX,youtubegaming.com
 # DOMAIN-SUFFIX,youtubekids.com
 # DOMAIN-SUFFIX,yt.be
-# DOMAIN,i.ytimg.com
+DOMAIN,i.ytimg.com
