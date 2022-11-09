@@ -12,9 +12,9 @@ DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
 DOMAIN,maps.google.com
 DOMAIN,play.google.com
+DOMAIN,store.google.com
 DOMAIN,translate.google.com
 DOMAIN,www.google.com
-# DOMAIN-SUFFIX,google.com
 DOMAIN,google.com.hk
 DOMAIN,ipv4.google.com.hk
 DOMAIN,ipv6.google.com.hk
