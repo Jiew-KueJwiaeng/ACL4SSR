@@ -329,13 +329,13 @@ dns:
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
   #  '+.internal.crop.com': '10.0.0.1'
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - "tcp://[2402:4e00::]:53"
-    - "[2400:3200:baba::1]:53"
-    - "tcp://119.29.29.29:53"
-    - "223.6.6.6:53"
-  auto-route: true
-  auto-detect-interface: true
+#tun:
+#  enable: true
+#  stack: system
+#  dns-hijack:
+#    - "tcp://[2402:4e00::]:53"
+#    - "[2400:3200:baba::1]:53"
+#    - "tcp://119.29.29.29:53"
+#    - "223.6.6.6:53"
+#  auto-route: true
+#  auto-detect-interface: true
