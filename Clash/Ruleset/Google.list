@@ -25,6 +25,7 @@ DOMAIN,play.googleapis.com
 DOMAIN,play-fe.googleapis.com
 # DOMAIN-SUFFIX,googleapis.com
 DOMAIN,lh3.googleusercontent.com
+DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
