@@ -46,6 +46,7 @@ DOMAIN,www.recaptcha.net
 # DOMAIN-SUFFIX,youtu.be
 # DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN,youtube.com
+DOMAIN,accounts.youtube.com
 DOMAIN,img.youtube.com
 DOMAIN,m.youtube.com
 DOMAIN,www.youtube.com
