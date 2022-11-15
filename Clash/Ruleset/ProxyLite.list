@@ -32,6 +32,9 @@ DOMAIN,access.mypikpak.net
 DOMAIN,access.pikpak.me
 DOMAIN,access.pikpakdrive.com
 
+# mastodon
+DOMAIN,joinmastodon.org
+
 # Spark
 
 # Steam
