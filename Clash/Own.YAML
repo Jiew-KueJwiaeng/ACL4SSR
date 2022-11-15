@@ -1,0 +1,72 @@
+proxies:
+  - name: "vless-tcp"
+    type: vless
+    server: d-gh-tr-h-k.fxgstudio.eu.org
+    port: 443
+    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    network: tcp
+    servername: user.www.gov.cn
+    flow: xtls-rprx-vision-udp443
+    skip-cert-verify: true
+    # fingerprint: xxxx
+  - name: "vless-ws"
+    type: vless
+    server: cz88.net
+    port: 443
+    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    udp: true
+    tls: true
+    network: ws
+    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: "/cixsws"
+      headers:
+        Host: d-gh-tr-h-k.fxgstudio.eu.org
+    # fingerprint: xxxx
+  - name: "vmess-ws"
+    type: vmess
+    server: cz88.net
+    port: 443
+    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    network: ws
+    ws-opts:
+      path: /cixsvws
+      headers:
+        Host: d-gh-tr-h-k.fxgstudio.eu.org
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+  - name: "trojan-tcp"
+    type: trojan
+    server: d-gh-tr-h-k.fxgstudio.eu.org
+    port: 443
+    password: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    udp: true
+    sni: user.www.gov.cn
+    alpn:
+    #   - h2
+      - http/1.1
+    skip-cert-verify: true
+  - name: trojan-grpc
+    server: cz88.net
+    port: 443
+    type: trojan
+    password: "30ec5a71-8fec-43db-9a4c-7f1e186e08a7"
+    network: grpc
+    sni: d-gh-tr-h-k.fxgstudio.eu.org
+    skip-cert-verify: true
+    udp: true
+    grpc-opts:
+      grpc-service-name: "cixstrojangrpc"
+
+#      - vless-tcp
+#      - vless-ws
+#      - vmess-ws
+#      - trojan-tcp
+#      - trojan-grpc
