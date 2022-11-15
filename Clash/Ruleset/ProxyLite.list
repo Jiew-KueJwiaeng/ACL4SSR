@@ -43,6 +43,14 @@ DOMAIN,joinmastodon.org
 # Steam
 DOMAIN,steamcommunity.com
 
-# TapTap
+# Tor
+DOMAIN,bridges.torproject.org
+IP-CIDR6,2605:6400:30:ee80::/128,no-resolve
+IP-CIDR6,2001:1a80:3085:13:b413:6bff:fe64:8b94/128,no-resolve
+IP-CIDR,46.43.8.55/32,no-resolve
+IP-CIDR,51.158.73.157/32,no-resolve
+IP-CIDR,97.107.131.168/32,no-resolve
+IP-CIDR,194.36.191.124/32,no-resolve
+IP-CIDR,212.227.73.136/32,no-resolve
 
 # Twitch
