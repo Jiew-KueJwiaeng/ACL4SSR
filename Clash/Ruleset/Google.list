@@ -44,7 +44,7 @@ DOMAIN,www.recaptcha.net
 # DOMAIN,youtubei.googleapis.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
-# DOMAIN-SUFFIX,youtu.be
+DOMAIN,youtu.be
 # DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN,youtube.com
 DOMAIN,accounts.youtube.com
