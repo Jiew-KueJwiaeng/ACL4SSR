@@ -9,5 +9,6 @@ DOMAIN,pbs.twimg.com
 # DOMAIN-SUFFIX,twimg.org
 # DOMAIN-SUFFIX,twitpic.com
 DOMAIN,twitter.com
+DOMAIN,mobile.twitter.com
 # DOMAIN-SUFFIX,twitter.jp
 # DOMAIN-SUFFIX,vine.co
