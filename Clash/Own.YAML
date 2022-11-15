@@ -6,7 +6,7 @@ proxies:
     uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
     network: tcp
     servername: user.www.gov.cn
-    flow: xtls-rprx-vision-udp443
+    flow: xtls-rprx-direct-udp443
     skip-cert-verify: true
     # fingerprint: xxxx
   - name: "vless-ws 香港童话镇"
