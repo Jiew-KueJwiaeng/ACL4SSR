@@ -8,6 +8,7 @@ DOMAIN,yt3.ggpht.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,google.com
 DOMAIN,accounts.google.com
+DOMAIN,apis.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
 DOMAIN,maps.google.com
