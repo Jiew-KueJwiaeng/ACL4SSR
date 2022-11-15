@@ -1,5 +1,5 @@
 proxies:
-  - name: "vless-tcp"
+  - name: "vless-tcp 香港童话镇"
     type: vless
     server: d-gh-tr-h-k.fxgstudio.eu.org
     port: 443
@@ -9,9 +9,9 @@ proxies:
     flow: xtls-rprx-vision-udp443
     skip-cert-verify: true
     # fingerprint: xxxx
-  - name: "vless-ws"
+  - name: "vless-ws 香港童话镇"
     type: vless
-    server: cz88.net
+    server: www.cz88.net
     port: 443
     uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
     udp: true
@@ -24,9 +24,9 @@ proxies:
       headers:
         Host: d-gh-tr-h-k.fxgstudio.eu.org
     # fingerprint: xxxx
-  - name: "vmess-ws"
+  - name: "vmess-ws 香港童话镇"
     type: vmess
-    server: cz88.net
+    server: www.cz88.net
     port: 443
     uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
     alterId: 0
@@ -42,7 +42,7 @@ proxies:
         Host: d-gh-tr-h-k.fxgstudio.eu.org
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
-  - name: "trojan-tcp"
+  - name: "trojan-tcp 香港童话镇"
     type: trojan
     server: d-gh-tr-h-k.fxgstudio.eu.org
     port: 443
@@ -53,8 +53,8 @@ proxies:
     #   - h2
       - http/1.1
     skip-cert-verify: true
-  - name: trojan-grpc
-    server: cz88.net
+  - name: "trojan-grpc 香港童话镇"
+    server: www.cz88.net
     port: 443
     type: trojan
     password: "30ec5a71-8fec-43db-9a4c-7f1e186e08a7"
@@ -65,8 +65,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "cixstrojangrpc"
 
-#      - vless-tcp
-#      - vless-ws
-#      - vmess-ws
-#      - trojan-tcp
-#      - trojan-grpc
+#      - "vless-tcp 香港童话镇"
+#      - "vless-ws 香港童话镇"
+#      - "vmess-ws 香港童话镇"
+#      - "trojan-tcp 香港童话镇"
+#      - "trojan-grpc 香港童话镇"
