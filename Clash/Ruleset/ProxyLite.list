@@ -1,8 +1,8 @@
 # MyList && Other
 DOMAIN,10beasts.net
 DOMAIN,duangks.com
-DOMAIN,duangvps.com
 DOMAIN,www.duangvps.com
+DOMAIN,duangvps.com
 DOMAIN,hurricanedigital.net
 DOMAIN,sub.id9.cc
 DOMAIN,iqdns.xyz
@@ -13,12 +13,12 @@ DOMAIN,www.v2ex.com
 DOMAIN,v2rayssr.com
 
 # Archive
-DOMAIN,archive.org
 DOMAIN,web.archive.org
+DOMAIN,archive.org
 
 # BitTorrent
-DOMAIN,nyaa.si
 DOMAIN,sukebei.nyaa.si
+DOMAIN,nyaa.si
 
 # Daum
 DOMAIN,potplayer.daum.net
@@ -38,67 +38,14 @@ DOMAIN,access.pikpak.me
 DOMAIN,access.pikpakdrive.com
 
 # mastodon
-DOMAIN,joinmastodon.org
 DOMAIN,api.joinmastodon.org
 DOMAIN,docs.joinmastodon.org
 DOMAIN,proxy.joinmastodon.org
+DOMAIN,joinmastodon.org
 
 # Spark
 
 # Steam
 DOMAIN,steamcommunity.com
-
-# Tor
-DOMAIN,meek.azureedge.net
-DOMAIN,blog.torproject.org
-DOMAIN,bridges.torproject.org
-DOMAIN,community.torproject.org
-DOMAIN,dist.torproject.org
-DOMAIN,donate.torproject.org
-DOMAIN,support.torproject.org
-DOMAIN,www.torproject.org
-IP-CIDR6,2001:19f0:4401:87c:5400:3ff:feb7:8cfc/128,no-resolve
-IP-CIDR6,2001:1a80:3085:13:b413:6bff:fe64:8b94/128,no-resolve
-IP-CIDR6,2406:da17:5eb:b101:c8eb:6a9f:afd0:9597/128,no-resolve
-IP-CIDR6,2605:6400:30:ee80::/128,no-resolve
-IP-CIDR6,2a01:4f8:c0c:ce67::1/128,no-resolve
-IP-CIDR6,2a02:7b40:5928:1f7::1/128,no-resolve
-IP-CIDR,15.235.29.236/32,no-resolve
-IP-CIDR,20.216.146.29/32,no-resolve
-IP-CIDR,23.123.207.136/32,no-resolve
-IP-CIDR,37.218.245.14/32,no-resolve
-IP-CIDR,45.145.95.6/32,no-resolve
-IP-CIDR,46.43.8.55/32,no-resolve
-IP-CIDR,46.226.106.230/32,no-resolve
-IP-CIDR,51.15.9.232/32,no-resolve
-IP-CIDR,51.68.159.118/32,no-resolve
-IP-CIDR,51.158.73.157/32,no-resolve
-IP-CIDR,51.222.13.177/32,no-resolve
-IP-CIDR,54.38.53.156/32,no-resolve
-IP-CIDR,72.239.241.242/32,no-resolve
-IP-CIDR,77.68.85.95/32,no-resolve
-IP-CIDR,82.64.197.25/32,no-resolve
-IP-CIDR,85.31.186.26/32,no-resolve
-IP-CIDR,85.31.186.98/32,no-resolve
-IP-CIDR,87.149.100.34/32,no-resolve
-IP-CIDR,89.40.1.247/32,no-resolve
-IP-CIDR,91.208.184.123/32,no-resolve
-IP-CIDR,95.217.210.182/32,no-resolve
-IP-CIDR,97.107.131.168/32,no-resolve
-IP-CIDR,107.189.10.105/32,no-resolve
-IP-CIDR,135.23.182.26/32,no-resolve
-IP-CIDR,146.57.248.225/32,no-resolve
-IP-CIDR,147.135.31.134/32,no-resolve
-IP-CIDR,185.207.106.222/32,no-resolve
-IP-CIDR,185.220.102.246/32,no-resolve
-IP-CIDR,192.0.2.3/32,no-resolve
-IP-CIDR,192.0.2.18/32,no-resolve
-IP-CIDR,192.95.36.142/32,no-resolve
-IP-CIDR,193.11.166.194/32,no-resolve
-IP-CIDR,194.32.76.127/32,no-resolve
-IP-CIDR,194.36.191.124/32,no-resolve
-IP-CIDR,209.148.46.65/32,no-resolve
-IP-CIDR,209.250.251.53/32,no-resolve
-IP-CIDR,212.227.73.136/32,no-resolve
 
 # Twitch
