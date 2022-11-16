@@ -1,5 +1,7 @@
 DOMAIN,meek.azureedge.net
+DOMAIN,tor-relay10.bungee.systems
 DOMAIN,tor-exit-195.for-privacy.net
+DOMAIN,82-64-197-25.subs.proxad.net
 DOMAIN,244-242-15-51.instances.scw.cloud
 DOMAIN,tor4.terjan.net
 DOMAIN,blog.torproject.org
@@ -40,10 +42,12 @@ IP-CIDR,87.236.199.239/32,no-resolve
 IP-CIDR,89.40.1.247/32,no-resolve
 IP-CIDR,89.58.0.89/32,no-resolve
 IP-CIDR,91.208.184.123/32,no-resolve
+IP-CIDR,95.214.54.70/32,no-resolve
 IP-CIDR,95.216.33.30/32,no-resolve
 IP-CIDR,95.217.210.182/32,no-resolve
 IP-CIDR,97.107.131.168/32,no-resolve
 IP-CIDR,107.189.10.105/32,no-resolve
+IP-CIDR,116.202.169.25/32,no-resolve
 IP-CIDR,135.23.182.26/32,no-resolve
 IP-CIDR,146.57.248.225/32,no-resolve
 IP-CIDR,147.135.16.185/32,no-resolve
