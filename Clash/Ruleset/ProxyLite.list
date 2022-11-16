@@ -12,6 +12,10 @@ DOMAIN,twhowto.com
 DOMAIN,www.v2ex.com
 DOMAIN,v2rayssr.com
 
+# Archive
+DOMAIN,archive.org
+DOMAIN,web.archive.org
+
 # BitTorrent
 DOMAIN,nyaa.si
 DOMAIN,sukebei.nyaa.si
