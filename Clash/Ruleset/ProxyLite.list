@@ -46,8 +46,11 @@ DOMAIN,docs.joinmastodon.org
 DOMAIN,steamcommunity.com
 
 # Tor
+DOMAIN,blog.torproject.org
 DOMAIN,bridges.torproject.org
+DOMAIN,community.torproject.org
 DOMAIN,dist.torproject.org
+DOMAIN,donate.torproject.org
 DOMAIN,support.torproject.org
 DOMAIN,www.torproject.org
 IP-CIDR6,2001:19f0:4401:87c:5400:3ff:feb7:8cfc/128,no-resolve
