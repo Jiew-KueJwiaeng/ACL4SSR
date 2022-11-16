@@ -1,4 +1,7 @@
 DOMAIN,meek.azureedge.net
+DOMAIN,tor-exit-195.for-privacy.net
+DOMAIN,244-242-15-51.instances.scw.cloud
+DOMAIN,tor4.terjan.net
 DOMAIN,blog.torproject.org
 DOMAIN,bridges.torproject.org
 DOMAIN,community.torproject.org
@@ -6,6 +9,7 @@ DOMAIN,dist.torproject.org
 DOMAIN,donate.torproject.org
 DOMAIN,support.torproject.org
 DOMAIN,www.torproject.org
+DOMAIN,privacy.xoa.se
 IP-CIDR6,2001:19f0:4401:87c:5400:3ff:feb7:8cfc/128,no-resolve
 IP-CIDR6,2001:1a80:3085:13:b413:6bff:fe64:8b94/128,no-resolve
 IP-CIDR6,2406:da17:5eb:b101:c8eb:6a9f:afd0:9597/128,no-resolve
@@ -18,6 +22,7 @@ IP-CIDR,23.123.207.136/32,no-resolve
 IP-CIDR,37.218.245.14/32,no-resolve
 IP-CIDR,45.14.233.149/32,no-resolve
 IP-CIDR,45.145.95.6/32,no-resolve
+IP-CIDR,46.28.109.231/32,no-resolve
 IP-CIDR,46.43.8.55/32,no-resolve
 IP-CIDR,46.226.106.230/32,no-resolve
 IP-CIDR,51.15.9.232/32,no-resolve
@@ -33,12 +38,15 @@ IP-CIDR,85.31.186.98/32,no-resolve
 IP-CIDR,87.149.100.34/32,no-resolve
 IP-CIDR,87.236.199.239/32,no-resolve
 IP-CIDR,89.40.1.247/32,no-resolve
+IP-CIDR,89.58.0.89/32,no-resolve
 IP-CIDR,91.208.184.123/32,no-resolve
+IP-CIDR,95.216.33.30/32,no-resolve
 IP-CIDR,95.217.210.182/32,no-resolve
 IP-CIDR,97.107.131.168/32,no-resolve
 IP-CIDR,107.189.10.105/32,no-resolve
 IP-CIDR,135.23.182.26/32,no-resolve
 IP-CIDR,146.57.248.225/32,no-resolve
+IP-CIDR,147.135.16.185/32,no-resolve
 IP-CIDR,147.135.31.134/32,no-resolve
 IP-CIDR,185.207.106.222/32,no-resolve
 IP-CIDR,185.220.102.246/32,no-resolve
@@ -48,6 +56,7 @@ IP-CIDR,192.95.36.142/32,no-resolve
 IP-CIDR,193.11.166.194/32,no-resolve
 IP-CIDR,194.32.76.127/32,no-resolve
 IP-CIDR,194.36.191.124/32,no-resolve
+IP-CIDR,209.141.61.36/32,no-resolve
 IP-CIDR,209.148.46.65/32,no-resolve
 IP-CIDR,209.250.251.53/32,no-resolve
 IP-CIDR,212.227.73.136/32,no-resolve
