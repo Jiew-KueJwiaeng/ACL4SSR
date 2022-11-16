@@ -46,12 +46,20 @@ DOMAIN,steamcommunity.com
 
 # Tor
 DOMAIN,bridges.torproject.org
-IP-CIDR6,2605:6400:30:ee80::/128,no-resolve
+IP-CIDR6,2001:19f0:4401:87c:5400:3ff:feb7:8cfc/128,no-resolve
 IP-CIDR6,2001:1a80:3085:13:b413:6bff:fe64:8b94/128,no-resolve
+IP-CIDR6,2406:da17:5eb:b101:c8eb:6a9f:afd0:9597/128,no-resolve
+IP-CIDR6,2605:6400:30:ee80::/128,no-resolve
+IP-CIDR6,2a01:4f8:c0c:ce67::1/128,no-resolve
+IP-CIDR,23.123.207.136/32,no-resolve
 IP-CIDR,46.43.8.55/32,no-resolve
 IP-CIDR,51.158.73.157/32,no-resolve
+IP-CIDR,72.239.241.242/32,no-resolve
+IP-CIDR,87.149.100.34/32,no-resolve
 IP-CIDR,97.107.131.168/32,no-resolve
+IP-CIDR,135.23.182.26/32,no-resolve
 IP-CIDR,194.36.191.124/32,no-resolve
+IP-CIDR,209.250.251.53/32,no-resolve
 IP-CIDR,212.227.73.136/32,no-resolve
 
 # Twitch
