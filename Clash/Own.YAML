@@ -1,11 +1,11 @@
 proxies:
   - name: "vless-tcp 香港童话镇"
     type: vless
-    server: d-gh-tr-h-k.fxgstudio.eu.org
+    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
     port: 443
-    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
     network: tcp
-    servername: user.www.gov.cn
+    servername: d-gh-tr-h-k.fxgstudio.eu.org
     flow: xtls-rprx-direct-udp443
     skip-cert-verify: true
     # fingerprint: xxxx
@@ -13,14 +13,14 @@ proxies:
     type: vless
     server: www.cz88.net
     port: 443
-    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
     udp: true
     tls: true
     network: ws
     servername: d-gh-tr-h-k.fxgstudio.eu.org
     skip-cert-verify: true
     ws-opts:
-      path: "/cixsws"
+      path: "/fxgstudiows"
       headers:
         Host: d-gh-tr-h-k.fxgstudio.eu.org
     # fingerprint: xxxx
@@ -28,7 +28,7 @@ proxies:
     type: vmess
     server: www.cz88.net
     port: 443
-    uuid: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
     alterId: 0
     cipher: auto
     udp: true
@@ -37,18 +37,18 @@ proxies:
     servername: d-gh-tr-h-k.fxgstudio.eu.org
     network: ws
     ws-opts:
-      path: /cixsvws
+      path: /fxgstudiovws
       headers:
         Host: d-gh-tr-h-k.fxgstudio.eu.org
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
   - name: "trojan-tcp 香港童话镇"
     type: trojan
-    server: d-gh-tr-h-k.fxgstudio.eu.org
+    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
     port: 443
-    password: 30ec5a71-8fec-43db-9a4c-7f1e186e08a7
+    password: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
     udp: true
-    sni: user.www.gov.cn
+    sni: d-gh-tr-h-k.fxgstudio.eu.org
     alpn:
     #   - h2
       - http/1.1
@@ -57,16 +57,19 @@ proxies:
     server: www.cz88.net
     port: 443
     type: trojan
-    password: "30ec5a71-8fec-43db-9a4c-7f1e186e08a7"
+    password: "316a9cf3-de88-4d7e-aab9-9a2a2bc659a6"
     network: grpc
     sni: d-gh-tr-h-k.fxgstudio.eu.org
     skip-cert-verify: true
     udp: true
     grpc-opts:
-      grpc-service-name: "cixstrojangrpc"
-
-#      - "vless-tcp 香港童话镇"
-#      - "vless-ws 香港童话镇"
-#      - "vmess-ws 香港童话镇"
-#      - "trojan-tcp 香港童话镇"
-#      - "trojan-grpc 香港童话镇"
+      grpc-service-name: "fxgstudiotrojangrpc"
+proxy-groups:
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - "vless-tcp 香港童话镇"
+      - "vless-ws 香港童话镇"
+      - "vmess-ws 香港童话镇"
+      - "trojan-tcp 香港童话镇"
+      - "trojan-grpc 香港童话镇"
