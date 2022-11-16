@@ -37,6 +37,7 @@ DOMAIN,access.pikpakdrive.com
 
 # mastodon
 DOMAIN,joinmastodon.org
+DOMAIN,api.joinmastodon.org
 
 # Spark
 
