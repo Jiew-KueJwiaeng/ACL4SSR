@@ -24,9 +24,9 @@ DOMAIN,ipv6.google.com.hk
 DOMAIN,translate.google.com.hk
 DOMAIN,www.google.com.hk
 # DOMAIN-SUFFIX,google.com.hk
+DOMAIN,fonts.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,play-fe.googleapis.com
-# DOMAIN-SUFFIX,googleapis.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
