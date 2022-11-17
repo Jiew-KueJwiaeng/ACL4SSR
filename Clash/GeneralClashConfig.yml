@@ -14,6 +14,37 @@ log-level: warning
 profile:
   store-selected: true
   store-fake-ip: true
+sniffer:
+  enable: true
+  sniffing:
+    - tls
+    - http
+  skip-domain:
+    - '+.apple.com'
+    - '+.baidu.com'
+    - '+.jd.com'
+    - '+.mi.com'
+    - 'Mijia Cloud'
+  force-domain:
+    - '+'
+    - '+.amazonaws.com'
+    - '+.media.dssott.com'
+    - '+.facebook.com'
+    - '+.ggpht.com'
+    - '+.github.com'
+    - '+.google.com'
+    - '+.googleapi.com'
+    - '+.googlevideo.com'
+    - '+.gstatic.com'
+    - '+.netflix.com'
+    - '+.nflxvideo.net'
+    - '+.ytimg.com'
+  port-whitelist:
+    - 1-65535
+  #  - 443
+  #  - 80
+  #  - 8080
+  #  - 8000-9000
 dns:
   enable: true
   listen: 0.0.0.0:7874
