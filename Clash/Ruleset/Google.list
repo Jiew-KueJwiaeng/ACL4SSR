@@ -4,6 +4,7 @@
 # DOMAIN-SUFFIX,app-measurement.net
 # DOMAIN-SUFFIX,g.co
 DOMAIN,yt3.ggpht.com
+DOMAIN,yt4.ggpht.com
 # DOMAIN-SUFFIX,ggpht.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,google.com
@@ -29,6 +30,7 @@ DOMAIN,play-fe.googleapis.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN,fonts.gstatic.com
 DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
@@ -40,7 +42,6 @@ DOMAIN,www.recaptcha.net
 # IP-CIDR,173.194.0.0/16,no-resolve
 # 内容：YouTube
 # 数量：17条
-# USER-AGENT,YouTube*
 # DOMAIN,youtubei.googleapis.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
