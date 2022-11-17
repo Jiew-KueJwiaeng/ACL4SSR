@@ -38,6 +38,7 @@ sniffer:
     - '+.gstatic.com'
     - '+.netflix.com'
     - '+.nflxvideo.net'
+    - '+.youtube.com'
     - '+.ytimg.com'
   port-whitelist:
     - 1-65535
