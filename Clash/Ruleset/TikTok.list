@@ -1,6 +1,7 @@
 # 内容：TikTok
 # 数量：11条
 # DOMAIN-KEYWORD,tiktokcdn-
+# DOMAIN,sf16-short-sg.bytedapm.com
 # DOMAIN-SUFFIX,byteoversea.com
 # DOMAIN-SUFFIX,ibytedtos.com
 # DOMAIN-SUFFIX,ipstatp.com
@@ -8,6 +9,8 @@
 # DOMAIN-SUFFIX,musical.ly
 # DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN,tiktok.com
+DOMAIN,mcs-va.tiktok.com
+DOMAIN,v16-webapp.tiktok.com
 DOMAIN,www.tiktok.com
-# DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN,p16-sign-va.tiktokcdn.com
 # DOMAIN-SUFFIX,tiktokv.com
