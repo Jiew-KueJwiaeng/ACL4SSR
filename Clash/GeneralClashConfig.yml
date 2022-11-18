@@ -3,8 +3,8 @@ socks-port: 7891
 mixed-port: 7893
 redir-port: 7892
 tproxy-port: 7895
-geodata-mode: true
-tcp-concurrent: true
+# geodata-mode: true
+# tcp-concurrent: true
 allow-lan: true
 bind-address: '*'
 ipv6: true
@@ -14,51 +14,51 @@ log-level: warning
 profile:
   store-selected: true
   store-fake-ip: true
-sniffer:
-  enable: true
-  sniffing:
-    - tls
-    - http
-  skip-domain:
-    - '+.apple.com'
-    - '+.baidu.com'
-    - '+.jd.com'
-    - '+.mi.com'
-    - 'Mijia Cloud'
-  force-domain:
-    - '+'
-    - '+.amazonaws.com'
-    - '+.media.dssott.com'
-    - '+.facebook.com'
-    - '+.ggpht.com'
-    - '+.github.com'
-    - '+.google.com'
-    - '+.googleapi.com'
-    - '+.googlevideo.com'
-    - '+.gstatic.com'
-    - '+.netflix.com'
-    - '+.nflxvideo.net'
-    - '+.youtube.com'
-    - '+.ytimg.com'
-  port-whitelist:
-    - 1-65535
-  #  - 443
-  #  - 80
-  #  - 8080
-  #  - 8000-9000
+# sniffer:
+#   enable: true
+#   sniffing:
+#     - tls
+#     - http
+#   skip-domain:
+#     - '+.apple.com'
+#     - '+.baidu.com'
+#     - '+.jd.com'
+#     - '+.mi.com'
+#     - 'Mijia Cloud'
+#   force-domain:
+#     - '+'
+#     - '+.amazonaws.com'
+#     - '+.media.dssott.com'
+#     - '+.facebook.com'
+#     - '+.ggpht.com'
+#     - '+.github.com'
+#     - '+.google.com'
+#     - '+.googleapi.com'
+#     - '+.googlevideo.com'
+#     - '+.gstatic.com'
+#     - '+.netflix.com'
+#     - '+.nflxvideo.net'
+#     - '+.youtube.com'
+#     - '+.ytimg.com'
+#   port-whitelist:
+#     - 1-65535
+#     #- 443
+#     #- 80
+#     #- 8080
+#     #- 8000-9000
 dns:
   enable: true
   listen: 0.0.0.0:7874
   ipv6: true
   default-nameserver:
     - "tcp://[::1]:6054"
-    - "[::1]:6054"
-    - "tcp://127.0.0.1:6054"
-    - "127.0.0.1:6054"
-    - "tcp://192.168.11.1:6054"
-    - "192.168.11.1:6054"
-    - "tcp://192.168.11.1:53"
-    - "192.168.11.1:53"
+    #- "[::1]:6054"
+    #- "tcp://127.0.0.1:6054"
+    #- "127.0.0.1:6054"
+    #- "tcp://192.168.11.1:6054"
+    #- "192.168.11.1:6054"
+    #- "tcp://192.168.11.1:53"
+    #- "192.168.11.1:53"
     #- "tcp://101.42.236.152:777"
     #- "tcp://b.iqiq.io:777"
     #- "tcp://183.255.114.14:777"
@@ -245,24 +245,24 @@ dns:
     - '*.mcdn.bilivideo.cn'
     - "ipv6check-http.steamcontent.com"
     - "ipv6check-udp.steamcontent.com"
-  proxy-server-nameserver:
-    - "tcp://[::1]:6054"
-    - "[::1]:6054"
-    - "tcp://127.0.0.1:6054"
-    - "127.0.0.1:6054"
-    - "tcp://192.168.11.1:6054"
-    - "192.168.11.1:6054"
-    - "tcp://192.168.11.1:53"
-    - "192.168.11.1:53"
+#   proxy-server-nameserver:
+#     - "tcp://[::1]:6054"
+#     - "[::1]:6054"
+#     - "tcp://127.0.0.1:6054"
+#     - "127.0.0.1:6054"
+#     - "tcp://192.168.11.1:6054"
+#     - "192.168.11.1:6054"
+#     - "tcp://192.168.11.1:53"
+#     - "192.168.11.1:53"
   nameserver:
     - "tcp://[::1]:6054"
-    - "[::1]:6054"
-    - "tcp://127.0.0.1:6054"
-    - "127.0.0.1:6054"
-    - "tcp://192.168.11.1:6054"
-    - "192.168.11.1:6054"
-    - "tcp://192.168.11.1:53"
-    - "192.168.11.1:53"
+    #- "[::1]:6054"
+    #- "tcp://127.0.0.1:6054"
+    #- "127.0.0.1:6054"
+    #- "tcp://192.168.11.1:6054"
+    #- "192.168.11.1:6054"
+    #- "tcp://192.168.11.1:53"
+    #- "192.168.11.1:53"
     #- tls://b.iqiq.io
     #- https://cdn.iqiq.io/dns-query
     #- tls://h.iqiq.io
