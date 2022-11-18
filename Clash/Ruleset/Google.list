@@ -25,7 +25,7 @@ DOMAIN,ipv4.google.com.hk
 DOMAIN,ipv6.google.com.hk
 DOMAIN,translate.google.com.hk
 DOMAIN,www.google.com.hk
-# DOMAIN-SUFFIX,google.com.hk
+DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,play-fe.googleapis.com
