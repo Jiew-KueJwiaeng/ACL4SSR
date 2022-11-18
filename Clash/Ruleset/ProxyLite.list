@@ -43,6 +43,10 @@ DOMAIN,docs.joinmastodon.org
 DOMAIN,proxy.joinmastodon.org
 DOMAIN,joinmastodon.org
 
+# Одноклассники Odnoklassniki
+DOMAIN,ok.ru
+DOMAIN,connect.ok.ru
+
 # Spark
 
 # Steam
