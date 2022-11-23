@@ -17,7 +17,7 @@ DOMAIN,global.edge.bamgrid.com
 # DOMAIN-SUFFIX,disney.demdex.net
 # DOMAIN-SUFFIX,disney.my.sentry.io
 # DOMAIN-SUFFIX,disneyplus.bn5x.net
-# DOMAIN-SUFFIX,disneyplus.com
+DOMAIN,www.disneyplus.com
 # DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 # DOMAIN-SUFFIX,disneystreaming.com
 # DOMAIN-SUFFIX,dssott.com
