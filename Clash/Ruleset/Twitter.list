@@ -10,6 +10,7 @@ DOMAIN,pbs.twimg.com
 # DOMAIN-SUFFIX,twitpic.com
 DOMAIN,twitter.com
 DOMAIN,ads-api.twitter.com
+DOMAIN,analytics.twitter.com
 DOMAIN,api.twitter.com
 DOMAIN,mobile.twitter.com
 # DOMAIN-SUFFIX,twitter.jp
