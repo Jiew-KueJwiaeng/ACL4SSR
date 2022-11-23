@@ -9,8 +9,14 @@
 # DOMAIN-SUFFIX,musical.ly
 # DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN,tiktok.com
+DOMAIN,analytics.tiktok.com
+DOMAIN,mcs-sg.tiktok.com
 DOMAIN,mcs-va.tiktok.com
+DOMAIN,mssdk-sg.tiktok.com
 DOMAIN,v16-webapp.tiktok.com
+DOMAIN,webcast.tiktok.com
 DOMAIN,www.tiktok.com
+DOMAIN,p16-sign-sg.tiktokcdn.com
 DOMAIN,p16-sign-va.tiktokcdn.com
+DOMAIN,s20.tiktokcdn.com
 # DOMAIN-SUFFIX,tiktokv.com
