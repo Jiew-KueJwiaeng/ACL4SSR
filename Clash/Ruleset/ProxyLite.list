@@ -23,9 +23,13 @@ DOMAIN,share.acgnx.se
 DOMAIN,www.acgnx.se
 
 # Daum
+DOMAIN,m.daum.net
 DOMAIN,potplayer.daum.net
 
+DOMAIN,apkpure.com
+
 DOMAIN,raidrive.en.uptodown.com
+DOMAIN,www.uptodown.com
 DOMAIN,uptodown.com
 
 # DuckDuckGo
@@ -49,10 +53,11 @@ DOMAIN,proxy.joinmastodon.org
 DOMAIN,joinmastodon.org
 
 # Одноклассники Odnoklassniki
-DOMAIN,ok.ru
 DOMAIN,connect.ok.ru
+DOMAIN,ok.ru
 
-# Spark
+# Snapchat
+# DOMAIN,tr.snapchat.com
 
 # Steam
 DOMAIN,steamcommunity.com
