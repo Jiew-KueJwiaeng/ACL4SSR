@@ -23,6 +23,10 @@ DOMAIN,disney.playback.edge.bamgrid.com
 DOMAIN,www.disneyplus.com
 # DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 # DOMAIN-SUFFIX,disneystreaming.com
-# DOMAIN-SUFFIX,dssott.com
+DOMAIN,vod-akc-ap-west-2.media.dssott.com
+DOMAIN,vod-ftc-ap-west-2.media.dssott.com
+DOMAIN,vod-l3c-ap-west-2.media.dssott.com
+DOMAIN,vod-llc-ap-west-2.media.dssott.com
+DOMAIN,vod-spc-ap-west-2.media.dssott.com
 # DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 # DOMAIN-SUFFIX,js-agent.newrelic.com
