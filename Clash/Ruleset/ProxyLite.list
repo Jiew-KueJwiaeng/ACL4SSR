@@ -26,6 +26,9 @@ DOMAIN,www.acgnx.se
 DOMAIN,m.daum.net
 DOMAIN,potplayer.daum.net
 
+DOMAIN,www.dropbox.com
+DOMAIN,dropbox.com
+
 DOMAIN,apkpure.com
 
 DOMAIN,raidrive.en.uptodown.com
@@ -51,6 +54,8 @@ DOMAIN,api.joinmastodon.org
 DOMAIN,docs.joinmastodon.org
 DOMAIN,proxy.joinmastodon.org
 DOMAIN,joinmastodon.org
+
+DOMAIN,mega.io
 
 # Одноклассники Odnoklassniki
 DOMAIN,connect.ok.ru
