@@ -18,5 +18,6 @@ DOMAIN,webcast.tiktok.com
 DOMAIN,www.tiktok.com
 DOMAIN,p16-sign-sg.tiktokcdn.com
 DOMAIN,p16-sign-va.tiktokcdn.com
+DOMAIN,p77-sign-sg.tiktokcdn.com
 DOMAIN,s20.tiktokcdn.com
-# DOMAIN-SUFFIX,tiktokv.com
+DOMAIN,mcs-sg.tiktokv.com
