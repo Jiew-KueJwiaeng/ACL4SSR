@@ -1,29 +1,15 @@
 proxies:
-  - name: "vless-tcp 香港童话镇"
-    type: vless
-    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
-    port: 443
-    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
-    network: tcp
-    servername: d-gh-tr-h-k.fxgstudio.eu.org
-    flow: xtls-rprx-direct-udp443
-    skip-cert-verify: true
-    # fingerprint: xxxx
-  - name: "vless-ws 香港童话镇"
-    type: vless
+  - name: "trojan-grpc 香港童话镇"
     server: www.cz88.net
     port: 443
-    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
-    udp: true
-    tls: true
-    network: ws
-    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    type: trojan
+    password: "316a9cf3-de88-4d7e-aab9-9a2a2bc659a6"
+    network: grpc
+    sni: d-gh-tr-h-k.fxgstudio.eu.org
     skip-cert-verify: true
-    ws-opts:
-      path: "/fxgstudiows"
-      headers:
-        Host: d-gh-tr-h-k.fxgstudio.eu.org
-    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "fxgstudiotrojangrpc"
   - name: "vmess-ws 香港童话镇"
     type: vmess
     server: www.cz88.net
@@ -53,17 +39,31 @@ proxies:
     #   - h2
       - http/1.1
     skip-cert-verify: true
-  - name: "trojan-grpc 香港童话镇"
+  - name: "vless-tcp 香港童话镇"
+    type: vless
+    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
+    port: 443
+    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
+    network: tcp
+    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    flow: xtls-rprx-direct-udp443
+    skip-cert-verify: true
+    # fingerprint: xxxx
+  - name: "vless-ws 香港童话镇"
+    type: vless
     server: www.cz88.net
     port: 443
-    type: trojan
-    password: "316a9cf3-de88-4d7e-aab9-9a2a2bc659a6"
-    network: grpc
-    sni: d-gh-tr-h-k.fxgstudio.eu.org
-    skip-cert-verify: true
+    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
     udp: true
-    grpc-opts:
-      grpc-service-name: "fxgstudiotrojangrpc"
+    tls: true
+    network: ws
+    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: "/fxgstudiows"
+      headers:
+        Host: d-gh-tr-h-k.fxgstudio.eu.org
+    # fingerprint: xxxx
 proxy-groups:
   - name: 🚀 手动切换
     type: select
