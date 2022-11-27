@@ -1,157 +1,158 @@
-PROCESS-NAME,smartdns
-IP-CIDR6,2606:4700:4700:0:0:0:0:64/128,no-resolve
-IP-CIDR6,2606:4700:4700:0:0:0:0:6400/128,no-resolve
-IP-CIDR6,2606:4700:4700::1111/128,no-resolve
-IP-CIDR6,2606:4700:4700::1001/128,no-resolve
+# PROCESS-NAME,smartdns
+# IP-CIDR6,2606:4700:4700:0:0:0:0:64/128,no-resolve
+# IP-CIDR6,2606:4700:4700:0:0:0:0:6400/128,no-resolve
+# IP-CIDR6,2606:4700:4700::1111/128,no-resolve
+# IP-CIDR6,2606:4700:4700::1001/128,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-DOMAIN,cloudflare-dns.com
+# IP-CIDR,1.0.0.1/32,no-resolve
 DOMAIN,1dot1dot1dot1.cloudflare-dns.com
+# DOMAIN,mozilla.cloudflare-dns.com
+# DOMAIN,cloudflare-dns.com
 DOMAIN,one.one.one.one
-IP-CIDR6,2606:4700:4700::1112/128,no-resolve
-IP-CIDR6,2606:4700:4700::1002/128,no-resolve
-IP-CIDR,1.1.1.2/32,no-resolve
-IP-CIDR,1.0.0.2/32,no-resolve
+# IP-CIDR6,2606:4700:4700::1112/128,no-resolve
+# IP-CIDR6,2606:4700:4700::1002/128,no-resolve
+# IP-CIDR,1.1.1.2/32,no-resolve
+# IP-CIDR,1.0.0.2/32,no-resolve
 DOMAIN,security.cloudflare-dns.com
-IP-CIDR6,2606:4700:4700::1113/128,no-resolve
-IP-CIDR6,2606:4700:4700::1003/128,no-resolve
-IP-CIDR,1.1.1.3/32,no-resolve
-IP-CIDR,1.0.0.3/32,no-resolve
-DOMAIN,family.cloudflare-dns.com
-IP-CIDR6,2001:4860:4860:0:0:0:0:6464/128,no-resolve
-IP-CIDR6,2001:4860:4860:0:0:0:0:64/128,no-resolve
-DOMAIN,dns64.dns.google
+# IP-CIDR6,2606:4700:4700::1113/128,no-resolve
+# IP-CIDR6,2606:4700:4700::1003/128,no-resolve
+# IP-CIDR,1.1.1.3/32,no-resolve
+# IP-CIDR,1.0.0.3/32,no-resolve
+# DOMAIN,family.cloudflare-dns.com
+# IP-CIDR6,2001:4860:4860:0:0:0:0:6464/128,no-resolve
+# IP-CIDR6,2001:4860:4860:0:0:0:0:64/128,no-resolve
+# DOMAIN,dns64.dns.google
 IP-CIDR6,2001:4860:4860::8888/128,no-resolve
-IP-CIDR6,2001:4860:4860::8844/128,no-resolve
+# IP-CIDR6,2001:4860:4860::8844/128,no-resolve
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
-DOMAIN,dns.google
-IP-CIDR6,2620:fe::fe/128,no-resolve
-IP-CIDR6,2620:fe::9/128,no-resolve
-IP-CIDR,9.9.9.9/32,no-resolve
-IP-CIDR,149.112.112.112/32,no-resolve
-DOMAIN,dns.quad9.net
-IP-CIDR6,2620:fe::11/128,no-resolve
-IP-CIDR6,2620:fe::fe:11/128,no-resolve
-IP-CIDR,9.9.9.11/32,no-resolve
-IP-CIDR,149.112.112.11/32,no-resolve
-DOMAIN,dns11.quad9.net
-IP-CIDR6,2620:fe::10/128,no-resolve
-IP-CIDR6,2620:fe::fe:10/128,no-resolve
-IP-CIDR,9.9.9.10/32,no-resolve
-IP-CIDR,149.112.112.10/32,no-resolve
-DOMAIN,dns10.quad9.net
-IP-CIDR6,2620:119:35::35/128,no-resolve
-IP-CIDR6,2620:119:53::53/128,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
-DOMAIN,doh.opendns.com
-IP-CIDR6,2620:119:35::123/128,no-resolve
-IP-CIDR6,2620:119:53::123/128,no-resolve
-IP-CIDR,208.67.222.123/32,no-resolve
-IP-CIDR,208.67.220.123/32,no-resolve
-DOMAIN,doh.familyshield.opendns.com
-IP-CIDR6,2a10:50c0::ad1:ff/128,no-resolve
-IP-CIDR6,2a10:50c0::ad2:ff/128,no-resolve
-IP-CIDR,94.140.14.14/32,no-resolve
-IP-CIDR,94.140.15.15/32,no-resolve
-DOMAIN,dns.adguard.com
-IP-CIDR6,2a10:50c0::1:ff/128,no-resolve
-IP-CIDR6,2a10:50c0::2:ff/128,no-resolve
-IP-CIDR,94.140.14.140/32,no-resolve
-IP-CIDR,94.140.14.141/32,no-resolve
-DOMAIN,dns-family.adguard.com
-IP-CIDR6,2a10:50c0::bad1:ff/128,no-resolve
-IP-CIDR6,2a10:50c0::bad2:ff/128,no-resolve
-IP-CIDR,94.140.14.15/32,no-resolve
-IP-CIDR,94.140.15.16/32,no-resolve
-DOMAIN,dns-unfiltered.adguard.com
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,45.11.45.11/32,no-resolve
-DOMAIN,doh.dns.sb
-DOMAIN,doh.sb
-DOMAIN,de-dus.doh.sb
-DOMAIN,de-fra.doh.sb
-DOMAIN,nl-ams.doh.sb
-DOMAIN,nl-ams2.doh.sb
-DOMAIN,uk-lon.doh.sb
-DOMAIN,ee-tll.doh.sb
-DOMAIN,jp-kix.doh.sb
-DOMAIN,jp-nrt.doh.sb
-DOMAIN,hk-hkg.doh.sb
-DOMAIN,au-syd.doh.sb
-DOMAIN,us-chi.doh.sb
-DOMAIN,us-nyc.doh.sb
-DOMAIN,us-sjc.doh.sb
-DOMAIN,in-blr.doh.sb
-DOMAIN,sg-sin.doh.sb
-DOMAIN,kr-sel.doh.sb
-DOMAIN,ru-mow.doh.sb
-DOMAIN,ca-yyz.doh.sb
-IP-CIDR6,2a09:0000:0000:0000:0000:0000:0000:0000/128,no-resolve
-IP-CIDR6,2a11:0000:0000:0000:0000:0000:0000:0000/128,no-resolve
-IP-CIDR6,2a09::1/128,no-resolve
-DOMAIN,dot.sb
-DOMAIN,dns.sb
-DOMAIN,doh-ch.blahdns.com
-IP-CIDR,45.91.92.121/32,no-resolve
-IP-CIDR6,2a0e:dc0:6:23::2/128,no-resolve
-DOMAIN,dot-ch.blahdns.com
-DOMAIN,doh-sg.blahdns.com
-IP-CIDR,192.53.175.149/32,no-resolve
-IP-CIDR6,2400:8901::f03c:92ff:fe27:870a/128,no-resolve
-DOMAIN,dot-sg.blahdns.com
-DOMAIN,doh-jp.blahdns.com
-IP-CIDR,139.162.112.47/32,no-resolve
-IP-CIDR6,2400:8902::f03c:92ff:fe27:344b/128,no-resolve
-DOMAIN,dot-jp.blahdns.com
-DOMAIN,doh-de.blahdns.com
-IP-CIDR,78.46.244.143/32,no-resolve
-IP-CIDR6,2a01:4f8:c17:ec67::1/128,no-resolve
-DOMAIN,dot-de.blahdns.com
-DOMAIN,doh-fi.blahdns.com
-IP-CIDR,95.216.212.177/32,no-resolve
-IP-CIDR6,2a01:4f9:c010:43ce::1/128,no-resolve
-DOMAIN,dot-fi.blahdns.com
-DOMAIN,doh.libredns.gr
-IP-CIDR,116.202.176.26/32,no-resolve
-DOMAIN,dot.libredns.gr
-DOMAIN,doh.cleanbrowsing.org
-DOMAIN,family-filter-dns.cleanbrowsing.org
-DOMAIN,adult-filter-dns.cleanbrowsing.org
-DOMAIN,doh.family-filter-dns.cleanbrowsing.org
-DOMAIN,dns.switch.ch
-DOMAIN,arashi.pp.ua
-IP-CIDR,162.14.132.76/32,no-resolve
-IP-CIDR,162.14.132.109/32,no-resolve
-DOMAIN,dh-dns.global-idc.net
-DOMAIN,dh-dns.global-idt.net
-DOMAIN,test.global-idc.net
-IP-CIDR,46.3.242.35/32,no-resolve
-DOMAIN,b.iqiq.io
-DOMAIN,cdn.iqiq.io
-DOMAIN,h.iqiq.io
-DOMAIN,j.iqiq.io
-DOMAIN,proxy.iqiq.io
-DOMAIN,z.iqiq.io
-DOMAIN,i.passcloud.xyz
-DOMAIN,a.passcloud.xyz
-DOMAIN,c.passcloud.xyz
-DOMAIN,x.passcloud.xyz
-DOMAIN,gz.passcloud.xyz
-DOMAIN,worldwide.passcloud.xyz
-DOMAIN,ipv6test.passcloud.xyz
-DOMAIN,v.233py.com
-DOMAIN,i.233py.com
-DOMAIN,dns.233py.com
-DOMAIN,ndns.233py.com
-DOMAIN,edns.233py.com
-DOMAIN,wdns.233py.com
-DOMAIN,sdns.233py.com
-DOMAIN,hk-dns.233py.com
-DOMAIN,us-dns.233py.com
-DOMAIN,rubyfish.cn
-DOMAIN,dns.rubyfish.cn
-DOMAIN,v6.rubyfish.cn
-DOMAIN,doh.xhrzg2017.xyz
-IP-CIDR,10.80.128.28/32,no-resolve
+# DOMAIN,dns.google
+# IP-CIDR6,2620:fe::fe/128,no-resolve
+# IP-CIDR6,2620:fe::9/128,no-resolve
+# IP-CIDR,9.9.9.9/32,no-resolve
+# IP-CIDR,149.112.112.112/32,no-resolve
+# DOMAIN,dns.quad9.net
+# IP-CIDR6,2620:fe::11/128,no-resolve
+# IP-CIDR6,2620:fe::fe:11/128,no-resolve
+# IP-CIDR,9.9.9.11/32,no-resolve
+# IP-CIDR,149.112.112.11/32,no-resolve
+# DOMAIN,dns11.quad9.net
+# IP-CIDR6,2620:fe::10/128,no-resolve
+# IP-CIDR6,2620:fe::fe:10/128,no-resolve
+# IP-CIDR,9.9.9.10/32,no-resolve
+# IP-CIDR,149.112.112.10/32,no-resolve
+# DOMAIN,dns10.quad9.net
+# IP-CIDR6,2620:119:35::35/128,no-resolve
+# IP-CIDR6,2620:119:53::53/128,no-resolve
+# IP-CIDR,208.67.222.222/32,no-resolve
+# IP-CIDR,208.67.220.220/32,no-resolve
+# DOMAIN,doh.opendns.com
+# IP-CIDR6,2620:119:35::123/128,no-resolve
+# IP-CIDR6,2620:119:53::123/128,no-resolve
+# IP-CIDR,208.67.222.123/32,no-resolve
+# IP-CIDR,208.67.220.123/32,no-resolve
+# DOMAIN,doh.familyshield.opendns.com
+# IP-CIDR6,2a10:50c0::ad1:ff/128,no-resolve
+# IP-CIDR6,2a10:50c0::ad2:ff/128,no-resolve
+# IP-CIDR,94.140.14.14/32,no-resolve
+# IP-CIDR,94.140.15.15/32,no-resolve
+# DOMAIN,dns.adguard.com
+# IP-CIDR6,2a10:50c0::1:ff/128,no-resolve
+# IP-CIDR6,2a10:50c0::2:ff/128,no-resolve
+# IP-CIDR,94.140.14.140/32,no-resolve
+# IP-CIDR,94.140.14.141/32,no-resolve
+# DOMAIN,dns-family.adguard.com
+# IP-CIDR6,2a10:50c0::bad1:ff/128,no-resolve
+# IP-CIDR6,2a10:50c0::bad2:ff/128,no-resolve
+# IP-CIDR,94.140.14.15/32,no-resolve
+# IP-CIDR,94.140.15.16/32,no-resolve
+# DOMAIN,dns-unfiltered.adguard.com
+# IP-CIDR,185.222.222.222/32,no-resolve
+# IP-CIDR,45.11.45.11/32,no-resolve
+# DOMAIN,doh.dns.sb
+# DOMAIN,doh.sb
+# DOMAIN,de-dus.doh.sb
+# DOMAIN,de-fra.doh.sb
+# DOMAIN,nl-ams.doh.sb
+# DOMAIN,nl-ams2.doh.sb
+# DOMAIN,uk-lon.doh.sb
+# DOMAIN,ee-tll.doh.sb
+# DOMAIN,jp-kix.doh.sb
+# DOMAIN,jp-nrt.doh.sb
+# DOMAIN,hk-hkg.doh.sb
+# DOMAIN,au-syd.doh.sb
+# DOMAIN,us-chi.doh.sb
+# DOMAIN,us-nyc.doh.sb
+# DOMAIN,us-sjc.doh.sb
+# DOMAIN,in-blr.doh.sb
+# DOMAIN,sg-sin.doh.sb
+# DOMAIN,kr-sel.doh.sb
+# DOMAIN,ru-mow.doh.sb
+# DOMAIN,ca-yyz.doh.sb
+# IP-CIDR6,2a09:0000:0000:0000:0000:0000:0000:0000/128,no-resolve
+# IP-CIDR6,2a11:0000:0000:0000:0000:0000:0000:0000/128,no-resolve
+# IP-CIDR6,2a09::1/128,no-resolve
+# DOMAIN,dot.sb
+# DOMAIN,dns.sb
+# DOMAIN,doh-ch.blahdns.com
+# IP-CIDR,45.91.92.121/32,no-resolve
+# IP-CIDR6,2a0e:dc0:6:23::2/128,no-resolve
+# DOMAIN,dot-ch.blahdns.com
+# DOMAIN,doh-sg.blahdns.com
+# IP-CIDR,192.53.175.149/32,no-resolve
+# IP-CIDR6,2400:8901::f03c:92ff:fe27:870a/128,no-resolve
+# DOMAIN,dot-sg.blahdns.com
+# DOMAIN,doh-jp.blahdns.com
+# IP-CIDR,139.162.112.47/32,no-resolve
+# IP-CIDR6,2400:8902::f03c:92ff:fe27:344b/128,no-resolve
+# DOMAIN,dot-jp.blahdns.com
+# DOMAIN,doh-de.blahdns.com
+# IP-CIDR,78.46.244.143/32,no-resolve
+# IP-CIDR6,2a01:4f8:c17:ec67::1/128,no-resolve
+# DOMAIN,dot-de.blahdns.com
+# DOMAIN,doh-fi.blahdns.com
+# IP-CIDR,95.216.212.177/32,no-resolve
+# IP-CIDR6,2a01:4f9:c010:43ce::1/128,no-resolve
+# DOMAIN,dot-fi.blahdns.com
+# DOMAIN,doh.libredns.gr
+# IP-CIDR,116.202.176.26/32,no-resolve
+# DOMAIN,dot.libredns.gr
+# DOMAIN,doh.cleanbrowsing.org
+# DOMAIN,family-filter-dns.cleanbrowsing.org
+# DOMAIN,adult-filter-dns.cleanbrowsing.org
+# DOMAIN,doh.family-filter-dns.cleanbrowsing.org
+# DOMAIN,dns.switch.ch
+# DOMAIN,arashi.pp.ua
+# IP-CIDR,162.14.132.76/32,no-resolve
+# IP-CIDR,162.14.132.109/32,no-resolve
+# DOMAIN,dh-dns.global-idc.net
+# DOMAIN,dh-dns.global-idt.net
+# DOMAIN,test.global-idc.net
+# IP-CIDR,46.3.242.35/32,no-resolve
+# DOMAIN,b.iqiq.io
+# DOMAIN,cdn.iqiq.io
+# DOMAIN,h.iqiq.io
+# DOMAIN,j.iqiq.io
+# DOMAIN,proxy.iqiq.io
+# DOMAIN,z.iqiq.io
+# DOMAIN,i.passcloud.xyz
+# DOMAIN,a.passcloud.xyz
+# DOMAIN,c.passcloud.xyz
+# DOMAIN,x.passcloud.xyz
+# DOMAIN,gz.passcloud.xyz
+# DOMAIN,worldwide.passcloud.xyz
+# DOMAIN,ipv6test.passcloud.xyz
+# DOMAIN,v.233py.com
+# DOMAIN,i.233py.com
+# DOMAIN,dns.233py.com
+# DOMAIN,ndns.233py.com
+# DOMAIN,edns.233py.com
+# DOMAIN,wdns.233py.com
+# DOMAIN,sdns.233py.com
+# DOMAIN,hk-dns.233py.com
+# DOMAIN,us-dns.233py.com
+# DOMAIN,rubyfish.cn
+# DOMAIN,dns.rubyfish.cn
+# DOMAIN,v6.rubyfish.cn
+# DOMAIN,doh.xhrzg2017.xyz
+# IP-CIDR,10.80.128.28/32,no-resolve
