@@ -4,7 +4,7 @@
 # IP-CIDR6,2606:4700::6810:f8f9/128,no-resolve
 IP-CIDR6,2606:4700::6810:f9f9/128,no-resolve
 # IP-CIDR,104.16.248.249/32,no-resolve
-# IP-CIDR,104.16.249.249/32,no-resolve
+IP-CIDR,104.16.249.249/32,no-resolve
 # DOMAIN,mozilla.cloudflare-dns.com
 # DOMAIN,cloudflare-dns.com
 # IP-CIDR6,2606:4700:4700::1111/128,no-resolve
