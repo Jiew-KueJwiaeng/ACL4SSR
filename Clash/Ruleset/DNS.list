@@ -1,8 +1,8 @@
 # PROCESS-NAME,smartdns
 # IP-CIDR6,2606:4700:4700:0:0:0:0:64/128,no-resolve
 # IP-CIDR6,2606:4700:4700:0:0:0:0:6400/128,no-resolve
-IP-CIDR6,2606:4700::6810:f8f9/128,no-resolve
-# IP-CIDR6,2606:4700::6810:f9f9/128,no-resolve
+# IP-CIDR6,2606:4700::6810:f8f9/128,no-resolve
+IP-CIDR6,2606:4700::6810:f9f9/128,no-resolve
 # IP-CIDR,104.16.248.249/32,no-resolve
 # IP-CIDR,104.16.249.249/32,no-resolve
 # DOMAIN,mozilla.cloudflare-dns.com
