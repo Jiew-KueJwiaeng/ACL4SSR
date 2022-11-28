@@ -352,21 +352,21 @@ dns:
     #- "tls://kracon.anycast.censurfridns.dk:853"
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
-  fallback:
-    - "https://dns.google/dns-query"
-    - "tls://dns.google"
-    - "https://security.cloudflare-dns.com/dns-query"
-    - "tls://security.cloudflare-dns.com"
-    - "https://mozilla.cloudflare-dns.com/dns-query"
-    - "https://cloudflare-dns.com/dns-query"
-    - "tls://1dot1dot1dot1.cloudflare-dns.com"
-    - "tls://one.one.one.one"
-    - "https://dns11.quad9.net/dns-query"
-    - "tls://dns11.quad9.net"
-    - "https://dns.quad9.net/dns-query"
-    - "tls://dns.quad9.net"
-    - "https://dns10.quad9.net/dns-query"
-    - "tls://dns10.quad9.net"
+  #fallback:
+    #- "https://dns.google/dns-query"
+    #- "tls://dns.google"
+    #- "https://security.cloudflare-dns.com/dns-query"
+    #- "tls://security.cloudflare-dns.com"
+    #- "https://mozilla.cloudflare-dns.com/dns-query"
+    #- "https://cloudflare-dns.com/dns-query"
+    #- "tls://1dot1dot1dot1.cloudflare-dns.com"
+    #- "tls://one.one.one.one"
+    #- "https://dns11.quad9.net/dns-query"
+    #- "tls://dns11.quad9.net"
+    #- "https://dns.quad9.net/dns-query"
+    #- "tls://dns.quad9.net"
+    #- "https://dns10.quad9.net/dns-query"
+    #- "tls://dns10.quad9.net"
     #- tcp://[fd00::1]:6053
     #- "[fd00::1]:6053"
     #- tcp://[fd00::1]:6054
@@ -379,13 +379,13 @@ dns:
     #- "[fd00::1]"
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
+  #fallback-filter:
+    #geoip: true
+    #geoip-code: CN
     #ipcidr:
       #- 240.0.0.0/4
-    domain:
-      - '+.line.me'
+    #domain:
+      #- '+.line.me'
       #- '+.google.com'
       #- '+.facebook.com'
       #- '+.youtube.com'
