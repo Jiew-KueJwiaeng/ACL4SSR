@@ -409,9 +409,10 @@ dns:
     #ipcidr:
       #- 240.0.0.0/4
     domain:
-      - '+.line.me'
-      #- '+.google.com'
+      - "+.line.me"
+      - "+.google.com"
       #- '+.facebook.com'
+      - "+.wikipedia.org"
       #- '+.youtube.com'
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
