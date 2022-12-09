@@ -68,8 +68,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "vless-tcp 香港童话镇"
-      - "vless-ws 香港童话镇"
+      - "trojan-grpc 香港童话镇"
       - "vmess-ws 香港童话镇"
       - "trojan-tcp 香港童话镇"
-      - "trojan-grpc 香港童话镇"
+      - "vless-tcp 香港童话镇"
+      - "vless-ws 香港童话镇"
