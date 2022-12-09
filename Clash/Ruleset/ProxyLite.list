@@ -59,6 +59,8 @@ DOMAIN,joinmastodon.org
 
 DOMAIN,mega.io
 
+DOMAIN,scratch.mit.edu
+
 # Одноклассники Odnoklassniki
 DOMAIN,connect.ok.ru
 DOMAIN,ok.ru
@@ -71,4 +73,5 @@ DOMAIN,steamcommunity.com
 
 # Twitch
 
+# Yandex
 DOMAIN,disk.yandex.com
