@@ -3,49 +3,49 @@ proxies:
     server: www.cz88.net
     port: 443
     type: trojan
-    password: "316a9cf3-de88-4d7e-aab9-9a2a2bc659a6"
+    password: "eefd5a75-db09-4509-8ad5-edc3bcc54dd8"
     network: grpc
-    sni: d-gh-tr-h-k.fxgstudio.eu.org
+    sni: d-gh-tr-h-k.nk2028.gq
     skip-cert-verify: true
     udp: true
     grpc-opts:
-      grpc-service-name: "fxgstudiotrojangrpc"
+      grpc-service-name: "nk2028trojangrpc"
   - name: "vmess-ws 香港童话镇"
     type: vmess
     server: www.cz88.net
     port: 443
-    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
+    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     alterId: 0
     cipher: auto
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    servername: d-gh-tr-h-k.nk2028.gq
     network: ws
     ws-opts:
-      path: /fxgstudiovws
+      path: /nk2028vws
       headers:
-        Host: d-gh-tr-h-k.fxgstudio.eu.org
+        Host: d-gh-tr-h-k.nk2028.gq
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
   - name: "trojan-tcp 香港童话镇"
     type: trojan
-    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
+    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
     port: 443
-    password: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
+    password: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     udp: true
-    sni: d-gh-tr-h-k.fxgstudio.eu.org
+    sni: d-gh-tr-h-k.nk2028.gq
     alpn:
     #   - h2
       - http/1.1
     skip-cert-verify: true
   - name: "vless-tcp 香港童话镇"
     type: vless
-    server: doung-ghwaej-trin-hyang-koeung-control.fxgstudio.eu.org
+    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
     port: 443
-    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
+    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     network: tcp
-    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    servername: d-gh-tr-h-k.nk2028.gq
     flow: xtls-rprx-direct-udp443
     skip-cert-verify: true
     # fingerprint: xxxx
@@ -53,16 +53,16 @@ proxies:
     type: vless
     server: www.cz88.net
     port: 443
-    uuid: 316a9cf3-de88-4d7e-aab9-9a2a2bc659a6
+    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     udp: true
     tls: true
     network: ws
-    servername: d-gh-tr-h-k.fxgstudio.eu.org
+    servername: d-gh-tr-h-k.nk2028.gq
     skip-cert-verify: true
     ws-opts:
-      path: "/fxgstudiows"
+      path: "/nk2028ws"
       headers:
-        Host: d-gh-tr-h-k.fxgstudio.eu.org
+        Host: d-gh-tr-h-k.nk2028.gq
     # fingerprint: xxxx
 proxy-groups:
   - name: 🚀 手动切换
