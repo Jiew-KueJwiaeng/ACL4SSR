@@ -1,6 +1,6 @@
 proxies:
   - name: "trojan-grpc 香港童话镇"
-    server: www.cz88.net
+    server: d-gh-tr-h-k.nk2028.gq
     port: 443
     type: trojan
     password: "eefd5a75-db09-4509-8ad5-edc3bcc54dd8"
@@ -12,7 +12,7 @@ proxies:
       grpc-service-name: "nk2028trojangrpc"
   - name: "vmess-ws 香港童话镇"
     type: vmess
-    server: www.cz88.net
+    server: d-gh-tr-h-k.nk2028.gq
     port: 443
     uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     alterId: 0
@@ -51,7 +51,7 @@ proxies:
     # fingerprint: xxxx
   - name: "vless-ws 香港童话镇"
     type: vless
-    server: www.cz88.net
+    server: d-gh-tr-h-k.nk2028.gq
     port: 443
     uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     udp: true
