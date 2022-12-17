@@ -73,5 +73,7 @@ DOMAIN,steamcommunity.com
 
 # Twitch
 
+DOMAIN-SUFFIX,vercel.app
+
 # Yandex
 DOMAIN,disk.yandex.com
