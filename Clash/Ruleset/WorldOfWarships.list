@@ -1,0 +1,20 @@
+DOMAIN,sg2-sdb-b82.fe.core.pw
+DOMAIN,sg2-sdb-b83.fe.core.pw
+DOMAIN,sg2-sdb-b84.fe.core.pw
+DOMAIN,sg2-sdb-b85.fe.core.pw
+DOMAIN,asia.wargaming.net
+DOMAIN,www.wargaming.net
+DOMAIN,wargaming.net
+DOMAIN,login1.worldofwarships.jp
+# DOMAIN-SUFFIX,worldofwarships.jp
+IP-CIDR,92.223.17.229/32,no-resolve
+IP-CIDR,92.223.28.12/32,no-resolve
+IP-CIDR,92.223.28.13/32,no-resolve
+IP-CIDR,92.223.29.4/32,no-resolve
+# DOMAIN-SUFFIX,worldoftanks.net
+# DOMAIN-SUFFIX,worldofwarplanes.com
+# DOMAIN-SUFFIX,worldofwarships.asia
+# DOMAIN-SUFFIX,worldofwarships.com
+# DOMAIN-SUFFIX,worldofwarships.eu
+# DOMAIN-SUFFIX,worldofwarships.ru
+# DOMAIN-SUFFIX,wotblitz.ru
