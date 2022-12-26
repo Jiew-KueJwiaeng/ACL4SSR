@@ -1,19 +1,29 @@
-DOMAIN,sg2-sdb-b82.fe.core.pw
-DOMAIN,sg2-sdb-b83.fe.core.pw
-DOMAIN,sg2-sdb-b84.fe.core.pw
-DOMAIN,sg2-sdb-b85.fe.core.pw
+# DOMAIN,sg2-sdb-b82.fe.core.pw
+# DOMAIN,sg2-sdb-b83.fe.core.pw
+# DOMAIN,sg2-sdb-b84.fe.core.pw
+# DOMAIN,sg2-sdb-b85.fe.core.pw
+
 DOMAIN,asia.wargaming.net
 DOMAIN,www.wargaming.net
+DOMAIN,xmpp-wows-asia.wargaming.net
 DOMAIN,wargaming.net
+DOMAIN,ares.worldofwarships.asia
+DOMAIN,auth.worldofwarships.asia
+DOMAIN,dockyard.worldofwarships.asia
+DOMAIN,phobos-api.worldofwarships.asia
+DOMAIN,wowsp-api.worldofwarships.asia
+DOMAIN,ws.worldofwarships.asia
+# DOMAIN-SUFFIX,worldofwarships.asia
 DOMAIN,login1.worldofwarships.jp
+DOMAIN,login2.worldofwarships.jp
 # DOMAIN-SUFFIX,worldofwarships.jp
-IP-CIDR,92.223.17.229/32,no-resolve
-IP-CIDR,92.223.28.12/32,no-resolve
-IP-CIDR,92.223.28.13/32,no-resolve
-IP-CIDR,92.223.29.4/32,no-resolve
+# IP-CIDR,92.223.17.229/32,no-resolve
+# IP-CIDR,92.223.28.12/32,no-resolve
+# IP-CIDR,92.223.28.13/32,no-resolve
+# IP-CIDR,92.223.29.4/32,no-resolve
+
 # DOMAIN-SUFFIX,worldoftanks.net
 # DOMAIN-SUFFIX,worldofwarplanes.com
-# DOMAIN-SUFFIX,worldofwarships.asia
 # DOMAIN-SUFFIX,worldofwarships.com
 # DOMAIN-SUFFIX,worldofwarships.eu
 # DOMAIN-SUFFIX,worldofwarships.ru
