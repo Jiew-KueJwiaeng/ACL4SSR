@@ -6,6 +6,8 @@
 # DOMAIN-SUFFIX,wikimedia.org
 # DOMAIN-SUFFIX,wikinews.org
 DOMAIN,en.wikipedia.org
+DOMAIN,en.m.wikipedia.org
+DOMAIN,zh.m.wikipedia.org
 DOMAIN,zh.wikipedia.org
 # DOMAIN-SUFFIX,wikiquote.org
 # DOMAIN-SUFFIX,wikisource.org
