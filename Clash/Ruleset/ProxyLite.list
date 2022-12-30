@@ -18,6 +18,8 @@ DOMAIN,v2rayssr.com
 DOMAIN,web.archive.org
 DOMAIN,archive.org
 
+DOMAIN,bit.ly
+
 # BitTorrent
 DOMAIN,sukebei.nyaa.si
 DOMAIN,nyaa.si
