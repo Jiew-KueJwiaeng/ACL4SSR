@@ -7,7 +7,6 @@ DOMAIN,yt4.ggpht.com
 # DOMAIN-SUFFIX,ggpht.com
 DOMAIN,gmail.com
 # DOMAIN-SUFFIX,goo.gl
-DOMAIN,google.com
 DOMAIN,accounts.google.com
 DOMAIN,apis.google.com
 DOMAIN,ipv4.google.com
@@ -20,11 +19,16 @@ DOMAIN,scholar.google.com
 DOMAIN,store.google.com
 DOMAIN,translate.google.com
 DOMAIN,www.google.com
-DOMAIN,google.com.hk
+DOMAIN,google.com
 DOMAIN,ipv4.google.com.hk
 DOMAIN,ipv6.google.com.hk
 DOMAIN,translate.google.com.hk
 DOMAIN,www.google.com.hk
+DOMAIN,google.com.hk
+DOMAIN,www.google.com.my
+DOMAIN,google.com.my
+DOMAIN,www.google.com.sg
+DOMAIN,google.com.sg
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,play.googleapis.com
