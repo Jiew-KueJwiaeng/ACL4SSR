@@ -1,0 +1,8 @@
+IP-CIDR6,2001:4860:4860:0:0:0:0:6464/128,no-resolve
+IP-CIDR6,2001:4860:4860:0:0:0:0:64/128,no-resolve
+DOMAIN,dns64.dns.google
+IP-CIDR6,2001:4860:4860::8888/128,no-resolve
+IP-CIDR6,2001:4860:4860::8844/128,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
+DOMAIN,dns.google
