@@ -8,7 +8,11 @@
 DOMAIN,en.wikipedia.org
 DOMAIN,en.m.wikipedia.org
 DOMAIN,zh.m.wikipedia.org
+DOMAIN,zh-classical.m.wikipedia.org
+DOMAIN,zh-yue.m.wikipedia.org
 DOMAIN,zh.wikipedia.org
+DOMAIN,zh-classical.wikipedia.org
+DOMAIN,zh-yue.wikipedia.org
 # DOMAIN-SUFFIX,wikiquote.org
 # DOMAIN-SUFFIX,wikisource.org
 # DOMAIN-SUFFIX,wikiversity.org
