@@ -2,7 +2,7 @@
 # 数量：5条
 # USER-AGENT,*YouTubeMusic*
 # USER-AGENT,*com.google.ios.youtubemusic*
-# USER-AGENT,YouTubeMusic*
-DOMAIN,auth0.openai.com
+DOMAIN,api.openai.com
+# DOMAIN,auth0.openai.com
 DOMAIN,orenom.fi
 DOMAIN,wikiless.org
