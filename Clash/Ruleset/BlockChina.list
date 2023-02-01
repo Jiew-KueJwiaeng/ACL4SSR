@@ -3,6 +3,6 @@
 # USER-AGENT,*YouTubeMusic*
 # USER-AGENT,*com.google.ios.youtubemusic*
 # USER-AGENT,YouTubeMusic*
-# USER-AGENT,com.google.ios.youtubemusic*
+DOMAIN,auth0.openai.com
 DOMAIN,orenom.fi
 DOMAIN,wikiless.org
