@@ -29,6 +29,7 @@ DOMAIN,www.google.com.my
 DOMAIN,google.com.my
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
+DOMAIN,services.googleapis.cn
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,play.googleapis.com
