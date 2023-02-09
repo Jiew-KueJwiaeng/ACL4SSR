@@ -9,6 +9,7 @@ DOMAIN,gmail.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,accounts.google.com
 DOMAIN,apis.google.com
+DOMAIN,android.clients.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
 DOMAIN,mail.google.com
@@ -30,6 +31,7 @@ DOMAIN,google.com.my
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
 DOMAIN,services.googleapis.cn
+DOMAIN,android.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,play.googleapis.com
