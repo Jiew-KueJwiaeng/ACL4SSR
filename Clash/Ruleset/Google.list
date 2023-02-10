@@ -7,9 +7,11 @@ DOMAIN,yt4.ggpht.com
 # DOMAIN-SUFFIX,ggpht.com
 DOMAIN,gmail.com
 # DOMAIN-SUFFIX,goo.gl
+DOMAIN,aa.google.com
 DOMAIN,accounts.google.com
 DOMAIN,apis.google.com
 DOMAIN,android.clients.google.com
+DOMAIN,scone-pa.clients6.google.com
 DOMAIN,gds.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
@@ -23,16 +25,24 @@ DOMAIN,translate.google.com
 DOMAIN,www.google.com
 DOMAIN,google.com
 DOMAIN,accounts.google.com.hk
-DOMAIN,ipv4.google.com.hk
+DOMAIN,adservice.google.com.hk
+DOMAIN,id.google.com.hk
 DOMAIN,ipv6.google.com.hk
+DOMAIN,ogs.google.com.hk
 DOMAIN,translate.google.com.hk
 DOMAIN,www.google.com.hk
 DOMAIN,google.com.hk
 DOMAIN,accounts.google.com.my
+DOMAIN,adservice.google.com.my
+DOMAIN,id.google.com.my
+DOMAIN,ogs.google.com.my
 DOMAIN,translate.google.com.my
 DOMAIN,www.google.com.my
 DOMAIN,google.com.my
 DOMAIN,accounts.google.com.sg
+DOMAIN,adservice.google.com.sg
+DOMAIN,id.google.com.sg
+DOMAIN,ogs.google.com.sg
 DOMAIN,translate.google.com.sg
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
@@ -40,6 +50,7 @@ DOMAIN,services.googleapis.cn
 DOMAIN,android.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
+DOMAIN,jnn-pa.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,play-fe.googleapis.com
 DOMAIN,pagead2.googlesyndication.com
@@ -48,6 +59,8 @@ DOMAIN,play-lh.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN,fonts.gstatic.com
+DOMAIN,maps.gstatic.com
+DOMAIN,ssl.gstatic.com
 DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
