@@ -11,9 +11,14 @@ DOMAIN,aa.google.com
 DOMAIN,accounts.google.com
 DOMAIN,apis.google.com
 DOMAIN,android.clients.google.com
+DOMAIN,clients2.google.com
+DOMAIN,clients3.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients5.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,scone-pa.clients6.google.com
 DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,clients6.google.com
 DOMAIN,gds.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
@@ -72,10 +77,10 @@ DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,gvt3.com
 DOMAIN,www.recaptcha.net
+DOMAIN,csp.withgoogle.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 # IP-CIDR,74.125.0.0/16,no-resolve
 # IP-CIDR,173.194.0.0/16,no-resolve
-# 数量：17条
 # DOMAIN,youtubei.googleapis.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
