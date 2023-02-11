@@ -47,6 +47,7 @@ DOMAIN,translate.google.com.sg
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
 DOMAIN,services.googleapis.cn
+DOMAIN,ajax.googleapis.com
 DOMAIN,android.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
