@@ -1,4 +1,3 @@
-# 内容：Discord
 # 数量：6条
 # DOMAIN-SUFFIX,discord.co
 DOMAIN,click.discord.com
@@ -6,6 +5,7 @@ DOMAIN,status.discord.com
 DOMAIN,discord.com
 DOMAIN,gateway.discord.gg
 DOMAIN,remote-auth-gateway.discord.gg
+DOMAIN,discord.gg
 # DOMAIN-SUFFIX,discord.media
 # DOMAIN-SUFFIX,discordapp.com
 # DOMAIN-SUFFIX,discordapp.net
