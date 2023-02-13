@@ -9,6 +9,7 @@ DOMAIN,global.bing.com
 DOMAIN,th.bing.com
 DOMAIN,www.bing.com
 DOMAIN,www2.bing.com
+DOMAIN,www.bingapis.com
 DOMAIN,s.cn.bing.net
 DOMAIN,s2.cn.bing.net
 DOMAIN,s3.cn.bing.net
@@ -17,8 +18,11 @@ DOMAIN,ts1.cn.mm.bing.net
 DOMAIN,ts2.cn.mm.bing.net
 DOMAIN,ts3.cn.mm.bing.net
 DOMAIN,ts4.cn.mm.bing.net
+DOMAIN,tse1.mm.bing.net
+DOMAIN,tse2.mm.bing.net
 DOMAIN,storage.live.com
 DOMAIN,browser.pipe.aria.microsoft.com
+DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,login.microsoftonline.com
 DOMAIN,az15297.vo.msecnd.net
 DOMAIN,assets.msn.cn
