@@ -14,7 +14,14 @@ DOMAIN,zh.wikipedia.org
 DOMAIN,zh-classical.wikipedia.org
 DOMAIN,zh-yue.wikipedia.org
 # DOMAIN-SUFFIX,wikiquote.org
-# DOMAIN-SUFFIX,wikisource.org
+DOMAIN,en.wikisource.org
+DOMAIN,en.m.wikisource.org
+DOMAIN,zh.m.wikisource.org
+DOMAIN,zh-classical.m.wikisource.org
+DOMAIN,zh-yue.m.wikisource.org
+DOMAIN,zh.wikisource.org
+DOMAIN,zh-classical.wikisource.org
+DOMAIN,zh-yue.wikisource.org
 # DOMAIN-SUFFIX,wikiversity.org
 # DOMAIN-SUFFIX,wikivoyage.org
 # DOMAIN-SUFFIX,wiktionary.org
