@@ -66,16 +66,16 @@ dns:
     #- "tcp://36.134.147.213:777"
     #- "tcp://j.iqiq.io:777"
     #- "tcp://162.14.132.76:53"
-    - "[2402:4e00::]:53"
-    - "119.29.29.29:53"
-    - "[2400:3200:baba::1]:53"
-    - "[2400:3200::1]:53"
-    - "223.6.6.6:53"
-    - "223.5.5.5:53"
-    - "[2400:da00::6666]:53"
-    - "180.76.76.76:53"
-    - "[240C::6666]:53"
-    - "[240C::6644]:53"
+    #- "[2402:4e00::]:53"
+    #- "119.29.29.29:53"
+    #- "[2400:3200:baba::1]:53"
+    #- "[2400:3200::1]:53"
+    #- "223.6.6.6:53"
+    #- "223.5.5.5:53"
+    #- "[2400:da00::6666]:53"
+    #- "180.76.76.76:53"
+    #- "[240C::6666]:53"
+    #- "[240C::6644]:53"
     - "[2606:4700:4700::1002]:53"
     - "[2606:4700:4700::1112]:53"
     - "1.0.0.2:53"
@@ -253,28 +253,66 @@ dns:
 #     - "tcp://192.168.11.1:53"
 #     - "192.168.11.1:53"
   nameserver:
-    - "tls://1.12.12.12:853"
-    - "tls://120.53.53.53:853"
-    - "tls://dot.pub:853"
-    - "https://1.12.12.12:443/dns-query"
-    - "https://120.53.53.53:443/dns-query"
-    - "https://doh.pub:443/dns-query"
-    - "tls://223.6.6.6:853"
-    - "tls://223.5.5.5:853"
-    - "tls://dns.alidns.com:853"
-    - "https://223.6.6.6:443/dns-query"
-    - "https://223.5.5.5:443/dns-query"
-    - "https://dns.alidns.com:443/dns-query"
-    - "https://v6.rubyfish.cn:443/dns-query"
-    - "tls://v6.rubyfish.cn:853"
-    - "https://rubyfish.cn:443/dns-query"
-    - "tls://rubyfish.cn:853"
-    - "https://dns.rubyfish.cn:443/dns-query"
-    - "tls://dns.rubyfish.cn:853"
-    - "https://doh.360.cn:443/dns-query"
-    - "tls://dot.360.cn:853"
-    - "https://dns.ipv6dns.com:443/dns-query"
-    - "tls://dns.ipv6dns.com:853"
+    #- "tls://1.0.0.2:853"
+    #- "tls://1.1.1.2:853"
+    #- "https://1.0.0.2:443/dns-query"
+    #- "https://1.1.1.2:443/dns-query"
+    - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://security.cloudflare-dns.com:853"
+    #- "tls://1.0.0.1:853"
+    #- "tls://1.1.1.1:853"
+    #- "https://1.0.0.1:443/dns-query"
+    #- "https://1.1.1.1:443/dns-query"
+    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
+    - "tls://one.one.one.one:853"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+    - "https://cloudflare-dns.com:443/dns-query"
+    #- "tls://8.8.4.4:853"
+    #- "tls://8.8.8.8:853"
+    #- "https://8.8.4.4:443/dns-query"
+    #- "https://8.8.8.8:443/dns-query"
+    - "tls://dns.google:853"
+    - "https://dns.google:443/dns-query"
+    #- "tls://149.112.112.11:853"
+    #- "tls://9.9.9.11:853"
+    #- "https://149.112.112.11:443/dns-query"
+    #- "https://9.9.9.11:443/dns-query"
+    - "tls://dns11.quad9.net:853"
+    - "https://dns11.quad9.net:443/dns-query"
+    #- "tls://149.112.112.112:853"
+    #- "tls://9.9.9.9:853"
+    #- "https://149.112.112.112:443/dns-query"
+    #- "https://9.9.9.9:443/dns-query"
+    - "tls://dns.quad9.net:853"
+    - "https://dns.quad9.net:443/dns-query"
+    #- "tls://149.112.112.10:853"
+    #- "tls://9.9.9.10:853"
+    #- "https://149.112.112.10:443/dns-query"
+    #- "https://9.9.9.10:443/dns-query"
+    - "tls://dns10.quad9.net:853"
+    - "https://dns10.quad9.net:443/dns-query"
+    #- "tls://1.12.12.12:853"
+    #- "tls://120.53.53.53:853"
+    #- "tls://dot.pub:853"
+    #- "https://1.12.12.12:443/dns-query"
+    #- "https://120.53.53.53:443/dns-query"
+    #- "https://doh.pub:443/dns-query"
+    #- "tls://223.6.6.6:853"
+    #- "tls://223.5.5.5:853"
+    #- "tls://dns.alidns.com:853"
+    #- "https://223.6.6.6:443/dns-query"
+    #- "https://223.5.5.5:443/dns-query"
+    #- "https://dns.alidns.com:443/dns-query"
+    #- "https://v6.rubyfish.cn:443/dns-query"
+    #- "tls://v6.rubyfish.cn:853"
+    #- "https://rubyfish.cn:443/dns-query"
+    #- "tls://rubyfish.cn:853"
+    #- "https://dns.rubyfish.cn:443/dns-query"
+    #- "tls://dns.rubyfish.cn:853"
+    #- "https://doh.360.cn:443/dns-query"
+    #- "tls://dot.360.cn:853"
+    #- "https://dns.ipv6dns.com:443/dns-query"
+    #- "tls://dns.ipv6dns.com:853"
     #- "tcp://[::1]:6054"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
@@ -321,76 +359,38 @@ dns:
     #- "tls://kracon.anycast.censurfridns.dk:853"
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
-  fallback:
-    - "tls://1.0.0.2:853"
-    - "tls://1.1.1.2:853"
-    - "https://1.0.0.2:443/dns-query"
-    - "https://1.1.1.2:443/dns-query"
-    - "https://security.cloudflare-dns.com:443/dns-query"
-    - "tls://security.cloudflare-dns.com:853"
-    - "tls://1.0.0.1:853"
-    - "tls://1.1.1.1:853"
-    - "https://1.0.0.1:443/dns-query"
-    - "https://1.1.1.1:443/dns-query"
-    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
-    - "tls://one.one.one.one:853"
-    - "tls://8.8.4.4:853"
-    - "tls://8.8.8.8:853"
-    - "https://8.8.4.4:443/dns-query"
-    - "https://8.8.8.8:443/dns-query"
-    - "tls://dns.google:853"
-    - "https://dns.google:443/dns-query"
-    - "tls://149.112.112.11:853"
-    - "tls://9.9.9.11:853"
-    - "https://149.112.112.11:443/dns-query"
-    - "https://9.9.9.11:443/dns-query"
-    - "tls://dns11.quad9.net:853"
-    - "https://dns11.quad9.net:443/dns-query"
-    - "tls://149.112.112.112:853"
-    - "tls://9.9.9.9:853"
-    - "https://149.112.112.112:443/dns-query"
-    - "https://9.9.9.9:443/dns-query"
-    - "tls://dns.quad9.net:853"
-    - "https://dns.quad9.net:443/dns-query"
-    - "tls://149.112.112.10:853"
-    - "tls://9.9.9.10:853"
-    - "https://149.112.112.10:443/dns-query"
-    - "https://9.9.9.10:443/dns-query"
-    - "tls://dns10.quad9.net:853"
-    - "https://dns10.quad9.net:443/dns-query"
-    - https://a.vvvglass.com/sz
-    - "tls://c.vvvglass.com:853"
-    - "tls://h.iqiq.io:853"
-    - "tls://j.iqiq.io:853"
-    - "tls://x.vvvglass.com:853"
-    - "tls://b.iqiq.io:853"
-    - https://a.vvvglass.com/iq
-    - https://a.vvvglass.com/cdn
-    - "tls://a.vvvglass.com:5432"
-    - https://i.vvvglass.com/iq
-    - "tls://i.vvvglass.com:5432"
-    - https://worldwide.vvvglass.com/iq
-    - https://a.vvvglass.com/am
-    - https://a.vvvglass.com/hk
-    - https://a.vvvglass.com/us
-    - https://cdn.iqiq.io/dns-query
-    - https://proxy.iqiq.io/dns-query
-    - https://a.passcloud.xyz/dns-query
-    - https://a.passcloud.xyz/sz
-    - https://a.passcloud.xyz/cdn
-    - https://a.passcloud.xyz/am
-    - https://a.passcloud.xyz/hk
-    - https://a.passcloud.xyz/us
-    - "tls://a.passcloud.xyz:5432"
-    - https://b.vvvglass.com/iq
-    - "tls://b.vvvglass.com:5432"
-    - "tls://c.passcloud.xyz"
-    - https://i.passcloud.xyz/dns-query
-    - "tls://i.passcloud.xyz:5432"
-    - https://worldwide.passcloud.xyz/dns-query
-    - tls://x.passcloud.xyz"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
-    - "https://cloudflare-dns.com:443/dns-query"
+  #fallback:
+    #- https://a.vvvglass.com/sz
+    #- "tls://c.vvvglass.com:853"
+    #- "tls://h.iqiq.io:853"
+    #- "tls://j.iqiq.io:853"
+    #- "tls://x.vvvglass.com:853"
+    #- "tls://b.iqiq.io:853"
+    #- https://a.vvvglass.com/iq
+    #- https://a.vvvglass.com/cdn
+    #- "tls://a.vvvglass.com:5432"
+    #- https://i.vvvglass.com/iq
+    #- "tls://i.vvvglass.com:5432"
+    #- https://worldwide.vvvglass.com/iq
+    #- https://a.vvvglass.com/am
+    #- https://a.vvvglass.com/hk
+    #- https://a.vvvglass.com/us
+    #- https://cdn.iqiq.io/dns-query
+    #- https://proxy.iqiq.io/dns-query
+    #- https://a.passcloud.xyz/dns-query
+    #- https://a.passcloud.xyz/sz
+    #- https://a.passcloud.xyz/cdn
+    #- https://a.passcloud.xyz/am
+    #- https://a.passcloud.xyz/hk
+    #- https://a.passcloud.xyz/us
+    #- "tls://a.passcloud.xyz:5432"
+    #- https://b.vvvglass.com/iq
+    #- "tls://b.vvvglass.com:5432"
+    #- "tls://c.passcloud.xyz"
+    #- https://i.passcloud.xyz/dns-query
+    #- "tls://i.passcloud.xyz:5432"
+    #- https://worldwide.passcloud.xyz/dns-query
+    #- tls://x.passcloud.xyz"
     #- tcp://[fd00::1]:6053
     #- "[fd00::1]:6053"
     #- tcp://[fd00::1]:6054
@@ -403,16 +403,16 @@ dns:
     #- "[fd00::1]"
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
-  fallback-filter:
-    geoip: false
-    geoip-code: CN
+  #fallback-filter:
+    #geoip: false
+    #geoip-code: CN
     #ipcidr:
       #- 240.0.0.0/4
-    domain:
-      - "+.line.me"
-      - "+.google.com"
+    #domain:
+      #- "+.line.me"
+      #- "+.google.com"
       #- '+.facebook.com'
-      - "+.wikipedia.org"
+      #- "+.wikipedia.org"
       #- '+.youtube.com'
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
