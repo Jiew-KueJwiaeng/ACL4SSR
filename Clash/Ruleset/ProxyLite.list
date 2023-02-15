@@ -65,6 +65,9 @@ DOMAIN,c.tile.openstreetmap.org
 DOMAIN,www.openstreetmap.org
 DOMAIN,openstreetmap.org
 
+DOMAIN,www.quora.com
+DOMAIN,quora.com
+
 # PikPak
 DOMAIN,access.mypikpak.com
 DOMAIN,api-drive.mypikpak.com
