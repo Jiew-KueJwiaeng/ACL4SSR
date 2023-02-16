@@ -1,5 +1,6 @@
 DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,challenges.cloudflare.com
 DOMAIN,www.google-analytics.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,api.openai.com
