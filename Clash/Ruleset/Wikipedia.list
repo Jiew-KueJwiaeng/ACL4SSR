@@ -1,11 +1,12 @@
-# 数量：12条
 # DOMAIN-SUFFIX,mediawiki.org
 # DOMAIN-SUFFIX,wikibooks.org
 # DOMAIN-SUFFIX,wikidata.org
 # DOMAIN-SUFFIX,wikileaks.org
 # DOMAIN-SUFFIX,wikimedia.org
+DOMAIN,wikimediafoundation.org
 # DOMAIN-SUFFIX,wikinews.org
 DOMAIN,en.wikipedia.org
+DOMAIN,ja.wikipedia.org
 DOMAIN,en.m.wikipedia.org
 DOMAIN,zh.m.wikipedia.org
 DOMAIN,zh-classical.m.wikipedia.org
@@ -15,6 +16,7 @@ DOMAIN,zh-classical.wikipedia.org
 DOMAIN,zh-yue.wikipedia.org
 # DOMAIN-SUFFIX,wikiquote.org
 DOMAIN,en.wikisource.org
+DOMAIN,ja.wikisource.org
 DOMAIN,en.m.wikisource.org
 DOMAIN,zh.m.wikisource.org
 DOMAIN,zh-classical.m.wikisource.org
@@ -24,4 +26,12 @@ DOMAIN,zh-classical.wikisource.org
 DOMAIN,zh-yue.wikisource.org
 # DOMAIN-SUFFIX,wikiversity.org
 # DOMAIN-SUFFIX,wikivoyage.org
-# DOMAIN-SUFFIX,wiktionary.org
+DOMAIN,en.wiktionary.org
+DOMAIN,ja.wiktionary.org
+DOMAIN,en.m.wiktionary.org
+DOMAIN,zh.m.wiktionary.org
+DOMAIN,zh-classical.m.wiktionary.org
+DOMAIN,zh-yue.m.wiktionary.org
+DOMAIN,zh.wiktionary.org
+DOMAIN,zh-classical.wiktionary.org
+DOMAIN,zh-yue.wiktionary.org
