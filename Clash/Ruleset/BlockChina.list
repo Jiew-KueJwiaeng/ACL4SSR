@@ -1,4 +1,6 @@
-# 内容：YouTubeMusic
+# Bleeping Computer
+DOMAIN,www.bleepingcomputer.com
+DOMAIN,bleepingcomputer.com
 # 数量：5条
 # USER-AGENT,*YouTubeMusic*
 # USER-AGENT,*com.google.ios.youtubemusic*
