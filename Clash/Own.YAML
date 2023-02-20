@@ -29,7 +29,7 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
   - name: "trojan-grpc 香港童话镇"
-    server: d-gh-tr-h-k.nk2028.gq
+    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
     port: 443
     type: trojan
     password: "eefd5a75-db09-4509-8ad5-edc3bcc54dd8"
@@ -41,7 +41,7 @@ proxies:
       grpc-service-name: "nk2028trojangrpc"
   - name: "vmess-ws 香港童话镇"
     type: vmess
-    server: d-gh-tr-h-k.nk2028.gq
+    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
     port: 443
     uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
     alterId: 0
