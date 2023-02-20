@@ -27,7 +27,10 @@ DOMAIN,nyaa.si
 DOMAIN,share.acgnx.se
 DOMAIN,www.acgnx.se
 
+DOMAIN,assets.change.org
+DOMAIN,static.change.org
 DOMAIN,www.change.org
+DOMAIN,change.org
 
 # Daum
 DOMAIN,m.daum.net
