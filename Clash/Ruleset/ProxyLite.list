@@ -94,5 +94,8 @@ DOMAIN,uptodown.com
 
 DOMAIN-SUFFIX,vercel.app
 
+DOMAIN,www.vox.com
+DOMAIN,vox.com
+
 # Yandex
 DOMAIN,disk.yandex.com
