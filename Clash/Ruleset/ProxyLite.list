@@ -62,6 +62,19 @@ DOMAIN,mega.io
 
 DOMAIN,scratch.mit.edu
 
+DOMAIN,www.mnd.gov.tw
+
+DOMAIN,www.nbcnews.com
+
+DOMAIN,zh.cn.nikkei.com
+DOMAIN,cn.nikkei.com
+DOMAIN,www.nikkei.com
+DOMAIN,nikkei.com
+
+DOMAIN,cn.nytimes.com
+DOMAIN,www.nytimes.com
+DOMAIN,nytimes.com
+
 # Одноклассники Odnoklassniki
 DOMAIN,connect.ok.ru
 DOMAIN,ok.ru
@@ -85,6 +98,8 @@ DOMAIN,access.pikpakdrive.com
 # Snapchat
 # DOMAIN,tr.snapchat.com
 
+DOMAIN,udn.com
+
 DOMAIN,cdn.unwire.hk
 DOMAIN,unwire.hk
 
@@ -97,5 +112,10 @@ DOMAIN-SUFFIX,vercel.app
 DOMAIN,www.vox.com
 DOMAIN,vox.com
 
+DOMAIN,www.worldjournal.com
+DOMAIN,worldjournal.com
+
 # Yandex
 DOMAIN,disk.yandex.com
+
+DOMAIN,www.zakzak.co.jp
