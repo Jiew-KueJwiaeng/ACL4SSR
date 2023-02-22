@@ -1,5 +1,5 @@
-DOMAIN,bingciservice.koreasouth.cloudapp.azure.com
-DOMAIN,sapphire.azureedge.net
+# DOMAIN,bingciservice.koreasouth.cloudapp.azure.com
+# DOMAIN,sapphire.azureedge.net
 DOMAIN,4.bing.com
 DOMAIN,bat.bing.com
 DOMAIN,business.bing.com
@@ -13,8 +13,8 @@ DOMAIN,testfamilysafety.bing.com
 DOMAIN,th.bing.com
 DOMAIN,www.bing.com
 DOMAIN,www2.bing.com
-DOMAIN,services.bingapis.com
-DOMAIN,www.bingapis.com
+# DOMAIN,services.bingapis.com
+# DOMAIN,www.bingapis.com
 DOMAIN,s.cn.bing.net
 DOMAIN,s2.cn.bing.net
 DOMAIN,s3.cn.bing.net
@@ -27,15 +27,15 @@ DOMAIN,tse1.mm.bing.net
 DOMAIN,tse2.mm.bing.net
 DOMAIN,login.live.com
 DOMAIN,storage.live.com
-DOMAIN,browser.pipe.aria.microsoft.com
-DOMAIN,sapphire.api.microsoftapp.net
-DOMAIN,gateway.bingviz.microsoftapp.net
-DOMAIN,cdn.sapphire.microsoftapp.net
-DOMAIN,login.microsoftonline.com
-DOMAIN,az15297.vo.msecnd.net
-DOMAIN,assets.msn.cn
-DOMAIN,c.msn.cn
-DOMAIN,browser.events.data.msn.cn
-DOMAIN,img-s.msn.cn
-DOMAIN,www.msn.cn
-DOMAIN,assets.msn.com
+# DOMAIN,browser.pipe.aria.microsoft.com
+# DOMAIN,sapphire.api.microsoftapp.net
+# DOMAIN,gateway.bingviz.microsoftapp.net
+# DOMAIN,cdn.sapphire.microsoftapp.net
+# DOMAIN,login.microsoftonline.com
+# DOMAIN,az15297.vo.msecnd.net
+# DOMAIN,assets.msn.cn
+# DOMAIN,c.msn.cn
+# DOMAIN,browser.events.data.msn.cn
+# DOMAIN,img-s.msn.cn
+# DOMAIN,www.msn.cn
+# DOMAIN,assets.msn.com
