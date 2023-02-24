@@ -20,6 +20,7 @@ DOMAIN,people-pa.clients6.google.com
 DOMAIN,scone-pa.clients6.google.com
 DOMAIN,signaler-pa.clients6.google.com
 DOMAIN,clients6.google.com
+DOMAIN,developers.google.com
 DOMAIN,docs.google.com
 DOMAIN,drive.google.com
 DOMAIN,gds.google.com
@@ -59,7 +60,7 @@ DOMAIN,ogs.google.com.sg
 DOMAIN,translate.google.com.sg
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
-DOMAIN,services.googleapis.cn
+# DOMAIN,services.googleapis.cn
 DOMAIN,ajax.googleapis.com
 DOMAIN,android.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
