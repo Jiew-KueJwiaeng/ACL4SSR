@@ -5,33 +5,45 @@
 # DOMAIN-SUFFIX,wikimedia.org
 DOMAIN,wikimediafoundation.org
 # DOMAIN-SUFFIX,wikinews.org
+DOMAIN,de.wikipedia.org
 DOMAIN,en.wikipedia.org
+DOMAIN,es.wikipedia.org
+DOMAIN,fr.wikipedia.org
 DOMAIN,ja.wikipedia.org
 DOMAIN,en.m.wikipedia.org
 DOMAIN,zh.m.wikipedia.org
 DOMAIN,zh-classical.m.wikipedia.org
 DOMAIN,zh-yue.m.wikipedia.org
+DOMAIN,ru.wikipedia.org
 DOMAIN,zh.wikipedia.org
 DOMAIN,zh-classical.wikipedia.org
 DOMAIN,zh-yue.wikipedia.org
 # DOMAIN-SUFFIX,wikiquote.org
+DOMAIN,de.wikisource.org
 DOMAIN,en.wikisource.org
+DOMAIN,es.wikisource.org
+DOMAIN,fr.wikisource.org
 DOMAIN,ja.wikisource.org
 DOMAIN,en.m.wikisource.org
 DOMAIN,zh.m.wikisource.org
 DOMAIN,zh-classical.m.wikisource.org
 DOMAIN,zh-yue.m.wikisource.org
+DOMAIN,ru.wikisource.org
 DOMAIN,zh.wikisource.org
 DOMAIN,zh-classical.wikisource.org
 DOMAIN,zh-yue.wikisource.org
 # DOMAIN-SUFFIX,wikiversity.org
 # DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN,de.wiktionary.org
 DOMAIN,en.wiktionary.org
+DOMAIN,es.wiktionary.org
+DOMAIN,fr.wiktionary.org
 DOMAIN,ja.wiktionary.org
 DOMAIN,en.m.wiktionary.org
 DOMAIN,zh.m.wiktionary.org
 DOMAIN,zh-classical.m.wiktionary.org
 DOMAIN,zh-yue.m.wiktionary.org
+DOMAIN,ru.wiktionary.org
 DOMAIN,zh.wiktionary.org
 DOMAIN,zh-classical.wiktionary.org
 DOMAIN,zh-yue.wiktionary.org
