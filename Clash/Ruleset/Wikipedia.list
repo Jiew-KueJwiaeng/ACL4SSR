@@ -10,7 +10,11 @@ DOMAIN,en.wikipedia.org
 DOMAIN,es.wikipedia.org
 DOMAIN,fr.wikipedia.org
 DOMAIN,ja.wikipedia.org
+DOMAIN,de.m.wikipedia.org
 DOMAIN,en.m.wikipedia.org
+DOMAIN,fr.m.wikipedia.org
+DOMAIN,ja.m.wikipedia.org
+DOMAIN,ru.m.wikipedia.org
 DOMAIN,zh.m.wikipedia.org
 DOMAIN,zh-classical.m.wikipedia.org
 DOMAIN,zh-yue.m.wikipedia.org
@@ -24,7 +28,11 @@ DOMAIN,en.wikisource.org
 DOMAIN,es.wikisource.org
 DOMAIN,fr.wikisource.org
 DOMAIN,ja.wikisource.org
+DOMAIN,de.m.wikisource.org
 DOMAIN,en.m.wikisource.org
+DOMAIN,fr.m.wikisource.org
+DOMAIN,ja.m.wikisource.org
+DOMAIN,ru.m.wikisource.org
 DOMAIN,zh.m.wikisource.org
 DOMAIN,zh-classical.m.wikisource.org
 DOMAIN,zh-yue.m.wikisource.org
@@ -39,7 +47,11 @@ DOMAIN,en.wiktionary.org
 DOMAIN,es.wiktionary.org
 DOMAIN,fr.wiktionary.org
 DOMAIN,ja.wiktionary.org
+DOMAIN,de.m.wiktionary.org
 DOMAIN,en.m.wiktionary.org
+DOMAIN,fr.m.wiktionary.org
+DOMAIN,ja.m.wiktionary.org
+DOMAIN,ru.m.wiktionary.org
 DOMAIN,zh.m.wiktionary.org
 DOMAIN,zh-classical.m.wiktionary.org
 DOMAIN,zh-yue.m.wiktionary.org
