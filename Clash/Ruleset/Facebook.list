@@ -1,8 +1,8 @@
-# 内容：Facebook
 # 数量：21条
 # DOMAIN-KEYWORD,fbcdn
-DOMAIN,facebook.com
+DOMAIN,research.facebook.com
 DOMAIN,www.facebook.com
+# DOMAIN,facebook.com
 # DOMAIN-SUFFIX,fb.com
 # DOMAIN-SUFFIX,fb.me
 # DOMAIN-SUFFIX,fbcdn.com
