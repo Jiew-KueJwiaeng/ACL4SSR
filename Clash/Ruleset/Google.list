@@ -16,7 +16,11 @@ DOMAIN,clients2.google.com
 DOMAIN,clients3.google.com
 DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
+DOMAIN,addons-pa.clients6.google.com
+DOMAIN,espresso-pa.clients6.google.com
 DOMAIN,people-pa.clients6.google.com
+DOMAIN,peoplestack-pa.clients6.google.com
+DOMAIN,peoplestackwebexperiments-pa.clients6.google.com
 DOMAIN,scone-pa.clients6.google.com
 DOMAIN,signaler-pa.clients6.google.com
 DOMAIN,clients6.google.com
