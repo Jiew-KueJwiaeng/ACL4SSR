@@ -2,7 +2,9 @@
 # DOMAIN-SUFFIX,wikibooks.org
 # DOMAIN-SUFFIX,wikidata.org
 # DOMAIN-SUFFIX,wikileaks.org
-# DOMAIN-SUFFIX,wikimedia.org
+DOMAIN,login.wikimedia.org
+DOMAIN,meta.wikimedia.org
+DOMAIN,upload.wikimedia.org
 DOMAIN,wikimediafoundation.org
 # DOMAIN-SUFFIX,wikinews.org
 DOMAIN,de.wikipedia.org
