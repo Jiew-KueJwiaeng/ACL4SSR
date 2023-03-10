@@ -7,5 +7,5 @@ DOMAIN,gateway.discord.gg
 DOMAIN,remote-auth-gateway.discord.gg
 DOMAIN,discord.gg
 # DOMAIN-SUFFIX,discord.media
-# DOMAIN-SUFFIX,discordapp.com
+DOMAIN,cdn.discordapp.com
 # DOMAIN-SUFFIX,discordapp.net
