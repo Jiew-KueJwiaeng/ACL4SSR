@@ -17,6 +17,7 @@ DOMAIN,clients3.google.com
 DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
 DOMAIN,addons-pa.clients6.google.com
+DOMAIN,developerprofiles-pa.clients6.google.com
 DOMAIN,espresso-pa.clients6.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,peoplestack-pa.clients6.google.com
@@ -66,6 +67,7 @@ DOMAIN,ogs.google.com.sg
 DOMAIN,translate.google.com.sg
 DOMAIN,www.google.com.sg
 DOMAIN,google.com.sg
+DOMAIN,www.google-analytics.com
 # DOMAIN,services.googleapis.cn
 DOMAIN,ajax.googleapis.com
 DOMAIN,android.googleapis.com
@@ -77,6 +79,7 @@ DOMAIN,play-fe.googleapis.com
 DOMAIN,workspaceupdates.googleblog.com
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh3-dz.googleusercontent.com
 DOMAIN,play-lh.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
