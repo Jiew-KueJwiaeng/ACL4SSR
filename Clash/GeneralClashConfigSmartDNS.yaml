@@ -51,7 +51,7 @@ dns:
   listen: 0.0.0.0:7874
   ipv6: true
   default-nameserver:
-    - "tcp://[::1]:6054"
+    - "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
     #- "127.0.0.1:6054"
@@ -146,10 +146,11 @@ dns:
     #- "tcp://198.180.150.12:53"
     #- tcp://101.226.4.6
     #- 101.226.4.6
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
+    # LAN
     - '*.lan'
     - '*.localdomain'
     - '*.example'
@@ -158,10 +159,12 @@ dns:
     - '*.test'
     - '*.local'
     - '*.home.arpa'
+    # NTP服务
     - 'time.*.com'
     - 'time.*.gov'
     - 'time.*.edu.cn'
     - 'time.*.apple.com'
+    - "time-ios.apple.com"
     - 'time1.*.com'
     - 'time2.*.com'
     - 'time3.*.com'
@@ -181,17 +184,23 @@ dns:
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
+    # 网易云音乐
     - 'music.163.com'
     - '*.music.163.com'
     - '*.126.net'
+    # 百度音乐
     - 'musicapi.taihe.com'
     - 'music.taihe.com'
+    # 酷狗音乐
     - 'songsearch.kugou.com'
     - 'trackercdn.kugou.com'
+    # 酷我音乐
     - '*.kuwo.cn'
+    # JOOX音乐
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
+    # QQ音乐
     - 'y.qq.com'
     - '*.y.qq.com'
     - 'streamoc.music.tc.qq.com'
@@ -200,47 +209,85 @@ dns:
     - 'dl.stream.qqmusic.qq.com'
     - 'aqqmusic.tc.qq.com'
     - 'amobile.music.tc.qq.com'
+    # 虾米音乐
     - '*.xiami.com'
+    # 咪咕音乐
     - '*.music.migu.cn'
     - 'music.migu.cn'
+    # Windows网络连通性检测
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
     - 'msftconnecttest.com'
     - 'msftncsi.com'
+    # QQ登录
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    - "+.qq.com"
+    - "+.tencent.com"
+    # 任天堂Switch
     - '+.srv.nintendo.net'
+    - "*.n.n.srv.nintendo.net"
+    # Sony PlayStation
     - '+.stun.playstation.net'
+    # Microsoft Xbox
+    - "xbox.*.*.microsoft.com"
     - 'xbox.*.microsoft.com'
+    - "*.*.xboxlive.com"
     - 'xnotify.xboxlive.com'
+    # Wotgame
     - '+.battlenet.com.cn'
     - '+.wotgame.cn'
     - '+.wggames.cn'
     - '+.wowsgame.cn'
     - '+.wargaming.net'
+    # Golang
     - 'proxy.golang.org'
+    # STUN
     - 'stun.*.*'
     - 'stun.*.*.*'
     - '+.stun.*.*'
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
+    - "+.stun.*.*.*.*.*"
+    # Linksys Router
     - 'heartbeat.belkin.com'
     - '*.linksys.com'
     - '*.linksyssmartwifi.com'
+    # ASUS Router
     - '*.router.asus.com'
+    # Apple Software Update Service
     - 'mesu.apple.com'
     - 'swscan.apple.com'
     - 'swquery.apple.com'
     - 'swdownload.apple.com'
     - 'swcdn.apple.com'
     - 'swdist.apple.com'
+    # Google
     - 'lens.l.google.com'
     - 'stun.l.google.com'
+    # Netflix
     - '+.nflxvideo.net'
+    # FinalFantasy XIV Worldwide Server & CN Server
     - '*.square-enix.com'
     - '*.finalfantasyxiv.com'
     - '*.ffxiv.com'
+    - "*.ff14.sdo.com"
+    # Bilibili
     - '*.mcdn.bilivideo.cn'
+    # Disney Plus
+    - "+.media.dssott.com"
+    # shark007 Codecs 
+    - "shark007.net"
+    # Mijia
+    - "Mijia Cloud"
+    # 招商银行
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    # AdGuard
+    - "local.adguard.org"
+    # 迅雷
+    - "+.sandai.net"
+    - "+.n0808.com"
     - "ipv6check-http.steamcontent.com"
     - "ipv6check-udp.steamcontent.com"
 #   proxy-server-nameserver:
@@ -275,7 +322,7 @@ dns:
     #- "tls://dot.360.cn:853"
     #- "https://dns.ipv6dns.com:443/dns-query"
     #- "tls://dns.ipv6dns.com:853"
-    - "tcp://[::1]:6054"
+    - "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
     #- "127.0.0.1:6054"
@@ -321,7 +368,7 @@ dns:
     #- "tls://kracon.anycast.censurfridns.dk:853"
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
-  #fallback:
+  fallback:
     #- "tls://1.0.0.2:853"
     #- "tls://1.1.1.2:853"
     #- "https://1.0.0.2:443/dns-query"
@@ -391,7 +438,7 @@ dns:
     #- tls://x.passcloud.xyz"
     #- "https://mozilla.cloudflare-dns.com:443/dns-query"
     #- "https://cloudflare-dns.com:443/dns-query"
-    #- tcp://[fd00::1]:6053
+    - "tcp://[::1]:853"
     #- "[fd00::1]:6053"
     #- tcp://[fd00::1]:6054
     #- "[fd00::1]:6054"
@@ -403,17 +450,36 @@ dns:
     #- "[fd00::1]"
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
-  #fallback-filter:
-    #geoip: false
-    #geoip-code: CN
-    #ipcidr:
-      #- 240.0.0.0/4
-    #domain:
-      #- "+.line.me"
-      #- "+.google.com"
-      #- '+.facebook.com'
-      #- "+.wikipedia.org"
-      #- '+.youtube.com'
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - "+.line.me"
+      - "+.githubusercontent.com"
+      - "+.google.com"
+      - "+.googlevideo.com"
+      - '+.facebook.com'
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - "+.wikipedia.org"
+      - '+.youtube.com'
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
   #  '+.internal.crop.com': '10.0.0.1'
