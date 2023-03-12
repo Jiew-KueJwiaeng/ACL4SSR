@@ -3,78 +3,88 @@ socks-port: 7891
 mixed-port: 7893
 redir-port: 7892
 tproxy-port: 7895
-# geodata-mode: true
-# tcp-concurrent: true
 allow-lan: true
 bind-address: '*'
+find-process-mode: always
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
 ipv6: true
-external-controller: 0.0.0.0:8443
 mode: rule
 log-level: warning
+tcp-concurrent: true
+global-client-fingerprint: ios
+#hosts:
+#  '*.clash.dev': 127.0.0.1
+#  '.dev': 127.0.0.1
+#  'alpha.clash.dev': '::1'
 profile:
   store-selected: true
-  store-fake-ip: true
-# sniffer:
-#   enable: true
-#   sniffing:
-#     - tls
-#     - http
-#   skip-domain:
-#     - '+.apple.com'
-#     - '+.baidu.com'
-#     - '+.jd.com'
-#     - '+.mi.com'
-#     - 'Mijia Cloud'
-#   force-domain:
-#     - '+'
-#     - '+.amazonaws.com'
-#     - '+.media.dssott.com'
-#     - '+.facebook.com'
-#     - '+.ggpht.com'
-#     - '+.github.com'
-#     - '+.google.com'
-#     - '+.googleapi.com'
-#     - '+.googlevideo.com'
-#     - '+.gstatic.com'
-#     - '+.netflix.com'
-#     - '+.nflxvideo.net'
-#     - '+.youtube.com'
-#     - '+.ytimg.com'
-#   port-whitelist:
-#     - 1-65535
-#     #- 443
-#     #- 80
-#     #- 8080
-#     #- 8000-9000
+  store-fake-ip: false
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    TLS:
+      ports: [80, 443, 853, 8000, 8443]
+    HTTP:
+      ports: [80, 443, 853, 8000, 8080-8880]
+      override-destination: true
+  force-domain:
+    - '+'
+    - '+.amazonaws.com'
+    - '+.media.dssott.com'
+    - '+.facebook.com'
+    - '+.ggpht.com'
+    - '+.github.com'
+    - '+.google.com'
+    - '+.googleapi.com'
+    - '+.googlevideo.com'
+    - '+.gstatic.com'
+    - '+.netflix.com'
+    - '+.nflxvideo.net'
+    - "+.v2ex.com"
+    - '+.youtube.com'
+    - '+.ytimg.com'
+  skip-domain:
+    - '+.apple.com'
+    - '+.baidu.com'
+    - '+.jd.com'
+    - '+.mi.com'
+    - 'Mijia Cloud'
 dns:
   enable: true
-  listen: 0.0.0.0:7874
+  prefer-h3: true
+  listen: "[::]:7874"
   ipv6: true
   default-nameserver:
-    - "tcp://[2606:4700:4700::1002]:53"
-    - "tcp://[2606:4700:4700::1112]:53"
-    - "tcp://1.0.0.2:53"
-    - "tcp://1.1.1.2:53"
-    - "tcp://[2606:4700:4700::1001]:53"
-    - "tcp://[2606:4700:4700::1111]:53"
-    - "tcp://1.0.0.1:53"
-    - "tcp://1.1.1.1:53"
-    - "tcp://[2001:4860:4860::8844]:53"
-    - "tcp://[2001:4860:4860::8888]:53"
-    - "tcp://8.8.4.4:53"
-    - "tcp://8.8.8.8:53"
-    - "tcp://[2620:fe::fe:11]:53"
-    - "tcp://[2620:fe::11]:53"
-    - "tcp://149.112.112.11:53"
-    - "tcp://9.9.9.11:53"
-    - "tcp://[2620:fe::9]:53"
-    - "tcp://[2620:fe::fe]:53"
-    - "tcp://149.112.112.112:53"
-    - "tcp://9.9.9.9:53"
-    - "tcp://[2620:fe::fe:10]:53"
-    - "tcp://[2620:fe::10]:53"
-    - "tcp://149.112.112.10:53"
-    - "tcp://9.9.9.10:53"
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
+    #- "tls://[2620:fe::fe:11]:853"
+    #- "tls://[2620:fe::11]:853"
+    #- "tls://149.112.112.11:853"
+    #- "tls://9.9.9.11:853"
+    #- "tls://[2620:fe::9]:853"
+    #- "tls://[2620:fe::fe]:853"
+    #- "tls://149.112.112.112:853"
+    #- "tls://9.9.9.9:853"
+    #- "tls://[2620:fe::fe:10]:853"
+    #- "tls://[2620:fe::10]:853"
+    #- "tls://149.112.112.10:853"
+    #- "tls://9.9.9.10:853"
     #- "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
@@ -290,51 +300,106 @@ dns:
     - "+.n0808.com"
     - "ipv6check-http.steamcontent.com"
     - "ipv6check-udp.steamcontent.com"
-#   proxy-server-nameserver:
-#     - "tcp://[::1]:6054"
-#     - "[::1]:6054"
-#     - "tcp://127.0.0.1:6054"
-#     - "127.0.0.1:6054"
-#     - "tcp://192.168.11.1:6054"
-#     - "192.168.11.1:6054"
-#     - "tcp://192.168.11.1:53"
-#     - "192.168.11.1:53"
-  nameserver:
+  proxy-server-nameserver:
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
+    - "tls://dns.google:853"
+    - "https://[2001:4860:4860::8844]:443/dns-query"
+    - "https://[2001:4860:4860::8888]:443/dns-query"
+    - "https://8.8.4.4:443/dns-query"
+    - "https://8.8.8.8:443/dns-query"
+    - "https://dns.google:443/dns-query"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
     - "tls://security.cloudflare-dns.com:853"
     - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
     - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
     - "tls://cloudflare-dns.com:853"
     - "tls://one.one.one.one:853"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+    - "https://[2606:4700:4700::1001]:443/dns-query"
+    - "https://[2606:4700:4700::1111]:443/dns-query"
+    - "https://1.0.0.1:443/dns-query"
+    - "https://1.1.1.1:443/dns-query"
     - "https://cloudflare-dns.com:443/dns-query"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+  nameserver:
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
     - "tls://dns.google:853"
+    - "https://[2001:4860:4860::8844]:443/dns-query"
+    - "https://[2001:4860:4860::8888]:443/dns-query"
+    - "https://8.8.4.4:443/dns-query"
+    - "https://8.8.8.8:443/dns-query"
     - "https://dns.google:443/dns-query"
-    - "tls://dns11.quad9.net:853"
-    - "https://dns11.quad9.net:443/dns-query"
-    - "tls://dns.quad9.net:853"
-    - "https://dns.quad9.net:443/dns-query"
-    - "tls://dns10.quad9.net:853"
-    - "https://dns10.quad9.net:443/dns-query"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
+    - "tls://security.cloudflare-dns.com:853"
+    - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
+    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
+    - "tls://cloudflare-dns.com:853"
+    - "tls://one.one.one.one:853"
+    - "https://[2606:4700:4700::1001]:443/dns-query"
+    - "https://[2606:4700:4700::1111]:443/dns-query"
+    - "https://1.0.0.1:443/dns-query"
+    - "https://1.1.1.1:443/dns-query"
+    - "https://cloudflare-dns.com:443/dns-query"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+    #- "tls://[2620:fe::fe:11]:853"
+    #- "tls://[2620:fe::11]:853"
+    #- "tls://149.112.112.11:853"
+    #- "tls://9.9.9.11:853"
+    #- "tls://dns11.quad9.net:853"
+    #- "https://dns11.quad9.net:443/dns-query"
+    #- "tls://[2620:fe::9]:853"
+    #- "tls://[2620:fe::fe]:853"
+    #- "tls://149.112.112.112:853"
+    #- "tls://9.9.9.9:853"
+    #- "tls://dns.quad9.net:853"
+    #- "https://dns.quad9.net:443/dns-query"
+    #- "tls://[2620:fe::fe:10]:853"
+    #- "tls://[2620:fe::10]:853"
+    #- "tls://149.112.112.10:853"
+    #- "tls://9.9.9.10:853"
+    #- "tls://dns10.quad9.net:853"
+    #- "https://dns10.quad9.net:443/dns-query"
     #- "tls://1.12.12.12:853"
     #- "tls://120.53.53.53:853"
     #- "tls://dot.pub:853"
     #- "https://1.12.12.12:443/dns-query"
     #- "https://120.53.53.53:443/dns-query"
     #- "https://doh.pub:443/dns-query"
+    #- "tls://2400:3200::1:853"
+    #- "tls://2400:3200:baba::1:853"
     #- "tls://223.6.6.6:853"
     #- "tls://223.5.5.5:853"
     #- "tls://dns.alidns.com:853"
     #- "https://223.6.6.6:443/dns-query"
     #- "https://223.5.5.5:443/dns-query"
     #- "https://dns.alidns.com:443/dns-query"
+    #- "tls://dot.360.cn:853"
+    #- "https://doh.360.cn:443/dns-query"
     #- "https://v6.rubyfish.cn:443/dns-query"
     #- "tls://v6.rubyfish.cn:853"
     #- "https://rubyfish.cn:443/dns-query"
     #- "tls://rubyfish.cn:853"
     #- "https://dns.rubyfish.cn:443/dns-query"
     #- "tls://dns.rubyfish.cn:853"
-    #- "https://doh.360.cn:443/dns-query"
-    #- "tls://dot.360.cn:853"
     #- "https://dns.ipv6dns.com:443/dns-query"
     #- "tls://dns.ipv6dns.com:853"
     #- "tcp://[::1]:853"
@@ -384,15 +449,35 @@ dns:
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
   fallback:
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
+    - "tls://dns.google:853"
+    - "https://[2001:4860:4860::8844]:443/dns-query"
+    - "https://[2001:4860:4860::8888]:443/dns-query"
+    - "https://8.8.4.4:443/dns-query"
+    - "https://8.8.8.8:443/dns-query"
+    - "https://dns.google:443/dns-query"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
     - "tls://security.cloudflare-dns.com:853"
     - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
     - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
     - "tls://cloudflare-dns.com:853"
     - "tls://one.one.one.one:853"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+    - "https://[2606:4700:4700::1001]:443/dns-query"
+    - "https://[2606:4700:4700::1111]:443/dns-query"
+    - "https://1.0.0.1:443/dns-query"
+    - "https://1.1.1.1:443/dns-query"
     - "https://cloudflare-dns.com:443/dns-query"
-    - "tls://dns.google:853"
-    - "https://dns.google:443/dns-query"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
     - "tls://dns11.quad9.net:853"
     - "https://dns11.quad9.net:443/dns-query"
     - "tls://dns.quad9.net:853"
@@ -445,6 +530,8 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
+    geosite:
+      - "geolocation-!cn"
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
