@@ -5,7 +5,7 @@ redir-port: 7892
 tproxy-port: 7895
 allow-lan: true
 bind-address: '*'
-find-process-mode: always
+find-process-mode: strict
 geox-url:
   geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
   geosite: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
