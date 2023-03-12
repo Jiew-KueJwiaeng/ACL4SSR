@@ -68,187 +68,6 @@ proxies:
     #   - h2
       - http/1.1
     skip-cert-verify: true
-  - name: "trojan-grpc vultr-seattle Cloudflare"
-    server: vultr-seattle.nk2028.gq
-    port: 25565
-    type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    network: grpc
-    sni: vultr-seattle.nk2028.gq
-    skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-  - name: "vmess-ws vultr-seattle Cloudflare"
-    type: vmess
-    server: vultr-seattle.nk2028.gq
-    port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: vultr-seattle.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-  - name: "trojan-grpc vultr-seattle"
-    server: vultr-seattle-direct.nk2028.gq
-    port: 25565
-    type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    network: grpc
-    sni: vultr-seattle.nk2028.gq
-    skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-  - name: "vmess-ws vultr-seattle"
-    type: vmess
-    server: vultr-seattle-direct.nk2028.gq
-    port: 25565
-    uuid: 3b5732e2-56a2-4fb1-bf03-33db5df08497
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: vultr-seattle.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-  - name: "trojan-tcp vultr-seattle"
-    type: trojan
-    server: vultr-seattle-direct.nk2028.gq
-    port: 25565
-    password: 3b5732e2-56a2-4fb1-bf03-33db5df08497
-    udp: true
-    sni: vultr-seattle.nk2028.gq
-    alpn:
-    #   - h2
-      - http/1.1
-    skip-cert-verify: true
-  - name: "vless-tcp 香港童话镇"
-    type: vless
-    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
-    port: 443
-    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
-    network: tcp
-    servername: d-gh-tr-h-k.nk2028.gq
-    flow: xtls-rprx-direct-udp443
-    skip-cert-verify: true
-    # fingerprint: xxxx
-  - name: "vless-ws 香港童话镇"
-    type: vless
-    server: d-gh-tr-h-k.nk2028.gq
-    port: 443
-    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
-    udp: true
-    tls: true
-    network: ws
-    servername: d-gh-tr-h-k.nk2028.gq
-    skip-cert-verify: true
-    ws-opts:
-      path: "/nk2028ws"
-      headers:
-        Host: d-gh-tr-h-k.nk2028.gq
-    # fingerprint: xxxx
-proxy-groups:
-  - name: 🚀 手动切换
-    type: select
-    proxies:
-      - "trojan-grpc 香港童话镇 Cloudflare"
-      - "vmess-ws 香港童话镇 Cloudflare"
-      - "trojan-grpc 香港童话镇"
-      - "vmess-ws 香港童话镇"
-      - "trojan-tcp 香港童话镇"
-      - "trojan-grpc vultr-seattle Cloudflare"
-      - "vmess-ws vultr-seattle Cloudflare"
-      - "trojan-grpc vultr-seattle"
-      - "vmess-ws vultr-seattle"
-      - "trojan-tcp vultr-seattle"
-      - "vless-tcp 香港童话镇"
-      - "vless-ws 香港童话镇"
-      
-proxies:
-  - name: "trojan-grpc 香港童话镇 Cloudflare"
-    server: d-gh-tr-h-k.nk2028.gq
-    port: 443
-    type: trojan
-    password: "eefd5a75-db09-4509-8ad5-edc3bcc54dd8"
-    network: grpc
-    sni: d-gh-tr-h-k.nk2028.gq
-    skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "nk2028trojangrpc"
-  - name: "vmess-ws 香港童话镇 Cloudflare"
-    type: vmess
-    server: d-gh-tr-h-k.nk2028.gq
-    port: 443
-    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: d-gh-tr-h-k.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /nk2028vws
-      headers:
-        Host: d-gh-tr-h-k.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-  - name: "trojan-grpc 香港童话镇"
-    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
-    port: 443
-    type: trojan
-    password: "eefd5a75-db09-4509-8ad5-edc3bcc54dd8"
-    network: grpc
-    sni: d-gh-tr-h-k.nk2028.gq
-    skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "nk2028trojangrpc"
-  - name: "vmess-ws 香港童话镇"
-    type: vmess
-    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
-    port: 443
-    uuid: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: d-gh-tr-h-k.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /nk2028vws
-      headers:
-        Host: d-gh-tr-h-k.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-  - name: "trojan-tcp 香港童话镇"
-    type: trojan
-    server: doung-ghwaej-trin-hyang-koeung.nk2028.gq
-    port: 443
-    password: eefd5a75-db09-4509-8ad5-edc3bcc54dd8
-    udp: true
-    sni: d-gh-tr-h-k.nk2028.gq
-    alpn:
-    #   - h2
-      - http/1.1
-    skip-cert-verify: true
   - name: "vless-tcp vultr-seattle"
     type: vless
     server: vultr-seattle-direct.nk2028.gq
@@ -259,7 +78,7 @@ proxies:
     flow: xtls-rprx-vision
     skip-cert-verify: false
     # fingerprint: xxxx
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
   - name: "vless-grpc vultr-seattle"
     server: vultr-seattle-direct.nk2028.gq
     port: 443
@@ -274,7 +93,7 @@ proxies:
       grpc-service-name: "pdlugrpc"
     ip-version: dual
     udp: true
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
   - name: "vless-grpc vultr-seattle CDN"
     server: vultr-seattle.nk2028.gq
     port: 443
@@ -289,7 +108,7 @@ proxies:
       grpc-service-name: "pdlugrpc"
     ip-version: dual
     udp: true
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
   - name: "vless-ws vultr-seattle"
     type: vless
     server: vultr-seattle-direct.nk2028.gq
@@ -298,7 +117,7 @@ proxies:
     udp: true
     tls: true
     network: ws
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
     servername: vultr-seattle.nk2028.gq
     skip-cert-verify: false
     # fingerprint: xxxx
@@ -314,7 +133,7 @@ proxies:
     udp: true
     tls: true
     network: ws
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
     servername: vultr-seattle.nk2028.gq
     skip-cert-verify: false
     # fingerprint: xxxx
@@ -327,7 +146,7 @@ proxies:
     server: vultr-seattle-direct.nk2028.gq
     port: 443
     password: 3b5732e2-56a2-4fb1-bf03-33db5df08497
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
     # fingerprint: xxxx
     udp: true
     sni: vultr-seattle.nk2028.gq
@@ -369,7 +188,7 @@ proxies:
     udp: true
     tls: true
     # fingerprint: xxxx
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
     skip-cert-verify: false
     servername: vultr-seattle.nk2028.gq
     network: ws
@@ -389,7 +208,7 @@ proxies:
     udp: true
     tls: true
     # fingerprint: xxxx
-    client-fingerprint: "qq"
+    client-fingerprint: "ios"
     skip-cert-verify: false
     servername: vultr-seattle.nk2028.gq
     network: ws
