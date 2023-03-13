@@ -37,6 +37,7 @@ DOMAIN,signaler-pa.clients6.google.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN,clients6.google.com
 DOMAIN,console.cloud.google.com
+DOMAIN,ssh.cloud.google.com
 DOMAIN,cloud.google.com
 DOMAIN,developers.google.com
 DOMAIN,docs.google.com
@@ -94,6 +95,7 @@ DOMAIN,www.googletagmanager.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,lh3-dz.googleusercontent.com
 DOMAIN,play-lh.googleusercontent.com
+DOMAIN,walkthroughs.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN,fonts.gstatic.com
