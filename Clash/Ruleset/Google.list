@@ -2,9 +2,14 @@
 # DOMAIN-SUFFIX,2mdn.net
 # DOMAIN-SUFFIX,app-measurement.net
 # DOMAIN-SUFFIX,g.co
+DOMAIN,lh2.ggpht.com
+DOMAIN,lh3.ggpht.com
+DOMAIN,lh4.ggpht.com
+DOMAIN,lh5.ggpht.com
+DOMAIN,lh6.ggpht.com
+DOMAIN,yt2.ggpht.com
 DOMAIN,yt3.ggpht.com
 DOMAIN,yt4.ggpht.com
-# DOMAIN-SUFFIX,ggpht.com
 DOMAIN,gmail.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,aa.google.com
@@ -17,10 +22,13 @@ DOMAIN,clients3.google.com
 DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
 DOMAIN,addons-pa.clients6.google.com
+DOMAIN,artifactregistry.clients6.google.com
 DOMAIN,cloudconsole-pa.clients6.google.com
+DOMAIN,cloudresourcemanager.clients6.google.com
 DOMAIN,cloudusersettings-pa.clients6.google.com
 DOMAIN,developerprofiles-pa.clients6.google.com
 DOMAIN,espresso-pa.clients6.google.com
+DOMAIN,iam.clients6.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,peoplestack-pa.clients6.google.com
 DOMAIN,peoplestackwebexperiments-pa.clients6.google.com
