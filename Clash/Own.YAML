@@ -228,6 +228,166 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
     ip-version: dual
+  - name: "vless-tcp gcp"
+    type: vless
+    server: gcp.nk2028.gq
+    port: 443
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    network: tcp
+    tls: true
+    udp: true
+    servername: nk2028.gq
+    flow: xtls-rprx-vision
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    ip-version: dual
+  - name: "vless-grpc gcp"
+    server: gcp.nk2028.gq
+    port: 443
+    type: vless
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    servername: nk2028.gq
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-grpc gcp CDN"
+    server: nk2028.gq
+    port: 443
+    type: vless
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    servername: nk2028.gq
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-ws gcp"
+    type: vless
+    server: gcp.nk2028.gq
+    port: 443
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: nk2028.gq
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: nk2028.gq
+    ip-version: dual
+  - name: "vless-ws gcp CDN"
+    type: vless
+    server: nk2028.gq
+    port: 443
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: nk2028.gq
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: nk2028.gq
+    ip-version: dual
+  - name: "trojan-tcp gcp"
+    type: trojan
+    server: gcp.nk2028.gq
+    port: 443
+    password: 3b5732e2-56a2-4fb1-bf03-33db5df08497
+    client-fingerprint: "ios"
+    # fingerprint: xxxx
+    udp: true
+    sni: nk2028.gq
+    alpn:
+    #   - h2
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "trojan-grpc gcp"
+    server: gcp.nk2028.gq
+    port: 443
+    type: trojan
+    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    network: grpc
+    sni: nk2028.gq
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "trojan-grpc gcp CDN"
+    server: nk2028.gq
+    port: 443
+    type: trojan
+    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    network: grpc
+    sni: nk2028.gq
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "vmess-ws gcp"
+    type: vmess
+    server: gcp.nk2028.gq
+    port: 443
+    uuid: 3b5732e2-56a2-4fb1-bf03-33db5df08497
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: nk2028.gq
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: nk2028.gq
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
+  - name: "vmess-ws gcp CDN"
+    type: vmess
+    server: nk2028.gq
+    port: 443
+    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: nk2028.gq
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: nk2028.gq
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -247,4 +407,13 @@ proxy-groups:
       - "trojan-grpc vultr-seattle CDN"
       - "vmess-ws vultr-seattle"
       - "vmess-ws vultr-seattle CDN"
-
+      - "vless-tcp gcp"
+      - "vless-grpc gcp"
+      - "vless-grpc gcp CDN"
+      - "vless-ws gcp"
+      - "vless-ws gcp CDN"
+      - "trojan-tcp gcp"
+      - "trojan-grpc gcp"
+      - "trojan-grpc gcp CDN"
+      - "vmess-ws gcp"
+      - "vmess-ws gcp CDN"
