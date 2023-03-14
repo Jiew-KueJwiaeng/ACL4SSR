@@ -1,20 +1,27 @@
-# DOMAIN,autopatchcn.yuanshen.com
-# DOMAIN,autopatchhk.yuanshen.com
-# DOMAIN-SUFFIX,yuanshen.com
+DOMAIN,ad-log-upload.mihoyo.com
 DOMAIN,api-takumi-record.mihoyo.com
 DOMAIN,bbs.mihoyo.com
 DOMAIN,bbs-api.mihoyo.com
 DOMAIN,bbs-api-static.mihoyo.com
 DOMAIN,bbs-api-v6.mihoyo.com
 # DOMAIN,genshinimpact.mihoyo.com
+DOMAIN,hk4e-sdk.mihoyo.com
 DOMAIN,img-static.mihoyo.com
+DOMAIN,log-upload.mihoyo.com
+DOMAIN,minor-api.mihoyo.com
 DOMAIN,passport-api.mihoyo.com
+DOMAIN,public-data-api.mihoyo.com
+DOMAIN,sdk-static.mihoyo.com
 DOMAIN,upload-bbs.mihoyo.com
 DOMAIN,webstatic.mihoyo.com
 DOMAIN,mihoyo.com
 DOMAIN,mihayo.com
 DOMAIN,www.miyoushe.com
 DOMAIN,miyoushe.com
+DOMAIN,autopatchcn.yuanshen.com
+DOMAIN,autopatchhk.yuanshen.com
+DOMAIN,uspider.yuanshen.com
+# DOMAIN-SUFFIX,yuanshen.com
 DOMAIN,bhsr.com
 DOMAIN,juequling.com
 DOMAIN,themisweeps.com
