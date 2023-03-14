@@ -1,6 +1,8 @@
 # DOMAIN-SUFFIX,1e100.net
 # DOMAIN-SUFFIX,2mdn.net
 # DOMAIN-SUFFIX,app-measurement.net
+DOMAIN,cloud-dot-devsite-v2-prod.appspot.com
+DOMAIN,appspot.com
 # DOMAIN-SUFFIX,g.co
 DOMAIN,lh2.ggpht.com
 DOMAIN,lh3.ggpht.com
@@ -14,6 +16,7 @@ DOMAIN,gmail.com
 # DOMAIN-SUFFIX,goo.gl
 DOMAIN,aa.google.com
 DOMAIN,accounts.google.com
+DOMAIN,adservice.google.com
 DOMAIN,apis.google.com
 DOMAIN,chrome.google.com
 DOMAIN,android.clients.google.com
@@ -26,6 +29,7 @@ DOMAIN,artifactregistry.clients6.google.com
 DOMAIN,cloudconsole-pa.clients6.google.com
 DOMAIN,cloudresourcemanager.clients6.google.com
 DOMAIN,cloudusersettings-pa.clients6.google.com
+DOMAIN,compute.clients6.google.com
 DOMAIN,developerprofiles-pa.clients6.google.com
 DOMAIN,espresso-pa.clients6.google.com
 DOMAIN,iam.clients6.google.com
@@ -43,6 +47,7 @@ DOMAIN,developers.google.com
 DOMAIN,docs.google.com
 DOMAIN,drive.google.com
 DOMAIN,gds.google.com
+DOMAIN,id.google.com
 DOMAIN,ipv4.google.com
 DOMAIN,ipv6.google.com
 DOMAIN,mail.google.com
