@@ -44,6 +44,7 @@ DOMAIN,clients6.google.com
 DOMAIN,console.cloud.google.com
 DOMAIN,ssh.cloud.google.com
 DOMAIN,cloud.google.com
+DOMAIN,codelabs.developers.google.com
 DOMAIN,developers.google.com
 DOMAIN,docs.google.com
 DOMAIN,drive.google.com
