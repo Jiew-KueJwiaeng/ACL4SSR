@@ -26,6 +26,7 @@ DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
 DOMAIN,addons-pa.clients6.google.com
 DOMAIN,artifactregistry.clients6.google.com
+DOMAIN,cloudbuild.clients6.google.com
 DOMAIN,cloudconsole-pa.clients6.google.com
 DOMAIN,cloudresourcemanager.clients6.google.com
 DOMAIN,cloudusersettings-pa.clients6.google.com
