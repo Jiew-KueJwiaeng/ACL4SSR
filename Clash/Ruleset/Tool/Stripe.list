@@ -1,3 +1,8 @@
+DOMAIN,api.stripe.com
 DOMAIN,js.stripe.com
 DOMAIN,m.stripe.com
+DOMAIN,merchant-ui-api.stripe.com
 DOMAIN,r.stripe.com
+DOMAIN,stripe.com
+DOMAIN,m.stripe.network
+DOMAIN,b.stripecdn.com
