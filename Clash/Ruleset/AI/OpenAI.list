@@ -10,5 +10,6 @@ DOMAIN,chat.openai.com
 DOMAIN,platform.openai.com
 # DOMAIN,openai.com
 
+DOMAIN,freechatgpt.chat
 DOMAIN,freechatgpt.lol
 DOMAIN,freegpt.one
