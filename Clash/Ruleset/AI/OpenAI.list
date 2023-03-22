@@ -4,7 +4,7 @@
 # DOMAIN,www.google-analytics.com
 # DOMAIN,fonts.googleapis.com
 DOMAIN,api.openai.com
-# DOMAIN,auth0.openai.com
+DOMAIN,auth0.openai.com
 # DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,platform.openai.com
