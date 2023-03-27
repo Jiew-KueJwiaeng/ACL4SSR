@@ -147,6 +147,7 @@ DOMAIN,lh3-dz.googleusercontent.com
 DOMAIN,play-lh.googleusercontent.com
 DOMAIN,walkthroughs.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
+DOMAIN,yt3.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,fonts.gstatic.com
@@ -172,6 +173,7 @@ DOMAIN,accounts.youtube.com
 DOMAIN,img.youtube.com
 DOMAIN,m.youtube.com
 DOMAIN,studio.youtube.com
+DOMAIN,suggestqueries-clients6.youtube.com
 DOMAIN,www.youtube.com
 DOMAIN,youtube.com
 # DOMAIN-SUFFIX,youtubeeducation.com
