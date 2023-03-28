@@ -22,7 +22,8 @@
 DOMAIN,onedrive.live.com
 # DOMAIN-SUFFIX,live.net
 # DOMAIN-SUFFIX,lync.com
-DOMAIN,office.microsoft.com
+DOMAIN,blogs.microsoft.com
+# DOMAIN,office.microsoft.com
 # DOMAIN-SUFFIX,msappproxy.net
 # DOMAIN-SUFFIX,msauth.net
 # DOMAIN-SUFFIX,msauthimages.net
