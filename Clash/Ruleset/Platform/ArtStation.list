@@ -4,9 +4,9 @@
 # DOMAIN-SUFFIX,t.me
 # DOMAIN-SUFFIX,tdesktop.com
 # DOMAIN-SUFFIX,telegra.ph
-# DOMAIN-SUFFIX,telegram.me
-# DOMAIN-SUFFIX,telegram.org
-# DOMAIN-SUFFIX,telesco.pe
+DOMAIN,cdn.artstation.com
+DOMAIN,cdna.artstation.com
+DOMAIN,cdnb.artstation.com
 DOMAIN,www.artstation.com
 DOMAIN,artstation.com
 # IP-CIDR,149.154.160.0/20,no-resolve
