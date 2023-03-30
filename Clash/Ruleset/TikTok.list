@@ -8,16 +8,25 @@
 # DOMAIN-SUFFIX,muscdn.com
 # DOMAIN-SUFFIX,musical.ly
 # DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN,tiktok.com
 DOMAIN,analytics.tiktok.com
 DOMAIN,mcs-sg.tiktok.com
 DOMAIN,mcs-va.tiktok.com
 DOMAIN,mssdk-sg.tiktok.com
+DOMAIN,mcs.us.tiktok.com
+DOMAIN,mssdk.us.tiktok.com
+DOMAIN,v16-webapp-prime.us.tiktok.com
+DOMAIN,us.tiktok.com
 DOMAIN,v16-webapp.tiktok.com
 DOMAIN,webcast.tiktok.com
 DOMAIN,www.tiktok.com
+DOMAIN,tiktok.com
 DOMAIN,p16-sign-sg.tiktokcdn.com
 DOMAIN,p16-sign-va.tiktokcdn.com
 DOMAIN,p77-sign-sg.tiktokcdn.com
 DOMAIN,s20.tiktokcdn.com
+DOMAIN,sf16-sg.tiktokcdn.com
+# DOMAIN,lf16-tiktok-web.tiktokcdn-us.com
 DOMAIN,mcs-sg.tiktokv.com
+DOMAIN,mcs.us.tiktokv.com
+DOMAIN,mon.us.tiktokv.com
+DOMAIN,starling.us.tiktokv.com
