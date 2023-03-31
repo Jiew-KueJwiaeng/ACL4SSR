@@ -3,6 +3,7 @@
 # DOMAIN-SUFFIX,app-measurement.net
 DOMAIN,cloud-dot-devsite-v2-prod.appspot.com
 DOMAIN,appspot.com
+DOMAIN,tunnel.cloudproxy.app
 # DOMAIN-SUFFIX,g.co
 DOMAIN,lh2.ggpht.com
 DOMAIN,lh3.ggpht.com
@@ -44,6 +45,9 @@ DOMAIN,compute.clients6.google.com
 DOMAIN,developerprofiles-pa.clients6.google.com
 DOMAIN,espresso-pa.clients6.google.com
 DOMAIN,iam.clients6.google.com
+DOMAIN,iap.clients6.google.com
+DOMAIN,monitoring.clients6.google.com
+DOMAIN,networkmanagement.clients6.google.com
 DOMAIN,people-pa.clients6.google.com
 DOMAIN,peoplestack-pa.clients6.google.com
 DOMAIN,peoplestackwebexperiments-pa.clients6.google.com
