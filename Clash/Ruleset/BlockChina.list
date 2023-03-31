@@ -5,8 +5,9 @@ DOMAIN,bkbpay.com
 DOMAIN,www.bleepingcomputer.com
 DOMAIN,bleepingcomputer.com
 # 数量：5条
-# USER-AGENT,*YouTubeMusic*
-# USER-AGENT,*com.google.ios.youtubemusic*
+DOMAIN,www.netroby.com
+DOMAIN,netroby.com
+
 DOMAIN,orenom.fi
 DOMAIN,wikiless.org
 
