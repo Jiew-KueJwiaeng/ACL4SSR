@@ -3,6 +3,9 @@ DOMAIN,ip.tool.chinaz.com
 DOMAIN,www.cz88.net
 DOMAIN,cz88.net
 
+DOMAIN,api-ipv4.ip.sb
+DOMAIN,ip.sb
+
 DOMAIN,cache.ip138.com
 DOMAIN,www.ip138.com
 DOMAIN,6.ipchaxun.net
@@ -11,13 +14,15 @@ DOMAIN,v6sc.ipip.net
 DOMAIN,v6t.ipip.net
 DOMAIN,www.ipip.net
 
-DOMAIN,ip.sb
+DOMAIN,api.ipify.org
 
 DOMAIN,iplocation.com
 
 DOMAIN,iplocation.io
 
 DOMAIN,www.iplocation.net
+
+DOMAIN,qqwry.api.skk.moe
 
 DOMAIN,www.whatismyip.com
 
