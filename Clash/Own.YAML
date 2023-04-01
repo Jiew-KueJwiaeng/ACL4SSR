@@ -228,28 +228,81 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
     ip-version: dual
+
+  - name: "vless-reality-vision gcp"
+    type: vless
+    server: "gcp.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: "nk2028.gq"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: xxx # optional
+    client-fingerprint: "ios"
+    ip-version: dual
+  - name: "vless-reality-grpc gcp"
+    type: vless
+    server: "gcp.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
+  - name: "vless-reality-grpc gcp CDN"
+    type: vless
+    server: "nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
   - name: "vless-tcp gcp"
     type: vless
     server: gcp.nk2028.gq
     port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
-    servername: nk2028.gq
     flow: xtls-rprx-vision
-    skip-cert-verify: false
-    # fingerprint: xxxx
     client-fingerprint: "ios"
+    # fingerprint: xxxx
+    skip-cert-verify: false
     ip-version: dual
   - name: "vless-grpc gcp"
     server: gcp.nk2028.gq
     port: 443
     type: vless
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     # fingerprint: xxxx
+    alpn:
+      - h2
     servername: nk2028.gq
     skip-cert-verify: false
     grpc-opts:
@@ -261,10 +314,12 @@ proxies:
     server: nk2028.gq
     port: 443
     type: vless
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     # fingerprint: xxxx
+    alpn:
+      - h2
     servername: nk2028.gq
     skip-cert-verify: false
     grpc-opts:
@@ -276,7 +331,7 @@ proxies:
     type: vless
     server: gcp.nk2028.gq
     port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     udp: true
     tls: true
     network: ws
@@ -293,7 +348,7 @@ proxies:
     type: vless
     server: nk2028.gq
     port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     udp: true
     tls: true
     network: ws
@@ -310,13 +365,13 @@ proxies:
     type: trojan
     server: gcp.nk2028.gq
     port: 443
-    password: 3b5732e2-56a2-4fb1-bf03-33db5df08497
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     client-fingerprint: "ios"
     # fingerprint: xxxx
     udp: true
     sni: nk2028.gq
     alpn:
-    #   - h2
+    #  - h2
       - http/1.1
     skip-cert-verify: false
     ip-version: dual
@@ -324,9 +379,11 @@ proxies:
     server: gcp.nk2028.gq
     port: 443
     type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     sni: nk2028.gq
+    alpn:
+      - h2
     skip-cert-verify: false
     # fingerprint: xxxx
     udp: true
@@ -337,7 +394,7 @@ proxies:
     server: nk2028.gq
     port: 443
     type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     sni: nk2028.gq
     skip-cert-verify: false
@@ -350,7 +407,7 @@ proxies:
     type: vmess
     server: gcp.nk2028.gq
     port: 443
-    uuid: 3b5732e2-56a2-4fb1-bf03-33db5df08497
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     alterId: 0
     cipher: auto
     udp: true
@@ -371,7 +428,7 @@ proxies:
     type: vmess
     server: nk2028.gq
     port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     alterId: 0
     cipher: auto
     udp: true
@@ -407,6 +464,9 @@ proxy-groups:
       - "trojan-grpc vultr-seattle CDN"
       - "vmess-ws vultr-seattle"
       - "vmess-ws vultr-seattle CDN"
+      - "vless-reality-vision gcp"
+      - "vless-reality-grpc gcp"
+      - "vless-reality-grpc gcp CDN"
       - "vless-tcp gcp"
       - "vless-grpc gcp"
       - "vless-grpc gcp CDN"
