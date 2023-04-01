@@ -541,6 +541,7 @@ dns:
       - www.bing.com
       - www2.bing.com
       - "+.bing.com"
+      - bing.com
       - "+.bingapis.com"
       - s.cn.bing.net
       - s2.cn.bing.net
@@ -553,6 +554,7 @@ dns:
       - tse1.mm.bing.net
       - tse2.mm.bing.net
       - "+.bing.net"
+      - bing.net
       - "+.line.me"
       - "+.githubusercontent.com"
       - "+.google.com"
