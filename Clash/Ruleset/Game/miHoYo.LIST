@@ -4,8 +4,10 @@ DOMAIN,bbs.mihoyo.com
 DOMAIN,bbs-api.mihoyo.com
 DOMAIN,bbs-api-static.mihoyo.com
 DOMAIN,bbs-api-v6.mihoyo.com
+DOMAIN,dispatch-hk4e-cn-cn-gf01.mihoyo.com
 # DOMAIN,genshinimpact.mihoyo.com
 DOMAIN,hk4e-sdk.mihoyo.com
+DOMAIN,hk4e-sdk-s.mihoyo.com
 DOMAIN,img-static.mihoyo.com
 DOMAIN,log-upload.mihoyo.com
 DOMAIN,minor-api.mihoyo.com
