@@ -1,4 +1,5 @@
 DOMAIN,ad-log-upload.mihoyo.com
+DOMAIN,api-takumi.mihoyo.com
 DOMAIN,api-takumi-record.mihoyo.com
 DOMAIN,bbs.mihoyo.com
 DOMAIN,bbs-api.mihoyo.com
@@ -18,6 +19,7 @@ DOMAIN,upload-bbs.mihoyo.com
 DOMAIN,webstatic.mihoyo.com
 DOMAIN,mihoyo.com
 DOMAIN,mihayo.com
+DOMAIN,upload-bbs.miyoushe.com
 DOMAIN,www.miyoushe.com
 DOMAIN,miyoushe.com
 DOMAIN,autopatchcn.yuanshen.com
