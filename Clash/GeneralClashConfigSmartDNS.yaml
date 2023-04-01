@@ -527,8 +527,31 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
+      - 4.bing.com
+      - bat.bing.com
+      - business.bing.com
+      - c.bing.com
+      - cn.bing.com
+      - edgeservices.bing.com
+      - global.bing.com
+      - r.bing.com
+      - sydney.bing.com
+      - testfamilysafety.bing.com
+      - th.bing.com
+      - www.bing.com
+      - www2.bing.com
       - "+.bing.com"
       - "+.bingapis.com"
+      - s.cn.bing.net
+      - s2.cn.bing.net
+      - s3.cn.bing.net
+      - s4.cn.bing.net
+      - ts1.cn.mm.bing.net
+      - ts2.cn.mm.bing.net
+      - ts3.cn.mm.bing.net
+      - ts4.cn.mm.bing.net
+      - tse1.mm.bing.net
+      - tse2.mm.bing.net
       - "+.bing.net"
       - "+.line.me"
       - "+.githubusercontent.com"
