@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,1lib.limited
 DOMAIN-SUFFIX,1lib.pl
 DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
+DOMAIN,1login.to
 DOMAIN-SUFFIX,2lib.org
 DOMAIN-SUFFIX,3lib.net
 DOMAIN-SUFFIX,art1lib.com
@@ -28,7 +29,7 @@ DOMAIN-SUFFIX,libsolutions.net
 DOMAIN-SUFFIX,ma1lib.org
 DOMAIN-SUFFIX,sg1lib.org
 DOMAIN-SUFFIX,singlelogin.app
-DOMAIN-SUFFIX,singlelogin.me
+DOMAIN,singlelogin.me
 DOMAIN-SUFFIX,z-lib.org
 DOMAIN-SUFFIX,zlib.life
 DOMAIN-SUFFIX,zlibrary.org
