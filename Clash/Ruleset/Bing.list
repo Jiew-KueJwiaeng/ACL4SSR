@@ -11,8 +11,11 @@ DOMAIN,dual-a-0034.a-msedge.net
 DOMAIN,4-bing-com.ipv4-a-0001.a-msedge.net
 DOMAIN,ipv4-a-0001.a-msedge.net
 DOMAIN,www.tm.lg.prod.aadmsa.akadns.net
-# DOMAIN,bingciservice.koreasouth.cloudapp.azure.com
+DOMAIN,clarity-ingest-eus2-d-sc.eastus2.cloudapp.azure.com
+DOMAIN,bingciservice.koreasouth.cloudapp.azure.com
 # DOMAIN,sapphire.azureedge.net
+DOMAIN,bingviz.azurefd.net
+DOMAIN,clarity.azurefd.net
 DOMAIN,business-bing-com.b-0005.b-msedge.net
 DOMAIN,b-0005.b-msedge.net
 DOMAIN,4.bing.com
@@ -43,16 +46,25 @@ DOMAIN,ts4.cn.mm.bing.net
 DOMAIN,tse.mm.bing.net
 DOMAIN,tse1.mm.bing.net
 DOMAIN,tse2.mm.bing.net
+DOMAIN,tse3.mm.bing.net
+DOMAIN,tse4.mm.bing.net
 DOMAIN,s.cn.bing.chinacache.net
 DOMAIN,ts1.cn.mm.bing.chinacache.net
 DOMAIN,ts2.cn.mm.bing.chinacache.net
 DOMAIN,ts3.cn.mm.bing.chinacache.net
 DOMAIN,ts4.cn.mm.bing.chinacache.net
+DOMAIN,v.clarity.ms
+DOMAIN,www.clarity.ms
+DOMAIN,clarity.ms
 DOMAIN,cn.cn-0001.cn-msedge.net
 DOMAIN,cn-0001.cn-msedge.net
 DOMAIN,services-bingapis-com.e-0001.e-msedge.net
 DOMAIN,www-bingapis-com.e-0001.e-msedge.net
 DOMAIN,e-0001.e-msedge.net
+DOMAIN,shed.dual-low.part-0011.t-0009.fdv2-t-msedge.net
+DOMAIN,part-0011.t-0009.fdv2-t-msedge.net
+DOMAIN,shed.dual-low.part-0041.t-0009.fdv2-t-msedge.net
+DOMAIN,part-0041.t-0009.fdv2-t-msedge.net
 DOMAIN,login.live.com
 # DOMAIN,storage.live.com
 DOMAIN,s1.cn.bing.net.lxcvc.com
@@ -64,7 +76,7 @@ DOMAIN,msnzlxxglobal.v.lxcvc.com
 DOMAIN,zlxxglobal.v.lxcvc.com
 # DOMAIN,browser.pipe.aria.microsoft.com
 # DOMAIN,sapphire.api.microsoftapp.net
-# DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,gateway.bingviz.microsoftapp.net
 # DOMAIN,cdn.sapphire.microsoftapp.net
 DOMAIN,login.microsoftonline.com
 # DOMAIN,az15297.vo.msecnd.net
@@ -85,3 +97,4 @@ DOMAIN,p-th.bing.com.trafficmanager.net
 DOMAIN,www-www.bing.com.trafficmanager.net
 DOMAIN,www2-www2.bing.com.trafficmanager.net
 DOMAIN,mm-mm.bing.net.trafficmanager.net
+DOMAIN,star-azurefd-prod.trafficmanager.net
