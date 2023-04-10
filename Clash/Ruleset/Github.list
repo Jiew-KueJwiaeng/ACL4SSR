@@ -1,6 +1,7 @@
 # 数量：6条
 DOMAIN,gist.github.com
 DOMAIN,github.com
+DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,objects.githubusercontent.com
 # DOMAIN-SUFFIX,github.io
 # DOMAIN-SUFFIX,githubapp.com
