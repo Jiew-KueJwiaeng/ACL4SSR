@@ -527,11 +527,31 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
+      - c-bing-com.a-0001.a-msedge.net
+      - cn-bing-com.cn.a-0001.a-msedge.net
+      - bat-bing-com.a-0001.a-msedge.net
+      - star-mm-bing-net.a-0001.a-msedge.net
+      - a-0001.a-msedge.net
+      - a-0012.a-msedge.net
+      - www-bing-com.dual-a-0001.a-msedge.net
+      - dual-a-0001.a-msedge.net
+      - sydney-bing-com.dual-a-0034.a-msedge.net
+      - dual-a-0034.a-msedge.net
+      - 4-bing-com.ipv4-a-0001.a-msedge.net
+      - ipv4-a-0001.a-msedge.net
+      - www.tm.lg.prod.aadmsa.akadns.net
+      - clarity-ingest-eus2-d-sc.eastus2.cloudapp.azure.com
+      - bingciservice.koreasouth.cloudapp.azure.com
+      - bingviz.azurefd.net
+      - clarity.azurefd.net
+      - business-bing-com.b-0005.b-msedge.net
+      - b-0005.b-msedge.net
       - 4.bing.com
       - bat.bing.com
       - business.bing.com
       - c.bing.com
       - cn.bing.com
+      - explicit.any.edge.bing.com
       - edgeservices.bing.com
       - global.bing.com
       - r.bing.com
@@ -542,8 +562,11 @@ dns:
       - www2.bing.com
       - "+.bing.com"
       - bing.com
+      - services.bingapis.com
+      - www.bingapis.com
       - "+.bingapis.com"
       - s.cn.bing.net
+      - s1.cn.bing.net
       - s2.cn.bing.net
       - s3.cn.bing.net
       - s4.cn.bing.net
@@ -551,17 +574,59 @@ dns:
       - ts2.cn.mm.bing.net
       - ts3.cn.mm.bing.net
       - ts4.cn.mm.bing.net
+      - tse.mm.bing.net
       - tse1.mm.bing.net
       - tse2.mm.bing.net
+      - tse3.mm.bing.net
+      - tse4.mm.bing.net
       - "+.bing.net"
       - bing.net
-      - "+.line.me"
+      - s.cn.bing.chinacache.net
+      - ts1.cn.mm.bing.chinacache.net
+      - ts2.cn.mm.bing.chinacache.net
+      - ts3.cn.mm.bing.chinacache.net
+      - ts4.cn.mm.bing.chinacache.net
+      - v.clarity.ms
+      - www.clarity.ms
+      - clarity.ms
+      - cn.cn-0001.cn-msedge.net
+      - cn-0001.cn-msedge.net
+      - services-bingapis-com.e-0001.e-msedge.net
+      - www-bingapis-com.e-0001.e-msedge.net
+      - e-0001.e-msedge.net
+      - '+.facebook.com'
+      - shed.dual-low.part-0011.t-0009.fdv2-t-msedge.net
+      - part-0011.t-0009.fdv2-t-msedge.net
+      - shed.dual-low.part-0041.t-0009.fdv2-t-msedge.net
+      - part-0041.t-0009.fdv2-t-msedge.net
       - "+.githubusercontent.com"
       - "+.google.com"
       - "+.googlevideo.com"
-      - '+.facebook.com'
+      - "+.line.me"
+      - login.live.com
+      - s1.cn.bing.net.lxcvc.com
+      - ts1.cn.mm.bing.net.lxcvc.com
+      - ts2.cn.mm.bing.net.lxcvc.com
+      - ts3.cn.mm.bing.net.lxcvc.com
+      - ts4.cn.mm.bing.net.lxcvc.com
+      - msnzlxxglobal.v.lxcvc.com
+      - zlxxglobal.v.lxcvc.com
+      - gateway.bingviz.microsoftapp.net
+      - login.microsoftonline.com
       - "+.msftconnecttest.com"
       - "+.msftncsi.com"
+      - prdv6a.aadg.msidentity.com
+      - login.msa.msidentity.com
+      - login.mso.msidentity.com
+      - ak.privatelink.msidentity.com
+      - www.tm.v6.a.prd.aadg.trafficmanager.net
+      - www.tm.ak.prd.aadg.trafficmanager.net
+      - p-static.bing.trafficmanager.net
+      - p-th.bing.com.trafficmanager.net
+      - www-www.bing.com.trafficmanager.net
+      - www2-www2.bing.com.trafficmanager.net
+      - mm-mm.bing.net.trafficmanager.net
+      - star-azurefd-prod.trafficmanager.net
       - "+.wikipedia.org"
       - '+.youtube.com'
   #nameserver-policy:
