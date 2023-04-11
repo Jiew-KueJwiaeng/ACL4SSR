@@ -15,6 +15,8 @@ DOMAIN,www.v2ex.com
 DOMAIN,v2ex.com
 DOMAIN,v2rayssr.com
 
+DOMAIN,adguard-vpn.com
+
 # Archive
 DOMAIN,web.archive.org
 DOMAIN,archive.org
