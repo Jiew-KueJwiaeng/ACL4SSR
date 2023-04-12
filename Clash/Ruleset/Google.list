@@ -36,6 +36,7 @@ DOMAIN,clients3.google.com
 DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
 DOMAIN,addons-pa.clients6.google.com
+DOMAIN,appsitemsuggest-pa.clients6.google.com
 DOMAIN,artifactregistry.clients6.google.com
 DOMAIN,cloudbuild.clients6.google.com
 DOMAIN,cloudconsole-pa.clients6.google.com
@@ -43,6 +44,7 @@ DOMAIN,cloudresourcemanager.clients6.google.com
 DOMAIN,cloudusersettings-pa.clients6.google.com
 DOMAIN,compute.clients6.google.com
 DOMAIN,developerprofiles-pa.clients6.google.com
+DOMAIN,driveactivity.clients6.google.com
 DOMAIN,espresso-pa.clients6.google.com
 DOMAIN,iam.clients6.google.com
 DOMAIN,iap.clients6.google.com
@@ -145,6 +147,7 @@ DOMAIN,developers.googleblog.com
 DOMAIN,workspaceupdates.googleblog.com
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,www.googletagmanager.com
+DOMAIN,drive-thirdparty.googleusercontent.com
 DOMAIN,images-lso-opensocial.googleusercontent.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,lh3-dz.googleusercontent.com
