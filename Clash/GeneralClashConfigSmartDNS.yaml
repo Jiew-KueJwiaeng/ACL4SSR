@@ -15,10 +15,10 @@ mode: rule
 log-level: warning
 tcp-concurrent: true
 global-client-fingerprint: ios
-#hosts:
+hosts:
 #  '*.clash.dev': 127.0.0.1
-#  '.dev': 127.0.0.1
-#  'alpha.clash.dev': '::1'
+# '.dev': 127.0.0.1
+  'nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
 profile:
   store-selected: true
   store-fake-ip: false
