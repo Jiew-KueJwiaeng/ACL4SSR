@@ -229,6 +229,222 @@ proxies:
     #   early-data-header-name: Sec-WebSocket-Protocol
     ip-version: dual
 
+  - name: "vless-reality-vision newtudou"
+    type: vless
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: xxx # optional
+    client-fingerprint: "ios"
+    ip-version: dual
+  - name: "vless-reality-grpc newtudou"
+    type: vless
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
+  - name: "vless-reality-grpc newtudou CDN"
+    type: vless
+    server: "d-gh-tr-h-k.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
+  - name: "vless-tcp newtudou"
+    type: vless
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: "ios"
+    # fingerprint: xxxx
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "vless-grpc newtudou"
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    type: vless
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    alpn:
+      - h2
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-grpc newtudou CDN"
+    server: "d-gh-tr-h-k.nk2028.gq"
+    port: 443
+    type: vless
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    alpn:
+      - h2
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-ws newtudou"
+    type: vless
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: nk2028.gq
+    ip-version: dual
+  - name: "vless-ws newtudou CDN"
+    type: vless
+    server: "d-gh-tr-h-k.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: nk2028.gq
+    ip-version: dual
+  - name: "trojan-tcp newtudou"
+    type: trojan
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    client-fingerprint: "ios"
+    # fingerprint: xxxx
+    udp: true
+    sni: "d-gh-tr-h-k.nk2028.gq"
+    alpn:
+    #  - h2
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "trojan-grpc newtudou"
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    type: trojan
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    sni: "d-gh-tr-h-k.nk2028.gq"
+    alpn:
+      - h2
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "trojan-grpc newtudou CDN"
+    server: "d-gh-tr-h-k.nk2028.gq"
+    port: 443
+    type: trojan
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    sni: "d-gh-tr-h-k.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "vmess-ws newtudou"
+    type: vmess
+    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: nk2028.gq
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
+  - name: "vmess-ws newtudou CDN"
+    type: vmess
+    server: nk2028.gq
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: "d-gh-tr-h-k.nk2028.gq"
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: nk2028.gq
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
   - name: "vless-reality-vision gcp"
     type: vless
     server: "gcp.nk2028.gq"
@@ -449,11 +665,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "trojan-grpc 香港童话镇 Cloudflare"
-      - "vmess-ws 香港童话镇 Cloudflare"
-      - "trojan-grpc 香港童话镇"
-      - "vmess-ws 香港童话镇"
-      - "trojan-tcp 香港童话镇"
       - "vless-tcp vultr-seattle"
       - "vless-grpc vultr-seattle"
       - "vless-grpc vultr-seattle CDN"
@@ -464,6 +675,20 @@ proxy-groups:
       - "trojan-grpc vultr-seattle CDN"
       - "vmess-ws vultr-seattle"
       - "vmess-ws vultr-seattle CDN"
+      
+      - "vless-reality-vision newtudou"
+      - "vless-reality-grpc newtudou"
+      - "vless-reality-grpc newtudou CDN"
+      - "vless-tcp newtudou"
+      - "vless-grpc newtudou"
+      - "vless-grpc newtudou CDN"
+      - "vless-ws newtudou"
+      - "vless-ws newtudou CDN"
+      - "trojan-tcp newtudou"
+      - "trojan-grpc newtudou"
+      - "trojan-grpc newtudou CDN"
+      - "vmess-ws newtudou"
+      - "vmess-ws newtudou CDN"
       - "vless-reality-vision gcp"
       - "vless-reality-grpc gcp"
       - "vless-reality-grpc gcp CDN"
