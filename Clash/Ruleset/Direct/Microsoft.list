@@ -55,7 +55,7 @@ DOMAIN,sat02pap005.storage.live.com
 # DOMAIN-SUFFIX,public-trust.com
 # DOMAIN-SUFFIX,sfbassets.com
 # DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,-ipv4v6.gr.global.aa-rt.sharepoint.com
+DOMAIN,195941-ipv4v6.gr.global.aa-rt.sharepoint.com
 DOMAIN-SUFFIX,gr.global.aa-rt.sharepoint.com
 # DOMAIN-SUFFIX,sharepointonline.com
 # DOMAIN-SUFFIX,skype.com
