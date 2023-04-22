@@ -228,7 +228,222 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
     ip-version: dual
-
+  - name: "vless-reality-vision racknerd-newyork"
+    type: vless
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: "racknerd-newyork.nk2028.gq"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: xxx # optional
+    client-fingerprint: "ios"
+    ip-version: dual
+  - name: "vless-reality-grpc racknerd-newyork"
+    type: vless
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "racknerd-newyork.nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
+  - name: "vless-reality-grpc racknerd-newyork CDN"
+    type: vless
+    server: "racknerd-newyork.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: false
+    client-fingerprint: "ios"
+    servername: "racknerd-newyork.nk2028.gq"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      #short-id: 10f897e26c4b9478
+    ip-version: dual
+  - name: "vless-tcp racknerd-newyork"
+    type: vless
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: "ios"
+    # fingerprint: xxxx
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "vless-grpc racknerd-newyork"
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    type: vless
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    alpn:
+      - h2
+    servername: "racknerd-newyork.nk2028.gq"
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-grpc racknerd-newyork CDN"
+    server: "racknerd-newyork.nk2028.gq"
+    port: 443
+    type: vless
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    # fingerprint: xxxx
+    alpn:
+      - h2
+    servername: "racknerd-newyork.nk2028.gq"
+    skip-cert-verify: false
+    grpc-opts:
+      grpc-service-name: "pdlugrpc"
+    ip-version: dual
+    udp: true
+    client-fingerprint: "ios"
+  - name: "vless-ws racknerd-newyork"
+    type: vless
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: "racknerd-newyork.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: "racknerd-newyork.nk2028.gq"
+    ip-version: dual
+  - name: "vless-ws racknerd-newyork CDN"
+    type: vless
+    server: "racknerd-newyork.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: "ios"
+    servername: "racknerd-newyork.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    ws-opts:
+      path: "/pdluws"
+      headers:
+        Host: "racknerd-newyork.nk2028.gq"
+    ip-version: dual
+  - name: "trojan-tcp racknerd-newyork"
+    type: trojan
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    client-fingerprint: "ios"
+    # fingerprint: xxxx
+    udp: true
+    sni: "racknerd-newyork.nk2028.gq"
+    alpn:
+    #  - h2
+      - http/1.1
+    skip-cert-verify: false
+    ip-version: dual
+  - name: "trojan-grpc racknerd-newyork"
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    type: trojan
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    sni: "racknerd-newyork.nk2028.gq"
+    alpn:
+      - h2
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "trojan-grpc racknerd-newyork CDN"
+    server: "racknerd-newyork.nk2028.gq"
+    port: 443
+    type: trojan
+    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    sni: "racknerd-newyork.nk2028.gq"
+    skip-cert-verify: false
+    # fingerprint: xxxx
+    udp: true
+    grpc-opts:
+      grpc-service-name: "pdlutrojangrpc"
+    ip-version: dual
+  - name: "vmess-ws racknerd-newyork"
+    type: vmess
+    server: "racknerd-newyork-direct.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: "racknerd-newyork.nk2028.gq"
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: "racknerd-newyork.nk2028.gq"
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
+  - name: "vmess-ws racknerd-newyork CDN"
+    type: vmess
+    server: "racknerd-newyork.nk2028.gq"
+    port: 443
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    # fingerprint: xxxx
+    client-fingerprint: "ios"
+    skip-cert-verify: false
+    servername: "racknerd-newyork.nk2028.gq"
+    network: ws
+    ws-opts:
+      path: /pdluvws
+      headers:
+        Host: "racknerd-newyork.nk2028.gq"
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+    ip-version: dual
   - name: "vless-reality-vision newtudou"
     type: vless
     server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
@@ -675,7 +890,19 @@ proxy-groups:
       - "trojan-grpc vultr-seattle CDN"
       - "vmess-ws vultr-seattle"
       - "vmess-ws vultr-seattle CDN"
-      
+      - "vless-reality-vision racknerd-newyork"
+      - "vless-reality-grpc racknerd-newyork"
+      - "vless-reality-grpc racknerd-newyork CDN"
+      - "vless-tcp racknerd-newyork"
+      - "vless-grpc racknerd-newyork"
+      - "vless-grpc racknerd-newyork CDN"
+      - "vless-ws racknerd-newyork"
+      - "vless-ws racknerd-newyork CDN"
+      - "trojan-tcp racknerd-newyork"
+      - "trojan-grpc racknerd-newyork"
+      - "trojan-grpc racknerd-newyork CDN"
+      - "vmess-ws racknerd-newyork"
+      - "vmess-ws racknerd-newyork CDN"
       - "vless-reality-vision newtudou"
       - "vless-reality-grpc newtudou"
       - "vless-reality-grpc newtudou CDN"
