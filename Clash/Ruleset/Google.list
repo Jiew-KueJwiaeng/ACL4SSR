@@ -138,6 +138,7 @@ DOMAIN,www.google-analytics.com
 DOMAIN,services.googleapis.cn
 DOMAIN,ajax.googleapis.com
 DOMAIN,android.googleapis.com
+DOMAIN,fcmregistrations.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,jnn-pa.googleapis.com
@@ -156,14 +157,14 @@ DOMAIN,walkthroughs.googleusercontent.com
 DOMAIN,webcache.googleusercontent.com
 DOMAIN,yt3.googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,fonts.gstatic.com
 DOMAIN,maps.gstatic.com
 DOMAIN,ssl.gstatic.com
 DOMAIN,www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
-# DOMAIN-SUFFIX,gvt2.com
+DOMAIN,beacons.gvt2.com
+DOMAIN,beacons.gcp.gvt2.com
 # DOMAIN-SUFFIX,gvt3.com
 DOMAIN,www.recaptcha.net
 DOMAIN,csp.withgoogle.com
