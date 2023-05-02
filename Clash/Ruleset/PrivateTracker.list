@@ -1,114 +1,240 @@
-# 内容：Private Tracker
-# 数量：112条
-DOMAIN-KEYWORD,announce
-DOMAIN-KEYWORD,torrent
-DOMAIN-KEYWORD,tracker
-DOMAIN-SUFFIX,52pt.site
-DOMAIN-SUFFIX,aidoru-online.me
-DOMAIN-SUFFIX,alpharatio.cc
-DOMAIN-SUFFIX,animebytes.tv
-DOMAIN-SUFFIX,animetorrents.me
-DOMAIN-SUFFIX,anthelion.me
-DOMAIN-SUFFIX,asiancinema.me
-DOMAIN-SUFFIX,avgv.cc
-DOMAIN-SUFFIX,avistaz.to
-DOMAIN-SUFFIX,awesome-hd.me
-DOMAIN-SUFFIX,beitai.pt
-DOMAIN-SUFFIX,beyond-hd.me
-DOMAIN-SUFFIX,bibliotik.me
-DOMAIN-SUFFIX,bittorrent.com
-DOMAIN-SUFFIX,blutopia.xyz
-DOMAIN-SUFFIX,broadcasthe.net
-DOMAIN-SUFFIX,bt.byr.cn
-DOMAIN-SUFFIX,bt.neu6.edu.cn
-DOMAIN-SUFFIX,btschool.club
-DOMAIN-SUFFIX,bwtorrents.tv
-DOMAIN-SUFFIX,ccfbits.org
-DOMAIN-SUFFIX,cgpeers.com
-DOMAIN-SUFFIX,chdbits.co
-DOMAIN-SUFFIX,cinemageddon.net
-DOMAIN-SUFFIX,cinematik.net
-DOMAIN-SUFFIX,cinemaz.to
-DOMAIN-SUFFIX,classix-unlimited.co.uk
-DOMAIN-SUFFIX,concertos.live
-DOMAIN-SUFFIX,dicmusic.club
-DOMAIN-SUFFIX,discfan.net
-DOMAIN-SUFFIX,dxdhd.com
-DOMAIN-SUFFIX,eastgame.org
-DOMAIN-SUFFIX,empornium.me
-DOMAIN-SUFFIX,et8.org
-DOMAIN-SUFFIX,exoticaz.to
-DOMAIN-SUFFIX,extremlymtorrents.ws
-DOMAIN-SUFFIX,filelist.io
-DOMAIN-SUFFIX,gazellegames.net
-DOMAIN-SUFFIX,gfxpeers.net
-DOMAIN-SUFFIX,hd-space.org
-DOMAIN-SUFFIX,hd-torrents.org
-DOMAIN-SUFFIX,hd4.xyz
-DOMAIN-SUFFIX,hd4fans.org
-DOMAIN-SUFFIX,hdarea.co
-DOMAIN-SUFFIX,hdatmos.club
-DOMAIN-SUFFIX,hdbd.us
-DOMAIN-SUFFIX,hdbits.org
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,hdcity.city
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,hdfans.org
-DOMAIN-SUFFIX,hdhome.org
-DOMAIN-SUFFIX,hdpost.top
-DOMAIN-SUFFIX,hdroute.org
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,hdstreet.club
-DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hdupt.com
-DOMAIN-SUFFIX,hdzone.me
-DOMAIN-SUFFIX,hitpt.com
-DOMAIN-SUFFIX,hitpt.org
-DOMAIN-SUFFIX,hudbt.hust.edu.cn
-DOMAIN-SUFFIX,icetorrent.org
-DOMAIN-SUFFIX,iptorrents.com
-DOMAIN-SUFFIX,j99.info
-DOMAIN-SUFFIX,joyhd.net
-DOMAIN-SUFFIX,jpopsuki.eu
-DOMAIN-SUFFIX,karagarga.in
-DOMAIN-SUFFIX,keepfrds.com
-DOMAIN-SUFFIX,leaguehd.com
-DOMAIN-SUFFIX,lztr.me
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,madsrevolution.net
-DOMAIN-SUFFIX,moecat.best
-DOMAIN-SUFFIX,morethan.tv
-DOMAIN-SUFFIX,msg.vg
-DOMAIN-SUFFIX,myanonamouse.net
-DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,ncore.cc
-DOMAIN-SUFFIX,nebulance.io
-DOMAIN-SUFFIX,nicept.net
-DOMAIN-SUFFIX,npupt.com
-DOMAIN-SUFFIX,nwsuaf6.edu.cn
-DOMAIN-SUFFIX,open.cd
-DOMAIN-SUFFIX,oppaiti.me
-DOMAIN-SUFFIX,orpheus.network
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,pornbits.net
-DOMAIN-SUFFIX,privatehd.to
-DOMAIN-SUFFIX,pterclub.com
-DOMAIN-SUFFIX,pthome.net
-DOMAIN-SUFFIX,ptsbao.club
-DOMAIN-SUFFIX,pussytorrents.org
-DOMAIN-SUFFIX,redacted.ch
-DOMAIN-SUFFIX,sdbits.org
-DOMAIN-SUFFIX,sjtu.edu.cn
-DOMAIN-SUFFIX,skyey2.com
-DOMAIN-SUFFIX,soulvoice.club
-DOMAIN-SUFFIX,springsunday.net
-DOMAIN-SUFFIX,tjupt.org
-DOMAIN-SUFFIX,torrentday.com
-DOMAIN-SUFFIX,torrentleech.org
-DOMAIN-SUFFIX,torrentseeds.org
-DOMAIN-SUFFIX,totheglory.im
-DOMAIN-SUFFIX,trontv.com
-DOMAIN-SUFFIX,u2.dmhy.org
-DOMAIN-SUFFIX,uhdbits.org
-DOMAIN-SUFFIX,xauat6.edu.cn
+DOMAIN,freedom.1776.ga
+# DOMAIN-SUFFIX,52pt.site
+DOMAIN,aarsen.me
+DOMAIN,1337.abcvg.info
+DOMAIN,t.acg.rip
+DOMAIN,opentracker.acgnx.se
+DOMAIN,open.acgnxtracker.com
+DOMAIN,open.acgtracker.com
+DOMAIN,acxx.de
+DOMAIN,aegir.sexy
+# DOMAIN-SUFFIX,aidoru-online.me
+# DOMAIN-SUFFIX,alpharatio.cc
+DOMAIN,tracker.altrosky.nl
+# DOMAIN-SUFFIX,animebytes.tv
+# DOMAIN-SUFFIX,animetorrents.me
+DOMAIN,private.anonseed.com
+# DOMAIN-SUFFIX,anthelion.me
+DOMAIN,tracker.arcbox.cc
+DOMAIN,p4p.arenabg.com
+DOMAIN,bt1.archive.org
+DOMAIN,bt2.archive.org
+DOMAIN,mail.artixlinux.org
+DOMAIN,tracker.artixlinux.org
+DOMAIN,torrents.artixlinux.org
+# DOMAIN-SUFFIX,asiancinema.me
+DOMAIN,astrr.ru
+DOMAIN,tracker.auctor.tv
+# DOMAIN-SUFFIX,avgv.cc
+# DOMAIN-SUFFIX,avistaz.to
+# DOMAIN-SUFFIX,awesome-hd.me
+DOMAIN,tr.bangumi.moe
+DOMAIN,bedro.cloud
+# DOMAIN-SUFFIX,beitai.pt
+# DOMAIN-SUFFIX,beyond-hd.me
+# DOMAIN-SUFFIX,bibliotik.me
+DOMAIN,tracker.bitsearch.to
+DOMAIN,tracker.bittor.pw
+# DOMAIN-SUFFIX,bittorrent.com
+# DOMAIN-SUFFIX,blutopia.xyz
+DOMAIN,boysbitte.be
+# DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN,tracker.bt4g.com
+DOMAIN,tracker.btcake.com
+# DOMAIN-SUFFIX,bt.byr.cn
+# DOMAIN-SUFFIX,bt.neu6.edu.cn
+# DOMAIN-SUFFIX,btschool.club
+DOMAIN,tr.burnabyhighstar.com
+# DOMAIN-SUFFIX,bwtorrents.tv
+DOMAIN,share.camoe.cn
+DOMAIN,carr.codes
+# DOMAIN-SUFFIX,ccfbits.org
+# DOMAIN-SUFFIX,cgpeers.com
+# DOMAIN-SUFFIX,chdbits.co
+DOMAIN,chouchou.top
+# DOMAIN-SUFFIX,cinemageddon.net
+# DOMAIN-SUFFIX,cinematik.net
+# DOMAIN-SUFFIX,cinemaz.to
+# DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN,fh2.cmp-gaming.com
+DOMAIN,concen.org
+# DOMAIN-SUFFIX,concertos.live
+DOMAIN,coppersurfer.tk
+DOMAIN,tracker.cubonegro.lol
+DOMAIN,fe.dealclub.de
+DOMAIN,open.demonii.com
+DOMAIN,inferno.demonoid.is
+DOMAIN,exodus.desync.com
+# DOMAIN-SUFFIX,dicmusic.club
+# DOMAIN-SUFFIX,discfan.net
+DOMAIN,tracker.dler.org
+DOMAIN,tracker2.dler.org
+DOMAIN,share.dmhy.org
+# DOMAIN-SUFFIX,u2.dmhy.org
+DOMAIN,open.dstud.io
+# DOMAIN-SUFFIX,dxdhd.com
+# DOMAIN-SUFFIX,eastgame.org
+# DOMAIN-SUFFIX,empornium.me
+DOMAIN,bt.endpot.com
+DOMAIN,epider.me
+# DOMAIN-SUFFIX,et8.org
+DOMAIN,tracker.torrent.eu.org
+DOMAIN,tracker.ex.ua
+# DOMAIN-SUFFIX,exoticaz.to
+DOMAIN,explodie.org
+# DOMAIN-SUFFIX,extremlymtorrents.ws
+# DOMAIN-SUFFIX,filelist.io
+DOMAIN,tracker.filemail.com
+DOMAIN,tracker.files.fm
+DOMAIN,uploads.gamecoast.net
+# DOMAIN-SUFFIX,gazellegames.net
+DOMAIN,tracker.gbitt.info
+DOMAIN,tracker-udp.gbitt.info
+# DOMAIN-SUFFIX,gfxpeers.net
+# DOMAIN-SUFFIX,hd-space.org
+# DOMAIN-SUFFIX,hd-torrents.org
+# DOMAIN-SUFFIX,hd4.xyz
+# DOMAIN-SUFFIX,hd4fans.org
+# DOMAIN-SUFFIX,hdarea.co
+# DOMAIN-SUFFIX,hdatmos.club
+# DOMAIN-SUFFIX,hdbd.us
+# DOMAIN-SUFFIX,hdbits.org
+# DOMAIN-SUFFIX,hdchina.org
+# DOMAIN-SUFFIX,hdcity.city
+# DOMAIN-SUFFIX,hddolby.com
+# DOMAIN-SUFFIX,hdfans.org
+# DOMAIN-SUFFIX,hdhome.org
+# DOMAIN-SUFFIX,hdpost.top
+# DOMAIN-SUFFIX,hdroute.org
+# DOMAIN-SUFFIX,hdsky.me
+# DOMAIN-SUFFIX,hdstreet.club
+# DOMAIN-SUFFIX,hdtime.org
+# DOMAIN-SUFFIX,hdupt.com
+# DOMAIN-SUFFIX,hdzone.me
+# DOMAIN-SUFFIX,hitpt.com
+# DOMAIN-SUFFIX,hitpt.org
+DOMAIN,t1.hloli.org
+DOMAIN,v1046920.hosted-by-vdsina.ru
+# DOMAIN-SUFFIX,hudbt.hust.edu.cn
+DOMAIN,opentracker.i2p.rocks
+# DOMAIN-SUFFIX,icetorrent.org
+DOMAIN,tracker.imgoingto.icu
+# DOMAIN-SUFFIX,iptorrents.com
+DOMAIN,tracker1.itzmx.com
+DOMAIN,tracker2.itzmx.com
+DOMAIN,tracker3.itzmx.com
+DOMAIN,tracker4.itzmx.com
+# DOMAIN-SUFFIX,j99.info
+DOMAIN,tracker.jonaslsa.com
+DOMAIN,trackerb.jonaslsa.com
+DOMAIN,tracker.joybomb.tw
+# DOMAIN-SUFFIX,joyhd.net
+# DOMAIN-SUFFIX,jpopsuki.eu
+# DOMAIN-SUFFIX,karagarga.in
+# DOMAIN-SUFFIX,keepfrds.com
+DOMAIN,bt.ktrackers.com
+DOMAIN,tracker.ktxp.com
+DOMAIN,tracker.kuroy.me
+DOMAIN,laze.cc
+# DOMAIN-SUFFIX,leaguehd.com
+DOMAIN,tracker.leech.ie
+DOMAIN,tracker.lilithraws.org
+DOMAIN,tracker.loligirl.cn
+# DOMAIN-SUFFIX,lztr.me
+# DOMAIN-SUFFIX,m-team.cc
+# DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN,tracker.mlsub.net
+DOMAIN,tracker1.bt.moack.co.kr
+# DOMAIN-SUFFIX,moecat.best
+DOMAIN,tracker.moeking.me
+DOMAIN,tracker.monitorit4.me
+DOMAIN,moonburrow.club
+# DOMAIN-SUFFIX,morethan.tv
+# DOMAIN-SUFFIX,msg.vg
+# DOMAIN-SUFFIX,myanonamouse.net
+DOMAIN,tracker1.myporn.club
+DOMAIN,tracker.mywaifu.best
+DOMAIN,tracker.4.babico.name.tr
+# DOMAIN-SUFFIX,nanyangpt.com
+# DOMAIN-SUFFIX,ncore.cc
+# DOMAIN-SUFFIX,nebulance.io
+DOMAIN,download.nerocloud.me
+DOMAIN,new-line.net
+# DOMAIN-SUFFIX,nicept.net
+DOMAIN,htz3.noho.st
+# DOMAIN-SUFFIX,npupt.com
+# DOMAIN-SUFFIX,nwsuaf6.edu.cn
+DOMAIN,t.nyaatracker.com
+DOMAIN,montreal.nyap2p.com
+DOMAIN,bt.okmp3.ru
+# DOMAIN-SUFFIX,open.cd
+DOMAIN,tracker.openbittorrent.com
+DOMAIN,opentracker.io
+DOMAIN,tracker.opentrackr.org
+# DOMAIN-SUFFIX,oppaiti.me
+# DOMAIN-SUFFIX,orpheus.network
+# DOMAIN-SUFFIX,ourbits.club
+DOMAIN,parag.rs
+# DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN,www.peckservers.com
+DOMAIN,tracker.pimpmyworld.to
+# DOMAIN-SUFFIX,pornbits.net
+# DOMAIN-SUFFIX,privatehd.to
+DOMAIN,tracker.prq.to
+DOMAIN,psyco.fr
+# DOMAIN-SUFFIX,pterclub.com
+# DOMAIN-SUFFIX,pthome.net
+# DOMAIN-SUFFIX,ptsbao.club
+DOMAIN,tracker.publicbt.com
+DOMAIN,public.publictracker.xyz
+DOMAIN,run.publictracker.xyz
+DOMAIN,pubt.net
+# DOMAIN-SUFFIX,pussytorrents.org
+DOMAIN,tracker.qu.ax
+DOMAIN,9.rarbg.com
+DOMAIN,tr.ready4.icu
+# DOMAIN-SUFFIX,redacted.ch
+DOMAIN,tracker.renfei.net
+DOMAIN,t-115.rhcloud.com
+DOMAIN,ryjer.com
+DOMAIN,sanincode.com
+DOMAIN,tracker.sbsub.com
+DOMAIN,bt.sc-ol.com
+# DOMAIN-SUFFIX,sdbits.org
+DOMAIN,btfile.sdo.com
+DOMAIN,bigfoot1942.sektori.org
+# DOMAIN-SUFFIX,sjtu.edu.cn
+# DOMAIN-SUFFIX,skyey2.com
+DOMAIN,tracker.skyts.net
+# DOMAIN-SUFFIX,soulvoice.club
+# DOMAIN-SUFFIX,springsunday.net
+DOMAIN,tracker.srv00.com
+DOMAIN,open.stealth.si
+DOMAIN,tracker.swateam.org.uk
+DOMAIN,tracker.tamersunion.org
+DOMAIN,tracker.tfile.me
+DOMAIN,thagoat.rocks
+DOMAIN,tracker.theoks.net
+DOMAIN,thouvenin.cloud
+DOMAIN,tracker.tiny-vps.com
+# DOMAIN-SUFFIX,tjupt.org
+# DOMAIN-SUFFIX,torrentday.com
+DOMAIN,tracker2.torrentino.com
+DOMAIN,tracker3.torrentino.com
+# DOMAIN-SUFFIX,torrentleech.org
+# DOMAIN-SUFFIX,torrentseeds.org
+# DOMAIN-SUFFIX,totheglory.im
+DOMAIN,open.tracker.cl
+DOMAIN,open.tracker.ink
+DOMAIN,nyaa.tracker.wf
+# DOMAIN-SUFFIX,trontv.com
+# DOMAIN-SUFFIX,uhdbits.org
+DOMAIN,tracker.uw0.xyz
+DOMAIN,public.tracker.vraphim.com
+DOMAIN,wepzone.net
+DOMAIN,black-bird.ynh.fr
+DOMAIN,rep-art.ynh.fr
+DOMAIN,tamas3.ynh.fr
+# DOMAIN-SUFFIX,xauat6.edu.cn
+DOMAIN,tracker.zerobytes.xyz
+DOMAIN,movies.zsw.ca
