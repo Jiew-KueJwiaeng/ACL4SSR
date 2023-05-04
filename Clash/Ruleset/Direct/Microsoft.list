@@ -20,7 +20,9 @@
 # DOMAIN-SUFFIX,edgesuite.net
 # DOMAIN-SUFFIX,gfx.ms
 # DOMAIN-SUFFIX,hotmail.com
-DOMAIN,sat02pap005.storage.live.com
+# DOMAIN,sat02pap005.storage.live.com
+# DOMAIN,snz04pap002.storage.live.com
+DOMAIN-SUFFIX,storage.live.com
 # DOMAIN-SUFFIX,live.net
 # DOMAIN-SUFFIX,lync.com
 # DOMAIN-SUFFIX,msappproxy.net
@@ -55,8 +57,9 @@ DOMAIN,sat02pap005.storage.live.com
 # DOMAIN-SUFFIX,public-trust.com
 # DOMAIN-SUFFIX,sfbassets.com
 # DOMAIN-SUFFIX,sfx.ms
-DOMAIN,195941-ipv4v6.gr.global.aa-rt.sharepoint.com
-DOMAIN-SUFFIX,gr.global.aa-rt.sharepoint.com
+# DOMAIN,195941-ipv4v6.gr.global.aa-rt.sharepoint.com
+# DOMAIN-SUFFIX,gr.global.aa-rt.sharepoint.com
+DOMAIN-SUFFIX,sharepoint.com
 # DOMAIN-SUFFIX,sharepointonline.com
 # DOMAIN-SUFFIX,skype.com
 # DOMAIN-SUFFIX,skypeassets.com
