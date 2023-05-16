@@ -14,7 +14,7 @@ ipv6: true
 mode: rule
 log-level: warning
 tcp-concurrent: true
-global-client-fingerprint: "ios"
+global-client-fingerprint: "chrome"
 hosts:
 #  '*.clash.dev': 127.0.0.1
 # '.dev': 127.0.0.1
@@ -633,7 +633,8 @@ dns:
       - mm-mm.bing.net.trafficmanager.net
       - star-azurefd-prod.trafficmanager.net
       - "+.wikipedia.org"
-      - '+.youtube.com'
+      - "m.youtube.com"
+      - "www.youtube.com"
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
   #  '+.internal.crop.com': '10.0.0.1'
