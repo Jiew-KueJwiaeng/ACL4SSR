@@ -159,6 +159,40 @@ proxies:
     #   max-early-data: 2048
     #   early-data-header-name: Sec-WebSocket-Protocol
     ip-version: dual
+    
+  - name: "vless-reality-vision racknerd-newyork"
+    type: vless
+    server: "23.95.170.29"
+    port: "25565"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: "www.tencentcloud.com"
+    reality-opts:
+      public-key: "oEhcfK4dYBeImcOj9STdvjgsGZzSaJQ_4OYkiNg8MCc"
+      #short-id: xxx # optional
+    client-fingerprint: chrome
+  
+  - name: "vless-reality-grpc racknerd-newyork"
+    type: vless
+    server: "23.95.170.29"
+    port: "25565"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
+    network: grpc
+    tls: true
+    udp: true
+    flow:
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: "www.tencentcloud.com"
+    grpc-opts:
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "oEhcfK4dYBeImcOj9STdvjgsGZzSaJQ_4OYkiNg8MCc"
+      #short-id: 10f897e26c4b9478
+    
   - name: "vless-reality-vision racknerd-newyork"
     type: vless
     server: "racknerd-newyork-direct.nk2028.gq"
