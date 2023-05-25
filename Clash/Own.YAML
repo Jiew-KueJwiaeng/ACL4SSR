@@ -1,7 +1,7 @@
 proxies:
   - name: "vless-reality-vision racknerd-losangeles"
     type: vless
-    server: "[2607:f130:0:f8:ff:ff:7364:328c]"
+    server: "2607:f130:0:f8:ff:ff:7364:328c"
     port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
@@ -15,7 +15,7 @@ proxies:
     client-fingerprint: chrome
   - name: "vless-reality-grpc racknerd-losangeles"
     type: vless
-    server: "[2607:f130:0:f8:ff:ff:7364:328c]"
+    server: "2607:f130:0:f8:ff:ff:7364:328c"
     port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
