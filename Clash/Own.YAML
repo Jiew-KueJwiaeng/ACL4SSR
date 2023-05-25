@@ -1,165 +1,35 @@
 proxies:
-  - name: "vless-tcp vultr-seattle"
+  - name: "vless-reality-vision racknerd-losangeles"
     type: vless
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    server: "[2607:f130:0:f8:ff:ff:7364:328c]"
+    port: "25565"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
-    servername: vultr-seattle.nk2028.gq
     flow: xtls-rprx-vision
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    ip-version: dual
-  - name: "vless-grpc vultr-seattle"
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
+    servername: "www.hoyoverse.com"
+    reality-opts:
+      public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
+      #short-id: xxx # optional
+    client-fingerprint: chrome
+  - name: "vless-reality-grpc racknerd-losangeles"
     type: vless
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
+    server: "[2607:f130:0:f8:ff:ff:7364:328c]"
+    port: "25565"
+    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
-    # fingerprint: xxxx
-    servername: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
+    udp: true
+    flow:
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: "www.hoyoverse.com"
     grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-grpc vultr-seattle CDN"
-    server: vultr-seattle.nk2028.gq
-    port: 443
-    type: vless
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    servername: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-ws vultr-seattle"
-    type: vless
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    ip-version: dual
-  - name: "vless-ws vultr-seattle CDN"
-    type: vless
-    server: vultr-seattle.nk2028.gq
-    port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    ip-version: dual
-  - name: "trojan-tcp vultr-seattle"
-    type: trojan
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
-    password: 3b5732e2-56a2-4fb1-bf03-33db5df08497
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    udp: true
-    sni: vultr-seattle.nk2028.gq
-    alpn:
-    #   - h2
-      - http/1.1
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "trojan-grpc vultr-seattle"
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
-    type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    network: grpc
-    sni: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "trojan-grpc vultr-seattle CDN"
-    server: vultr-seattle.nk2028.gq
-    port: 443
-    type: trojan
-    password: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    network: grpc
-    sni: vultr-seattle.nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "vmess-ws vultr-seattle"
-    type: vmess
-    server: vultr-seattle-direct.nk2028.gq
-    port: 443
-    uuid: 3b5732e2-56a2-4fb1-bf03-33db5df08497
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: vultr-seattle.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vmess-ws vultr-seattle CDN"
-    type: vmess
-    server: vultr-seattle.nk2028.gq
-    port: 443
-    uuid: "3b5732e2-56a2-4fb1-bf03-33db5df08497"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: vultr-seattle.nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: vultr-seattle.nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-    
+      grpc-service-name: "grpc"
+    reality-opts:
+      public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
+      #short-id: 10f897e26c4b9478
   - name: "vless-reality-vision racknerd-newyork"
     type: vless
     server: "23.95.170.29"
@@ -174,7 +44,6 @@ proxies:
       public-key: "oEhcfK4dYBeImcOj9STdvjgsGZzSaJQ_4OYkiNg8MCc"
       #short-id: xxx # optional
     client-fingerprint: chrome
-  
   - name: "vless-reality-grpc racknerd-newyork"
     type: vless
     server: "23.95.170.29"
@@ -845,16 +714,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "vless-tcp vultr-seattle"
-      - "vless-grpc vultr-seattle"
-      - "vless-grpc vultr-seattle CDN"
-      - "vless-ws vultr-seattle"
-      - "vless-ws vultr-seattle CDN"
-      - "trojan-tcp vultr-seattle"
-      - "trojan-grpc vultr-seattle"
-      - "trojan-grpc vultr-seattle CDN"
-      - "vmess-ws vultr-seattle"
-      - "vmess-ws vultr-seattle CDN"
+      - "vless-reality-vision racknerd-losangeles"
+      - "vless-reality-grpc racknerd-losangeles"
       - "vless-reality-vision racknerd-newyork"
       - "vless-reality-grpc racknerd-newyork"
       - "vless-reality-grpc racknerd-newyork CDN"
