@@ -2,29 +2,29 @@ proxies:
   - name: "vless-reality-vision racknerd-losangeles"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "www.hoyoverse.com"
+    servername: "webstatic.hoyoverse.com"
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: chrome
+    client-fingerprint: "ios"
   - name: "vless-reality-grpc racknerd-losangeles"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: "www.hoyoverse.com"
+    client-fingerprint: "ios"
+    servername: "webstatic.hoyoverse.com"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
@@ -33,29 +33,29 @@ proxies:
   - name: "vless-reality-vision racknerd-losangeles IPv4"
     type: vless
     server: "100.42.68.181"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "www.hoyoverse.com"
+    servername: "webstatic.hoyoverse.com"
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: chrome
+    client-fingerprint: "ios"
   - name: "vless-reality-grpc racknerd-losangeles IPv4"
     type: vless
     server: "100.42.68.181"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: "www.hoyoverse.com"
+    client-fingerprint: "ios"
+    servername: "webstatic.hoyoverse.com"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
@@ -64,33 +64,33 @@ proxies:
   - name: "vless-reality-vision racknerd-newyork"
     type: vless
     server: "23.95.170.29"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "www.tencentcloud.com"
+    servername: "webstatic.hoyoverse.com"
     reality-opts:
-      public-key: "oEhcfK4dYBeImcOj9STdvjgsGZzSaJQ_4OYkiNg8MCc"
+      public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: chrome
+    client-fingerprint: "ios"
   - name: "vless-reality-grpc racknerd-newyork"
     type: vless
     server: "23.95.170.29"
-    port: "25565"
+    port: "443"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: chrome
-    servername: "www.tencentcloud.com"
+    client-fingerprint: "ios"
+    servername: "webstatic.hoyoverse.com"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
-      public-key: "oEhcfK4dYBeImcOj9STdvjgsGZzSaJQ_4OYkiNg8MCc"
+      public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: 10f897e26c4b9478
     
   - name: "vless-reality-vision racknerd-newyork"
