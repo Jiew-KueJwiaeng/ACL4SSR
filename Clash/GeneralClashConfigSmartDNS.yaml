@@ -16,16 +16,16 @@ ipv6: true
 mode: rule
 log-level: warning
 tcp-concurrent: true
-global-client-fingerprint: "chrome"
-hosts:
+global-client-fingerprint: "ios"
+#hosts:
 #  '*.clash.dev': 127.0.0.1
-# '.dev': 127.0.0.1
-  'd-gh-tr-h-k.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
-  'racknerd-newyork.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
-  'nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
-  'www.digitalocean.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
-  'blog.hostmonit.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
-  'who.int': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  '.dev': 127.0.0.1
+#  'd-gh-tr-h-k.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'racknerd-newyork.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'www.digitalocean.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'blog.hostmonit.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'who.int': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
 profile:
   store-selected: true
   store-fake-ip: false
