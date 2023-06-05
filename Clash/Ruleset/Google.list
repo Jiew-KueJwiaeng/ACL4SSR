@@ -1,25 +1,25 @@
 # DOMAIN-SUFFIX,1e100.net
 # DOMAIN-SUFFIX,2mdn.net
 # DOMAIN-SUFFIX,app-measurement.net
-DOMAIN,cloud-dot-devsite-v2-prod.appspot.com
-DOMAIN,appspot.com
-DOMAIN,tunnel.cloudproxy.app
+DOMAIN,cloud-dot-devsite-v2-prod.appspot.com,tcp
+DOMAIN,appspot.com,tcp
+DOMAIN,tunnel.cloudproxy.app,tcp
 # DOMAIN-SUFFIX,g.co
-DOMAIN,lh2.ggpht.com
-DOMAIN,lh3.ggpht.com
-DOMAIN,lh4.ggpht.com
-DOMAIN,lh5.ggpht.com
-DOMAIN,lh6.ggpht.com
-DOMAIN,yt2.ggpht.com
-DOMAIN,yt3.ggpht.com
-DOMAIN,yt4.ggpht.com
-DOMAIN,gmail.com
+DOMAIN,lh2.ggpht.com,tcp
+DOMAIN,lh3.ggpht.com,tcp
+DOMAIN,lh4.ggpht.com,tcp
+DOMAIN,lh5.ggpht.com,tcp
+DOMAIN,lh6.ggpht.com,tcp
+DOMAIN,yt2.ggpht.com,tcp
+DOMAIN,yt3.ggpht.com,tcp
+DOMAIN,yt4.ggpht.com,tcp
+DOMAIN,gmail.com,tcp
 # DOMAIN-SUFFIX,goo.gl
-DOMAIN,www.google.ae
-DOMAIN,www.google.com.ar
-DOMAIN,www.google.at
-DOMAIN,www.google.com.au
-DOMAIN,www.google.be
+DOMAIN,www.google.ae,tcp
+DOMAIN,www.google.com.ar,tcp
+DOMAIN,www.google.at,tcp
+DOMAIN,www.google.com.au,tcp
+DOMAIN,www.google.be,tcp
 DOMAIN,www.google.com.br
 DOMAIN,www.google.ca
 DOMAIN,www.google.ch
@@ -108,108 +108,109 @@ DOMAIN,www.google.co.jp
 DOMAIN,www.google.co.kr
 DOMAIN,www.google.com.mx
 DOMAIN,accounts.google.com.my
-DOMAIN,adservice.google.com.my
-DOMAIN,id.google.com.my
-DOMAIN,ogs.google.com.my
-DOMAIN,translate.google.com.my
-DOMAIN,www.google.com.my
-DOMAIN,google.com.my
-DOMAIN,www.google.nl
-DOMAIN,www.google.co.nz
-DOMAIN,www.google.com.pa
-DOMAIN,www.google.com.pk
-DOMAIN,www.google.pl
-DOMAIN,www.google.ro
-DOMAIN,google.com.ru
-DOMAIN,www.google.ru
-DOMAIN,google.ru
-DOMAIN,www.google.com.sa
-DOMAIN,www.google.se
-DOMAIN,accounts.google.com.sg
-DOMAIN,adservice.google.com.sg
-DOMAIN,id.google.com.sg
-DOMAIN,ogs.google.com.sg
-DOMAIN,translate.google.com.sg
-DOMAIN,www.google.com.sg
-DOMAIN,google.com.sg
-DOMAIN,www.google.co.th
-DOMAIN,www.google.com.tr
-DOMAIN,google.com.tr
-DOMAIN,www.google.co.uk
-DOMAIN,www.google-analytics.com
-DOMAIN,services.googleapis.cn
-DOMAIN,ajax.googleapis.com
-DOMAIN,android.googleapis.com
-DOMAIN,fcmregistrations.googleapis.com
-DOMAIN,firebaseinstallations.googleapis.com
-DOMAIN,fonts.googleapis.com
-DOMAIN,gmscompliance-pa.googleapis.com
-DOMAIN,imasdk.googleapis.com
-DOMAIN,jnn-pa.googleapis.com
-DOMAIN,optimizationguide-pa.googleapis.com
-DOMAIN,people-pa.googleapis.com
-DOMAIN,play.googleapis.com
-DOMAIN,play-fe.googleapis.com
-DOMAIN,developers.googleblog.com
-DOMAIN,workspaceupdates.googleblog.com
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,www.googletagmanager.com
-DOMAIN,drive-thirdparty.googleusercontent.com
-DOMAIN,images-lso-opensocial.googleusercontent.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,lh3-dz.googleusercontent.com
-DOMAIN,play-lh.googleusercontent.com
-DOMAIN,walkthroughs.googleusercontent.com
-DOMAIN,webcache.googleusercontent.com
-DOMAIN,yt3.googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN,fonts.gstatic.com
-DOMAIN,maps.gstatic.com
-DOMAIN,ssl.gstatic.com
-DOMAIN,www.gstatic.com
+DOMAIN,adservice.google.com.my,tcp
+DOMAIN,id.google.com.my,tcp
+DOMAIN,ogs.google.com.my,tcp
+DOMAIN,translate.google.com.my,tcp
+DOMAIN,www.google.com.my,tcp
+DOMAIN,google.com.my,tcp
+DOMAIN,www.google.nl,tcp
+DOMAIN,www.google.co.nz,tcp
+DOMAIN,www.google.com.pa,tcp
+DOMAIN,www.google.com.pk,tcp
+DOMAIN,www.google.pl,tcp
+DOMAIN,www.google.ro,tcp
+DOMAIN,google.com.ru,tcp
+DOMAIN,www.google.ru,tcp
+DOMAIN,google.ru,tcp
+DOMAIN,www.google.com.sa,tcp
+DOMAIN,www.google.se,tcp
+DOMAIN,accounts.google.com.sg,tcp
+DOMAIN,adservice.google.com.sg,tcp
+DOMAIN,id.google.com.sg,tcp
+DOMAIN,ogs.google.com.sg,tcp
+DOMAIN,translate.google.com.sg,tcp
+DOMAIN,www.google.com.sg,tcp
+DOMAIN,google.com.sg,tcp
+DOMAIN,www.google.co.th,tcp
+DOMAIN,www.google.com.tr,tcp
+DOMAIN,google.com.tr,tcp
+DOMAIN,www.google.co.uk,tcp
+DOMAIN,www.google-analytics.com,tcp
+DOMAIN,services.googleapis.cn,tcp
+DOMAIN,ajax.googleapis.com,tcp
+DOMAIN,android.googleapis.com,tcp
+DOMAIN,fcmregistrations.googleapis.com,tcp
+DOMAIN,firebaseinstallations.googleapis.com,tcp
+DOMAIN,fonts.googleapis.com,tcp
+DOMAIN,gmscompliance-pa.googleapis.com,tcp
+DOMAIN,imasdk.googleapis.com,tcp
+DOMAIN,jnn-pa.googleapis.com,tcp
+DOMAIN,maps.googleapis.com,tcp
+DOMAIN,optimizationguide-pa.googleapis.com,tcp
+DOMAIN,people-pa.googleapis.com,tcp
+DOMAIN,play.googleapis.com,tcp
+DOMAIN,play-fe.googleapis.com,tcp
+DOMAIN,developers.googleblog.com,tcp
+DOMAIN,workspaceupdates.googleblog.com,tcp
+DOMAIN,pagead2.googlesyndication.com,tcp
+DOMAIN,www.googletagmanager.com,tcp
+DOMAIN,drive-thirdparty.googleusercontent.com,tcp
+DOMAIN,images-lso-opensocial.googleusercontent.com,tcp
+DOMAIN,lh3.googleusercontent.com,tcp
+DOMAIN,lh3-dz.googleusercontent.com,tcp
+DOMAIN,play-lh.googleusercontent.com,tcp
+DOMAIN,walkthroughs.googleusercontent.com,tcp
+DOMAIN,webcache.googleusercontent.com,tcp
+DOMAIN,yt3.googleusercontent.com,tcp
+DOMAIN-SUFFIX,googlevideo.com,tcp
+DOMAIN,fonts.gstatic.com,tcp
+DOMAIN,maps.gstatic.com,tcp
+DOMAIN,ssl.gstatic.com,tcp
+DOMAIN,www.gstatic.com,tcp
 # DOMAIN-SUFFIX,gvt0.com
 # DOMAIN-SUFFIX,gvt1.com
-DOMAIN,beacons.gvt2.com
-DOMAIN,beacons.gcp.gvt2.com
+DOMAIN,beacons.gvt2.com,tcp
+DOMAIN,beacons.gcp.gvt2.com,tcp
 # DOMAIN-SUFFIX,gvt3.com
-DOMAIN,www.recaptcha.net
-DOMAIN,csp.withgoogle.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,ångströ.com
+DOMAIN,www.recaptcha.net,tcp
+DOMAIN,csp.withgoogle.com,tcp
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,tcp
+DOMAIN-SUFFIX,ångströ.com,tcp
 # IP-CIDR,74.125.0.0/16,no-resolve
 # IP-CIDR,173.194.0.0/16,no-resolve
 # DOMAIN,youtubei.googleapis.com
 # DOMAIN-SUFFIX,gvt2.com
 # DOMAIN-SUFFIX,withyoutube.com
-DOMAIN,youtu.be
+DOMAIN,youtu.be,tcp
 # DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN,accounts.youtube.com
-DOMAIN,img.youtube.com
-DOMAIN,m.youtube.com
-DOMAIN,studio.youtube.com
-DOMAIN,suggestqueries-clients6.youtube.com
-DOMAIN,www.youtube.com
-DOMAIN,youtube.com
+DOMAIN,accounts.youtube.com,tcp
+DOMAIN,img.youtube.com,tcp
+DOMAIN,m.youtube.com,tcp
+DOMAIN,studio.youtube.com,tcp
+DOMAIN,suggestqueries-clients6.youtube.com,tcp
+DOMAIN,www.youtube.com,tcp
+DOMAIN,youtube.com,tcp
 # DOMAIN-SUFFIX,youtubeeducation.com
 # DOMAIN-SUFFIX,youtubegaming.com
 # DOMAIN-SUFFIX,youtubekids.com
-DOMAIN,yt.be
-DOMAIN,i.ytimg.com
-IP-CIDR,120.232.181.162/32,no-resolve
-IP-CIDR,120.241.147.226/32,no-resolve
-IP-CIDR,120.253.253.226/32,no-resolve
-IP-CIDR,120.253.255.162/32,no-resolve
-IP-CIDR,120.253.255.34/32,no-resolve
-IP-CIDR,120.253.255.98/32,no-resolve
-IP-CIDR,180.163.150.162/32,no-resolve
-IP-CIDR,180.163.150.34/32,no-resolve
-IP-CIDR,180.163.151.162/32,no-resolve
-IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,203.208.39.0/24,no-resolve
-IP-CIDR,203.208.40.0/24,no-resolve
-IP-CIDR,203.208.41.0/24,no-resolve
-IP-CIDR,203.208.43.0/24,no-resolve
-IP-CIDR,203.208.50.0/24,no-resolve
-IP-CIDR,220.181.174.162/32,no-resolve
-IP-CIDR,220.181.174.226/32,no-resolve
-IP-CIDR,220.181.174.34/32,no-resolve
+DOMAIN,yt.be,tcp
+DOMAIN,i.ytimg.com,tcp
+# IP-CIDR,120.232.181.162/32,no-resolve
+# IP-CIDR,120.241.147.226/32,no-resolve
+# IP-CIDR,120.253.253.226/32,no-resolve
+# IP-CIDR,120.253.255.162/32,no-resolve
+# IP-CIDR,120.253.255.34/32,no-resolve
+# IP-CIDR,120.253.255.98/32,no-resolve
+# IP-CIDR,180.163.150.162/32,no-resolve
+# IP-CIDR,180.163.150.34/32,no-resolve
+# IP-CIDR,180.163.151.162/32,no-resolve
+# IP-CIDR,180.163.151.34/32,no-resolve
+# IP-CIDR,203.208.39.0/24,no-resolve
+# IP-CIDR,203.208.40.0/24,no-resolve
+# IP-CIDR,203.208.41.0/24,no-resolve
+# IP-CIDR,203.208.43.0/24,no-resolve
+# IP-CIDR,203.208.50.0/24,no-resolve
+# IP-CIDR,220.181.174.162/32,no-resolve
+# IP-CIDR,220.181.174.226/32,no-resolve
+# IP-CIDR,220.181.174.34/32,no-resolve
