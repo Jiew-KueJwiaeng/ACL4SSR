@@ -9,10 +9,7 @@ DOMAIN,sub.id9.cc
 DOMAIN,iqdns.xyz
 DOMAIN,dns.iui.im
 DOMAIN,justhost.ru
-DOMAIN,miaona.xyz
 DOMAIN,twhowto.com
-DOMAIN,www.v2ex.com
-DOMAIN,v2ex.com
 DOMAIN,v2rayssr.com
 
 DOMAIN,adguard-vpn.com
@@ -58,6 +55,9 @@ DOMAIN,joinmastodon.org
 
 DOMAIN,mega.io
 
+DOMAIN,miaona.cyou,tcp
+DOMAIN,miaona.xyz,tcp
+
 DOMAIN,scratch.mit.edu
 
 DOMAIN,www.mnd.gov.tw
@@ -91,38 +91,36 @@ DOMAIN,joinpeertube.org
 DOMAIN,www.quora.com
 DOMAIN,quora.com
 
-# PikPak
-DOMAIN,access.mypikpak.com
-DOMAIN,api-drive.mypikpak.com
-DOMAIN,access.mypikpak.net
-DOMAIN,access.pikpak.me
-DOMAIN,access.pikpakdrive.com
+DOMAIN,solvates57.rssing.com,tcp
+DOMAIN-SUFFIX,rssing.com,tcp
 
-DOMAIN-SUFFIX,rssing.com
-
-DOMAIN,searx.be
+DOMAIN,searx.be,tcp
 
 # Snapchat
-# DOMAIN,tr.snapchat.com
+# DOMAIN,tr.snapchat.com,tcp
 
-DOMAIN,udn.com
+DOMAIN,udn.com,tcp
 
-DOMAIN,cdn.unwire.hk
-DOMAIN,unwire.hk
+DOMAIN,cdn.unwire.hk,tcp
+DOMAIN,unwire.hk,tcp
 
-DOMAIN,raidrive.en.uptodown.com
-DOMAIN,www.uptodown.com
-DOMAIN,uptodown.com
+DOMAIN,raidrive.en.uptodown.com,tcp
+DOMAIN,www.uptodown.com,tcp
+DOMAIN,uptodown.com,tcp
 
-DOMAIN-SUFFIX,vercel.app
+DOMAIN,de.v2ex.com,tcp
+DOMAIN,www.v2ex.com,tcp
+DOMAIN,v2ex.com,tcp
 
-DOMAIN,www.vox.com
-DOMAIN,vox.com
+DOMAIN-SUFFIX,vercel.app,tcp
 
-DOMAIN,www.worldjournal.com
-DOMAIN,worldjournal.com
+DOMAIN,www.vox.com,tcp
+DOMAIN,vox.com,tcp
+
+DOMAIN,www.worldjournal.com,tcp
+DOMAIN,worldjournal.com,tcp
 
 # Yandex
-DOMAIN,disk.yandex.com
+DOMAIN,disk.yandex.com,tcp
 
-DOMAIN,www.zakzak.co.jp
+DOMAIN,www.zakzak.co.jp,tcp
