@@ -4,8 +4,8 @@ mixed-port: 7893
 redir-port: 7892
 tproxy-port: 7895
 allow-lan: true
-bind-address: '*'
-find-process-mode: "off"
+bind-address: "*"
+find-process-mode: 'off'
 geox-url:
   geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
   # https://github.com/Loyalsoldier/v2ray-rules-dat
