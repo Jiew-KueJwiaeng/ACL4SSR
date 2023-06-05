@@ -3,55 +3,100 @@ socks-port: 7891
 mixed-port: 7893
 redir-port: 7892
 tproxy-port: 7895
-# geodata-mode: true
-# tcp-concurrent: true
 allow-lan: true
 bind-address: '*'
+find-process-mode: "off"
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  # https://github.com/Loyalsoldier/v2ray-rules-dat
+  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+  # mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  # https://github.com/Loyalsoldier/v2ray-rules-dat
+  # mmdb: "https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
+  # mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
+  # https://github.com/alecthw/mmdb_china_ip_list
 ipv6: true
-external-controller: 0.0.0.0:8443
 mode: rule
 log-level: warning
+tcp-concurrent: true
+global-client-fingerprint: "ios"
+#hosts:
+#  '*.clash.dev': 127.0.0.1
+#  '.dev': 127.0.0.1
+#  'd-gh-tr-h-k.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'racknerd-newyork.nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'nk2028.gq': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'www.digitalocean.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'blog.hostmonit.com': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
+#  'who.int': '2606:4700:3018:6989:d8af:fb1a:8730:d4ef'
 profile:
   store-selected: true
-  store-fake-ip: true
-# sniffer:
-#   enable: true
-#   sniffing:
-#     - tls
-#     - http
-#   skip-domain:
-#     - '+.apple.com'
-#     - '+.baidu.com'
-#     - '+.jd.com'
-#     - '+.mi.com'
-#     - 'Mijia Cloud'
-#   force-domain:
-#     - '+'
-#     - '+.amazonaws.com'
-#     - '+.media.dssott.com'
-#     - '+.facebook.com'
-#     - '+.ggpht.com'
-#     - '+.github.com'
-#     - '+.google.com'
-#     - '+.googleapi.com'
-#     - '+.googlevideo.com'
-#     - '+.gstatic.com'
-#     - '+.netflix.com'
-#     - '+.nflxvideo.net'
-#     - '+.youtube.com'
-#     - '+.ytimg.com'
-#   port-whitelist:
-#     - 1-65535
-#     #- 443
-#     #- 80
-#     #- 8080
-#     #- 8000-9000
+  store-fake-ip: false
+#sniffer:
+#  enable: true
+#  force-dns-mapping: true
+#  parse-pure-ip: true
+#  override-destination: false
+#  sniff:
+#    TLS:
+#      ports: [80, 443, 853, 8000, 8443]
+#    HTTP:
+#      ports: [80, 443, 853, 8000, 8080-8880]
+#      override-destination: true
+#  force-domain:
+#    - '+'
+#    - '+.amazonaws.com'
+#    - '+.media.dssott.com'
+#    - '+.facebook.com'
+#    - '+.ggpht.com'
+#    - '+.github.com'
+#    - '+.google.com'
+#    - '+.googleapi.com'
+#    - '+.googlevideo.com'
+#    - '+.gstatic.com'
+#    - '+.netflix.com'
+#    - '+.nflxvideo.net'
+#    - "+.v2ex.com"
+#    - '+.youtube.com'
+#    - '+.ytimg.com'
+#  skip-domain:
+#    - '+.apple.com'
+#    - '+.baidu.com'
+#    - '+.jd.com'
+#    - '+.mi.com'
+#    - 'Mijia Cloud'
 dns:
   enable: true
-  listen: 0.0.0.0:7874
+  prefer-h3: true
+  listen: "[::]:7874"
   ipv6: true
   default-nameserver:
-    #- "tcp://[::1]:6054"
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
+    #- "tls://[2620:fe::fe:11]:853"
+    #- "tls://[2620:fe::11]:853"
+    #- "tls://149.112.112.11:853"
+    #- "tls://9.9.9.11:853"
+    #- "tls://[2620:fe::9]:853"
+    #- "tls://[2620:fe::fe]:853"
+    #- "tls://149.112.112.112:853"
+    #- "tls://9.9.9.9:853"
+    #- "tls://[2620:fe::fe:10]:853"
+    #- "tls://[2620:fe::10]:853"
+    #- "tls://149.112.112.10:853"
+    #- "tls://9.9.9.10:853"
+    #- "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
     #- "127.0.0.1:6054"
@@ -76,30 +121,6 @@ dns:
     #- "180.76.76.76:53"
     #- "[240C::6666]:53"
     #- "[240C::6644]:53"
-    - "[2606:4700:4700::1002]:53"
-    - "[2606:4700:4700::1112]:53"
-    - "1.0.0.2:53"
-    - "1.1.1.2:53"
-    - "[2606:4700:4700::1001]:53"
-    - "[2606:4700:4700::1111]:53"
-    - "1.0.0.1:53"
-    - "1.1.1.1:53"
-    - "[2001:4860:4860::8888]:53"
-    - "[2001:4860:4860::8844]:53"
-    - "8.8.8.8:53"
-    - "8.8.4.4:53"
-    - "[2620:fe::fe:11]:53"
-    - "[2620:fe::11]:53"
-    - "149.112.112.11:53"
-    - "9.9.9.11:53"
-    - "[2620:fe::9]:53"
-    - "[2620:fe::fe]:53"
-    - "149.112.112.112:53"
-    - "9.9.9.9:53"
-    - "[2620:fe::fe:10]:53"
-    - "[2620:fe::10]:53"
-    - "149.112.112.10:53"
-    - "9.9.9.10:53"
     #- "tcp://[2a10:50c0::ad2:ff]:53"
     #- "tcp://[2a10:50c0::ad1:ff]:53"
     #- "tcp://94.140.15.15:53"
@@ -150,6 +171,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
+    # LAN
     - '*.lan'
     - '*.localdomain'
     - '*.example'
@@ -158,10 +180,12 @@ dns:
     - '*.test'
     - '*.local'
     - '*.home.arpa'
+    # NTP服务
     - 'time.*.com'
     - 'time.*.gov'
     - 'time.*.edu.cn'
     - 'time.*.apple.com'
+    - "time-ios.apple.com"
     - 'time1.*.com'
     - 'time2.*.com'
     - 'time3.*.com'
@@ -181,17 +205,23 @@ dns:
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
     - 'time1.cloud.tencent.com'
+    # 网易云音乐
     - 'music.163.com'
     - '*.music.163.com'
     - '*.126.net'
+    # 百度音乐
     - 'musicapi.taihe.com'
     - 'music.taihe.com'
+    # 酷狗音乐
     - 'songsearch.kugou.com'
     - 'trackercdn.kugou.com'
+    # 酷我音乐
     - '*.kuwo.cn'
+    # JOOX音乐
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
+    # QQ音乐
     - 'y.qq.com'
     - '*.y.qq.com'
     - 'streamoc.music.tc.qq.com'
@@ -200,120 +230,163 @@ dns:
     - 'dl.stream.qqmusic.qq.com'
     - 'aqqmusic.tc.qq.com'
     - 'amobile.music.tc.qq.com'
+    # 虾米音乐
     - '*.xiami.com'
+    # 咪咕音乐
     - '*.music.migu.cn'
     - 'music.migu.cn'
+    # Windows网络连通性检测
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
     - 'msftconnecttest.com'
     - 'msftncsi.com'
+    # QQ登录
     - 'localhost.ptlogin2.qq.com'
     - 'localhost.sec.qq.com'
+    - "+.qq.com"
+    - "+.tencent.com"
+    # 任天堂Switch
     - '+.srv.nintendo.net'
+    - "*.n.n.srv.nintendo.net"
+    # Sony PlayStation
     - '+.stun.playstation.net'
+    # Microsoft Xbox
+    - "xbox.*.*.microsoft.com"
     - 'xbox.*.microsoft.com'
+    - "*.*.xboxlive.com"
     - 'xnotify.xboxlive.com'
+    # Wotgame
     - '+.battlenet.com.cn'
     - '+.wotgame.cn'
     - '+.wggames.cn'
     - '+.wowsgame.cn'
     - '+.wargaming.net'
+    # Golang
     - 'proxy.golang.org'
+    # STUN
     - 'stun.*.*'
     - 'stun.*.*.*'
     - '+.stun.*.*'
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
+    - "+.stun.*.*.*.*.*"
+    # Linksys Router
     - 'heartbeat.belkin.com'
     - '*.linksys.com'
     - '*.linksyssmartwifi.com'
+    # ASUS Router
     - '*.router.asus.com'
+    # Apple Software Update Service
     - 'mesu.apple.com'
     - 'swscan.apple.com'
     - 'swquery.apple.com'
     - 'swdownload.apple.com'
     - 'swcdn.apple.com'
     - 'swdist.apple.com'
+    # Google
     - 'lens.l.google.com'
     - 'stun.l.google.com'
+    # Netflix
     - '+.nflxvideo.net'
+    # FinalFantasy XIV Worldwide Server & CN Server
     - '*.square-enix.com'
     - '*.finalfantasyxiv.com'
     - '*.ffxiv.com'
+    - "*.ff14.sdo.com"
+    # Bilibili
     - '*.mcdn.bilivideo.cn'
+    # Disney Plus
+    - "+.media.dssott.com"
+    # shark007 Codecs 
+    - "shark007.net"
+    # Mijia
+    - "Mijia Cloud"
+    # 招商银行
+    - "+.cmbchina.com"
+    - "+.cmbimg.com"
+    # AdGuard
+    - "local.adguard.org"
+    # 迅雷
+    - "+.sandai.net"
+    - "+.n0808.com"
     - "ipv6check-http.steamcontent.com"
     - "ipv6check-udp.steamcontent.com"
-#   proxy-server-nameserver:
-#     - "tcp://[::1]:6054"
-#     - "[::1]:6054"
-#     - "tcp://127.0.0.1:6054"
-#     - "127.0.0.1:6054"
-#     - "tcp://192.168.11.1:6054"
-#     - "192.168.11.1:6054"
-#     - "tcp://192.168.11.1:53"
-#     - "192.168.11.1:53"
-  nameserver:
-    #- "tls://1.0.0.2:853"
-    #- "tls://1.1.1.2:853"
-    #- "https://1.0.0.2:443/dns-query"
-    #- "https://1.1.1.2:443/dns-query"
-    - "https://security.cloudflare-dns.com:443/dns-query"
-    - "tls://security.cloudflare-dns.com:853"
-    #- "tls://1.0.0.1:853"
-    #- "tls://1.1.1.1:853"
-    #- "https://1.0.0.1:443/dns-query"
-    #- "https://1.1.1.1:443/dns-query"
-    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
-    - "tls://one.one.one.one:853"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
-    - "https://cloudflare-dns.com:443/dns-query"
-    #- "tls://8.8.4.4:853"
-    #- "tls://8.8.8.8:853"
-    #- "https://8.8.4.4:443/dns-query"
-    #- "https://8.8.8.8:443/dns-query"
+  proxy-server-nameserver:
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
     - "tls://dns.google:853"
+    - "https://[2001:4860:4860::8844]:443/dns-query"
+    - "https://[2001:4860:4860::8888]:443/dns-query"
+    - "https://8.8.4.4:443/dns-query"
+    - "https://8.8.8.8:443/dns-query"
     - "https://dns.google:443/dns-query"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
+    - "tls://security.cloudflare-dns.com:853"
+    - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
+    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
+    - "tls://cloudflare-dns.com:853"
+    - "tls://one.one.one.one:853"
+    - "https://[2606:4700:4700::1001]:443/dns-query"
+    - "https://[2606:4700:4700::1111]:443/dns-query"
+    - "https://1.0.0.1:443/dns-query"
+    - "https://1.1.1.1:443/dns-query"
+    - "https://cloudflare-dns.com:443/dns-query"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+  nameserver:
+    - "tls://[2400:3200:baba::1]:853"
+    - "tls://[2400:3200::1]:853"
+    - "tls://223.6.6.6:853"
+    - "tls://223.5.5.5:853"
+    - "tls://dns.alidns.com:853"
+    - "https://[2400:3200:baba::1]:443/dns-query"
+    - "https://[2400:3200::1]:443/dns-query"
+    - "https://223.6.6.6:443/dns-query"
+    - "https://223.5.5.5:443/dns-query"
+    - "https://dns.alidns.com:443/dns-query"
+    - "tls://1.12.12.12:853"
+    - "tls://120.53.53.53:853"
+    - "tls://dot.pub:853"
+    - "https://1.12.12.12:443/dns-query"
+    - "https://120.53.53.53:443/dns-query"
+    - "https://doh.pub:443/dns-query"
+    #- "tls://[2620:fe::fe:11]:853"
+    #- "tls://[2620:fe::11]:853"
     #- "tls://149.112.112.11:853"
     #- "tls://9.9.9.11:853"
-    #- "https://149.112.112.11:443/dns-query"
-    #- "https://9.9.9.11:443/dns-query"
-    - "tls://dns11.quad9.net:853"
-    - "https://dns11.quad9.net:443/dns-query"
+    #- "tls://dns11.quad9.net:853"
+    #- "https://dns11.quad9.net:443/dns-query"
+    #- "tls://[2620:fe::9]:853"
+    #- "tls://[2620:fe::fe]:853"
     #- "tls://149.112.112.112:853"
     #- "tls://9.9.9.9:853"
-    #- "https://149.112.112.112:443/dns-query"
-    #- "https://9.9.9.9:443/dns-query"
-    - "tls://dns.quad9.net:853"
-    - "https://dns.quad9.net:443/dns-query"
+    #- "tls://dns.quad9.net:853"
+    #- "https://dns.quad9.net:443/dns-query"
+    #- "tls://[2620:fe::fe:10]:853"
+    #- "tls://[2620:fe::10]:853"
     #- "tls://149.112.112.10:853"
     #- "tls://9.9.9.10:853"
-    #- "https://149.112.112.10:443/dns-query"
-    #- "https://9.9.9.10:443/dns-query"
-    - "tls://dns10.quad9.net:853"
-    - "https://dns10.quad9.net:443/dns-query"
-    #- "tls://1.12.12.12:853"
-    #- "tls://120.53.53.53:853"
-    #- "tls://dot.pub:853"
-    #- "https://1.12.12.12:443/dns-query"
-    #- "https://120.53.53.53:443/dns-query"
-    #- "https://doh.pub:443/dns-query"
-    #- "tls://223.6.6.6:853"
-    #- "tls://223.5.5.5:853"
-    #- "tls://dns.alidns.com:853"
-    #- "https://223.6.6.6:443/dns-query"
-    #- "https://223.5.5.5:443/dns-query"
-    #- "https://dns.alidns.com:443/dns-query"
+    #- "tls://dns10.quad9.net:853"
+    #- "https://dns10.quad9.net:443/dns-query"
+    #- "tls://dot.360.cn:853"
+    #- "https://doh.360.cn:443/dns-query"
     #- "https://v6.rubyfish.cn:443/dns-query"
     #- "tls://v6.rubyfish.cn:853"
     #- "https://rubyfish.cn:443/dns-query"
     #- "tls://rubyfish.cn:853"
     #- "https://dns.rubyfish.cn:443/dns-query"
     #- "tls://dns.rubyfish.cn:853"
-    #- "https://doh.360.cn:443/dns-query"
-    #- "tls://dot.360.cn:853"
     #- "https://dns.ipv6dns.com:443/dns-query"
     #- "tls://dns.ipv6dns.com:853"
-    #- "tcp://[::1]:6054"
+    #- "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
     #- "127.0.0.1:6054"
@@ -359,7 +432,46 @@ dns:
     #- "tls://kracon.anycast.censurfridns.dk:853"
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
-  #fallback:
+  fallback:
+    - "tls://[2001:4860:4860::8844]:853"
+    - "tls://[2001:4860:4860::8888]:853"
+    - "tls://8.8.4.4:853"
+    - "tls://8.8.8.8:853"
+    - "tls://dns.google:853"
+    - "https://[2001:4860:4860::8844]:443/dns-query"
+    - "https://[2001:4860:4860::8888]:443/dns-query"
+    - "https://8.8.4.4:443/dns-query"
+    - "https://8.8.8.8:443/dns-query"
+    - "https://dns.google:443/dns-query"
+    - "tls://[2606:4700:4700::1002]:853"
+    - "tls://[2606:4700:4700::1112]:853"
+    - "tls://1.0.0.2:853"
+    - "tls://1.1.1.2:853"
+    - "tls://security.cloudflare-dns.com:853"
+    - "https://[2606:4700:4700::1002]:443/dns-query"
+    - "https://[2606:4700:4700::1112]:443/dns-query"
+    - "https://1.0.0.2:443/dns-query"
+    - "https://1.1.1.2:443/dns-query"
+    - "https://security.cloudflare-dns.com:443/dns-query"
+    - "tls://[2606:4700:4700::1001]:853"
+    - "tls://[2606:4700:4700::1111]:853"
+    - "tls://1.0.0.1:853"
+    - "tls://1.1.1.1:853"
+    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
+    - "tls://cloudflare-dns.com:853"
+    - "tls://one.one.one.one:853"
+    - "https://[2606:4700:4700::1001]:443/dns-query"
+    - "https://[2606:4700:4700::1111]:443/dns-query"
+    - "https://1.0.0.1:443/dns-query"
+    - "https://1.1.1.1:443/dns-query"
+    - "https://cloudflare-dns.com:443/dns-query"
+    - "https://mozilla.cloudflare-dns.com:443/dns-query"
+    #- "tls://dns11.quad9.net:853"
+    #- "https://dns11.quad9.net:443/dns-query"
+    #- "tls://dns.quad9.net:853"
+    #- "https://dns.quad9.net:443/dns-query"
+    #- "tls://dns10.quad9.net:853"
+    #- "https://dns10.quad9.net:443/dns-query"
     #- https://a.vvvglass.com/sz
     #- "tls://c.vvvglass.com:853"
     #- "tls://h.iqiq.io:853"
@@ -391,7 +503,7 @@ dns:
     #- "tls://i.passcloud.xyz:5432"
     #- https://worldwide.passcloud.xyz/dns-query
     #- tls://x.passcloud.xyz"
-    #- tcp://[fd00::1]:6053
+    #- "tcp://[::1]:853"
     #- "[fd00::1]:6053"
     #- tcp://[fd00::1]:6054
     #- "[fd00::1]:6054"
@@ -403,17 +515,132 @@ dns:
     #- "[fd00::1]"
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
-  #fallback-filter:
-    #geoip: false
-    #geoip-code: CN
-    #ipcidr:
-      #- 240.0.0.0/4
-    #domain:
-      #- "+.line.me"
-      #- "+.google.com"
-      #- '+.facebook.com'
-      #- "+.wikipedia.org"
-      #- '+.youtube.com'
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - "gfw"
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - c-bing-com.a-0001.a-msedge.net
+      - cn-bing-com.cn.a-0001.a-msedge.net
+      - bat-bing-com.a-0001.a-msedge.net
+      - star-mm-bing-net.a-0001.a-msedge.net
+      - a-0001.a-msedge.net
+      - a-0012.a-msedge.net
+      - www-bing-com.dual-a-0001.a-msedge.net
+      - dual-a-0001.a-msedge.net
+      - sydney-bing-com.dual-a-0034.a-msedge.net
+      - dual-a-0034.a-msedge.net
+      - 4-bing-com.ipv4-a-0001.a-msedge.net
+      - ipv4-a-0001.a-msedge.net
+      - www.tm.lg.prod.aadmsa.akadns.net
+      - clarity-ingest-eus2-d-sc.eastus2.cloudapp.azure.com
+      - bingciservice.koreasouth.cloudapp.azure.com
+      - bingviz.azurefd.net
+      - clarity.azurefd.net
+      - business-bing-com.b-0005.b-msedge.net
+      - b-0005.b-msedge.net
+      - 4.bing.com
+      - bat.bing.com
+      - business.bing.com
+      - c.bing.com
+      - cn.bing.com
+      - explicit.any.edge.bing.com
+      - edgeservices.bing.com
+      - global.bing.com
+      - r.bing.com
+      - sydney.bing.com
+      - testfamilysafety.bing.com
+      - th.bing.com
+      - www.bing.com
+      - www2.bing.com
+      - "+.bing.com"
+      - bing.com
+      - services.bingapis.com
+      - www.bingapis.com
+      - "+.bingapis.com"
+      - s.cn.bing.net
+      - s1.cn.bing.net
+      - s2.cn.bing.net
+      - s3.cn.bing.net
+      - s4.cn.bing.net
+      - ts1.cn.mm.bing.net
+      - ts2.cn.mm.bing.net
+      - ts3.cn.mm.bing.net
+      - ts4.cn.mm.bing.net
+      - tse.mm.bing.net
+      - tse1.mm.bing.net
+      - tse2.mm.bing.net
+      - tse3.mm.bing.net
+      - tse4.mm.bing.net
+      - "+.bing.net"
+      - bing.net
+      - s.cn.bing.chinacache.net
+      - ts1.cn.mm.bing.chinacache.net
+      - ts2.cn.mm.bing.chinacache.net
+      - ts3.cn.mm.bing.chinacache.net
+      - ts4.cn.mm.bing.chinacache.net
+      - v.clarity.ms
+      - www.clarity.ms
+      - clarity.ms
+      - cn.cn-0001.cn-msedge.net
+      - cn-0001.cn-msedge.net
+      - services-bingapis-com.e-0001.e-msedge.net
+      - www-bingapis-com.e-0001.e-msedge.net
+      - e-0001.e-msedge.net
+      - '+.facebook.com'
+      - shed.dual-low.part-0011.t-0009.fdv2-t-msedge.net
+      - part-0011.t-0009.fdv2-t-msedge.net
+      - shed.dual-low.part-0041.t-0009.fdv2-t-msedge.net
+      - part-0041.t-0009.fdv2-t-msedge.net
+      - "+.githubusercontent.com"
+      - "+.google.com"
+      - "+.googlevideo.com"
+      - "+.line.me"
+      - login.live.com
+      - s1.cn.bing.net.lxcvc.com
+      - ts1.cn.mm.bing.net.lxcvc.com
+      - ts2.cn.mm.bing.net.lxcvc.com
+      - ts3.cn.mm.bing.net.lxcvc.com
+      - ts4.cn.mm.bing.net.lxcvc.com
+      - msnzlxxglobal.v.lxcvc.com
+      - zlxxglobal.v.lxcvc.com
+      - gateway.bingviz.microsoftapp.net
+      - login.microsoftonline.com
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+      - prdv6a.aadg.msidentity.com
+      - login.msa.msidentity.com
+      - login.mso.msidentity.com
+      - ak.privatelink.msidentity.com
+      - www.tm.v6.a.prd.aadg.trafficmanager.net
+      - www.tm.ak.prd.aadg.trafficmanager.net
+      - p-static.bing.trafficmanager.net
+      - p-th.bing.com.trafficmanager.net
+      - www-www.bing.com.trafficmanager.net
+      - www2-www2.bing.com.trafficmanager.net
+      - mm-mm.bing.net.trafficmanager.net
+      - star-azurefd-prod.trafficmanager.net
+      - "+.wikipedia.org"
+      - "m.youtube.com"
+      - "www.youtube.com"
   #nameserver-policy:
   #  'www.baidu.com': '114.114.114.114'
   #  '+.internal.crop.com': '10.0.0.1'
