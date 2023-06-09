@@ -8,9 +8,9 @@ DOMAIN,auth0.openai.com
 # DOMAIN,cdn.openai.com
 DOMAIN,chat.openai.com
 DOMAIN,platform.openai.com
-# DOMAIN,openai.com
+DOMAIN,o33249.ingest.sentry.io
 
-DOMAIN,bettergpt.chat
-DOMAIN,freechatgpt.chat
-DOMAIN,freechatgpt.lol
-DOMAIN,freegpt.one
+DOMAIN,bettergpt.chat,tcp
+DOMAIN,freechatgpt.chat,tcp
+DOMAIN,freechatgpt.lol,tcp
+DOMAIN,freegpt.one,tcp
