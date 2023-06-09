@@ -1,12 +1,12 @@
 # 数量：6条
 # DOMAIN-SUFFIX,discord.co
-DOMAIN,click.discord.com
-DOMAIN,status.discord.com
-DOMAIN,discord.com
-DOMAIN,gateway.discord.gg
-DOMAIN,remote-auth-gateway.discord.gg
-DOMAIN,discord.gg
+DOMAIN,click.discord.com,tcp
+DOMAIN,status.discord.com,tcp
+DOMAIN,discord.com,tcp
+DOMAIN,gateway.discord.gg,tcp
+DOMAIN,remote-auth-gateway.discord.gg,tcp
+DOMAIN,discord.gg,tcp
 # DOMAIN-SUFFIX,discord.media
-DOMAIN,cdn.discordapp.com
-DOMAIN,images-ext-1.discordapp.net
-DOMAIN,media.discordapp.net
+DOMAIN,cdn.discordapp.com,tcp
+DOMAIN,images-ext-1.discordapp.net,tcp
+DOMAIN,media.discordapp.net,tcp
