@@ -1,7 +1,6 @@
-# 内容：Microsoft
+DOMAIN,1drv.ms,tcp
 # 数量：76条
 # DOMAIN-KEYWORD,1drv
-# DOMAIN-KEYWORD,microsoft
 # DOMAIN-SUFFIX,aadrm.com
 # DOMAIN-SUFFIX,acompli.com
 # DOMAIN-SUFFIX,acompli.net
@@ -19,10 +18,10 @@
 # DOMAIN-SUFFIX,edgesuite.net
 # DOMAIN-SUFFIX,gfx.ms
 # DOMAIN-SUFFIX,hotmail.com
-DOMAIN,onedrive.live.com
+DOMAIN,onedrive.live.com,tcp
 # DOMAIN-SUFFIX,live.net
 # DOMAIN-SUFFIX,lync.com
-DOMAIN,blogs.microsoft.com
+# DOMAIN,blogs.microsoft.com,tcp
 # DOMAIN,office.microsoft.com
 # DOMAIN-SUFFIX,msappproxy.net
 # DOMAIN-SUFFIX,msauth.net
@@ -78,3 +77,4 @@ DOMAIN,blogs.microsoft.com
 # DOMAIN-SUFFIX,wunderlist.com
 # DOMAIN-SUFFIX,yammer.com
 # DOMAIN-SUFFIX,yammerusercontent.com
+IP-CIDR,141.193.213.20/32,tcp
