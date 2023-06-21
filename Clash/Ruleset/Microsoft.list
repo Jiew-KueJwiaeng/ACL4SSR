@@ -77,4 +77,6 @@ DOMAIN,onedrive.live.com,tcp
 # DOMAIN-SUFFIX,wunderlist.com
 # DOMAIN-SUFFIX,yammer.com
 # DOMAIN-SUFFIX,yammerusercontent.com
-IP-CIDR,141.193.213.20/32,tcp
+IP-CIDR,13.107.42.12/32,no-resolve
+IP-CIDR,141.193.213.20/32,no-resolve
+IP-CIDR,141.193.213.21/32,no-resolve
