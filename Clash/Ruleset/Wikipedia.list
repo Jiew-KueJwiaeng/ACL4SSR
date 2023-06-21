@@ -77,3 +77,4 @@ DOMAIN,ru.wiktionary.org,tcp
 DOMAIN,zh.wiktionary.org,tcp
 DOMAIN,zh-classical.wiktionary.org,tcp
 DOMAIN,zh-yue.wiktionary.org,tcp
+IP-CIDR,198.35.26.96/32,no-resolve
