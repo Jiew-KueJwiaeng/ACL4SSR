@@ -196,12 +196,21 @@ DOMAIN,youtube.com,tcp
 # DOMAIN-SUFFIX,youtubekids.com
 DOMAIN,yt.be,tcp
 DOMAIN,i.ytimg.com,tcp
+IP-CIDR,74.125.200.132/32,no-resolve
 # IP-CIDR,120.232.181.162/32,no-resolve
 # IP-CIDR,120.241.147.226/32,no-resolve
 # IP-CIDR,120.253.253.226/32,no-resolve
 # IP-CIDR,120.253.255.162/32,no-resolve
 # IP-CIDR,120.253.255.34/32,no-resolve
 # IP-CIDR,120.253.255.98/32,no-resolve
+IP-CIDR,142.250.217.129/32,no-resolve
+IP-CIDR,142.251.12.132/32,no-resolve
+IP-CIDR,142.251.43.1/32,no-resolve
+IP-CIDR,142.251.42.225/32,no-resolve
+IP-CIDR,172.217.24.225/32,no-resolve
+IP-CIDR,172.217.160.65/32,no-resolve
+IP-CIDR,172.217.160.97/32,no-resolve
+IP-CIDR,172.217.163.33/32,no-resolve
 # IP-CIDR,180.163.150.162/32,no-resolve
 # IP-CIDR,180.163.150.34/32,no-resolve
 # IP-CIDR,180.163.151.162/32,no-resolve
@@ -214,3 +223,4 @@ DOMAIN,i.ytimg.com,tcp
 # IP-CIDR,220.181.174.162/32,no-resolve
 # IP-CIDR,220.181.174.226/32,no-resolve
 # IP-CIDR,220.181.174.34/32,no-resolve
+IP-CIDR6,2607:f8b0:4007:818::2001/128,no-resolve
