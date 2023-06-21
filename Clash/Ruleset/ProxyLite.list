@@ -1,95 +1,96 @@
 # MyList && Other
-DOMAIN,10beasts.net
-DOMAIN,duangks.com
-DOMAIN,www.duangvps.com
-DOMAIN,duangvps.com
-DOMAIN,hostloc.com
-DOMAIN,hurricanedigital.net
-DOMAIN,sub.id9.cc
-DOMAIN,iqdns.xyz
-DOMAIN,dns.iui.im
-DOMAIN,justhost.ru
-DOMAIN,twhowto.com
-DOMAIN,v2rayssr.com
+DOMAIN,10beasts.net,tcp
+DOMAIN,duangks.com,tcp
+DOMAIN,www.duangvps.com,tcp
+DOMAIN,duangvps.com,tcp
+DOMAIN,fanqiang.network,tcp
+DOMAIN,hostloc.com,tcp
+DOMAIN,hurricanedigital.net,tcp
+DOMAIN,sub.id9.cc,tcp
+DOMAIN,iqdns.xyz,tcp
+DOMAIN,dns.iui.im,tcp
+DOMAIN,justhost.ru,tcp
+DOMAIN,twhowto.com,tcp
+DOMAIN,v2rayssr.com,tcp
 
-DOMAIN,adguard-vpn.com
+DOMAIN,adguard-vpn.com,tcp
 
 # Archive
-DOMAIN,web.archive.org
-DOMAIN,archive.org
+DOMAIN,web.archive.org,tcp
+DOMAIN,archive.org,tcp
 
-DOMAIN,bit.ly
+DOMAIN,bit.ly,tcp
 
 # BitTorrent
-DOMAIN,sukebei.nyaa.si
-DOMAIN,nyaa.si
-DOMAIN,share.acgnx.se
-DOMAIN,www.acgnx.se
+DOMAIN,sukebei.nyaa.si,tcp
+DOMAIN,nyaa.si,tcp
+DOMAIN,share.acgnx.se,tcp
+DOMAIN,www.acgnx.se,tcp
 
-DOMAIN,www.businessinsider.com
+DOMAIN,www.businessinsider.com,tcp
 
-DOMAIN,assets.change.org
-DOMAIN,static.change.org
-DOMAIN,www.change.org
-DOMAIN,change.org
+DOMAIN,assets.change.org,tcp
+DOMAIN,static.change.org,tcp
+DOMAIN,www.change.org,tcp
+DOMAIN,change.org,tcp
 
 # Daum
-DOMAIN,m.daum.net
-DOMAIN,potplayer.daum.net
+DOMAIN,m.daum.net,tcp
+DOMAIN,potplayer.daum.net,tcp
 
-DOMAIN,apkpure.com
+DOMAIN,apkpure.com,tcp
 
 # DuckDuckGo
-DOMAIN,duckduckgo.com
+DOMAIN,duckduckgo.com,tcp
 
-DOMAIN,www.dropbox.com
-DOMAIN,dropbox.com
+DOMAIN,www.dropbox.com,tcp
+DOMAIN,dropbox.com,tcp
 
-DOMAIN,ecchi.iwara.tv
+DOMAIN,ecchi.iwara.tv,tcp
 
 # mastodon
-DOMAIN,api.joinmastodon.org
-DOMAIN,docs.joinmastodon.org
-DOMAIN,proxy.joinmastodon.org
-DOMAIN,joinmastodon.org
+DOMAIN,api.joinmastodon.org,tcp
+DOMAIN,docs.joinmastodon.org,tcp
+DOMAIN,proxy.joinmastodon.org,tcp
+DOMAIN,joinmastodon.org,tcp
 
-DOMAIN,mega.io
+DOMAIN,mega.io,tcp
 
 DOMAIN,miaona.cyou,tcp
 DOMAIN,miaona.xyz,tcp
 
-DOMAIN,scratch.mit.edu
+DOMAIN,scratch.mit.edu,tcp
 
-DOMAIN,www.mnd.gov.tw
+DOMAIN,www.mnd.gov.tw,tcp
 
-DOMAIN,www.myheritage.com
-DOMAIN,myheritage.com
+DOMAIN,www.myheritage.com,tcp
+DOMAIN,myheritage.com,tcp
 
-DOMAIN,www.nbcnews.com
+DOMAIN,www.nbcnews.com,tcp
 
-DOMAIN,zh.cn.nikkei.com
-DOMAIN,cn.nikkei.com
-DOMAIN,www.nikkei.com
-DOMAIN,nikkei.com
+DOMAIN,zh.cn.nikkei.com,tcp
+DOMAIN,cn.nikkei.com,tcp
+DOMAIN,www.nikkei.com,tcp
+DOMAIN,nikkei.com,tcp
 
-DOMAIN,cn.nytimes.com
-DOMAIN,www.nytimes.com
-DOMAIN,nytimes.com
+DOMAIN,cn.nytimes.com,tcp
+DOMAIN,www.nytimes.com,tcp
+DOMAIN,nytimes.com,tcp
 
 # Одноклассники Odnoklassniki
-DOMAIN,connect.ok.ru
-DOMAIN,ok.ru
+DOMAIN,connect.ok.ru,tcp
+DOMAIN,ok.ru,tcp
 
-DOMAIN,a.tile.openstreetmap.org
-DOMAIN,b.tile.openstreetmap.org
-DOMAIN,c.tile.openstreetmap.org
-DOMAIN,www.openstreetmap.org
-DOMAIN,openstreetmap.org
+DOMAIN,a.tile.openstreetmap.org,tcp
+DOMAIN,b.tile.openstreetmap.org,tcp
+DOMAIN,c.tile.openstreetmap.org,tcp
+DOMAIN,www.openstreetmap.org,tcp
+DOMAIN,openstreetmap.org,tcp
 
-DOMAIN,joinpeertube.org
+DOMAIN,joinpeertube.org,tcp
 
-DOMAIN,www.quora.com
-DOMAIN,quora.com
+DOMAIN,www.quora.com,tcp
+DOMAIN,quora.com,tcp
 
 DOMAIN,solvates57.rssing.com,tcp
 DOMAIN-SUFFIX,rssing.com,tcp
