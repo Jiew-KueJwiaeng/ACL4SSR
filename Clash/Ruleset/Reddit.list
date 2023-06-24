@@ -1,6 +1,7 @@
-DOMAIN,preview.redd.it
-DOMAIN,gateway.reddit.com
-DOMAIN,gql.reddit.com
-DOMAIN,w3-reporting.reddit.com
-DOMAIN,www.reddit.com
-DOMAIN,styles.redditmedia.com
+DOMAIN,preview.redd.it,tcp
+DOMAIN,alb.reddit.com,tcp
+DOMAIN,gateway.reddit.com,tcp
+DOMAIN,gql.reddit.com,tcp
+DOMAIN,w3-reporting.reddit.com,tcp
+DOMAIN,www.reddit.com,tcp
+DOMAIN,styles.redditmedia.com,tcp
