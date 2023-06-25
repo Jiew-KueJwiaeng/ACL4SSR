@@ -1,0 +1,4 @@
+# 此站点存在地域区别策略，故不需添加 ,tcp 减少流量
+DOMAIN,accounts.dmm.com
+DOMAIN,special.dmm.com
+DOMAIN,www.dmm.com
