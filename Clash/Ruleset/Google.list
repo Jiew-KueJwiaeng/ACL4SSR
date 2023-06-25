@@ -24,9 +24,11 @@ DOMAIN,www.google.com.br,tcp
 DOMAIN,www.google.ca,tcp
 DOMAIN,www.google.ch,tcp
 DOMAIN,www.google.cl,tcp
+# 无污染，有大陆路由 www.google.cn
 DOMAIN,aa.google.com,tcp
 DOMAIN,accounts.google.com,tcp
 DOMAIN,adservice.google.com,tcp
+# 无污染 android.apis.google.com
 DOMAIN,apis.google.com,tcp
 DOMAIN,bard.google.com,tcp
 DOMAIN,chrome.google.com,tcp
@@ -139,19 +141,24 @@ DOMAIN,google.com.tr,tcp
 DOMAIN,www.google.co.uk,tcp
 DOMAIN,www.google-analytics.com,tcp
 DOMAIN,services.googleapis.cn,tcp
+# 无污染，有大陆路由 www.googleapis.cn
 DOMAIN,ajax.googleapis.com,tcp
 DOMAIN,android.googleapis.com,tcp
+# 无污染 androidpay-users-pa.googleapis.com
 DOMAIN,fcmregistrations.googleapis.com,tcp
 DOMAIN,firebaseinstallations.googleapis.com,tcp
+# 无污染 firestore.googleapis.com
 DOMAIN,fonts.googleapis.com,tcp
 DOMAIN,gmscompliance-pa.googleapis.com,tcp
 DOMAIN,imasdk.googleapis.com,tcp
 DOMAIN,jnn-pa.googleapis.com,tcp
 DOMAIN,maps.googleapis.com,tcp
 DOMAIN,optimizationguide-pa.googleapis.com,tcp
+# 无污染 pay-users-pa.googleapis.com
 DOMAIN,people-pa.googleapis.com,tcp
 DOMAIN,play.googleapis.com,tcp
 DOMAIN,play-fe.googleapis.com,tcp
+# 无污染，有大陆路由 update.googleapis.com
 DOMAIN,developers.googleblog.com,tcp
 DOMAIN,workspaceupdates.googleblog.com,tcp
 DOMAIN,pagead2.googlesyndication.com,tcp
@@ -174,6 +181,8 @@ DOMAIN,www.gstatic.com,tcp
 DOMAIN,beacons.gvt2.com,tcp
 DOMAIN,beacons.gcp.gvt2.com,tcp
 # DOMAIN-SUFFIX,gvt3.com
+#  无污染              crls.pki.goog
+#  无污染，有大陆路由  ocsp.pki.goog
 DOMAIN,www.recaptcha.net,tcp
 DOMAIN,csp.withgoogle.com,tcp
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,tcp
@@ -197,13 +206,17 @@ DOMAIN,youtube.com,tcp
 # DOMAIN-SUFFIX,youtubekids.com
 DOMAIN,yt.be,tcp
 DOMAIN,i.ytimg.com,tcp
+AND,((IP-CIDR,8.8.4.4/32),(NETWORK,TCP),(DST-PORT,443))
+AND,((IP-CIDR,8.8.8.8/32),(NETWORK,TCP),(DST-PORT,443))
 IP-CIDR,64.233.187.92/32
 IP-CIDR,64.233.188.92/32
 IP-CIDR,74.125.23.92/32
+IP-CIDR,74.125.137.92/32
 IP-CIDR,74.125.200.132/32
 IP-CIDR,74.125.203.92/32
 IP-CIDR,74.125.204.92/32
 IP-CIDR,108.177.97.92/32
+IP-CIDR,108.177.125.92/32
 # IP-CIDR,120.232.181.162/32,no-resolve
 # IP-CIDR,120.241.147.226/32,no-resolve
 # IP-CIDR,120.253.253.226/32,no-resolve
@@ -211,30 +224,50 @@ IP-CIDR,108.177.97.92/32
 # IP-CIDR,120.253.255.34/32,no-resolve
 # IP-CIDR,120.253.255.98/32,no-resolve
 IP-CIDR,142.250.72.133/32
+IP-CIDR,142.250.101.92/32
 IP-CIDR,142.250.157.92/32
 IP-CIDR,142.250.176.5/32
 IP-CIDR,142.250.189.165/32
+IP-CIDR,142.250.189.202/32
+IP-CIDR,142.250.189.227/32
 IP-CIDR,142.250.189.229/32
 IP-CIDR,142.250.191.37/32
 IP-CIDR,142.250.191.69/32
+IP-CIDR,142.250.204.42/32
+IP-CIDR,142.250.204.78/32
 IP-CIDR,142.250.217.129/32
+IP-CIDR,142.250.217.142/32
 IP-CIDR,142.251.2.92/32
 IP-CIDR,142.251.8.92/32
 IP-CIDR,142.251.12.132/32
 IP-CIDR,142.251.32.37/32
-IP-CIDR,142.251.43.1/32
-IP-CIDR,142.251.43.5/32
 IP-CIDR,142.251.42.225/32
 IP-CIDR,142.251.42.229/32
+IP-CIDR,142.251.42.234/32
+IP-CIDR,142.251.42.238/32
+IP-CIDR,142.251.43.1/32
+IP-CIDR,142.251.43.5/32
+IP-CIDR,142.251.43.10/32
+IP-CIDR,142.251.43.14/32
 IP-CIDR,142.251.46.165/32
 IP-CIDR,142.251.46.197/32
 IP-CIDR,142.251.170.92/32
+IP-CIDR,142.251.214.131/32
+IP-CIDR,142.251.220.42/32
 IP-CIDR,172.217.24.225/32
 IP-CIDR,172.217.160.65/32
+IP-CIDR,172.217.160.74/32
+IP-CIDR,172.217.160.78/32
 IP-CIDR,172.217.160.97/32
 IP-CIDR,172.217.160.101/32
+IP-CIDR,172.217.160.106/32
+IP-CIDR,172.217.160.110/32
 IP-CIDR,172.217.163.33/32
 IP-CIDR,172.217.163.37/32
+IP-CIDR,172.217.163.42/32
+IP-CIDR,172.217.163.46/32
+IP-CIDR,172.217.164.99/32
+IP-CIDR,172.217.164.110/32
 IP-CIDR,173.194.174.92/32
 # IP-CIDR,180.163.150.162/32,no-resolve
 # IP-CIDR,180.163.150.34/32,no-resolve
@@ -248,17 +281,28 @@ IP-CIDR,173.194.174.92/32
 # IP-CIDR,220.181.174.162/32
 # IP-CIDR,220.181.174.226/32
 # IP-CIDR,220.181.174.34/32
+AND,((IP-CIDR6,2001:4860:4860::8844/128),(NETWORK,TCP),(DST-PORT,443))
+AND,((IP-CIDR6,2001:4860:4860::8888/128),(NETWORK,TCP),(DST-PORT,443))
 IP-CIDR6,2404:6800:4008:c15::5c/128
 IP-CIDR6,2404:6800:4012:2::2005/128
 IP-CIDR6,2404:6800:4012:3::2005/128
 IP-CIDR6,2607:f8b0:4005:802::2005/128
 IP-CIDR6,2607:f8b0:4005:803::2005/128
+IP-CIDR6,2607:f8b0:4005:806::2003/128
+IP-CIDR6,2607:f8b0:4005:80b::2003/128
+IP-CIDR6,2607:f8b0:4005:80d::2003/128
+IP-CIDR6,2607:f8b0:4005:80d::200a/128
 IP-CIDR6,2607:f8b0:4005:80e::2005/128
 IP-CIDR6,2607:f8b0:4005:810::2005/128
 IP-CIDR6,2607:f8b0:4005:812::2005/128
+IP-CIDR6,2607:f8b0:4005:813::200e/128
 IP-CIDR6,2607:f8b0:4005:814::2005/128
 IP-CIDR6,2607:f8b0:4007:801::2005/128
+IP-CIDR6,2607:f8b0:4007:809::2005/128
 IP-CIDR6,2607:f8b0:4007:811::2005/128
+IP-CIDR6,2607:f8b0:4007:811::200e/128
 IP-CIDR6,2607:f8b0:4007:814::2005/128
 IP-CIDR6,2607:f8b0:4007:818::2001/128
+IP-CIDR6,2607:f8b0:4023:c03::5c/128
+IP-CIDR6,2607:f8b0:4023:c06::5c/128
 IP-CIDR6,2607:f8b0:4023:c0d::5c/128
