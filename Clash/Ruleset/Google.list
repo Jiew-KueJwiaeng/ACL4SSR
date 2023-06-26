@@ -27,11 +27,11 @@ DOMAIN,www.google.ch,tcp
 DOMAIN,www.google.cl,tcp
 # 无污染，有大陆路由 www.google.cn
 DOMAIN,aa.google.com,tcp
-DOMAIN,accounts.google.com,tcp
+# 待观察 accounts.google.com
 DOMAIN,adservice.google.com,tcp
 # 无污染 android.apis.google.com
 DOMAIN,apis.google.com,tcp
-DOMAIN,bard.google.com,tcp
+# 无污染 bard.google.com
 DOMAIN,chrome.google.com,tcp
 DOMAIN,android.clients.google.com,tcp
 DOMAIN,clients2.google.com,tcp
@@ -186,6 +186,7 @@ DOMAIN-SUFFIX,googlevideo.com,tcp
 # 无污染 encrypted-tbn0.gstatic.com
 # 无污染，有大陆路由 fonts.gstatic.com
 # 无污染 maps.gstatic.com
+# 无污染 f7ps7umhxy6m6ucoorrb6jjybatap4jqaaaab6aa74ap643egkga-c2r.metric.gstatic.com
 # 无污染，有大陆路由 ssl.gstatic.com
 # 无污染，有大陆路由 www.gstatic.com
 # DOMAIN-SUFFIX,gvt0.com
@@ -247,6 +248,7 @@ IP-CIDR,142.250.72.133/32
 IP-CIDR,142.250.72.138/32
 IP-CIDR,142.250.72.161/32
 IP-CIDR,142.250.72.202/32
+IP-CIDR,142.250.72.227/32
 IP-CIDR,142.250.101.92/32
 IP-CIDR,142.250.157.92/32
 IP-CIDR,142.250.176.5/32
@@ -309,6 +311,7 @@ IP-CIDR,142.251.220.42/32
 IP-CIDR,172.217.12.99/32
 IP-CIDR,172.217.12.101/32
 IP-CIDR,172.217.12.106/32
+IP-CIDR,172.217.12.131/32
 IP-CIDR,172.217.14.65/32
 IP-CIDR,172.217.14.97/32
 IP-CIDR,172.217.24.225/32
@@ -407,9 +410,12 @@ IP-CIDR6,2607:f8b0:4007:809::2001/128
 IP-CIDR6,2607:f8b0:4007:809::2003/128
 IP-CIDR6,2607:f8b0:4007:809::2005/128
 IP-CIDR6,2607:f8b0:4007:80a::2003/128
+IP-CIDR6,2607:f8b0:4007:80e::2001/128
+IP-CIDR6,2607:f8b0:4007:80e::2003/128
 IP-CIDR6,2607:f8b0:4007:80e::2005/128
 IP-CIDR6,2607:f8b0:4007:80e::200a/128
 IP-CIDR6,2607:f8b0:4007:80f::2001/128
+IP-CIDR6,2607:f8b0:4007:80f::2003/128
 IP-CIDR6,2607:f8b0:4007:811::2005/128
 IP-CIDR6,2607:f8b0:4007:811::200a/128
 IP-CIDR6,2607:f8b0:4007:811::200e/128
@@ -417,6 +423,7 @@ IP-CIDR6,2607:f8b0:4007:813::200a/128
 IP-CIDR6,2607:f8b0:4007:814::2005/128
 IP-CIDR6,2607:f8b0:4007:815::2001/128
 IP-CIDR6,2607:f8b0:4007:815::2003/128
+IP-CIDR6,2607:f8b0:4007:817::2003/128
 IP-CIDR6,2607:f8b0:4007:817::200a/128
 IP-CIDR6,2607:f8b0:4007:818::2001/128
 IP-CIDR6,2607:f8b0:4007:818::2003/128
