@@ -2,10 +2,10 @@
 # DOMAIN-KEYWORD,fbcdn
 DOMAIN,edge-chat.facebook.com,tcp
 DOMAIN,gateway.facebook.com,tcp
+DOMAIN,m.facebook.com,tcp
 DOMAIN,research.facebook.com,tcp
 DOMAIN,www.facebook.com,tcp
-# DOMAIN,facebook.com
-# DOMAIN-SUFFIX,fb.com
+DOMAIN,portal.fb.com,tcp
 # DOMAIN-SUFFIX,fb.me
 # DOMAIN-SUFFIX,fbcdn.com
 DOMAIN,scontent.fhkg1-1.fna.fbcdn.net,tcp
