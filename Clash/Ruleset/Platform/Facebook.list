@@ -48,4 +48,5 @@ DOMAIN,platform-lookaside.fbsbx.com,tcp
 # IP-CIDR,179.60.192.0/22,no-resolve
 # IP-CIDR,185.60.216.0/22,no-resolve
 # IP-CIDR,204.15.20.0/22,no-resolve
+IP-CIDR6,2a03:2880:f00d:1:face:b00c:0:1/128
 IP-CIDR6,2a03:2880:f11f:83:face:b00c:0:25de/128
