@@ -6,96 +6,96 @@ DOMAIN,cloud-dot-devsite-v2-prod.appspot.com,tcp
 DOMAIN,appspot.com,tcp
 DOMAIN,tunnel.cloudproxy.app,tcp
 # DOMAIN-SUFFIX,g.co
-DOMAIN,lh2.ggpht.com,tcp
-DOMAIN,lh3.ggpht.com,tcp
-DOMAIN,lh4.ggpht.com,tcp
-DOMAIN,lh5.ggpht.com,tcp
-DOMAIN,lh6.ggpht.com,tcp
-DOMAIN,yt2.ggpht.com,tcp
-DOMAIN,yt3.ggpht.com,tcp
-DOMAIN,yt4.ggpht.com,tcp
-DOMAIN,gmail.com,tcp
+# DOMAIN,lh2.ggpht.com,tcp
+# DOMAIN,lh3.ggpht.com,tcp
+# DOMAIN,lh4.ggpht.com,tcp
+# DOMAIN,lh5.ggpht.com,tcp
+# DOMAIN,lh6.ggpht.com,tcp
+# DOMAIN,yt2.ggpht.com,tcp
+# DOMAIN,yt3.ggpht.com,tcp
+# DOMAIN,yt4.ggpht.com,tcp
+# DOMAIN,gmail.com,tcp
 # DOMAIN-SUFFIX,goo.gl
-DOMAIN,www.google.ae,tcp
-DOMAIN,www.google.com.ar,tcp
-DOMAIN,www.google.at,tcp
-DOMAIN,www.google.com.au,tcp
-DOMAIN,www.google.be,tcp
-DOMAIN,www.google.com.br,tcp
-DOMAIN,www.google.ca,tcp
-DOMAIN,www.google.ch,tcp
-DOMAIN,www.google.cl,tcp
+# DOMAIN,www.google.ae,tcp
+# DOMAIN,www.google.com.ar,tcp
+# DOMAIN,www.google.at,tcp
+# DOMAIN,www.google.com.au,tcp
+# DOMAIN,www.google.be,tcp
+# DOMAIN,www.google.com.br,tcp
+# DOMAIN,www.google.ca,tcp
+# DOMAIN,www.google.ch,tcp
+# DOMAIN,www.google.cl,tcp
 # 无污染，有大陆路由 www.google.cn
-DOMAIN,aa.google.com,tcp
+# DOMAIN,aa.google.com,tcp
 # 待观察 accounts.google.com
-DOMAIN,adservice.google.com,tcp
+# DOMAIN,adservice.google.com,tcp
 # 无污染 android.apis.google.com
-DOMAIN,apis.google.com,tcp
+# DOMAIN,apis.google.com,tcp
 # 无污染 bard.google.com
-DOMAIN,chrome.google.com,tcp
-DOMAIN,android.clients.google.com,tcp
-DOMAIN,clients2.google.com,tcp
-DOMAIN,clients3.google.com,tcp
-DOMAIN,clients4.google.com,tcp
-DOMAIN,clients5.google.com,tcp
-DOMAIN,addons-pa.clients6.google.com,tcp
-DOMAIN,appsitemsuggest-pa.clients6.google.com,tcp
-DOMAIN,artifactregistry.clients6.google.com,tcp
-DOMAIN,cloudbuild.clients6.google.com,tcp
-DOMAIN,cloudconsole-pa.clients6.google.com,tcp
-DOMAIN,cloudresourcemanager.clients6.google.com,tcp
-DOMAIN,cloudusersettings-pa.clients6.google.com,tcp
-DOMAIN,compute.clients6.google.com,tcp
-DOMAIN,developerprofiles-pa.clients6.google.com,tcp
-DOMAIN,driveactivity.clients6.google.com,tcp
-DOMAIN,espresso-pa.clients6.google.com,tcp
-DOMAIN,iam.clients6.google.com,tcp
-DOMAIN,iap.clients6.google.com,tcp
-DOMAIN,monitoring.clients6.google.com,tcp
-DOMAIN,networkmanagement.clients6.google.com,tcp
-DOMAIN,people-pa.clients6.google.com,tcp
-DOMAIN,peoplestack-pa.clients6.google.com,tcp
-DOMAIN,peoplestackwebexperiments-pa.clients6.google.com,tcp
-DOMAIN,scone-pa.clients6.google.com,tcp
-DOMAIN,signaler-pa.clients6.google.com,tcp
-DOMAIN,waa-pa.clients6.google.com,tcp
-DOMAIN,clients6.google.com,tcp
-DOMAIN,console.cloud.google.com,tcp
-DOMAIN,ssh.cloud.google.com,tcp
-DOMAIN,cloud.google.com,tcp
-DOMAIN,codelabs.developers.google.com,tcp
-DOMAIN,developers.google.com,tcp
-DOMAIN,docs.google.com,tcp
-DOMAIN,drive.google.com,tcp
-DOMAIN,fundingchoicesmessages.google.com,tcp
-DOMAIN,gds.google.com,tcp
-DOMAIN,id.google.com,tcp
+# DOMAIN,chrome.google.com,tcp
+# DOMAIN,android.clients.google.com,tcp
+# DOMAIN,clients2.google.com,tcp
+# DOMAIN,clients3.google.com,tcp
+# DOMAIN,clients4.google.com,tcp
+# DOMAIN,clients5.google.com,tcp
+# DOMAIN,addons-pa.clients6.google.com,tcp
+# DOMAIN,appsitemsuggest-pa.clients6.google.com,tcp
+# DOMAIN,artifactregistry.clients6.google.com,tcp
+# DOMAIN,cloudbuild.clients6.google.com,tcp
+# DOMAIN,cloudconsole-pa.clients6.google.com,tcp
+# DOMAIN,cloudresourcemanager.clients6.google.com,tcp
+# DOMAIN,cloudusersettings-pa.clients6.google.com,tcp
+# DOMAIN,compute.clients6.google.com,tcp
+# DOMAIN,developerprofiles-pa.clients6.google.com,tcp
+# DOMAIN,driveactivity.clients6.google.com,tcp
+# DOMAIN,espresso-pa.clients6.google.com,tcp
+# DOMAIN,iam.clients6.google.com,tcp
+# DOMAIN,iap.clients6.google.com,tcp
+# DOMAIN,monitoring.clients6.google.com,tcp
+# DOMAIN,networkmanagement.clients6.google.com,tcp
+# DOMAIN,people-pa.clients6.google.com,tcp
+# DOMAIN,peoplestack-pa.clients6.google.com,tcp
+# DOMAIN,peoplestackwebexperiments-pa.clients6.google.com,tcp
+# DOMAIN,scone-pa.clients6.google.com,tcp
+# DOMAIN,signaler-pa.clients6.google.com,tcp
+# DOMAIN,waa-pa.clients6.google.com,tcp
+# DOMAIN,clients6.google.com,tcp
+# DOMAIN,console.cloud.google.com,tcp
+# DOMAIN,ssh.cloud.google.com,tcp
+# DOMAIN,cloud.google.com,tcp
+# DOMAIN,codelabs.developers.google.com,tcp
+# DOMAIN,developers.google.com,tcp
+# DOMAIN,docs.google.com,tcp
+# DOMAIN,drive.google.com,tcp
+# DOMAIN,fundingchoicesmessages.google.com,tcp
+# DOMAIN,gds.google.com,tcp
+# DOMAIN,id.google.com,tcp
 # inbox.google.com 未扰乱，但IP封禁，用nslookup、ping结果添加
-DOMAIN,ipv4.google.com,tcp
-DOMAIN,ipv6.google.com,tcp
-DOMAIN,lens.google.com,tcp
-DOMAIN,lh3.google.com,tcp
-DOMAIN,mail.google.com,tcp
-DOMAIN,maps.google.com,tcp
-DOMAIN,mtalk.google.com,tcp
-DOMAIN,myaccount.google.com,tcp
-DOMAIN,ogs.google.com,tcp
-DOMAIN,payments.google.com,tcp
-DOMAIN,play.google.com,tcp
-DOMAIN,colab.research.google.com,tcp
-DOMAIN,scholar.google.com,tcp
-DOMAIN,store.google.com,tcp
-DOMAIN,support.google.com,tcp
-DOMAIN,translate.google.com,tcp
-DOMAIN,voice.google.com,tcp
-DOMAIN,www.google.com,tcp
-DOMAIN,google.com,tcp
-DOMAIN,www.google.de,tcp
-DOMAIN,www.google.com.eg,tcp
-DOMAIN,google.com.eg,tcp
-DOMAIN,www.google.es,tcp
-DOMAIN,www.google.fr,tcp
-DOMAIN,www.google.gr,tcp
+# DOMAIN,ipv4.google.com,tcp
+# DOMAIN,ipv6.google.com,tcp
+# DOMAIN,lens.google.com,tcp
+# DOMAIN,lh3.google.com,tcp
+# DOMAIN,mail.google.com,tcp
+# DOMAIN,maps.google.com,tcp
+# DOMAIN,mtalk.google.com,tcp
+# DOMAIN,myaccount.google.com,tcp
+# DOMAIN,ogs.google.com,tcp
+# DOMAIN,payments.google.com,tcp
+# DOMAIN,play.google.com,tcp
+# DOMAIN,colab.research.google.com,tcp
+# DOMAIN,scholar.google.com,tcp
+# DOMAIN,store.google.com,tcp
+# DOMAIN,support.google.com,tcp
+# DOMAIN,translate.google.com,tcp
+# DOMAIN,voice.google.com,tcp
+# DOMAIN,www.google.com,tcp
+# DOMAIN,google.com,tcp
+# DOMAIN,www.google.de,tcp
+# DOMAIN,www.google.com.eg,tcp
+# DOMAIN,google.com.eg,tcp
+# DOMAIN,www.google.es,tcp
+# DOMAIN,www.google.fr,tcp
+# DOMAIN,www.google.gr,tcp
 DOMAIN,accounts.google.com.hk,tcp
 DOMAIN,adservice.google.com.hk,tcp
 DOMAIN,id.google.com.hk,tcp
@@ -198,8 +198,8 @@ DOMAIN,beacons.gcp.gvt2.com,tcp
 # 无污染，有大陆路由 ocsp.pki.goog
 # 无污染，有大陆路由 www.recaptcha.net
 DOMAIN,csp.withgoogle.com,tcp
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,tcp
-DOMAIN-SUFFIX,ångströ.com,tcp
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com,tcp
+# DOMAIN-SUFFIX,ångströ.com,tcp
 # IP-CIDR,74.125.0.0/16,no-resolve
 # IP-CIDR,173.194.0.0/16,no-resolve
 # DOMAIN,youtubei.googleapis.com
@@ -241,11 +241,13 @@ IP-CIDR,108.177.125.92/32
 # IP-CIDR,120.253.255.98/32,no-resolve
 IP-CIDR,142.250.66.118/32
 IP-CIDR,142.250.68.1/32
+IP-CIDR,142.250.68.13/32
 IP-CIDR,142.250.68.37/32
 IP-CIDR,142.250.72.129/32
 IP-CIDR,142.250.72.131/32
 IP-CIDR,142.250.72.133/32
 IP-CIDR,142.250.72.138/32
+IP-CIDR,142.250.72.141/32
 IP-CIDR,142.250.72.161/32
 IP-CIDR,142.250.72.195/32
 IP-CIDR,142.250.72.202/32
@@ -307,12 +309,14 @@ IP-CIDR,142.251.43.14/32
 IP-CIDR,142.251.43.22/32
 IP-CIDR,142.251.46.165/32
 IP-CIDR,142.251.46.170/32
+IP-CIDR,142.251.46.174/32
 IP-CIDR,142.251.46.182/32
 IP-CIDR,142.251.46.195/32
 IP-CIDR,142.251.46.197/32
 IP-CIDR,142.251.46.202/32
 IP-CIDR,142.251.46.227/32
 IP-CIDR,142.251.46.234/32
+IP-CIDR,142.251.46.238/32
 IP-CIDR,142.251.170.92/32
 IP-CIDR,142.251.214.129/32
 IP-CIDR,142.251.214.131/32
@@ -394,6 +398,7 @@ IP-CIDR6,2607:f8b0:4005:80b::2005/128
 IP-CIDR6,2607:f8b0:4005:80c::2001/128
 IP-CIDR6,2607:f8b0:4005:80c::2003/128
 IP-CIDR6,2607:f8b0:4005:80c::2005/128
+IP-CIDR6,2607:f8b0:4005:80c::200a/128
 IP-CIDR6,2607:f8b0:4005:80c::200d/128
 IP-CIDR6,2607:f8b0:4005:80c::200e/128
 IP-CIDR6,2607:f8b0:4005:80d::2003/128
@@ -410,6 +415,7 @@ IP-CIDR6,2607:f8b0:4005:810::2005/128
 IP-CIDR6,2607:f8b0:4005:810::200a/128
 IP-CIDR6,2607:f8b0:4005:810::2016/128
 IP-CIDR6,2607:f8b0:4005:811::2003/128
+IP-CIDR6,2607:f8b0:4005:811::200a/128
 IP-CIDR6,2607:f8b0:4005:812::2001/128
 IP-CIDR6,2607:f8b0:4005:812::2003/128
 IP-CIDR6,2607:f8b0:4005:812::2005/128
@@ -434,6 +440,7 @@ IP-CIDR6,2607:f8b0:4007:809::2005/128
 IP-CIDR6,2607:f8b0:4007:809::200a/128
 IP-CIDR6,2607:f8b0:4007:80a::2003/128
 IP-CIDR6,2607:f8b0:4007:80a::200a/128
+IP-CIDR6,2607:f8b0:4007:80a::200d/128
 IP-CIDR6,2607:f8b0:4007:80e::2001/128
 IP-CIDR6,2607:f8b0:4007:80e::2003/128
 IP-CIDR6,2607:f8b0:4007:80e::2005/128
@@ -444,12 +451,15 @@ IP-CIDR6,2607:f8b0:4007:811::2005/128
 IP-CIDR6,2607:f8b0:4007:811::200a/128
 IP-CIDR6,2607:f8b0:4007:811::200e/128
 IP-CIDR6,2607:f8b0:4007:813::200a/128
+IP-CIDR6,2607:f8b0:4007:814::2003/128
 IP-CIDR6,2607:f8b0:4007:814::2005/128
 IP-CIDR6,2607:f8b0:4007:814::200a/128
 IP-CIDR6,2607:f8b0:4007:814::200d/128
 IP-CIDR6,2607:f8b0:4007:815::2001/128
 IP-CIDR6,2607:f8b0:4007:815::2003/128
 IP-CIDR6,2607:f8b0:4007:815::200a/128
+IP-CIDR6,2607:f8b0:4007:815::200d/128
+IP-CIDR6,2607:f8b0:4007:815::200e/128
 IP-CIDR6,2607:f8b0:4007:816::2003/128
 IP-CIDR6,2607:f8b0:4007:817::2003/128
 IP-CIDR6,2607:f8b0:4007:817::200a/128
