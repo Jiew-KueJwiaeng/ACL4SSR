@@ -3,7 +3,7 @@ DOMAIN,gist.github.com
 DOMAIN,github.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,objects.githubusercontent.com
-# DOMAIN,raw.githubusercontent.com
+DOMAIN,raw.githubusercontent.com
 # DOMAIN-SUFFIX,github.io
 # DOMAIN-SUFFIX,githubapp.com
 # DOMAIN-SUFFIX,githubassets.com
