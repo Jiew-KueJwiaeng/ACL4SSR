@@ -516,10 +516,15 @@ dns:
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
   fallback-filter:
-    geoip: true
+    geoip: false
     geoip-code: CN
     geosite:
       - "gfw"
+      - "bing"
+      - "microsoft"
+      - "microsoft-dev"
+      - "microsoft-pki"
+      - "msn"
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
