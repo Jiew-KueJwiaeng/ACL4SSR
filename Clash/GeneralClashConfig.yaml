@@ -646,9 +646,31 @@ dns:
       - "+.wikipedia.org"
       - "m.youtube.com"
       - "www.youtube.com"
-  #nameserver-policy:
-  #  'www.baidu.com': '114.114.114.114'
-  #  '+.internal.crop.com': '10.0.0.1'
+  nameserver-policy:
+    #   'www.baidu.com': '114.114.114.114'
+    #   '+.internal.crop.com': '10.0.0.1'
+    "geosite:apple,apple@cn,apple-cn,category-games@cn,cn,epicgames@cn,geolocation-cn,google@cn,google-cn,icloud,icloud@cn,microsoft@cn,private,steam@cn":
+      - "tls://[2400:3200:baba::1]:853"
+      - "tls://[2400:3200::1]:853"
+      - "tls://223.6.6.6:853"
+      - "tls://223.5.5.5:853"
+      - "tls://dns.alidns.com:853"
+      - "https://[2400:3200:baba::1]:443/dns-query"
+      - "https://[2400:3200::1]:443/dns-query"
+      - "https://223.6.6.6:443/dns-query"
+      - "https://223.5.5.5:443/dns-query"
+      - "https://dns.alidns.com:443/dns-query"
+      - "tls://1.12.12.12:853"
+      - "tls://120.53.53.53:853"
+      - "tls://dot.pub:853"
+      - "https://1.12.12.12:443/dns-query"
+      - "https://120.53.53.53:443/dns-query"
+      - "https://doh.pub:443/dns-query"
+    #"geosite:category-ads-all": rcode://success
+    #"www.baidu.com,+.google.cn": [223.5.5.5, https://dns.alidns.com/dns-query]
+    ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
+    ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
+    # "rule-set:global,dns": 8.8.8.8
 #tun:
 #  enable: true
 #  stack: system
