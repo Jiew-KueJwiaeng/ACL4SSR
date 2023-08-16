@@ -1,5 +1,5 @@
 proxies:
-  - name: "vless-reality-vision racknerd-losangeles"
+  - name: "vless-reality-vision_racknerd-losangeles_IPv6"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
     port: "443"
@@ -13,7 +13,7 @@ proxies:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
     client-fingerprint: "ios"
-  - name: "vless-reality-grpc racknerd-losangeles"
+  - name: "vless-reality-grpc_racknerd-losangeles_IPv6"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
     port: "443"
@@ -30,7 +30,7 @@ proxies:
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: 10f897e26c4b9478
-  - name: "vless-reality-vision racknerd-losangeles IPv4"
+  - name: "vless-reality-vision_racknerd-losangeles_IPv4"
     type: vless
     server: "100.42.68.181"
     port: "443"
@@ -44,7 +44,7 @@ proxies:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
     client-fingerprint: "ios"
-  - name: "vless-reality-grpc racknerd-losangeles IPv4"
+  - name: "vless-reality-grpc_racknerd-losangeles_IPv4"
     type: vless
     server: "100.42.68.181"
     port: "443"
@@ -61,7 +61,7 @@ proxies:
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: 10f897e26c4b9478
-  - name: "vless-reality-vision racknerd-newyork"
+  - name: "vless-reality-vision_racknerd-newyork_IPv4"
     type: vless
     server: "23.95.170.29"
     port: "443"
@@ -75,7 +75,7 @@ proxies:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
     client-fingerprint: "ios"
-  - name: "vless-reality-grpc racknerd-newyork"
+  - name: "vless-reality-grpc_racknerd-newyork_IPv4"
     type: vless
     server: "23.95.170.29"
     port: "443"
@@ -92,699 +92,79 @@ proxies:
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: 10f897e26c4b9478
-    
-  - name: "vless-reality-vision racknerd-newyork"
+  - name: "vless-reality-vision_justhost-trkiye_IPv6"
     type: vless
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
+    server: "2605:e440:11::2:6c"
+    port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "racknerd-newyork.nk2028.gq"
+    servername: "markdown.com.cn"
     reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: xxx # optional
     client-fingerprint: "ios"
-    ip-version: dual
-  - name: "vless-reality-grpc racknerd-newyork"
+  - name: "vless-reality-grpc_justhost-trkiye_IPv6"
     type: vless
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
+    server: "2605:e440:11::2:6c"
+    port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
-    skip-cert-verify: false
+    skip-cert-verify: true
     client-fingerprint: "ios"
-    servername: "racknerd-newyork.nk2028.gq"
+    servername: "markdown.com.cn"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-reality-grpc racknerd-newyork CDN"
+  - name: "vless-reality-vision_justhost-trkiye_IPv4"
     type: vless
-    server: "racknerd-newyork.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    udp: true
-    flow:
-    skip-cert-verify: false
-    client-fingerprint: "ios"
-    servername: "racknerd-newyork.nk2028.gq"
-    grpc-opts:
-      grpc-service-name: "grpc"
-    reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
-      #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-tcp racknerd-newyork"
-    type: vless
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
+    server: "194.87.39.183"
+    port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "vless-grpc racknerd-newyork"
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: "racknerd-newyork.nk2028.gq"
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-grpc racknerd-newyork CDN"
-    server: "racknerd-newyork.nk2028.gq"
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: "racknerd-newyork.nk2028.gq"
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-ws racknerd-newyork"
-    type: vless
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: "racknerd-newyork.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: "racknerd-newyork.nk2028.gq"
-    ip-version: dual
-  - name: "vless-ws racknerd-newyork CDN"
-    type: vless
-    server: "racknerd-newyork.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: "racknerd-newyork.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: "racknerd-newyork.nk2028.gq"
-    ip-version: dual
-  - name: "trojan-tcp racknerd-newyork"
-    type: trojan
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    udp: true
-    sni: "racknerd-newyork.nk2028.gq"
-    alpn:
-    #  - h2
-      - http/1.1
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "trojan-grpc racknerd-newyork"
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: "racknerd-newyork.nk2028.gq"
-    alpn:
-      - h2
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "trojan-grpc racknerd-newyork CDN"
-    server: "racknerd-newyork.nk2028.gq"
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: "racknerd-newyork.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "vmess-ws racknerd-newyork"
-    type: vmess
-    server: "racknerd-newyork-direct.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: "racknerd-newyork.nk2028.gq"
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: "racknerd-newyork.nk2028.gq"
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vmess-ws racknerd-newyork CDN"
-    type: vmess
-    server: "racknerd-newyork.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: "racknerd-newyork.nk2028.gq"
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: "racknerd-newyork.nk2028.gq"
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vless-reality-vision newtudou"
-    type: vless
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: "d-gh-tr-h-k.nk2028.gq"
+    servername: "markdown.com.cn"
     reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: xxx # optional
     client-fingerprint: "ios"
-    ip-version: dual
-  - name: "vless-reality-grpc newtudou"
+  - name: "vless-reality-grpc_justhost-trkiye_IPv4"
     type: vless
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
+    server: "194.87.39.183"
+    port: "25565"
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
-    skip-cert-verify: false
+    skip-cert-verify: true
     client-fingerprint: "ios"
-    servername: "d-gh-tr-h-k.nk2028.gq"
+    servername: "markdown.com.cn"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
+      public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-reality-grpc newtudou CDN"
-    type: vless
-    server: "d-gh-tr-h-k.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    udp: true
-    flow:
-    skip-cert-verify: false
-    client-fingerprint: "ios"
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    grpc-opts:
-      grpc-service-name: "grpc"
-    reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
-      #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-tcp newtudou"
-    type: vless
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "vless-grpc newtudou"
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-grpc newtudou CDN"
-    server: "d-gh-tr-h-k.nk2028.gq"
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-ws newtudou"
-    type: vless
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: nk2028.gq
-    ip-version: dual
-  - name: "vless-ws newtudou CDN"
-    type: vless
-    server: "d-gh-tr-h-k.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: nk2028.gq
-    ip-version: dual
-  - name: "trojan-tcp newtudou"
-    type: trojan
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    udp: true
-    sni: "d-gh-tr-h-k.nk2028.gq"
-    alpn:
-    #  - h2
-      - http/1.1
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "trojan-grpc newtudou"
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: "d-gh-tr-h-k.nk2028.gq"
-    alpn:
-      - h2
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "trojan-grpc newtudou CDN"
-    server: "d-gh-tr-h-k.nk2028.gq"
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: "d-gh-tr-h-k.nk2028.gq"
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "vmess-ws newtudou"
-    type: vmess
-    server: "doung-ghwaej-trin-hyang-koeung.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vmess-ws newtudou CDN"
-    type: vmess
-    server: nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: "d-gh-tr-h-k.nk2028.gq"
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vless-reality-vision gcp"
-    type: vless
-    server: "gcp.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: "nk2028.gq"
-    reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
-      #short-id: xxx # optional
-    client-fingerprint: "ios"
-    ip-version: dual
-  - name: "vless-reality-grpc gcp"
-    type: vless
-    server: "gcp.nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    udp: true
-    flow:
-    skip-cert-verify: false
-    client-fingerprint: "ios"
-    servername: "nk2028.gq"
-    grpc-opts:
-      grpc-service-name: "grpc"
-    reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
-      #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-reality-grpc gcp CDN"
-    type: vless
-    server: "nk2028.gq"
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    udp: true
-    flow:
-    skip-cert-verify: false
-    client-fingerprint: "ios"
-    servername: "nk2028.gq"
-    grpc-opts:
-      grpc-service-name: "grpc"
-    reality-opts:
-      public-key: "ODLcVlRLn1lQdOiDZeOFdxChSPmtoVKUJVlYfgqgOho"
-      #short-id: 10f897e26c4b9478
-    ip-version: dual
-  - name: "vless-tcp gcp"
-    type: vless
-    server: gcp.nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "vless-grpc gcp"
-    server: gcp.nk2028.gq
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: nk2028.gq
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-grpc gcp CDN"
-    server: nk2028.gq
-    port: 443
-    type: vless
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    # fingerprint: xxxx
-    alpn:
-      - h2
-    servername: nk2028.gq
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: "pdlugrpc"
-    ip-version: dual
-    udp: true
-    client-fingerprint: "ios"
-  - name: "vless-ws gcp"
-    type: vless
-    server: gcp.nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: nk2028.gq
-    ip-version: dual
-  - name: "vless-ws gcp CDN"
-    type: vless
-    server: nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    udp: true
-    tls: true
-    network: ws
-    client-fingerprint: "ios"
-    servername: nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    ws-opts:
-      path: "/pdluws"
-      headers:
-        Host: nk2028.gq
-    ip-version: dual
-  - name: "trojan-tcp gcp"
-    type: trojan
-    server: gcp.nk2028.gq
-    port: 443
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    client-fingerprint: "ios"
-    # fingerprint: xxxx
-    udp: true
-    sni: nk2028.gq
-    alpn:
-    #  - h2
-      - http/1.1
-    skip-cert-verify: false
-    ip-version: dual
-  - name: "trojan-grpc gcp"
-    server: gcp.nk2028.gq
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: nk2028.gq
-    alpn:
-      - h2
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "trojan-grpc gcp CDN"
-    server: nk2028.gq
-    port: 443
-    type: trojan
-    password: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    sni: nk2028.gq
-    skip-cert-verify: false
-    # fingerprint: xxxx
-    udp: true
-    grpc-opts:
-      grpc-service-name: "pdlutrojangrpc"
-    ip-version: dual
-  - name: "vmess-ws gcp"
-    type: vmess
-    server: gcp.nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
-  - name: "vmess-ws gcp CDN"
-    type: vmess
-    server: nk2028.gq
-    port: 443
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    # fingerprint: xxxx
-    client-fingerprint: "ios"
-    skip-cert-verify: false
-    servername: nk2028.gq
-    network: ws
-    ws-opts:
-      path: /pdluvws
-      headers:
-        Host: nk2028.gq
-    #   max-early-data: 2048
-    #   early-data-header-name: Sec-WebSocket-Protocol
-    ip-version: dual
 proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "vless-reality-vision racknerd-losangeles"
-      - "vless-reality-grpc racknerd-losangeles"
-      - "vless-reality-vision racknerd-losangeles IPv4"
-      - "vless-reality-grpc racknerd-losangeles IPv4"
-      - "vless-reality-vision racknerd-newyork"
-      - "vless-reality-grpc racknerd-newyork"
-      - "vless-reality-grpc racknerd-newyork CDN"
-      - "vless-tcp racknerd-newyork"
-      - "vless-grpc racknerd-newyork"
-      - "vless-grpc racknerd-newyork CDN"
-      - "vless-ws racknerd-newyork"
-      - "vless-ws racknerd-newyork CDN"
-      - "trojan-tcp racknerd-newyork"
-      - "trojan-grpc racknerd-newyork"
-      - "trojan-grpc racknerd-newyork CDN"
-      - "vmess-ws racknerd-newyork"
-      - "vmess-ws racknerd-newyork CDN"
-      - "vless-reality-vision newtudou"
-      - "vless-reality-grpc newtudou"
-      - "vless-reality-grpc newtudou CDN"
-      - "vless-tcp newtudou"
-      - "vless-grpc newtudou"
-      - "vless-grpc newtudou CDN"
-      - "vless-ws newtudou"
-      - "vless-ws newtudou CDN"
-      - "trojan-tcp newtudou"
-      - "trojan-grpc newtudou"
-      - "trojan-grpc newtudou CDN"
-      - "vmess-ws newtudou"
-      - "vmess-ws newtudou CDN"
-      - "vless-reality-vision gcp"
-      - "vless-reality-grpc gcp"
-      - "vless-reality-grpc gcp CDN"
-      - "vless-tcp gcp"
-      - "vless-grpc gcp"
-      - "vless-grpc gcp CDN"
-      - "vless-ws gcp"
-      - "vless-ws gcp CDN"
-      - "trojan-tcp gcp"
-      - "trojan-grpc gcp"
-      - "trojan-grpc gcp CDN"
-      - "vmess-ws gcp"
-      - "vmess-ws gcp CDN"
+      - "vless-reality-vision_racknerd-losangeles_IPv6"
+      - "vless-reality-grpc_racknerd-losangeles_IPv6"
+      - "vless-reality-vision_racknerd-losangeles_IPv4"
+      - "vless-reality-grpc_racknerd-losangeles_IPv4"
+      - "vless-reality-vision_racknerd-newyork_IPv4"
+      - "vless-reality-grpc_racknerd-newyork_IPv4"
+      - "vless-reality-vision_justhost-trkiye_IPv6"
+      - "vless-reality-grpc_justhost-trkiye_IPv6"
+      - "vless-reality-vision_justhost-trkiye_IPv4"
+      - "vless-reality-grpc_justhost-trkiye_IPv4"
