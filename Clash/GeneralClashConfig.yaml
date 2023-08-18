@@ -544,8 +544,8 @@ dns:
       - s.cn.bing.chinacache.net
       - ts1.cn.mm.bing.chinacache.net
       - ts2.cn.mm.bing.chinacache.net
-      - ts3.cn.mm.bing.chinacache.net
-      - ts4.cn.mm.bing.chinacache.net
+      - civitai.com
+      - +.civitai.com
       - v.clarity.ms
       - www.clarity.ms
       - clarity.ms
