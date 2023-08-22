@@ -77,7 +77,7 @@ DOMAIN,zlxxglobal.v.lxcvc.com
 # DOMAIN,sapphire.api.microsoftapp.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 # DOMAIN,cdn.sapphire.microsoftapp.net
-DOMAIN,login.microsoftonline.com
+# DOMAIN,login.microsoftonline.com
 # DOMAIN,az15297.vo.msecnd.net
 DOMAIN,prdv6a.aadg.msidentity.com
 DOMAIN,login.msa.msidentity.com
