@@ -558,8 +558,8 @@ dns:
       - shed.dual-low.part-0011.t-0009.fdv2-t-msedge.net
       - part-0011.t-0009.fdv2-t-msedge.net
       - shed.dual-low.part-0041.t-0009.fdv2-t-msedge.net
-      - part-0041.t-0009.fdv2-t-msedge.net
-      - "+.githubusercontent.com"
+      - www.godaddy.com
+      - +.godaddy.com
       - "+.google.com"
       - "+.googlevideo.com"
       - "+.line.me"
