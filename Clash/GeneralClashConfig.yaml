@@ -535,10 +535,6 @@ dns:
       - ts3.cn.mm.bing.net
       - ts4.cn.mm.bing.net
       - tse.mm.bing.net
-      - tse1.mm.bing.net
-      - tse2.mm.bing.net
-      - tse3.mm.bing.net
-      - tse4.mm.bing.net
       - "+.bing.net"
       - bing.net
       - s.cn.bing.chinacache.net
@@ -563,7 +559,11 @@ dns:
       - "+.google.com"
       - "+.googlevideo.com"
       - "+.line.me"
-      - login.live.com
+      - assets.production.linktr.ee
+      - ugc.production.linktr.ee
+      - +.production.linktr.ee
+      - linktr.ee
+      - +.linktr.ee
       - s1.cn.bing.net.lxcvc.com
       - ts1.cn.mm.bing.net.lxcvc.com
       - ts2.cn.mm.bing.net.lxcvc.com
