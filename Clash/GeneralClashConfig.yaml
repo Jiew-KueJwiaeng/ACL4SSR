@@ -463,12 +463,21 @@ dns:
     geoip: false
     geoip-code: CN
     geosite:
+      - "bandcamp"
+      - "dropbox"
       - "gfw"
-      - "bing"
-      - "microsoft"
-      - "microsoft-dev"
-      - "microsoft-pki"
-      - "msn"
+      - "google"
+      - "google-ads"
+      - "google-registry"
+      - "google-scholar"
+      - "google-trust-services"
+      - "googlefcm"
+      - "openai"
+      - "protonmail"
+      - "steam"
+      - "telegram"
+      - "whatsapp"
+      - "youtube"
     ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
