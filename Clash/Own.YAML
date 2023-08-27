@@ -2,29 +2,29 @@ proxies:
   - name: "vless-reality-vision_racknerd-losangeles_IPv6"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
-    port: "443"
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "webstatic.hoyoverse.com"
+    servername: 'markdown.com.cn'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
   - name: "vless-reality-grpc_racknerd-losangeles_IPv6"
     type: vless
     server: "2607:f130:0:f8:ff:ff:7364:328c"
-    port: "443"
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: "ios"
-    servername: "webstatic.hoyoverse.com"
+    client-fingerprint: '360'
+    servername: 'markdown.com.cn'
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
@@ -33,29 +33,29 @@ proxies:
   - name: "vless-reality-vision_racknerd-losangeles_IPv4"
     type: vless
     server: "100.42.68.181"
-    port: "443"
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "webstatic.hoyoverse.com"
+    servername: 'markdown.com.cn'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
   - name: "vless-reality-grpc_racknerd-losangeles_IPv4"
     type: vless
     server: "100.42.68.181"
-    port: "443"
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: "ios"
-    servername: "webstatic.hoyoverse.com"
+    client-fingerprint: '360'
+    servername: 'markdown.com.cn'
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
@@ -63,30 +63,30 @@ proxies:
       #short-id: 10f897e26c4b9478
   - name: "vless-reality-vision_racknerd-newyork_IPv4"
     type: vless
-    server: "23.95.170.29"
-    port: "443"
+    server: '23.95.170.29'
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "webstatic.hoyoverse.com"
+    servername: 'markdown.com.cn'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
   - name: "vless-reality-grpc_racknerd-newyork_IPv4"
     type: vless
     server: "23.95.170.29"
-    port: "443"
+    port: '25565'
     uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
     network: grpc
     tls: true
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: "ios"
-    servername: "webstatic.hoyoverse.com"
+    client-fingerprint: '360'
+    servername: "markdown.com.cn"
     grpc-opts:
       grpc-service-name: "grpc"
     reality-opts:
@@ -105,7 +105,7 @@ proxies:
     reality-opts:
       public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: xxx # optional
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
   - name: "vless-reality-grpc_justhost-trkiye_IPv6"
     type: vless
     server: "2605:e440:11::2:6c"
@@ -116,7 +116,7 @@ proxies:
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
     servername: "markdown.com.cn"
     grpc-opts:
       grpc-service-name: "grpc"
@@ -136,7 +136,7 @@ proxies:
     reality-opts:
       public-key: "fkWiFUSe_ruG6UGSlJY2H31jrV01GNHwsTnMBib-0DU"
       #short-id: xxx # optional
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
   - name: "vless-reality-grpc_justhost-trkiye_IPv4"
     type: vless
     server: "194.87.39.183"
@@ -147,7 +147,7 @@ proxies:
     udp: true
     flow:
     skip-cert-verify: true
-    client-fingerprint: "ios"
+    client-fingerprint: '360'
     servername: "markdown.com.cn"
     grpc-opts:
       grpc-service-name: "grpc"
