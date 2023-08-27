@@ -4,23 +4,23 @@ mixed-port: 7893
 redir-port: 7892
 tproxy-port: 7895
 allow-lan: true
-bind-address: "*"
+bind-address: '*'
 find-process-mode: 'off'
 geox-url:
-  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  'geoip': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
   # https://github.com/Loyalsoldier/v2ray-rules-dat
-  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
-  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+  'geosite': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat'
+  'mmdb': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb'
   # mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
   # https://github.com/Loyalsoldier/v2ray-rules-dat
   # mmdb: "https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
   # mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
   # https://github.com/alecthw/mmdb_china_ip_list
 ipv6: true
-mode: rule
-log-level: warning
+mode: 'rule'
+log-level: 'warning'
 tcp-concurrent: true
-global-client-fingerprint: "ios"
+global-client-fingerprint: '360'
 #hosts:
 #  '*.clash.dev': 127.0.0.1
 #  '.dev': 127.0.0.1
@@ -33,6 +33,14 @@ global-client-fingerprint: "ios"
 profile:
   store-selected: true
   store-fake-ip: false
+tun:
+  enable: true
+  stack: 'lwip'
+  dns-hijack:
+    - '0.0.0.0:53'
+  auto-detect-interface: true
+  auto-route: false
+  mtu: '1492'
 #sniffer:
 #  enable: true
 #  force-dns-mapping: true
@@ -69,33 +77,33 @@ profile:
 dns:
   enable: true
   prefer-h3: true
-  listen: "[::]:7874"
+  listen: '0.0.0.0:53'
   ipv6: true
   default-nameserver:
-    - "tls://[2001:4860:4860::8844]:853"
-    - "tls://[2001:4860:4860::8888]:853"
-    - "tls://8.8.4.4:853"
-    - "tls://8.8.8.8:853"
-    - "tls://[2606:4700:4700::1002]:853"
-    - "tls://[2606:4700:4700::1112]:853"
-    - "tls://1.0.0.2:853"
-    - "tls://1.1.1.2:853"
-    - "tls://[2606:4700:4700::1001]:853"
-    - "tls://[2606:4700:4700::1111]:853"
-    - "tls://1.0.0.1:853"
-    - "tls://1.1.1.1:853"
-    - "tls://[2620:fe::fe:11]:853"
-    - "tls://[2620:fe::11]:853"
-    - "tls://149.112.112.11:853"
-    - "tls://9.9.9.11:853"
-    - "tls://[2620:fe::9]:853"
-    - "tls://[2620:fe::fe]:853"
-    - "tls://149.112.112.112:853"
-    - "tls://9.9.9.9:853"
-    - "tls://[2620:fe::fe:10]:853"
-    - "tls://[2620:fe::10]:853"
-    - "tls://149.112.112.10:853"
-    - "tls://9.9.9.10:853"
+    - 'tls://[2001:4860:4860::8844]'
+    - 'tls://[2001:4860:4860::8888]'
+    - 'tls://8.8.4.4'
+    - 'tls://8.8.8.8'
+    - 'tls://[2606:4700:4700::1002]'
+    - 'tls://[2606:4700:4700::1112]'
+    - 'tls://1.0.0.2'
+    - 'tls://1.1.1.2'
+    - 'tls://[2606:4700:4700::1001]'
+    - 'tls://[2606:4700:4700::1111]'
+    - 'tls://1.0.0.1'
+    - 'tls://1.1.1.1'
+    - 'tls://[2620:fe::fe:11]'
+    - 'tls://[2620:fe::11]'
+    - 'tls://149.112.112.11'
+    - 'tls://9.9.9.11'
+    - 'tls://[2620:fe::9]'
+    - 'tls://[2620:fe::fe]'
+    - 'tls://149.112.112.112'
+    - 'tls://9.9.9.9'
+    - 'tls://[2620:fe::fe:10]'
+    - 'tls://[2620:fe::10]'
+    - 'tls://149.112.112.10'
+    - 'tls://9.9.9.10'
     #- "tcp://[::1]:853"
     #- "[::1]:6054"
     #- "tcp://127.0.0.1:6054"
@@ -312,40 +320,40 @@ dns:
     - "ipv6check-http.steamcontent.com"
     - "ipv6check-udp.steamcontent.com"
   proxy-server-nameserver:
-    - "tls://dns.google:853"
-    - "https://dns.google:443/dns-query"
-    - "tls://security.cloudflare-dns.com:853"
-    - "https://security.cloudflare-dns.com:443/dns-query"
-    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
-    - "tls://cloudflare-dns.com:853"
-    - "tls://one.one.one.one:853"
-    - "https://cloudflare-dns.com:443/dns-query"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
-    - "tls://dns11.quad9.net:853"
-    - "https://dns11.quad9.net:443/dns-query"
-    - "tls://dns.quad9.net:853"
-    - "https://dns.quad9.net:443/dns-query"
-    - "tls://dns10.quad9.net:853"
-    - "https://dns10.quad9.net:443/dns-query"
+    - 'tls://dns.google'
+    - 'https://dns.google/dns-query'
+    - 'tls://security.cloudflare-dns.com'
+    - 'https://security.cloudflare-dns.com/dns-query'
+    - 'tls://1dot1dot1dot1.cloudflare-dns.com'
+    - 'tls://cloudflare-dns.com'
+    - 'tls://one.one.one.one'
+    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://mozilla.cloudflare-dns.com/dns-query'
+    - 'tls://dns11.quad9.net'
+    - 'https://dns11.quad9.net/dns-query'
+    - 'tls://dns.quad9.net'
+    - 'https://dns.quad9.net/dns-query'
+    - 'tls://dns10.quad9.net'
+    - 'https://dns10.quad9.net/dns-query'
   nameserver:
     #- "tls://[2400:3200:baba::1]:853"
     #- "tls://[2400:3200::1]:853"
     #- "tls://223.6.6.6:853"
     #- "tls://223.5.5.5:853"
-    - "tls://dns.alidns.com:853"
+    - 'tls://dns.alidns.com'
     #- "https://[2400:3200:baba::1]:443/dns-query"
     #- "https://[2400:3200::1]:443/dns-query"
     #- "https://223.6.6.6:443/dns-query"
     #- "https://223.5.5.5:443/dns-query"
-    - "https://dns.alidns.com:443/dns-query"
+    - 'https://dns.alidns.com/dns-query'
     #- "tls://1.12.12.12:853"
     #- "tls://120.53.53.53:853"
-    - "tls://dot.pub:853"
+    - 'tls://dot.pub'
     #- "https://1.12.12.12:443/dns-query"
     #- "https://120.53.53.53:443/dns-query"
-    - "https://doh.pub:443/dns-query"
-    - "tls://dot.360.cn:853"
-    - "https://doh.360.cn:443/dns-query"
+    - 'https://doh.pub/dns-query'
+    - 'tls://dot.360.cn'
+    - 'https://doh.360.cn/dns-query'
     #- "https://v6.rubyfish.cn:443/dns-query"
     #- "tls://v6.rubyfish.cn:853"
     #- "https://rubyfish.cn:443/dns-query"
@@ -401,21 +409,21 @@ dns:
     #- "https://rgnet-iad.anycast.censurfridns.dk/dns-query"
     #- "tls://rgnet-iad.anycast.censurfridns.dk:853"
   fallback:
-    - "tls://dns.google:853"
-    - "https://dns.google:443/dns-query"
-    - "tls://security.cloudflare-dns.com:853"
-    - "https://security.cloudflare-dns.com:443/dns-query"
-    - "tls://1dot1dot1dot1.cloudflare-dns.com:853"
-    - "tls://cloudflare-dns.com:853"
-    - "tls://one.one.one.one:853"
-    - "https://cloudflare-dns.com:443/dns-query"
-    - "https://mozilla.cloudflare-dns.com:443/dns-query"
-    - "tls://dns11.quad9.net:853"
-    - "https://dns11.quad9.net:443/dns-query"
-    - "tls://dns.quad9.net:853"
-    - "https://dns.quad9.net:443/dns-query"
-    - "tls://dns10.quad9.net:853"
-    - "https://dns10.quad9.net:443/dns-query"
+    - 'tls://dns.google'
+    - 'https://dns.google/dns-query'
+    - 'tls://security.cloudflare-dns.com'
+    - 'https://security.cloudflare-dns.com/dns-query'
+    - 'tls://1dot1dot1dot1.cloudflare-dns.com'
+    - 'tls://cloudflare-dns.com'
+    - 'tls://one.one.one.one'
+    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://mozilla.cloudflare-dns.com/dns-query'
+    - 'tls://dns11.quad9.net'
+    - 'https://dns11.quad9.net/dns-query'
+    - 'tls://dns.quad9.net'
+    - 'https://dns.quad9.net/dns-query'
+    - 'tls://dns10.quad9.net'
+    - 'https://dns10.quad9.net/dns-query'
     #- https://a.vvvglass.com/sz
     #- "tls://c.vvvglass.com:853"
     #- "tls://h.iqiq.io:853"
@@ -460,8 +468,8 @@ dns:
     #- tcp://[fd00::1]:7054
     #- "[fd00::1]:7054"
   fallback-filter:
-    geoip: false
-    geoip-code: CN
+    geoip: true
+    geoip-code: 'CN'
     geosite:
       - bandcamp
       - bootstrap
@@ -604,37 +612,27 @@ dns:
   nameserver-policy:
     #   'www.baidu.com': '114.114.114.114'
     #   '+.internal.crop.com': '10.0.0.1'
-    "geosite:acer@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn":
+    'geosite:acer@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
+      - 'tls://dns.alidns.com'
       #- "tls://[2400:3200:baba::1]:853"
       #- "tls://[2400:3200::1]:853"
       #- "tls://223.6.6.6:853"
       #- "tls://223.5.5.5:853"
-      - "tls://dns.alidns.com:853"
       #- "https://[2400:3200:baba::1]:443/dns-query"
       #- "https://[2400:3200::1]:443/dns-query"
       #- "https://223.6.6.6:443/dns-query"
       #- "https://223.5.5.5:443/dns-query"
-      - "https://dns.alidns.com:443/dns-query"
+      - 'https://dns.alidns.com/dns-query'
       #- "tls://1.12.12.12:853"
       #- "tls://120.53.53.53:853"
-      - "tls://dot.pub:853"
+      - 'tls://dot.pub'
       #- "https://1.12.12.12:443/dns-query"
       #- "https://120.53.53.53:443/dns-query"
-      - "https://doh.pub:443/dns-query"
-      - "tls://dot.360.cn:853"
-      - "https://doh.360.cn:443/dns-query"
+      - 'https://doh.pub/dns-query'
+      - 'tls://dot.360.cn'
+      - 'https://doh.360.cn/dns-query'
     #"geosite:category-ads-all": rcode://success
     #"www.baidu.com,+.google.cn": [223.5.5.5, https://dns.alidns.com/dns-query]
     ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
     ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
     # "rule-set:global,dns": 8.8.8.8
-#tun:
-#  enable: true
-#  stack: system
-#  dns-hijack:
-#    - "tcp://[2402:4e00::]:53"
-#    - "[2400:3200:baba::1]:53"
-#    - "tcp://119.29.29.29:53"
-#    - "223.6.6.6:53"
-#  auto-route: true
-#  auto-detect-interface: true
