@@ -118,7 +118,7 @@ proxies:
     skip-cert-verify: true
     # max-open-streams: 20 # default 100, too many open streams may hurt performance
     # sni: example.com
-  - name: "vless-reality-vision_justhost-trkiye_IPv6"
+  - name: "vless-reality-vision_justhost-turkiye_IPv6"
     type: vless
     server: "2605:e440:11::2:6c"
     port: "25565"
@@ -132,7 +132,7 @@ proxies:
       public-key: 'EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: "vless-reality-vision_justhost-trkiye_IPv4"
+  - name: "vless-reality-vision_justhost-turkiye_IPv4"
     type: vless
     server: "194.87.39.183"
     port: "25565"
@@ -146,7 +146,7 @@ proxies:
       public-key: 'EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: 'tuic_racknerd-losangeles_IPv6'
+  - name: 'tuic_justhost-turkiye_IPv6'
     server: '2605:e440:11::2:6c'
     port: '25566'
     type: tuic
@@ -166,7 +166,7 @@ proxies:
     skip-cert-verify: true
     # max-open-streams: 20 # default 100, too many open streams may hurt performance
     # sni: example.com
-  - name: 'tuic_racknerd-losangeles_IPv4'
+  - name: 'tuic_justhost-turkiye_IPv4'
     server: '194.87.39.183'
     port: '25566'
     type: tuic
@@ -198,5 +198,5 @@ proxy-groups:
       - 'tuic_racknerd-newyork_IPv4'
       - "vless-reality-vision_justhost-trkiye_IPv6"
       - "vless-reality-vision_justhost-trkiye_IPv4"
-      - "tuic_racknerd-losangeles_IPv6"
-      - "tuic_racknerd-losangeles_IPv4"
+      - "tuic_justhost-turkiye_IPv6"
+      - "tuic_justhost-turkiye_IPv4"
