@@ -11,7 +11,7 @@ geox-url:
   # 'geoip': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
   'geosite': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat'
   # 'geosite': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
-  'mmdb': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb'
+  'mmdb': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb'
   # 'mmdb': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.metadb'
   # https://github.com/MetaCubeX/meta-rules-dat
   #'geoip': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
