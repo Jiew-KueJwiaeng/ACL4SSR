@@ -81,23 +81,6 @@ proxies:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: "vless-reality-grpc_racknerd-newyork_IPv4"
-    type: vless
-    server: '23.95.170.29'
-    port: '25565'
-    uuid: "63c65240-a7a5-4f02-a719-a9c62d3de961"
-    network: grpc
-    tls: true
-    udp: true
-    flow:
-    skip-cert-verify: true
-    client-fingerprint: 'ios'
-    servername: "markdown.com.cn"
-    grpc-opts:
-      grpc-service-name: "grpc"
-    reality-opts:
-      public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
-      #short-id: 10f897e26c4b9478
   - name: 'tuic_racknerd-newyork_IPv4'
     server: '23.95.170.29'
     port: '25566'
