@@ -196,7 +196,7 @@ proxy-groups:
       - 'tuic_racknerd-losangeles_IPv4'
       - "vless-reality-vision_racknerd-newyork_IPv4"
       - 'tuic_racknerd-newyork_IPv4'
-      - "vless-reality-vision_justhost-trkiye_IPv6"
-      - "vless-reality-vision_justhost-trkiye_IPv4"
+      - "vless-reality-vision_justhost-turkiye_IPv6"
+      - "vless-reality-vision_justhost-turkiye_IPv4"
       - "tuic_justhost-turkiye_IPv6"
       - "tuic_justhost-turkiye_IPv4"
