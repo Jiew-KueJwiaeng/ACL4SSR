@@ -8,7 +8,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: 'markdown.com.cn'
+    servername: 'racknerd-losangeles.nk2028.tk'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
@@ -22,7 +22,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: 'markdown.com.cn'
+    servername: 'racknerd-losangeles.nk2028.tk'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
@@ -76,7 +76,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: 'markdown.com.cn'
+    servername: 'racknerd-newyork.nk2028.tk'
     reality-opts:
       public-key: "EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM"
       #short-id: xxx # optional
@@ -110,7 +110,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "markdown.com.cn"
+    servername: "justhost-turkiye.nk2028.tk"
     reality-opts:
       public-key: 'EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM'
       #short-id: xxx # optional
@@ -124,7 +124,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: "markdown.com.cn"
+    servername: "justhost-turkiye.nk2028.tk"
     reality-opts:
       public-key: 'EdbErJ614THBXlJr4_-YQf66AOmsiLIDfHZ1Z8m8emM'
       #short-id: xxx # optional
