@@ -7,9 +7,12 @@ allow-lan: true
 bind-address: '*'
 find-process-mode: 'off'
 geox-url:
-  'geoip': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
-  'geosite': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
-  'mmdb': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.metadb'
+  'geoip': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat'
+  # 'geoip': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
+  'geosite': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat'
+  # 'geosite': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
+  'mmdb': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb'
+  # 'mmdb': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.metadb'
   # https://github.com/MetaCubeX/meta-rules-dat
   #'geoip': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
   ## https://github.com/Loyalsoldier/v2ray-rules-dat
@@ -18,7 +21,6 @@ geox-url:
   ## mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
   #'geoip': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
   # https://github.com/Loyalsoldier/v2ray-rules-dat
-  # https://github.com/Loyalsoldier/v2ray-rules-dat
   # mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
   # mmdb: "https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
   # https://github.com/alecthw/mmdb_china_ip_list
@@ -26,7 +28,7 @@ ipv6: true
 mode: 'rule'
 log-level: 'warning'
 tcp-concurrent: true
-global-client-fingerprint: '360'
+global-client-fingerprint: 'ios'
 #hosts:
 #  '*.clash.dev': 127.0.0.1
 #  '.dev': 127.0.0.1
@@ -39,14 +41,14 @@ global-client-fingerprint: '360'
 profile:
   store-selected: true
   store-fake-ip: false
-tun:
-  enable: true
-  stack: 'lwip'
-  dns-hijack:
-    - '0.0.0.0:53'
-  auto-detect-interface: true
-  auto-route: false
-  mtu: '1492'
+#tun:
+#  enable: true
+#  stack: 'lwip'
+#  dns-hijack:
+#    - '0.0.0.0:53'
+#  auto-detect-interface: true
+#  auto-route: false
+#  mtu: '1492'
 #sniffer:
 #  enable: true
 #  force-dns-mapping: true
