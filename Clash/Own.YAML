@@ -73,11 +73,11 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "vision_racknerd-losangeles_IPv6"
-      - "vision_racknerd-losangeles_IPv4"
-      - "vision_racknerd-newyork_IPv4"
-      - "vision_justhost-turkiye_IPv6"
-      - "vision_justhost-turkiye_IPv4"
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
 
 #  - name: 'tuic_racknerd-losangeles_IPv6'
 #  #  server: '2607:f130:0:f8:ff:ff:7364:328c'
