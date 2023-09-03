@@ -1,42 +1,42 @@
 # 数量：21条
 # DOMAIN-KEYWORD,fbcdn
-DOMAIN,edge-chat.facebook.com,tcp
-DOMAIN,gateway.facebook.com,tcp
-DOMAIN,m.facebook.com,tcp
-DOMAIN,research.facebook.com,tcp
-DOMAIN,www.facebook.com,tcp
-DOMAIN,portal.fb.com,tcp
+DOMAIN,edge-chat.facebook.com
+DOMAIN,gateway.facebook.com
+DOMAIN,m.facebook.com
+DOMAIN,research.facebook.com
+DOMAIN,www.facebook.com
+DOMAIN,portal.fb.com
 # DOMAIN-SUFFIX,fb.me
 # DOMAIN-SUFFIX,fbcdn.com
-DOMAIN,scontent.fhkg1-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg2-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg3-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg4-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg5-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg6-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg7-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg8-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg9-1.fna.fbcdn.net,tcp
-DOMAIN,scontent.fhkg10-1.fna.fbcdn.net,tcp
-DOMAIN,scontent-dfw1-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-dfw2-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-dfw3-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-dfw4-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-dfw5-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-dfw5-2.xx.fbcdn.net,tcp
-DOMAIN,scontent-hkg1-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-hkg2-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-hkg3-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-hkg4-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-iad1-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-iad2-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-iad3-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-lax3-1.xx.fbcdn.net,tcp
-DOMAIN,scontent-lax3-2.xx.fbcdn.net,tcp
-DOMAIN,scontent-nrt1-1.xx.fbcdn.net,tcp
-DOMAIN,static.xx.fbcdn.net,tcp
-DOMAIN,platform-lookaside.fbsbx.com,tcp
-# IP-CIDR,45.64.40.0/22,no-resolve
+DOMAIN,scontent.fhkg1-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg2-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg3-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg4-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg5-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg6-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg7-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg8-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg9-1.fna.fbcdn.net
+DOMAIN,scontent.fhkg10-1.fna.fbcdn.net
+DOMAIN,scontent-dfw1-1.xx.fbcdn.net
+DOMAIN,scontent-dfw2-1.xx.fbcdn.net
+DOMAIN,scontent-dfw3-1.xx.fbcdn.net
+DOMAIN,scontent-dfw4-1.xx.fbcdn.net
+DOMAIN,scontent-dfw5-1.xx.fbcdn.net
+DOMAIN,scontent-dfw5-2.xx.fbcdn.net
+DOMAIN,scontent-hkg1-1.xx.fbcdn.net
+DOMAIN,scontent-hkg2-1.xx.fbcdn.net
+DOMAIN,scontent-hkg3-1.xx.fbcdn.net
+DOMAIN,scontent-hkg4-1.xx.fbcdn.net
+DOMAIN,scontent-iad1-1.xx.fbcdn.net
+DOMAIN,scontent-iad2-1.xx.fbcdn.net
+DOMAIN,scontent-iad3-1.xx.fbcdn.net
+DOMAIN,scontent-lax3-1.xx.fbcdn.net
+DOMAIN,scontent-lax3-2.xx.fbcdn.net
+DOMAIN,scontent-nrt1-1.xx.fbcdn.net
+DOMAIN,static.xx.fbcdn.net
+DOMAIN,platform-lookaside.fbsbx.com
+IP-CIDR,31.13.70.1/32
 # IP-CIDR,66.220.144.0/20,no-resolve
 # IP-CIDR,69.63.176.0/20,no-resolve
 # IP-CIDR,69.171.224.0/19,no-resolve
