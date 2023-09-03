@@ -27,43 +27,43 @@ proxies:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: "vision_racknerd-newyork_IPv4"
-    type: vless
+  - name: 'vision_racknerd-newyork_IPv4'
+    type: 'vless'
     server: '23.95.170.29'
     port: '25566'
     uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
-    network: tcp
+    network: 'tcp'
     tls: true
     udp: true
-    flow: xtls-rprx-vision
+    flow: 'xtls-rprx-vision'
     servername: 'webstatic.hoyoverse.com'
     reality-opts:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: "vless-reality-vision_justhost-turkiye_IPv6"
-    type: vless
-    server: "2605:e440:11::2:6c"
+  - name: 'vision_justhost-turkiye_IPv6'
+    type: 'vless'
+    server: '2605:e440:11::2:6c'
     port: '25566'
     uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
-    network: tcp
+    network: 'tcp'
     tls: true
     udp: true
-    flow: xtls-rprx-vision
+    flow: 'xtls-rprx-vision'
     servername: 'webstatic.hoyoverse.com'
     reality-opts:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: "vless-reality-vision_justhost-turkiye_IPv4"
-    type: vless
-    server: "194.87.39.183"
+  - name: 'vision_justhost-turkiye_IPv4'
+    type: 'vless'
+    server: '194.87.39.183'
     port: '25566'
     uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
-    network: tcp
+    network: 'tcp'
     tls: true
     udp: true
-    flow: xtls-rprx-vision
+    flow: 'xtls-rprx-vision'
     servername: 'webstatic.hoyoverse.com'
     reality-opts:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
