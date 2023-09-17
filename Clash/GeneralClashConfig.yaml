@@ -7,11 +7,11 @@ allow-lan: true
 bind-address: '*'
 find-process-mode: 'off'
 geox-url:
-  'geoip': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat'
+  'geoip': 'https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat'
   # 'geoip': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.dat'
-  'geosite': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat'
+  'geosite': 'https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat'
   # 'geosite': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geosite.dat'
-  'mmdb': 'https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb'
+  'mmdb': 'https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb'
   # 'mmdb': 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/release/geoip.metadb'
   # https://github.com/MetaCubeX/meta-rules-dat
   #'geoip': 'https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat'
@@ -24,6 +24,10 @@ geox-url:
   # mmdb: "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/Country.mmdb"
   # mmdb: "https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/Country.mmdb"
   # https://github.com/alecthw/mmdb_china_ip_list
+  #gcore.jsdelivr.net
+  #fastly.jsdelivr.net
+  #originfastly.jsdelivr.net
+  #quantil.jsdelivr.net
 ipv6: true
 mode: 'rule'
 log-level: 'warning'
@@ -620,7 +624,7 @@ dns:
   nameserver-policy:
     #   'www.baidu.com': '114.114.114.114'
     #   '+.internal.crop.com': '10.0.0.1'
-    'geosite:acer@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
+    'geosite:acer@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
       - 'tls://dns.alidns.com'
       #- "tls://[2400:3200:baba::1]:853"
       #- "tls://[2400:3200::1]:853"
