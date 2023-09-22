@@ -1,32 +1,82 @@
-# 内容：Adobe
-# 数量：34条
-# DOMAIN-KEYWORD,adobe
 # DOMAIN,adbemdigitalmediarebootprod2.112.2o7.net
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobe.ipp
+DOMAIN-SUFFIX,adobe.ly
+DOMAIN-SUFFIX,adobe.newoa
+DOMAIN-SUFFIX,adobe.ntp
+DOMAIN-SUFFIX,adobe-aemassets-value.com
+DOMAIN-SUFFIX,adobe-audience-finder.com
+DOMAIN-SUFFIX,adobe-video-partner-finder.com
+DOMAIN-SUFFIX,adobeaemcloud.com
+DOMAIN-SUFFIX,adobeaemcloud.net
+DOMAIN-SUFFIX,adobeawards.com
+DOMAIN-SUFFIX,adobecc.com
+DOMAIN-SUFFIX,adobecce.com
+DOMAIN-SUFFIX,adobeccstatic.com
+DOMAIN-SUFFIX,adobecontent.io
+DOMAIN-SUFFIX,adobecreativityawards.com
+DOMAIN-SUFFIX,adobedc.cn
+DOMAIN-SUFFIX,adobedc.net
+DOMAIN-SUFFIX,adobedemo.com
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobeereg.com
+DOMAIN-SUFFIX,adobeexchange.com
+DOMAIN-SUFFIX,adobeexperienceawards.com
+DOMAIN-SUFFIX,adobegov.com
+DOMAIN-SUFFIX,adobehiddentreasures.com
+DOMAIN-SUFFIX,adobejanus.com
+DOMAIN-SUFFIX,adobeku.com
+DOMAIN-SUFFIX,adobelanding.com
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobeoobe.com
+DOMAIN-SUFFIX,adobeplatinumclub.com
+DOMAIN-SUFFIX,adobeprojectm.com
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,adobesign.com
+DOMAIN-SUFFIX,adobesigncdn.com
+DOMAIN-SUFFIX,adobespark.com
+DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobestock.com
+DOMAIN-SUFFIX,adobetag.com
+DOMAIN-SUFFIX,adobetarget.com
+DOMAIN-SUFFIX,adobetcstrialdvd.com
+DOMAIN-SUFFIX,adobetechcomm.com
+DOMAIN-SUFFIX,adobetechcommcallback.com
+DOMAIN-SUFFIX,adobetechcommdemo.com
+DOMAIN-SUFFIX,adobexdplatform.com
+DOMAIN-SUFFIX,assetsadobe.com
 # DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 # DOMAIN-SUFFIX,acrobat.com
 # DOMAIN-SUFFIX,adbecrsl.com
 # DOMAIN-SUFFIX,bam.nr-data.net
-DOMAIN,www.behance.net
-DOMAIN,behance.net
+DOMAIN-SUFFIX,behance.net
+# DOMAIN,www.behance.net
 # DOMAIN-SUFFIX,businesscatalyst.com
-# DOMAIN-SUFFIX,creativecloud.com
+DOMAIN-SUFFIX,ccnsite.com
+DOMAIN-SUFFIX,ccpsx.com
+DOMAIN-SUFFIX,creativecloud.com
+DOMAIN-SUFFIX,creativesdk.com
 # DOMAIN-SUFFIX,ctldl.windowsupdate.com
 # DOMAIN-SUFFIX,demandbase.com
 # DOMAIN-SUFFIX,demdex.net
+DOMAIN-SUFFIX,developria.com
 # DOMAIN-SUFFIX,digicert.com
 # DOMAIN-SUFFIX,echocdn.com
 # DOMAIN-SUFFIX,echosign.com
 # DOMAIN-SUFFIX,edgefonts.net
+DOMAIN-SUFFIX,enablementadobe.com
 # DOMAIN-SUFFIX,ftcdn.net
 # DOMAIN-SUFFIX,geotrust.com
 # DOMAIN-SUFFIX,globalsign.com
 # DOMAIN-SUFFIX,godaddy.com
-# DOMAIN-SUFFIX,macromedia.com
+DOMAIN-SUFFIX,macromedia.com
+DOMAIN-SUFFIX,marketo.com
 # DOMAIN-SUFFIX,newrelic.com
 # DOMAIN-SUFFIX,omniroot.com
 # DOMAIN-SUFFIX,omniture.com
 # DOMAIN-SUFFIX,omtrdc.net
-# DOMAIN-SUFFIX,photoshop.com
+DOMAIN-SUFFIX,photoshop.com
 # DOMAIN-SUFFIX,symantec.com
 # DOMAIN-SUFFIX,symcb.com
 # DOMAIN-SUFFIX,symcd.com
