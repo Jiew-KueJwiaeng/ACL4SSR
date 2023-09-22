@@ -1,4 +1,32 @@
 proxies:
+  - name: 'vision_justhost-turkiye_IPv6'
+    type: 'vless'
+    server: '2605:e440:11::2:6c'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'vision_justhost-turkiye_IPv4'
+    type: 'vless'
+    server: '194.87.39.183'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
   - name: 'vision_racknerd-losangeles_IPv6'
     type: 'vless'
     server: '2607:f130:0:f8:ff:ff:7364:328c'
@@ -41,43 +69,16 @@ proxies:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
-  - name: 'vision_justhost-turkiye_IPv6'
-    type: 'vless'
-    server: '2605:e440:11::2:6c'
-    port: '25566'
-    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
-    network: 'tcp'
-    tls: true
-    udp: true
-    flow: 'xtls-rprx-vision'
-    servername: 'webstatic.hoyoverse.com'
-    reality-opts:
-      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
-      #short-id: xxx # optional
-    client-fingerprint: 'ios'
-  - name: 'vision_justhost-turkiye_IPv4'
-    type: 'vless'
-    server: '194.87.39.183'
-    port: '25566'
-    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
-    network: 'tcp'
-    tls: true
-    udp: true
-    flow: 'xtls-rprx-vision'
-    servername: 'webstatic.hoyoverse.com'
-    reality-opts:
-      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
-      #short-id: xxx # optional
-    client-fingerprint: 'ios'
 proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
       - 'vision_racknerd-losangeles_IPv6'
       - 'vision_racknerd-losangeles_IPv4'
       - 'vision_racknerd-newyork_IPv4'
-      - 'vision_justhost-turkiye_IPv6'
-      - 'vision_justhost-turkiye_IPv4'
+      
 
 #  - name: 'tuic_racknerd-losangeles_IPv6'
 #  #  server: '2607:f130:0:f8:ff:ff:7364:328c'
