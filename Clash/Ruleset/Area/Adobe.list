@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,adobeaemcloud.net
 DOMAIN-SUFFIX,adobeawards.com
 DOMAIN-SUFFIX,adobecc.com
 DOMAIN-SUFFIX,adobecce.com
+# DOMAIN,ccext.adobecces.com
+DOMAIN-SUFFIX,adobecces.com
 DOMAIN-SUFFIX,adobeccstatic.com
 DOMAIN-SUFFIX,adobecontent.io
 DOMAIN-SUFFIX,adobecreativityawards.com
