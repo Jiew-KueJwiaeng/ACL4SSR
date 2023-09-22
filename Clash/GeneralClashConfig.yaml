@@ -624,7 +624,7 @@ dns:
   nameserver-policy:
     #   'www.baidu.com': '114.114.114.114'
     #   '+.internal.crop.com': '10.0.0.1'
-    'geosite:acer@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
+    'geosite:acer@cn,adobe@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
       - 'tls://dns.alidns.com'
       #- "tls://[2400:3200:baba::1]:853"
       #- "tls://[2400:3200::1]:853"
