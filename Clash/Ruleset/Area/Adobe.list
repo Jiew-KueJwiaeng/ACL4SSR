@@ -47,7 +47,7 @@ DOMAIN-SUFFIX,adobetechcommdemo.com
 DOMAIN-SUFFIX,adobexdplatform.com
 DOMAIN-SUFFIX,assetsadobe.com
 # DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
-# DOMAIN-SUFFIX,acrobat.com
+DOMAIN-SUFFIX,acrobat.com
 # DOMAIN-SUFFIX,adbecrsl.com
 # DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,behance.net
@@ -81,7 +81,7 @@ DOMAIN-SUFFIX,photoshop.com
 # DOMAIN-SUFFIX,symcb.com
 # DOMAIN-SUFFIX,symcd.com
 # DOMAIN-SUFFIX,thawte.com
-# DOMAIN-SUFFIX,typekit.com
-# DOMAIN-SUFFIX,typekit.net
+DOMAIN-SUFFIX,typekit.com
+DOMAIN-SUFFIX,typekit.net
 # DOMAIN-SUFFIX,verisign.com
 # DOMAIN-SUFFIX,worldsecuresystems.com
