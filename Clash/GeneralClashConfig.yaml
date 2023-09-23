@@ -29,10 +29,16 @@ geox-url:
   #originfastly.jsdelivr.net
   #quantil.jsdelivr.net
 ipv6: true
+external-controller: 0.0.0.0:9090
+external-ui: "/usr/share/openclash/ui"
+external-ui-name: Null
+external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
 mode: 'rule'
 log-level: 'warning'
 tcp-concurrent: true
 global-client-fingerprint: 'ios'
+experimental:
+  quic-go-disable-gso: false
 #hosts:
 #  '*.clash.dev': 127.0.0.1
 #  '.dev': 127.0.0.1
@@ -45,14 +51,19 @@ global-client-fingerprint: 'ios'
 profile:
   store-selected: true
   store-fake-ip: false
-#tun:
-#  enable: true
-#  stack: 'lwip'
-#  dns-hijack:
-#    - '0.0.0.0:53'
-#  auto-detect-interface: true
-#  auto-route: false
-#  mtu: '1492'
+tun:
+  enable: true
+  stack: 'gvisor'
+  dns-hijack:
+    - 'tcp://any:53'
+    - 'any:53'
+    - 'tcp://[::]:53'
+    - '[::]:53'
+    - 'tcp://0.0.0.0:53'
+    - '0.0.0.0:53'
+  auto-detect-interface: false
+  auto-route: false
+  mtu: '1492'
 #sniffer:
 #  enable: true
 #  force-dns-mapping: true
@@ -622,6 +633,13 @@ dns:
       - "m.youtube.com"
       - "www.youtube.com"
   nameserver-policy:
+    '+.ithome.com,+.mihoyo.com':
+      - 'tls://dns.alidns.com'
+      - 'https://dns.alidns.com/dns-query'
+      - 'tls://dot.pub'
+      - 'https://doh.pub/dns-query'
+      - 'tls://dot.360.cn'
+      - 'https://doh.360.cn/dns-query'
     #   'www.baidu.com': '114.114.114.114'
     #   '+.internal.crop.com': '10.0.0.1'
     'geosite:acer@cn,adobe@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
@@ -644,7 +662,6 @@ dns:
       - 'tls://dot.360.cn'
       - 'https://doh.360.cn/dns-query'
     #"geosite:category-ads-all": rcode://success
-    #"www.baidu.com,+.google.cn": [223.5.5.5, https://dns.alidns.com/dns-query]
     ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
     ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
     # "rule-set:global,dns": 8.8.8.8
