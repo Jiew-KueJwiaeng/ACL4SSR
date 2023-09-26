@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,stripe.com
+# DOMAIN,api.stripe.com
+# DOMAIN,js.stripe.com
+# DOMAIN,m.stripe.com
+# DOMAIN,merchant-ui-api.stripe.com
+# DOMAIN,r.stripe.com
+# DOMAIN,stripe.com
+DOMAIN-SUFFIX,stripe-terminal-local-reader.net
+DOMAIN-SUFFIX,stripe.network
+# DOMAIN,m.stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+# DOMAIN,b.stripecdn.com
