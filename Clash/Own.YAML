@@ -43,7 +43,7 @@ proxies:
     client-fingerprint: 'ios'
   - name: 'vision_racknerd-losangeles_IPv4'
     type: 'vless'
-    server: '100.42.68.181'
+    server: '148.135.67.50'
     port: '25566'
     uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
     network: 'tcp'
