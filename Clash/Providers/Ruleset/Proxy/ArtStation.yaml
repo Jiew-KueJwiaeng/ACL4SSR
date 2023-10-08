@@ -1,0 +1,7 @@
+payload:
+  - 'DOMAIN,cdn.artstation.com'
+  - 'DOMAIN,cdna.artstation.com'
+  - 'DOMAIN,cdnb.artstation.com'
+  - 'DOMAIN,ws.artstation.com'
+  - 'DOMAIN,www.artstation.com'
+  - 'DOMAIN,artstation.com'
