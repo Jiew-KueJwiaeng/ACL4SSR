@@ -760,9 +760,46 @@ rule-providers:
     format: yaml
     path: ./ArtStation.yaml
     interval: 259200
+  AustralianStrategicPolicyInstitute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/AustralianStrategicPolicyInstitute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/AustralianStrategicPolicyInstitute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./AustralianStrategicPolicyInstitute.yaml
+    interval: 259200
+  bandcamp:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/bandcamp.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/bandcamp.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./bandcamp.yaml
+    interval: 259200
+  Blogspot:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Blogspot.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Blogspot.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Blogspot.yaml
+    interval: 259200
+  ChinaMax_Classical:
+    url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml'
+    # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax
+    # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaIp.list
+    # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaIpV6.list
+    # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./ChinaMax_Classical.yaml
+    interval: 259200
 rules:
   - RULE-SET,LocalAreaNetwork,DIRECT
-  - RULE-SET,LocalAreaNetwork,DIRECT
+  - RULE-SET,AI,🦾 AI
   - RULE-SET,AdobeDirect,🇨🇳 虞夏路由
   - RULE-SET,AdobeArea,🎨 Adobe
   - RULE-SET,Google,🦹🏾 Google
@@ -772,3 +809,7 @@ rules:
   - RULE-SET,Bahamut,📺 巴哈姆特
   - RULE-SET,amazon,🏠 amazon
   - RULE-SET,ArtStation,🚀 默认节点
+  - RULE-SET,AustralianStrategicPolicyInstitute,🚀 默认节点
+  - RULE-SET,bandcamp,🚀 默认节点
+  - RULE-SET,Blogspot,🚀 默认节点
+  - RULE-SET,ChinaMax_Classical,🇨🇳 虞夏路由
