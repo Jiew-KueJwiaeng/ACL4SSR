@@ -784,6 +784,22 @@ rule-providers:
     format: yaml
     path: ./Blogspot.yaml
     interval: 259200
+  Media:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Media.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Media.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Media.yaml
+    interval: 259200
+  GFWList:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/GFWList.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/GFWList.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./GFWList.yaml
+    interval: 259200
   ChinaMax_Classical:
     url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml'
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax
@@ -796,6 +812,14 @@ rule-providers:
     behavior: classical
     format: yaml
     path: ./ChinaMax_Classical.yaml
+    interval: 259200
+  Download:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Download.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/Download.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Download.yaml
     interval: 259200
 rules:
   - RULE-SET,LocalAreaNetwork,DIRECT
@@ -812,5 +836,85 @@ rules:
   - RULE-SET,AustralianStrategicPolicyInstitute,🚀 默认节点
   - RULE-SET,bandcamp,🚀 默认节点
   - RULE-SET,Blogspot,🚀 默认节点
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,category-scholar-!cn),(NETWORK,tcp)),🐟 漏网之鱼
+  - RULE-SET,Media,🐟 漏网之鱼
+  - AND,((GEOSITE,category-social-media-!cn),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOSITE,geolocation-!cn),(NETWORK,tcp)),🐟 漏网之鱼
+  - RULE-SET,GFWList,🐟 漏网之鱼
+  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
   - RULE-SET,ChinaMax_Classical,🇨🇳 虞夏路由
+  - GEOSITE,category-game-accelerator-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-games@cn,🇨🇳 虞夏路由
+  - GEOSITE,category-hospital-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-media-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-mooc-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-netdisk-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-network-security-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-scholar-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-securities-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-social-media-cn,🇨🇳 虞夏路由
+  - GEOSITE,category-wiki-cn,🇨🇳 虞夏路由
+  - GEOSITE,cn,🇨🇳 虞夏路由
+  - GEOSITE,geolocation-cn,🇨🇳 虞夏路由
+  - GEOSITE,tld-cn,🇨🇳 虞夏路由
+  - RULE-SET,Download,🇨🇳 虞夏路由
+  - GEOIP,cn,🇨🇳 虞夏路由
+  - GEOIP,CN,🇨🇳 虞夏路由
+  - AND,((GEOIP,hk),(NETWORK,tcp)),🇭🇰 香港路由
+  - AND,((GEOIP,HK),(NETWORK,tcp)),🇭🇰 香港路由
+  - AND,((GEOIP,mo),(NETWORK,tcp)),🇲🇴 澳门路由
+  - AND,((GEOIP,MO),(NETWORK,tcp)),🇲🇴 澳门路由
+  - AND,((GEOIP,tw),(NETWORK,tcp)),🇨🇳 台湾路由
+  - AND,((GEOIP,TW),(NETWORK,tcp)),🇨🇳 台湾路由
+  - AND,((GEOIP,sg),(NETWORK,tcp)),🇸🇬 狮城路由
+  - AND,((GEOIP,SG),(NETWORK,tcp)),🇸🇬 狮城路由
+  - AND,((GEOSITE,category-gov-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-insurance-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-media-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-news-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-payment-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-scholar-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-shopping-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-social-media-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-tech-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOSITE,category-travel-ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOIP,ir),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOIP,IR),(NETWORK,tcp)),🇮🇷 波斯路由
+  - AND,((GEOIP,us),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,US),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,as),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,AS),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,gu),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,GU),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,mp),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,MP),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,pr),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,PR),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,um),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,UM),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,vi),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,VI),(NETWORK,tcp)),🇺🇸 美国路由
+  - AND,((GEOIP,CLOUDFLARE),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,cloudflare),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,CLOUDFRONT),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,cloudfront),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,FACEBOOK),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,facebook),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,FASTLY),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,fastly),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,GOOGLE),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,google),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,NETFLIX),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,netflix),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,TELEGRAM),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,telegram),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,TWITTER),(NETWORK,tcp)),🐟 漏网之鱼
+  - AND,((GEOIP,twitter),(NETWORK,tcp)),🐟 漏网之鱼
+  # https://github.com/Loyalsoldier/geoip
   - MATCH,🐟 漏网之鱼
