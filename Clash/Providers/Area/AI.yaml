@@ -1,0 +1,16 @@
+payload:
+
+  - 'DOMAIN-SUFFIX,claude.ai'
+  # https://github.com/v2fly/domain-list-community/blob/master/data/anthropic
+  
+  - 'DOMAIN,api.openai.com'
+  - 'DOMAIN,auth0.openai.com'
+  - 'DOMAIN,chat.openai.com'
+  - 'DOMAIN,platform.openai.com'
+  # https://github.com/v2fly/domain-list-community/blob/master/data/openai
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+
+  - 'DOMAIN,bettergpt.chat'
+  - 'DOMAIN,freechatgpt.chat'
+  - 'DOMAIN,freechatgpt.lol'
+  - 'DOMAIN,freegpt.one'
