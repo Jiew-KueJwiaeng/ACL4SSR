@@ -1,6 +1,4 @@
 payload:
-  # 内容：Apple
-  # 数量：28条
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,akadns.net
@@ -29,3 +27,13 @@ payload:
   - IP-CIDR,192.35.50.0/24,no-resolve
   - IP-CIDR,198.183.17.0/24,no-resolve
   - IP-CIDR,205.180.175.0/24,no-resolve
+  # https://github.com/v2fly/domain-list-community/blob/master/data/apple
+  # https://github.com/v2fly/domain-list-community/blob/master/data/apple-ads
+  # https://github.com/v2fly/domain-list-community/blob/master/data/apple-dev
+  # https://github.com/v2fly/domain-list-community/blob/master/data/apple-pki
+  # https://github.com/v2fly/domain-list-community/blob/master/data/apple-update
+  # https://github.com/v2fly/domain-list-community/blob/master/data/beats
+  # https://github.com/v2fly/domain-list-community/blob/master/data/icloud
+  # https://github.com/v2fly/domain-list-community/blob/master/data/itunes
+  # https://github.com/v2fly/domain-list-community/blob/master/data/swift
+  # https://quantil.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/apple-cn.txt
