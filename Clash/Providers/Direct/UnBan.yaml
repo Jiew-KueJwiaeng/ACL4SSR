@@ -39,3 +39,9 @@ payload:
   # General
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
+  # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct
+  # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
+  # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+  # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
+  # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list
+  # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list
