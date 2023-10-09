@@ -1,6 +1,4 @@
 payload:
-  # 内容：Microsoft
-  # 数量：76条
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,aadrm.com
@@ -77,3 +75,17 @@ payload:
   - DOMAIN-SUFFIX,wunderlist.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Microsoft.list
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OneDrive.list
+  # https://github.com/v2fly/domain-list-community/blob/master/data/azure
+  # https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
+  # https://github.com/v2fly/domain-list-community/blob/master/data/microsoft-dev
+  # https://github.com/v2fly/domain-list-community/blob/master/data/microsoft-pki
+  # https://github.com/v2fly/domain-list-community/blob/master/data/msn
+  # https://github.com/v2fly/domain-list-community/blob/master/data/onedrive
+  # https://github.com/v2fly/domain-list-community/blob/master/data/xbox
+  # https://quantil.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-extra.txt
+  # https://quantil.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-spy.txt
+  # https://quantil.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/win-update.txt
