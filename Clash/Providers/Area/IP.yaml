@@ -1,0 +1,59 @@
+payload:
+  - DOMAIN,speedtest.hk.chinamobile.com
+  - DOMAIN,speedtestbb.hk.chinamobile.com
+
+  - DOMAIN,ip.tool.chinaz.com
+
+  - DOMAIN,speed.cloudflare.com
+
+  - DOMAIN,www.cz88.net
+  - DOMAIN,cz88.net
+
+  - DOMAIN,ookla-speedtest-central.hgconair.hgc.com.hk
+
+  - DOMAIN,api-ipv4.ip.sb
+  - DOMAIN,ip.sb
+
+  - DOMAIN,cache.ip138.com
+  - DOMAIN,www.ip138.com
+  - DOMAIN,6.ipchaxun.net
+
+  - DOMAIN,v6sc.ipip.net
+  - DOMAIN,v6t.ipip.net
+  - DOMAIN,www.ipip.net
+
+  - DOMAIN,api.ipify.org
+
+  - DOMAIN,iplocation.com
+
+  - DOMAIN,iplocation.io
+
+  - DOMAIN,www.iplocation.net
+
+  - DOMAIN,qqwry.api.skk.moe
+
+  - DOMAIN,1010.hkspeedtest.com.prod.hosts.ooklaserver.net
+  - DOMAIN,csl.hkspeedtest.com.prod.hosts.ooklaserver.net
+  - DOMAIN,speedtest01.hn165.com.prod.hosts.ooklaserver.net
+  - DOMAIN,kami.smartone.com.prod.hosts.ooklaserver.net
+  - DOMAIN,shenron.smartone.com.prod.hosts.ooklaserver.net
+  - DOMAIN,speedtest1.three.com.hk.prod.hosts.ooklaserver.net
+  - DOMAIN,speedtest1b.hkix.net.prod.hosts.ooklaserver.net
+
+  - DOMAIN,www.speedtest.net
+  - DOMAIN,speedtest.net
+
+  - DOMAIN,test.ustc.edu.cn
+  - DOMAIN,test6.ustc.edu.cn
+
+  - DOMAIN,www.whatismyip.com
+
+  - DOMAIN,www.whatismyip.com.tw
+
+  - DOMAIN,www.whatismyip-address.com
+
+  - DOMAIN,whatismyipaddress.com
+
+  - DOMAIN,connectivitycheck.gstatic.com
+  - DOMAIN,connectivitycheck.platform.hicloud.com
+  - DOMAIN,edge-http.microsoft.com
