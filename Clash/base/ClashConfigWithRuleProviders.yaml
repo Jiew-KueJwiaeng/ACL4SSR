@@ -905,6 +905,14 @@ rule-providers:
     format: yaml
     path: ./Providers/Proxy/IRRoute.yaml
     interval: 259200
+  TRRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/TRRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/TRRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/TRRoute.yaml
+    interval: 259200
   USRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/USRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/USRoute.yaml
