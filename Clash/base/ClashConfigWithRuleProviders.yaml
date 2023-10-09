@@ -529,110 +529,27 @@ dns:
       - 240.0.0.0/4
       - 255.255.255.255/32
     domain:
-      - c-bing-com.a-0001.a-msedge.net
-      - cn-bing-com.cn.a-0001.a-msedge.net
-      - bat-bing-com.a-0001.a-msedge.net
-      - star-mm-bing-net.a-0001.a-msedge.net
-      - a-0001.a-msedge.net
-      - a-0012.a-msedge.net
-      - www-bing-com.dual-a-0001.a-msedge.net
-      - dual-a-0001.a-msedge.net
-      - sydney-bing-com.dual-a-0034.a-msedge.net
-      - dual-a-0034.a-msedge.net
-      - 4-bing-com.ipv4-a-0001.a-msedge.net
-      - ipv4-a-0001.a-msedge.net
-      - www.tm.lg.prod.aadmsa.akadns.net
-      - clarity-ingest-eus2-d-sc.eastus2.cloudapp.azure.com
-      - bingciservice.koreasouth.cloudapp.azure.com
-      - bingviz.azurefd.net
-      - clarity.azurefd.net
-      - business-bing-com.b-0005.b-msedge.net
-      - b-0005.b-msedge.net
-      - 4.bing.com
-      - bat.bing.com
-      - business.bing.com
-      - c.bing.com
-      - cn.bing.com
-      - explicit.any.edge.bing.com
-      - edgeservices.bing.com
-      - global.bing.com
-      - r.bing.com
-      - sydney.bing.com
-      - testfamilysafety.bing.com
-      - th.bing.com
-      - www.bing.com
-      - www2.bing.com
-      - "+.bing.com"
-      - bing.com
-      - services.bingapis.com
-      - www.bingapis.com
-      - "+.bingapis.com"
-      - s.cn.bing.net
-      - s1.cn.bing.net
-      - s2.cn.bing.net
-      - s3.cn.bing.net
-      - s4.cn.bing.net
-      - ts1.cn.mm.bing.net
-      - ts2.cn.mm.bing.net
-      - ts3.cn.mm.bing.net
-      - ts4.cn.mm.bing.net
-      - tse.mm.bing.net
       - maxcdn.bootstrapcdn.com
       - +.bootstrapcdn.com
-      - s.cn.bing.chinacache.net
-      - ts1.cn.mm.bing.chinacache.net
-      - ts2.cn.mm.bing.chinacache.net
       - civitai.com
       - +.civitai.com
-      - v.clarity.ms
-      - www.clarity.ms
-      - clarity.ms
-      - cn.cn-0001.cn-msedge.net
-      - cn-0001.cn-msedge.net
-      - services-bingapis-com.e-0001.e-msedge.net
-      - www-bingapis-com.e-0001.e-msedge.net
-      - e-0001.e-msedge.net
-      - '+.facebook.com'
-      - shed.dual-low.part-0011.t-0009.fdv2-t-msedge.net
-      - part-0011.t-0009.fdv2-t-msedge.net
-      - shed.dual-low.part-0041.t-0009.fdv2-t-msedge.net
       - www.godaddy.com
       - +.godaddy.com
-      - "+.google.com"
-      - "+.googlevideo.com"
-      - "+.line.me"
       - assets.production.linktr.ee
       - ugc.production.linktr.ee
       - +.production.linktr.ee
       - linktr.ee
       - +.linktr.ee
-      - s1.cn.bing.net.lxcvc.com
-      - ts1.cn.mm.bing.net.lxcvc.com
-      - ts2.cn.mm.bing.net.lxcvc.com
-      - ts3.cn.mm.bing.net.lxcvc.com
-      - ts4.cn.mm.bing.net.lxcvc.com
-      - msnzlxxglobal.v.lxcvc.com
-      - zlxxglobal.v.lxcvc.com
       - monica.im
       - +.monica.im
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
-      - prdv6a.aadg.msidentity.com
-      - login.msa.msidentity.com
-      - login.mso.msidentity.com
-      - ak.privatelink.msidentity.com
-      - www.tm.v6.a.prd.aadg.trafficmanager.net
-      - www.tm.ak.prd.aadg.trafficmanager.net
-      - p-static.bing.trafficmanager.net
-      - p-th.bing.com.trafficmanager.net
-      - www-www.bing.com.trafficmanager.net
-      - www2-www2.bing.com.trafficmanager.net
-      - mm-mm.bing.net.trafficmanager.net
-      - star-azurefd-prod.trafficmanager.net
-      - "+.wikipedia.org"
-      - "m.youtube.com"
-      - "www.youtube.com"
   nameserver-policy:
+    'rule-set:ChinaMax_Classical,Download':
+      - 'tls://dns.alidns.com'
+      - 'https://dns.alidns.com/dns-query'
+      - 'tls://dot.pub'
+      - 'https://doh.pub/dns-query'
+      - 'tls://dot.360.cn'
+      - 'https://doh.360.cn/dns-query'
     '+.ithome.com,+.mihoyo.com':
       - 'tls://dns.alidns.com'
       - 'https://dns.alidns.com/dns-query'
@@ -640,8 +557,6 @@ dns:
       - 'https://doh.pub/dns-query'
       - 'tls://dot.360.cn'
       - 'https://doh.360.cn/dns-query'
-    #   'www.baidu.com': '114.114.114.114'
-    #   '+.internal.crop.com': '10.0.0.1'
     'geosite:acer@cn,adobe@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
       - 'tls://dns.alidns.com'
       #- "tls://[2400:3200:baba::1]:853"
@@ -664,7 +579,6 @@ dns:
     #"geosite:category-ads-all": rcode://success
     ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
     ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
-    # "rule-set:global,dns": 8.8.8.8
 ntp:
   enable: true
   write-to-system: false
@@ -678,7 +592,25 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./LocalAreaNetwork.yaml
+    path: ./Providers/Direct/LocalAreaNetwork.yaml
+    interval: 259200
+  UnBan:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/UnBan.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/UnBan.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Direct/UnBan.yaml
+    interval: 259200
+  Advertising_Classical:
+    url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml'
+    # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy
+    # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising
+    # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Reject/Advertising_Classical.yaml
     interval: 259200
   AI:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/AI.yaml'
@@ -686,7 +618,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./AI.yaml
+    path: ./Providers/Area/AI.yaml
     interval: 259200
   AdobeDirect:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Adobe.yaml'
@@ -694,7 +626,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./AdobeDirect.yaml
+    path: ./Providers/Direct/Adobe.yaml
     interval: 259200
   AdobeArea:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Adobe.yaml'
@@ -702,7 +634,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./AdobeArea.yaml
+    path: ./Providers/Area/Adobe.yaml
     interval: 259200
   Google:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Google.yaml'
@@ -710,7 +642,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Google.yaml
+    path: ./Providers/Area/Google.yaml
     interval: 259200
   SteamDirect:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Steam.yaml'
@@ -718,7 +650,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./SteamDirect.yaml
+    path: ./Providers/Direct/Steam.yaml
     interval: 259200
   SteamArea:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Steam.yaml'
@@ -726,7 +658,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./SteamArea.yaml
+    path: ./Providers/Area/Steam.yaml
     interval: 259200
   Epic:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Epic.yaml'
@@ -734,7 +666,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Epic.yaml
+    path: ./Providers/Area/Epic.yaml
     interval: 259200
   Bahamut:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Bahamut.yaml'
@@ -742,7 +674,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Bahamut.yaml
+    path: ./Providers/Area/Bahamut.yaml
     interval: 259200
   amazon:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/amazon.yaml'
@@ -750,7 +682,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./amazon.yaml
+    path: ./Providers/Area/amazon.yaml
     interval: 259200
   ArtStation:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/ArtStation.yaml'
@@ -758,7 +690,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./ArtStation.yaml
+    path: ./Providers/Proxy/ArtStation.yaml
     interval: 259200
   AustralianStrategicPolicyInstitute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/AustralianStrategicPolicyInstitute.yaml'
@@ -766,7 +698,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./AustralianStrategicPolicyInstitute.yaml
+    path: ./Providers/Proxy/AustralianStrategicPolicyInstitute.yaml
     interval: 259200
   bandcamp:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/bandcamp.yaml'
@@ -774,7 +706,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./bandcamp.yaml
+    path: ./Providers/Proxy/bandcamp.yaml
     interval: 259200
   Blogspot:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Blogspot.yaml'
@@ -782,7 +714,111 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Blogspot.yaml
+    path: ./Providers/Proxy/Blogspot.yaml
+    interval: 259200
+  Telegram:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Telegram.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Telegram.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/Telegram.yaml
+    interval: 259200
+  TikTok:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/TikTok.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/TikTok.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/TikTok.yaml
+    interval: 259200
+  NETFLIX:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/NETFLIX.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/NETFLIX.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/NETFLIX.yaml
+    interval: 259200
+  Disney+:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Disney+.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Disney+.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/Disney+.yaml
+    interval: 259200
+  bing:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/bing.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/bing.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/bing.yaml
+    interval: 259200
+  GitHub:
+    url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml'
+    # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitHub
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Accelerate/ChinaMax_Classical.yaml
+    interval: 259200
+  Microsoft:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Accelerate/Microsoft.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Accelerate/Microsoft.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Accelerate/Microsoft.yaml
+    interval: 259200
+  Apple:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Apple.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Apple.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/Apple.yaml
+    interval: 259200
+  T-Mobile:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/T-Mobile.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/T-Mobile.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/T-Mobile.yaml
+    interval: 259200
+  IP:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/IP.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/DigiCert.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Area/IP.yaml
+    interval: 259200
+  DigiCert:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/DigiCert.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/DigiCert.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/DigiCert.yaml
+    interval: 259200
+  Akamai:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Akamai.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Akamai.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/Akamai.yaml
+    interval: 259200
+  Cloudflare:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Cloudflare.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Cloudflare.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/Cloudflare.yaml
     interval: 259200
   Media:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Media.yaml'
@@ -790,7 +826,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Media.yaml
+    path: ./Providers/Proxy/Media.yaml
     interval: 259200
   GFWList:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/GFWList.yaml'
@@ -798,7 +834,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./GFWList.yaml
+    path: ./Providers/Proxy/GFWList.yaml
     interval: 259200
   ChinaMax_Classical:
     url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml'
@@ -811,7 +847,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./ChinaMax_Classical.yaml
+    path: ./Providers/Direct/ChinaMax_Classical.yaml
     interval: 259200
   Download:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Download.yaml'
@@ -819,10 +855,12 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    path: ./Download.yaml
+    path: ./Providers/Direct/Download.yaml
     interval: 259200
 rules:
   - RULE-SET,LocalAreaNetwork,DIRECT
+  - RULE-SET,UnBan,🇨🇳 虞夏路由
+  - RULE-SET,Advertising_Classical,REJECT
   - RULE-SET,AI,🦾 AI
   - RULE-SET,AdobeDirect,🇨🇳 虞夏路由
   - RULE-SET,AdobeArea,🎨 Adobe
@@ -836,35 +874,43 @@ rules:
   - RULE-SET,AustralianStrategicPolicyInstitute,🚀 默认节点
   - RULE-SET,bandcamp,🚀 默认节点
   - RULE-SET,Blogspot,🚀 默认节点
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  - RULE-SET,Telegram,🚀 默认节点
+  - RULE-SET,TikTok,📹 TikTok
+  - RULE-SET,NETFLIX,📼 NETFLIX
+  - RULE-SET,Disney+,🎥 Disney+
+  - RULE-SET,bing,Ⓜ️ 必应
+  - RULE-SET,GitHub,🚀 欠佳维稳
+  - RULE-SET,Microsoft,🪟 微软
+  - RULE-SET,Apple,🍎 Apple
+  - RULE-SET,T-Mobile,🚧 SIM
+  - RULE-SET,IP,🚧 IP
+  - RULE-SET,DigiCert,🚀 默认节点
+  - RULE-SET,Akamai,🚀 默认节点
+  - RULE-SET,Cloudflare,🚀 默认节点
   - AND,((GEOSITE,category-scholar-!cn),(NETWORK,tcp)),🐟 漏网之鱼
   - RULE-SET,Media,🐟 漏网之鱼
   - AND,((GEOSITE,category-social-media-!cn),(NETWORK,tcp)),🐟 漏网之鱼
   - AND,((GEOSITE,geolocation-!cn),(NETWORK,tcp)),🐟 漏网之鱼
   - RULE-SET,GFWList,🐟 漏网之鱼
-  - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
+  # - AND,((GEOSITE,gfw),(NETWORK,tcp)),🐟 漏网之鱼
   - RULE-SET,ChinaMax_Classical,🇨🇳 虞夏路由
-  - GEOSITE,category-game-accelerator-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-games@cn,🇨🇳 虞夏路由
-  - GEOSITE,category-hospital-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-media-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-mooc-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-netdisk-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-network-security-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-scholar-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-securities-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-social-media-cn,🇨🇳 虞夏路由
-  - GEOSITE,category-wiki-cn,🇨🇳 虞夏路由
-  - GEOSITE,cn,🇨🇳 虞夏路由
-  - GEOSITE,geolocation-cn,🇨🇳 虞夏路由
-  - GEOSITE,tld-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-game-accelerator-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-games@cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-hospital-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-media-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-mooc-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-netdisk-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-network-security-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-scholar-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-securities-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-social-media-cn,🇨🇳 虞夏路由
+  # - GEOSITE,category-wiki-cn,🇨🇳 虞夏路由
+  # - GEOSITE,cn,🇨🇳 虞夏路由
+  # - GEOSITE,geolocation-cn,🇨🇳 虞夏路由
+  # - GEOSITE,tld-cn,🇨🇳 虞夏路由
   - RULE-SET,Download,🇨🇳 虞夏路由
-  - GEOIP,cn,🇨🇳 虞夏路由
-  - GEOIP,CN,🇨🇳 虞夏路由
+  # - GEOIP,cn,🇨🇳 虞夏路由
+  # - GEOIP,CN,🇨🇳 虞夏路由
   - AND,((GEOIP,hk),(NETWORK,tcp)),🇭🇰 香港路由
   - AND,((GEOIP,HK),(NETWORK,tcp)),🇭🇰 香港路由
   - AND,((GEOIP,mo),(NETWORK,tcp)),🇲🇴 澳门路由
