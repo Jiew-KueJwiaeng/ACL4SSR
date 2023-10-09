@@ -1,0 +1,3 @@
+payload:
+  - AND,((GEOIP,jp),(NETWORK,tcp))
+  - AND,((GEOIP,JP),(NETWORK,tcp))
