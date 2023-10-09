@@ -1,0 +1,2 @@
+payload:
+  - AND,((IP-CIDR,192.229.211.108/32),(NETWORK,tcp))
