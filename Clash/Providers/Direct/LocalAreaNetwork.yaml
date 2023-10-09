@@ -29,5 +29,3 @@ payload:
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,zte.home
-  - GEOIP,private
-  - GEOIP,PRIVATE
