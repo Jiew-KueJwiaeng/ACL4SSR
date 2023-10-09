@@ -5,7 +5,7 @@ payload:
 # 无污染，有大陆路由 cdn.ampproject.org
   - DOMAIN,cloud-dot-devsite-v2-prod.appspot.com
   - DOMAIN,appspot.com
-  - DOMAIN,tunnel.cloudproxy.app
+  - AND,((DOMAIN,tunnel.cloudproxy.app),(NETWORK,tcp))
   - DOMAIN-SUFFIX,g.co
   - DOMAIN,lh2.ggpht.com
   - DOMAIN,lh3.ggpht.com
@@ -159,8 +159,8 @@ payload:
 # 无污染，有大陆路由 fonts.googleapis.com,tcp
 #   - DOMAIN,gmscompliance-pa.googleapis.com,tcp
 #   - DOMAIN,imasdk.googleapis.com,tcp
-#   - DOMAIN,jnn-pa.googleapis.com,tcp
-# 无污染 maps.googleapis.com
+#   - DOMAIN,jnn-pa.googleapis.com
+  - AND,((DOMAIN,maps.googleapis.com),(NETWORK,tcp)) # 无污染 
 # 无污染 notifications-pa.googleapis.com
 #   - DOMAIN,optimizationguide-pa.googleapis.com,tcp
 # 无污染 pay-users-pa.googleapis.com
@@ -179,13 +179,13 @@ payload:
 # 无污染 clients2.googleusercontent.com
 # 无污染 drive-thirdparty.googleusercontent.com
 # 无污染 images-lso-opensocial.googleusercontent.com
-# 无污染 lh3.googleusercontent.com
+  - AND,((DOMAIN,lh3.googleusercontent.com),(NETWORK,tcp)) # 无污染
 # 无污染 lh3-dz.googleusercontent.com
 # 无污染 play-lh.googleusercontent.com
 # 无污染 walkthroughs.googleusercontent.com
-  - DOMAIN,webcache.googleusercontent.com,tcp
+  - AND,((DOMAIN,webcache.googleusercontent.com),(NETWORK,tcp))
 # 无污染 yt3.googleusercontent.com
-  - DOMAIN-SUFFIX,googlevideo.com,tcp
+  - DOMAIN-SUFFIX,googlevideo.com
 # 无污染 encrypted-tbn0.gstatic.com
 # 无污染，有大陆路由 fonts.gstatic.com
 # 无污染 maps.gstatic.com
@@ -200,28 +200,28 @@ payload:
 # 无污染 crls.pki.goog
 # 无污染，有大陆路由 ocsp.pki.goog
 # 无污染，有大陆路由 www.recaptcha.net
-  - DOMAIN,csp.withgoogle.com,tcp
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,tcp
-  - DOMAIN-SUFFIX,ångströ.com,tcp
+  - DOMAIN,csp.withgoogle.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,ångströ.com
 # IP-CIDR,74.125.0.0/16,no-resolve
 # IP-CIDR,173.194.0.0/16,no-resolve
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,withyoutube.com
-  - DOMAIN,youtu.be,tcp
+  - AND,((DOMAIN,youtu.be),(NETWORK,tcp))
   - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube.com
+  # - DOMAIN-SUFFIX,youtube.com
 #   - DOMAIN,accounts.youtube.com,tcp
 #   - DOMAIN,img.youtube.com,tcp
-#   - DOMAIN,m.youtube.com,tcp
-#   - DOMAIN,studio.youtube.com,tcp
-#   - DOMAIN,suggestqueries-clients6.youtube.com,tcp
-#   - DOMAIN,www.youtube.com,tcp
+  - AND,((DOMAIN,m.youtube.com),(NETWORK,tcp))
+  - AND,((DOMAIN,studio.youtube.com),(NETWORK,tcp))
+#   - DOMAIN,suggestqueries-clients6.youtube.com
+  - AND,((DOMAIN,www.youtube.com),(NETWORK,tcp))
   - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubegaming.com
   - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN,yt.be,tcp
-  - DOMAIN,i.ytimg.com,tcp
+  - AND,((DOMAIN,yt.be),(NETWORK,tcp))
+  - AND,((DOMAIN,i.ytimg.com),(NETWORK,tcp))
   # https://github.com/v2fly/domain-list-community/blob/master/data/android
 # https://github.com/v2fly/domain-list-community/blob/master/data/flutter
 # https://github.com/v2fly/domain-list-community/blob/master/data/golang
