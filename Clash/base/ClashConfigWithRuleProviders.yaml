@@ -857,3 +857,67 @@ rule-providers:
     format: yaml
     path: ./Providers/Direct/Download.yaml
     interval: 259200
+  HKRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HKRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/HKRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/HKRoute.yaml
+    interval: 259200
+  MORoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/MORoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/MORoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/MORoute.yaml
+    interval: 259200
+  TWRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/TWRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/TWRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/TWRoute.yaml
+    interval: 259200
+  JPRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/JPRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/JPRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/JPRoute.yaml
+    interval: 259200
+  SGRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/SGRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/SGRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/SGRoute.yaml
+    interval: 259200
+  IRRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/IRRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/IRRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/IRRoute.yaml
+    interval: 259200
+  USRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/USRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/USRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/USRoute.yaml
+    interval: 259200
+  ISPRoute:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/ISPRoute.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/ISPRoute.yaml
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./Providers/Proxy/ISPRoute.yaml
+    interval: 259200
