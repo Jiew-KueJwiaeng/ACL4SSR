@@ -1,3 +1,6 @@
 payload:
   - AND,((DOMAIN,web.whatsapp.com),(NETWORK,tcp))
   - AND,((g.whatsapp.net),(NETWORK,tcp))
+  # https://faq.whatsapp.com/490531153094849
+  # https://github.com/v2fly/domain-list-community/blob/master/data/whatsapp
+  # https://quantil.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Whatsapp.list
