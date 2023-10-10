@@ -1,0 +1,3 @@
+payload:
+  - AND,((DOMAIN,web.whatsapp.com),(NETWORK,tcp))
+  - AND,((g.whatsapp.net),(NETWORK,tcp))
