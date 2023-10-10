@@ -1,0 +1,5 @@
+payload:
+  - AND,((DOMAIN,cn.gravatar.com),(NETWORK,tcp))
+  - AND,((DOMAIN,en.gravatar.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.gravatar.com),(NETWORK,tcp))
+  - AND,((DOMAIN,gravatar.com),(NETWORK,tcp))
