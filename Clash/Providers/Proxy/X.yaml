@@ -1,0 +1,18 @@
+payload:
+  # DOMAIN-SUFFIX,periscope.tv
+  # DOMAIN-SUFFIX,pscp.tv
+  - AND,((DOMAIN,t.co),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,twimg.co
+  - AND,((DOMAIN,abs.twimg.com),(NETWORK,tcp))
+  - AND,((DOMAIN,abs-0.twimg.com),(NETWORK,tcp))
+  - AND,((DOMAIN,pbs.twimg.com),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,twimg.org
+  # DOMAIN-SUFFIX,twitpic.com
+  - AND,((DOMAIN,twitter.com),(NETWORK,tcp))
+  - AND,((DOMAIN,ads-api.twitter.com),(NETWORK,tcp))
+  - AND,((DOMAIN,analytics.twitter.com),(NETWORK,tcp))
+  - AND,((DOMAIN,api.twitter.com),(NETWORK,tcp))
+  - AND,((DOMAIN,mobile.twitter.com),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,twitter.jp
+  # DOMAIN-SUFFIX,vine.co
+  - AND,((DOMAIN,x.com),(NETWORK,tcp))
