@@ -1,0 +1,3 @@
+payload:
+  - AND,((DOMAIN,www.reuters.com),(NETWORK,tcp))
+  - AND,((DOMAIN,reuters.com),(NETWORK,tcp))
