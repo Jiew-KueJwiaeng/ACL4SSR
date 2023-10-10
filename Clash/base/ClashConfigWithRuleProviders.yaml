@@ -543,39 +543,39 @@ dns:
       - monica.im
       - +.monica.im
   nameserver-policy:
-    'rule-set:ChinaMax_Classical,Download':
+    'rule-set:UnBan,Advertising_Classical,ChinaMax_Classical,Download':
       - 'tls://dns.alidns.com'
       - 'https://dns.alidns.com/dns-query'
       - 'tls://dot.pub'
       - 'https://doh.pub/dns-query'
       - 'tls://dot.360.cn'
       - 'https://doh.360.cn/dns-query'
-    '+.ithome.com,+.mihoyo.com':
-      - 'tls://dns.alidns.com'
-      - 'https://dns.alidns.com/dns-query'
-      - 'tls://dot.pub'
-      - 'https://doh.pub/dns-query'
-      - 'tls://dot.360.cn'
-      - 'https://doh.360.cn/dns-query'
-    'geosite:acer@cn,adobe@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
-      - 'tls://dns.alidns.com'
-      #- "tls://[2400:3200:baba::1]:853"
-      #- "tls://[2400:3200::1]:853"
-      #- "tls://223.6.6.6:853"
-      #- "tls://223.5.5.5:853"
-      #- "https://[2400:3200:baba::1]:443/dns-query"
-      #- "https://[2400:3200::1]:443/dns-query"
-      #- "https://223.6.6.6:443/dns-query"
-      #- "https://223.5.5.5:443/dns-query"
-      - 'https://dns.alidns.com/dns-query'
-      #- "tls://1.12.12.12:853"
-      #- "tls://120.53.53.53:853"
-      - 'tls://dot.pub'
-      #- "https://1.12.12.12:443/dns-query"
-      #- "https://120.53.53.53:443/dns-query"
-      - 'https://doh.pub/dns-query'
-      - 'tls://dot.360.cn'
-      - 'https://doh.360.cn/dns-query'
+    # '+.ithome.com,+.mihoyo.com':
+      # - 'tls://dns.alidns.com'
+      # - 'https://dns.alidns.com/dns-query'
+      # - 'tls://dot.pub'
+      # - 'https://doh.pub/dns-query'
+      # - 'tls://dot.360.cn'
+      # - 'https://doh.360.cn/dns-query'
+    # 'geosite:acer@cn,adobe@cn,amd@cn,amp@cn,apple@cn,apple-cn,asus@cn,att@cn,bing@cn,category-games@cn,cisco@cn,cn,ebay@cn,epicgames@cn,geolocation-cn,gog@cn,google@cn,google-cn,hm@cn,icloud@cn,ikea@cn,microsoft@cn,mihoyo@cn,mihoyo-cn@cn,mihoyo-cn,msn@cn,muji@cn,nike@cn,okx@cn,private,qnap@cn,rb@cn,riot@cn,steam@cn,swift@cn,tvb@cn,veet@cn,visa@cn,xbox@cn':
+      # - 'tls://dns.alidns.com'
+      # - "tls://[2400:3200:baba::1]:853"
+      # - "tls://[2400:3200::1]:853"
+      # - "tls://223.6.6.6:853"
+      # - "tls://223.5.5.5:853"
+      # - "https://[2400:3200:baba::1]:443/dns-query"
+      # - "https://[2400:3200::1]:443/dns-query"
+      # - "https://223.6.6.6:443/dns-query"
+      # - "https://223.5.5.5:443/dns-query"
+      # - 'https://dns.alidns.com/dns-query'
+      # - "tls://1.12.12.12:853"
+      # - "tls://120.53.53.53:853"
+      # - 'tls://dot.pub'
+      # - "https://1.12.12.12:443/dns-query"
+      # - "https://120.53.53.53:443/dns-query"
+      # - 'https://doh.pub/dns-query'
+      # - 'tls://dot.360.cn'
+      # - 'https://doh.360.cn/dns-query'
     #"geosite:category-ads-all": rcode://success
     ## global，dns 为 rule-providers 中的名为 global 和 dns 规则订阅，
     ## 且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
@@ -591,16 +591,16 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/LocalAreaNetwork.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/LocalAreaNetwork.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/LocalAreaNetwork.yaml'
     interval: 86400
   UnBan:
     url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml'
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/UnBan.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/UnBan.yaml'
     interval: 86400
   Advertising_Classical:
     url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml'
@@ -609,71 +609,71 @@ rule-providers:
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Reject/Advertising_Classical.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Advertising_Classical.yaml'
     interval: 86400
   AI:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/AI.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/AI.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/AI.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/AI.yaml'
     interval: 86400
   AdobeDirect:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Adobe.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/Adobe.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/Adobe.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/AdobeDirect.yaml'
     interval: 86400
   AdobeArea:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Adobe.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Adobe.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/Adobe.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/AdobeArea.yaml'
     interval: 86400
   Google:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Google.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Google.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/Google.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Google.yaml'
     interval: 86400
   SteamDirect:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Steam.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/Steam.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/Steam.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/SteamDirect.yaml'
     interval: 86400
   SteamArea:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Steam.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Steam.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/Steam.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/SteamArea.yaml'
     interval: 86400
   Epic:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Epic.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Epic.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/Epic.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Epic.yaml'
     interval: 86400
   Bahamut:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Bahamut.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Bahamut.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/Bahamut.yaml
     interval: 86400
   amazon:
@@ -681,7 +681,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/amazon.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/amazon.yaml
     interval: 86400
   ArtStation:
@@ -689,7 +689,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/ArtStation.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/ArtStation.yaml
     interval: 86400
   AustralianStrategicPolicyInstitute:
@@ -697,7 +697,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/AustralianStrategicPolicyInstitute.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/AustralianStrategicPolicyInstitute.yaml
     interval: 86400
   bandcamp:
@@ -705,39 +705,71 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/bandcamp.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/bandcamp.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/bandcamp.yaml'
     interval: 86400
   Blogspot:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Blogspot.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Blogspot.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/Blogspot.yaml
+    interval: 86400
+  HuggingFace:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HuggingFace.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/HuggingFace.yaml
+    type: http
+    behavior: classical
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/HuggingFace.yaml'
+    interval: 86400
+  pixiv:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/pixiv.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/pixiv.yaml
+    type: http
+    behavior: classical
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/pixiv.yaml'
+    interval: 86400
+  Proton:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Proton.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Proton.yaml
+    type: http
+    behavior: classical
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/Proton.yaml'
+    interval: 86400
+  zoom:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/zoom.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/zoom.yaml
+    type: http
+    behavior: classical
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/zoom.yaml'
     interval: 86400
   Telegram:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Telegram.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Telegram.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/Telegram.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/Telegram.yaml'
     interval: 86400
   TikTok:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/TikTok.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/TikTok.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/TikTok.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Area/TikTok.yaml'
     interval: 86400
   NETFLIX:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/NETFLIX.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/NETFLIX.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/NETFLIX.yaml
     interval: 86400
   Disney+:
@@ -745,7 +777,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Disney+.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/Disney+.yaml
     interval: 86400
   DMM:
@@ -753,7 +785,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/DMM.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/DMM.yaml
     interval: 86400
   ニコニコ:
@@ -761,7 +793,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/ニコニコ.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/ニコニコ.yaml
     interval: 86400
   bing:
@@ -769,7 +801,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/bing.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/bing.yaml
     interval: 86400
   BiliBiliInternational:
@@ -777,7 +809,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/BiliBiliInternational.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/BiliBiliInternational.yaml
     interval: 86400
   bilibiliHMT:
@@ -785,7 +817,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/bilibiliHMT.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/bilibiliHMT.yaml
     interval: 86400
   bilibili:
@@ -793,7 +825,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/bilibili.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Direct/bilibili.yaml
     interval: 86400
   Spotify:
@@ -801,7 +833,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Spotify.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/Spotify.yaml
     interval: 86400
   Stripe:
@@ -809,15 +841,23 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Stripe.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Area/Stripe.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Area/Stripe.yaml'
+    interval: 86400
+  PayPal:
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/PayPal.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/PayPal.yaml
+    type: http
+    behavior: classical
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Area/PayPal.yaml'
     interval: 86400
   GitHub:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Accelerate/GitHub.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Accelerate/GitHub.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Accelerate/GitHub.yaml
     interval: 86400
   Microsoft:
@@ -825,7 +865,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Accelerate/Microsoft.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Accelerate/Microsoft.yaml
     interval: 86400
   Apple:
@@ -833,7 +873,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/Apple.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/Apple.yaml
     interval: 86400
   T-Mobile:
@@ -841,7 +881,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/T-Mobile.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/T-Mobile.yaml
     interval: 86400
   IP:
@@ -849,7 +889,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Area/DigiCert.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Area/IP.yaml
     interval: 86400
   DigiCert:
@@ -857,7 +897,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/DigiCert.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/DigiCert.yaml
     interval: 86400
   Akamai:
@@ -865,7 +905,7 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Akamai.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/Akamai.yaml
     interval: 86400
   Cloudflare:
@@ -873,95 +913,96 @@ rule-providers:
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/Cloudflare.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/Cloudflare.yaml
     interval: 86400
   GFWList:
-    url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical.yaml'
+    url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/GFWList.yaml'
+    # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/GFWList.yaml
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ProxyLite
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/GFWList.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/GFWList.yaml'
     interval: 86400
   ChinaMax_Classical:
     url: 'https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml'
     # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/ChinaMax_Classical.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Direct/ChinaMax_Classical.yaml'
     interval: 86400
   Download:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Download.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Direct/Download.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Direct/Download.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Direct/Download.yaml'
     interval: 86400
   HKRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HKRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/HKRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/HKRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/HKRoute.yaml'
     interval: 86400
   MORoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/MORoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/MORoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/MORoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/MORoute.yaml'
     interval: 86400
   TWRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/TWRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/TWRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/TWRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/TWRoute.yaml'
     interval: 86400
   JPRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/JPRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/JPRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/JPRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/JPRoute.yaml'
     interval: 86400
   SGRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/SGRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/SGRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/SGRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/SGRoute.yaml'
     interval: 86400
   IRRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/IRRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/IRRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/IRRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/IRRoute.yaml'
     interval: 86400
   USRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/USRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/USRoute.yaml
     type: http
     behavior: classical
-    format: yaml
-    path: ./Providers/Proxy/USRoute.yaml
+    # format: yaml
+    path: '/etc/openclash/rule_provider/Proxy/USRoute.yaml'
     interval: 86400
   ISPRoute:
     url: 'https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/ISPRoute.yaml'
     # https://github.com/Jiew-KueJwiaeng/Null/edit/master/Clash/Providers/Proxy/ISPRoute.yaml
     type: http
     behavior: classical
-    format: yaml
+    # format: yaml
     path: ./Providers/Proxy/ISPRoute.yaml
     interval: 86400
