@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN,api-account-os.hoyolab.com
+  - DOMAIN,api-account-os-static.hoyolab.com
+  - DOMAIN,bbs-api-os.hoyolab.com
+  - DOMAIN,bbs-api-os-static.hoyolab.com
+  - DOMAIN,img-os.hoyolab.com
+  - DOMAIN,img-os-static.hoyolab.com
+  - DOMAIN,log-upload-os.hoyolab.com
+  - DOMAIN,log-upload-os-static.hoyolab.com
+  - DOMAIN,www.hoyolab.com
+  - DOMAIN,hoyolab.com
