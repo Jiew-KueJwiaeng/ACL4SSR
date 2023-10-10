@@ -1,0 +1,8 @@
+payload:
+  - AND,((DOMAIN,preview.redd.it),(NETWORK,tcp))
+  - AND,((DOMAIN,alb.reddit.com),(NETWORK,tcp))
+  - AND,((DOMAIN,gateway.reddit.com),(NETWORK,tcp))
+  - AND,((DOMAIN,gql.reddit.com),(NETWORK,tcp))
+  - AND,((DOMAIN,w3-reporting.reddit.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.reddit.com),(NETWORK,tcp))
+  - AND,((DOMAIN,styles.redditmedia.com),(NETWORK,tcp))
