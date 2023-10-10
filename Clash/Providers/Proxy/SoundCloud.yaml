@@ -1,0 +1,5 @@
+payload:
+  - AND,((DOMAIN,www.soundcloud.com),(NETWORK,tcp))
+  - AND,((DOMAIN,soundcloud.com),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,p-cdn.us
+  # DOMAIN-SUFFIX,sndcdn.com
