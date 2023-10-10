@@ -1,0 +1,3 @@
+payload:
+  - AND,((DOMAIN,www.washingtonpost.com),(NETWORK,tcp))
+  - AND,((DOMAIN,washingtonpost.com),(NETWORK,tcp))
