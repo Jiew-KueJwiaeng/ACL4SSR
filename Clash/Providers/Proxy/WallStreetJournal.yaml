@@ -1,0 +1,12 @@
+payload:
+  - AND,((DOMAIN,accounts.wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,cn.wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,optimizely.wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,video-api.wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,wsj.com),(NETWORK,tcp))
+  - AND,((DOMAIN,images.wsj.net),(NETWORK,tcp))
+  - AND,((DOMAIN,si.wsj.net),(NETWORK,tcp))
+  - AND,((DOMAIN,sts3.wsj.net),(NETWORK,tcp))
+  - AND,((DOMAIN,vir.wsj.net),(NETWORK,tcp))
+  - AND,((DOMAIN,wsj.net),(NETWORK,tcp))
