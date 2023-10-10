@@ -1,0 +1,2 @@
+payload:
+  - AND,((DOMAIN,linktr.ee),(NETWORK,tcp))
