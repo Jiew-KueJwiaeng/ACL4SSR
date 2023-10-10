@@ -1,0 +1,5 @@
+payload:
+  - AND,((DOMAIN,www.dropbox.com),(NETWORK,tcp))
+  - AND,((DOMAIN,dropbox.com),(NETWORK,tcp))
+  # https://help.dropbox.com/zh-cn/security/official-domains
+  # https://github.com/v2fly/domain-list-community/blob/master/data/dropbox
