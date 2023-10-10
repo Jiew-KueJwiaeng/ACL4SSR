@@ -1,0 +1,5 @@
+payload:
+  - 'AND,((DOMAIN,source.pixiv.net),(NETWORK,tcp))'
+  - 'AND,((DOMAIN,www.pixiv.net),(NETWORK,tcp))'
+  - 'AND,((DOMAIN,pixiv.net),(NETWORK,tcp))'
+  - 'AND,((DOMAIN,i.pximg.net),(NETWORK,tcp))'
