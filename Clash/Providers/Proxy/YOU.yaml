@@ -1,0 +1,3 @@
+payload:
+  - AND,((DOMAIN,cdn.you.com),(NETWORK,tcp))
+  - AND,((DOMAIN,you.com),(NETWORK,tcp))
