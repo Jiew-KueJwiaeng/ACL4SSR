@@ -1,0 +1,4 @@
+payload:
+  - AND,((DOMAIN,assets.pinterest.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.pinterest.com),(NETWORK,tcp))
+  - AND,((DOMAIN,pinterest.com),(NETWORK,tcp))
