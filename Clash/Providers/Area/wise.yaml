@@ -1,0 +1,3 @@
+payload:
+  - AND,((DOMAIN-SUFFIX,transferwise.com),(NETWORK,tcp))
+  - AND,((DOMAIN-SUFFIX,wise.com),(NETWORK,tcp))
