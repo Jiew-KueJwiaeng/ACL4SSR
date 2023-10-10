@@ -1,0 +1,5 @@
+payload:
+  - AND,((DOMAIN,terabox.com),(NETWORK,tcp))
+  - AND,((DOMAIN,data.terabox.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.terabox.com),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,teraboxcdn.com
