@@ -1,0 +1,7 @@
+payload:
+  # DOMAIN-SUFFIX,pm.me
+  # - DOMAIN-SUFFIX,0sbm.consobaby.co.uk
+  - AND,((DOMAIN,proton.me),(NETWORK,tcp))
+  # DOMAIN-SUFFIX,protonmail.ch
+  # DOMAIN-SUFFIX,protonmail.com
+  # DOMAIN-SUFFIX,protonstatus.com
