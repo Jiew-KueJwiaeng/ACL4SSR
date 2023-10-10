@@ -1,0 +1,1735 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+redir-port: 7892
+tproxy-port: 7895
+allow-lan: true
+bind-address: "*"
+find-process-mode: off
+geox-url:
+  geoip: https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://quantil.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+ipv6: true
+external-controller: 0.0.0.0:9090
+external-ui: /usr/share/openclash/ui
+external-ui-name: ~
+external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
+mode: rule
+log-level: warning
+tcp-concurrent: true
+global-client-fingerprint: ios
+experimental:
+  quic-go-disable-gso: false
+profile:
+  store-selected: true
+  store-fake-ip: false
+tun:
+  enable: true
+  stack: gvisor
+  dns-hijack:
+    - tcp://any:53
+    - any:53
+    - tcp://[::]:53
+    - "[::]:53"
+    - tcp://0.0.0.0:53
+    - 0.0.0.0:53
+  auto-detect-interface: false
+  auto-route: false
+  mtu: 1492
+dns:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  ipv6: true
+  default-nameserver:
+    - tls://[2001:4860:4860::8844]
+    - tls://[2001:4860:4860::8888]
+    - tls://8.8.4.4
+    - tls://8.8.8.8
+    - tls://[2606:4700:4700::1002]
+    - tls://[2606:4700:4700::1112]
+    - tls://1.0.0.2
+    - tls://1.1.1.2
+    - tls://[2606:4700:4700::1001]
+    - tls://[2606:4700:4700::1111]
+    - tls://1.0.0.1
+    - tls://1.1.1.1
+    - tls://[2620:fe::fe:11]
+    - tls://[2620:fe::11]
+    - tls://149.112.112.11
+    - tls://9.9.9.11
+    - tls://[2620:fe::9]
+    - tls://[2620:fe::fe]
+    - tls://149.112.112.112
+    - tls://9.9.9.9
+    - tls://[2620:fe::fe:10]
+    - tls://[2620:fe::10]
+    - tls://149.112.112.10
+    - tls://9.9.9.10
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time-ios.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.qq.com
+    - +.tencent.com
+    - +.srv.nintendo.net
+    - "*.n.n.srv.nintendo.net"
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - xbox.*.microsoft.com
+    - "*.*.xboxlive.com"
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+    - shark007.net
+    - Mijia Cloud
+    - +.cmbchina.com
+    - +.cmbimg.com
+    - local.adguard.org
+    - +.sandai.net
+    - +.n0808.com
+    - ipv6check-http.steamcontent.com
+    - ipv6check-udp.steamcontent.com
+  proxy-server-nameserver:
+    - tls://dns.google
+    - https://dns.google/dns-query
+    - tls://security.cloudflare-dns.com
+    - https://security.cloudflare-dns.com/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - tls://cloudflare-dns.com
+    - tls://one.one.one.one
+    - https://cloudflare-dns.com/dns-query
+    - https://mozilla.cloudflare-dns.com/dns-query
+    - tls://dns11.quad9.net
+    - https://dns11.quad9.net/dns-query
+    - tls://dns.quad9.net
+    - https://dns.quad9.net/dns-query
+    - tls://dns10.quad9.net
+    - https://dns10.quad9.net/dns-query
+  nameserver:
+    - tls://dns.alidns.com
+    - https://dns.alidns.com/dns-query
+    - tls://dot.pub
+    - https://doh.pub/dns-query
+    - tls://dot.360.cn
+    - https://doh.360.cn/dns-query
+  fallback:
+    - tls://dns.google
+    - https://dns.google/dns-query
+    - tls://security.cloudflare-dns.com
+    - https://security.cloudflare-dns.com/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - tls://cloudflare-dns.com
+    - tls://one.one.one.one
+    - https://cloudflare-dns.com/dns-query
+    - https://mozilla.cloudflare-dns.com/dns-query
+    - tls://dns11.quad9.net
+    - https://dns11.quad9.net/dns-query
+    - tls://dns.quad9.net
+    - https://dns.quad9.net/dns-query
+    - tls://dns10.quad9.net
+    - https://dns10.quad9.net/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - bandcamp
+      - bootstrap
+      - dropbox
+      - gfw
+      - godaddy
+      - google
+      - google-ads
+      - google-registry
+      - google-scholar
+      - google-trust-services
+      - googlefcm
+      - openai
+      - protonmail
+      - steam
+      - telegram
+      - whatsapp
+      - youtube
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - maxcdn.bootstrapcdn.com
+      - +.bootstrapcdn.com
+      - civitai.com
+      - +.civitai.com
+      - www.godaddy.com
+      - +.godaddy.com
+      - assets.production.linktr.ee
+      - ugc.production.linktr.ee
+      - +.production.linktr.ee
+      - linktr.ee
+      - +.linktr.ee
+      - monica.im
+      - +.monica.im
+  nameserver-policy:
+    rule-set:UnBan,Advertising_Classical,ChinaMax_Classical,Download:
+      - tls://dns.alidns.com
+      - https://dns.alidns.com/dns-query
+      - tls://dot.pub
+      - https://doh.pub/dns-query
+      - tls://dot.360.cn
+      - https://doh.360.cn/dns-query
+ntp:
+  enable: true
+  write-to-system: false
+  server: ntp.tencent.com
+  port: 123
+  interval: 30
+rule-providers:
+  LocalAreaNetwork:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/LocalAreaNetwork.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/LocalAreaNetwork.yaml
+    interval: 86400
+  UnBan:
+    url: https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/UnBan.yaml
+    interval: 86400
+  Advertising_Classical:
+    url: https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Reject/Advertising_Classical.yaml
+    interval: 86400
+  AI:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/AI.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/AI.yaml
+    interval: 86400
+  AdobeDirect:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Adobe.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/Adobe.yaml
+    interval: 86400
+  AdobeArea:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Adobe.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Adobe.yaml
+    interval: 86400
+  Google:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Google.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Google.yaml
+    interval: 86400
+  SteamDirect:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Steam.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/Steam.yaml
+    interval: 86400
+  SteamArea:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Steam.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Steam.yaml
+    interval: 86400
+  Epic:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Epic.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Epic.yaml
+    interval: 86400
+  Bahamut:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Bahamut.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Bahamut.yaml
+    interval: 86400
+  amazon:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/amazon.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/amazon.yaml
+    interval: 86400
+  ArtStation:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/ArtStation.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/ArtStation.yaml
+    interval: 86400
+  AustralianStrategicPolicyInstitute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/AustralianStrategicPolicyInstitute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/AustralianStrategicPolicyInstitute.yaml
+    interval: 86400
+  bandcamp:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/bandcamp.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/bandcamp.yaml
+    interval: 86400
+  Blogspot:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Blogspot.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Blogspot.yaml
+    interval: 86400
+  BRILL:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/BRILL.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/BRILL.yaml
+    interval: 86400
+  Discord:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Discord.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Discord.yaml
+    interval: 86400
+  Dropbox:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Dropbox.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Dropbox.yaml
+    interval: 86400
+  Gravatar:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Gravatar.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Gravatar.yaml
+    interval: 86400
+  HuggingFace:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HuggingFace.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/HuggingFace.yaml
+    interval: 86400
+  香港01:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/香港01.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/香港01.yaml
+    interval: 86400
+  HoYoLAB:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HoYoLAB.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/HoYoLAB.yaml
+    interval: 86400
+  Line:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Line.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Line.yaml
+    interval: 86400
+  Linktree:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Linktree.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Linktree.yaml
+    interval: 86400
+  Medium:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Medium.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Medium.yaml
+    interval: 86400
+  Meta:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Meta.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Meta.yaml
+    interval: 86400
+  明報:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/明報.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/明報.yaml
+    interval: 86400
+  PetalSearch:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/PetalSearch.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/PetalSearch.yaml
+    interval: 86400
+  Pinterest:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Pinterest.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Pinterest.yaml
+    interval: 86400
+  pixiv:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/pixiv.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/pixiv.yaml
+    interval: 86400
+  Proton:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Proton.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Proton.yaml
+    interval: 86400
+  Reddit:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Reddit.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Reddit.yaml
+    interval: 86400
+  REUTERS:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/REUTERS.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/REUTERS.yaml
+    interval: 86400
+  SoundCloud:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/SoundCloud.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/SoundCloud.yaml
+    interval: 86400
+  Telegram:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Telegram.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Telegram.yaml
+    interval: 86400
+  TeraBox:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/TeraBox.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/TeraBox.yaml
+    interval: 86400
+  Tor:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Tor.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Tor.yaml
+    interval: 86400
+  USCongress:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/USCongress.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/USCongress.yaml
+    interval: 86400
+  WallStreetJournal:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/WallStreetJournal.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/WallStreetJournal.yaml
+    interval: 86400
+  WashingtonPost:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/WashingtonPost.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/WashingtonPost.yaml
+    interval: 86400
+  WhatsApp:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/WhatsApp.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/WhatsApp.yaml
+    interval: 86400
+  Wikipedia:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Wikipedia.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Wikipedia.yaml
+    interval: 86400
+  X:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/X.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/X.yaml
+    interval: 86400
+  yahoo!:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/yahoo!.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/yahoo!.yaml
+    interval: 86400
+  YOU:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/YOU.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/YOU.yaml
+    interval: 86400
+  zoom:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/zoom.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/zoom.yaml
+    interval: 86400
+  TikTok:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/TikTok.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/TikTok.yaml
+    interval: 86400
+  NETFLIX:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/NETFLIX.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/NETFLIX.yaml
+    interval: 86400
+  Disney+:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Disney+.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Disney+.yaml
+    interval: 86400
+  DMM:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/DMM.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/DMM.yaml
+    interval: 86400
+  ニコニコ:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/ニコニコ.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/ニコニコ.yaml
+    interval: 86400
+  LineTV:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/LineTV.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/LineTV.yaml
+    interval: 86400
+  bing:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/bing.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/bing.yaml
+    interval: 86400
+  BiliBiliInternational:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/BiliBiliInternational.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/BiliBiliInternational.yaml
+    interval: 86400
+  bilibiliHMT:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/bilibiliHMT.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/bilibiliHMT.yaml
+    interval: 86400
+  bilibili:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/bilibili.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/bilibili.yaml
+    interval: 86400
+  Spotify:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Spotify.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Spotify.yaml
+    interval: 86400
+  Stripe:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Stripe.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Stripe.yaml
+    interval: 86400
+  PayPal:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/PayPal.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/PayPal.yaml
+    interval: 86400
+  wise:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/wise.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/wise.yaml
+    interval: 86400
+  联合早报:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/联合早报.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/联合早报.yaml
+    interval: 86400
+  GitHub:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Accelerate/GitHub.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Accelerate/GitHub.yaml
+    interval: 86400
+  Microsoft:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Accelerate/Microsoft.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Accelerate/Microsoft.yaml
+    interval: 86400
+  Apple:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/Apple.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/Apple.yaml
+    interval: 86400
+  UltraMobile:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/UltraMobile.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/UltraMobile.yaml
+    interval: 86400
+  T-Mobile:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/T-Mobile.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/T-Mobile.yaml
+    interval: 86400
+  IP:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Area/IP.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Area/IP.yaml
+    interval: 86400
+  DigiCert:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/DigiCert.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/DigiCert.yaml
+    interval: 86400
+  Akamai:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Akamai.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Akamai.yaml
+    interval: 86400
+  Cloudflare:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/Cloudflare.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/Cloudflare.yaml
+    interval: 86400
+  GFWList:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/GFWList.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/GFWList.yaml
+    interval: 86400
+  ChinaMax_Classical:
+    url: https://quantil.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/ChinaMax_Classical.yaml
+    interval: 86400
+  Download:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Direct/Download.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Direct/Download.yaml
+    interval: 86400
+  HKRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/HKRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/HKRoute.yaml
+    interval: 86400
+  MORoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/MORoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/MORoute.yaml
+    interval: 86400
+  TWRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/TWRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/TWRoute.yaml
+    interval: 86400
+  JPRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/JPRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/JPRoute.yaml
+    interval: 86400
+  SGRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/SGRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/SGRoute.yaml
+    interval: 86400
+  IRRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/IRRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/IRRoute.yaml
+    interval: 86400
+  USRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/USRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/USRoute.yaml
+    interval: 86400
+  ISPRoute:
+    url: https://quantil.jsdelivr.net/gh/Jiew-KueJwiaeng/Null@master/Clash/Providers/Proxy/ISPRoute.yaml
+    type: http
+    behavior: classical
+    path: /etc/openclash/rule_provider/Proxy/ISPRoute.yaml
+    interval: 86400
+proxies:
+  - name: 'tuic_justhost-turkiye_IPv6'
+    server: 'justhost-turkiye.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '2605:e440:11::2:6c'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'tuic_justhost-turkiye_IPv4'
+    server: 'justhost-turkiye.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '194.87.39.183'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'vision_justhost-turkiye_IPv6'
+    type: 'vless'
+    server: '2605:e440:11::2:6c'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'vision_justhost-turkiye_IPv4'
+    type: 'vless'
+    server: '194.87.39.183'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'tuic_zgo-oosaka_IPv6'
+    server: 'zgo-oosaka.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '2602:fa56:0:32::a'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'tuic_zgo-oosaka_IPv4'
+    server: 'zgo-oosaka.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '23.158.24.70'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'vision_zgo-oosaka_IPv6'
+    type: 'vless'
+    server: '2602:fa56:0:32::a'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'www.bilibili.tv'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'vision_zgo-oosaka_IPv4'
+    type: 'vless'
+    server: '23.158.24.70'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'www.bilibili.tv'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'tuic_racknerd-losangeles_IPv6'
+    server: 'racknerd-losangeles.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '2607:f130:0:f8:ff:ff:7364:328c'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'tuic_racknerd-losangeles_IPv4'
+    server: 'racknerd-losangeles.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '148.135.67.50'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'vision_racknerd-losangeles_IPv6'
+    type: 'vless'
+    server: '2607:f130:0:f8:ff:ff:7364:328c'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'vision_racknerd-losangeles_IPv4'
+    type: 'vless'
+    server: '148.135.67.50'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - name: 'tuic_racknerd-newyork_IPv4'
+    server: 'racknerd-newyork.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '23.95.170.29'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
+  - name: 'vision_racknerd-newyork_IPv4'
+    type: 'vless'
+    server: '23.95.170.29'
+    port: '25566'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    network: 'tcp'
+    tls: true
+    udp: true
+    flow: 'xtls-rprx-vision'
+    servername: 'webstatic.hoyoverse.com'
+    reality-opts:
+      public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
+      #short-id: xxx # optional
+    client-fingerprint: 'ios'
+  - {name: 🇭🇰 IEPL | 香港 | FDC, server: asia.miaocn.cyou, port: 10931, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇭🇰 IEPL | 香港 | WAP, server: asia.miaocn.cyou, port: 10920, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇭🇰 IEPL | 香港 | HKT, server: asia.miaocn.cyou, port: 10933, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇸🇬 IEPL | 狮城, server: asia.miaocn.cyou, port: 10934, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇨🇳 IEPL | 台湾 | Hinet, server: asia.miaocn.cyou, port: 36505, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇮🇩 IEPL | 印尼 | APIK, server: asia.miaocn.cyou, port: 10932, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇰🇷 IEPL | 韩国, server: asia.miaocn.cyou, port: 10915, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇻🇳 IEPL | 越南 | FPT, server: asia.miaocn.cyou, port: 10916, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇵🇭 IEPL | 菲律宾, server: asia.miaocn.cyou, port: 10917, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇹🇭 IEPL | 泰国 | CAT, server: asia.miaocn.cyou, port: 10935, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇰🇭 IEPL | 柬埔寨, server: asia.miaocn.cyou, port: 36503, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 日本 | Linode, server: asia.miaocn.cyou, port: 10925, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 日本 | Sonet, server: asia.miaocn.cyou, port: 10924, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇮🇳 IEPL | 印度, server: asia.miaocn.cyou, port: 10928, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇩🇪 IEPL | 德国, server: eu.miaocn.cyou, port: 10910, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇬🇧 IEPL | 英国, server: eu.miaocn.cyou, port: 10929, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇫🇷 IEPL | 法国, server: eu.miaocn.cyou, port: 10913, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇹🇷 IEPL | 土耳其, server: eu.miaocn.cyou, port: 10912, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇺🇸 IEPL | 美国 | LA, server: na.miaocn.cyou, port: 10930, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇦🇺 IEPL | 澳洲, server: na.miaocn.cyou, port: 10927, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇦🇷 IEPL | 阿根廷, server: na.miaocn.cyou, port: 10914, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇧🇷 IEPL | 巴西, server: na.miaocn.cyou, port: 10926, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 尼日利亚, server: eu.miaocn.cyou, port: 10919, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+proxy-groups:
+  - name: 🚀 自建突厥
+    type: select
+    proxies:
+      - 'tuic_justhost-turkiye_IPv6'
+      - 'tuic_justhost-turkiye_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
+      - 'tuic_zgo-oosaka_IPv6'
+      - 'tuic_zgo-oosaka_IPv4'
+      - 'vision_zgo-oosaka_IPv6'
+      - 'vision_zgo-oosaka_IPv4'
+      - 'tuic_racknerd-losangeles_IPv6'
+      - 'tuic_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+  - name: 🚀 自建山人
+    type: select
+    proxies:
+      - 'tuic_justhost-turkiye_IPv6'
+      - 'tuic_justhost-turkiye_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
+      - 'tuic_zgo-oosaka_IPv6'
+      - 'tuic_zgo-oosaka_IPv4'
+      - 'vision_zgo-oosaka_IPv6'
+      - 'vision_zgo-oosaka_IPv4'
+      - 'tuic_racknerd-losangeles_IPv6'
+      - 'tuic_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+  - name: 🚀 自建美利坚
+    type: select
+    proxies:
+      - 'tuic_justhost-turkiye_IPv6'
+      - 'tuic_justhost-turkiye_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
+      - 'tuic_zgo-oosaka_IPv6'
+      - 'tuic_zgo-oosaka_IPv4'
+      - 'vision_zgo-oosaka_IPv6'
+      - 'vision_zgo-oosaka_IPv4'
+      - 'tuic_racknerd-losangeles_IPv6'
+      - 'tuic_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+  - name: 🚀 耗材
+    type: select
+    proxies:
+      - 'tuic_justhost-turkiye_IPv6'
+      - 'tuic_justhost-turkiye_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
+      - 'tuic_zgo-oosaka_IPv6'
+      - 'tuic_zgo-oosaka_IPv4'
+      - 'vision_zgo-oosaka_IPv6'
+      - 'vision_zgo-oosaka_IPv4'
+      - 'tuic_racknerd-losangeles_IPv6'
+      - 'tuic_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+  - name: 🚀 外援
+    type: select
+    proxies:
+      - 🇭🇰 IEPL | 香港 | FDC
+      - 🇭🇰 IEPL | 香港 | WAP
+      - 🇭🇰 IEPL | 香港 | HKT
+      - 🇸🇬 IEPL | 狮城
+      - 🇨🇳 IEPL | 台湾 | Hinet
+      - 🇮🇩 IEPL | 印尼 | APIK
+      - 🇰🇷 IEPL | 韩国
+      - 🇻🇳 IEPL | 越南 | FPT
+      - 🇵🇭 IEPL | 菲律宾
+      - 🇹🇭 IEPL | 泰国 | CAT
+      - 🇰🇭 IEPL | 柬埔寨
+      - 🇯🇵 IEPL | 日本 | Linode
+      - 🇯🇵 IEPL | 日本 | Sonet
+      - 🇮🇳 IEPL | 印度
+      - 🇩🇪 IEPL | 德国
+      - 🇬🇧 IEPL | 英国
+      - 🇫🇷 IEPL | 法国
+      - 🇹🇷 IEPL | 土耳其
+      - 🇺🇸 IEPL | 美国 | LA
+      - 🇦🇺 IEPL | 澳洲
+      - 🇦🇷 IEPL | 阿根廷
+      - 🇧🇷 IEPL | 巴西
+      - 🇯🇵 IEPL | 尼日利亚
+      - 'tuic_justhost-turkiye_IPv6'
+      - 'tuic_justhost-turkiye_IPv4'
+      - 'vision_justhost-turkiye_IPv6'
+      - 'vision_justhost-turkiye_IPv4'
+      - 'tuic_zgo-oosaka_IPv6'
+      - 'tuic_zgo-oosaka_IPv4'
+      - 'vision_zgo-oosaka_IPv6'
+      - 'vision_zgo-oosaka_IPv4'
+      - 'tuic_racknerd-losangeles_IPv6'
+      - 'tuic_racknerd-losangeles_IPv4'
+      - 'vision_racknerd-losangeles_IPv6'
+      - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
+      - 'vision_racknerd-newyork_IPv4'
+  - name: 🚀 默认节点
+    type: select
+    proxies:
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 🚀 欠佳维稳
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: Ⓜ️ 必应
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 🦹🏾 Google
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 耗材
+      - 🚀 外援
+      - 🚀 自建美利坚
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 🦾 AI
+    type: select
+    proxies:
+      - 🚀 自建美利坚
+      - 🚀 自建突厥
+      - 🚀 外援
+      - 🚀 默认节点
+      - 🚀 耗材
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 🎨 Adobe
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 自建突厥
+      - 🚀 默认节点
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 🎶 Spotify
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 💴 境外金流
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 📹 TikTok
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 📼 NETFLIX
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 🎥 Disney+
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 虞夏节点
+  - name: 🏠 amazon
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🇨🇳 台湾节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇨🇳 虞夏节点
+  - name: 📺 LINE TV
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇨🇳 台湾节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+  - name: 📺 DMM
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 自建山人
+      - 🇯🇵 日本节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+  - name: 📺 ニコニコ
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🇯🇵 日本节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇨🇳 虞夏节点
+  - name: 🦾 游戏分发
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 自建突厥
+      - 🚀 默认节点
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 🇸🇬 联合早报
+    type: select
+    proxies:
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 虞夏节点
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+  - name: 🪟 微软
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🍎 Apple
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+  - name: 🚧 SIM
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 🚧 IP
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇭🇰 香港路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇭🇰 香港节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇲🇴 澳门路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇭🇰 香港节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇨🇳 台湾路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇨🇳 台湾节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇸🇬 狮城路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇸🇬 狮城节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇯🇵 日本路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇯🇵 日本节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇮🇷 波斯路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇮🇷 波斯节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇹🇷 突厥路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇹🇷 突厥节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇺🇸 美国节点
+  - name: 🇺🇸 美国路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🇺🇸 美国节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+  - name: 🇨🇳 虞夏路由
+    type: select
+    proxies:
+      - 🇨🇳 虞夏节点
+      - 🚀 默认节点
+      - 🚀 自建突厥
+      - 🚀 自建美利坚
+      - 🚀 耗材
+      - 🚀 外援
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇮🇷 波斯节点
+      - 🇹🇷 突厥节点
+      - 🇺🇸 美国节点
+  - name: 🇭🇰 香港节点
+    type: select
+    proxies:
+      - 🇭🇰 IEPL | 香港 | FDC
+      - 🇭🇰 IEPL | 香港 | WAP
+      - 🇭🇰 IEPL | 香港 | HKT
+  - name: 🇨🇳 台湾节点
+    type: select
+    proxies:
+      - 🇨🇳 IEPL | 台湾 | Hinet
+  - name: 🇸🇬 狮城节点
+    type: select
+    proxies:
+      - 🇸🇬 IEPL | 狮城
+  - name: 🇯🇵 日本节点
+    type: select
+    proxies:
+      - 🇯🇵 IEPL | 日本 | Linode
+      - 🇯🇵 IEPL | 日本 | Sonet
+  - name: 🇮🇷 波斯节点
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🇹🇷 突厥节点
+    type: select
+    proxies:
+      - 🇹🇷 IEPL | 土耳其
+  - name: 🇺🇸 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 IEPL | 美国 | LA
+  - name: 🇨🇳 虞夏节点
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - RULE-SET,LocalAreaNetwork,DIRECT
+  - RULE-SET,UnBan,🇨🇳 虞夏路由
+  - RULE-SET,Advertising_Classical,REJECT
+  - RULE-SET,GitHub,🚀 欠佳维稳
+  - RULE-SET,AI,🦾 AI
+  - RULE-SET,AdobeDirect,🇨🇳 虞夏路由
+  - RULE-SET,AdobeArea,🎨 Adobe
+  - RULE-SET,Google,🦹🏾 Google
+  - RULE-SET,SteamDirect,🇨🇳 虞夏路由
+  - RULE-SET,SteamArea,🦾 游戏分发
+  - RULE-SET,TikTok,📹 TikTok
+  - RULE-SET,NETFLIX,📼 NETFLIX
+  - RULE-SET,Disney+,🎥 Disney+
+  - RULE-SET,Bahamut,📺 巴哈姆特
+  - RULE-SET,ニコニコ,📺 ニコニコ
+  - RULE-SET,LineTV,📺 LINE TV
+  - RULE-SET,BiliBiliInternational,🚀 默认节点
+  - RULE-SET,bilibiliHMT,📺 哔哩哔哩
+  - RULE-SET,bilibili,🇨🇳 虞夏路由
+  - RULE-SET,Spotify,🎶 Spotify
+  - RULE-SET,Stripe,💴 境外金流
+  - RULE-SET,PayPal,💴 境外金流
+  - RULE-SET,wise,💴 境外金流
+  - RULE-SET,amazon,🏠 amazon
+  - RULE-SET,ArtStation,🚀 默认节点
+  - RULE-SET,AustralianStrategicPolicyInstitute,🚀 默认节点
+  - RULE-SET,bandcamp,🚀 默认节点
+  - RULE-SET,Blogspot,🚀 默认节点
+  - RULE-SET,BRILL,🚀 默认节点
+  - RULE-SET,Discord,🚀 默认节点
+  - RULE-SET,Dropbox,🚀 默认节点
+  - RULE-SET,Gravatar,🚀 默认节点
+  - RULE-SET,HuggingFace,🚀 默认节点
+  - RULE-SET,香港01,🚀 默认节点
+  - RULE-SET,HoYoLAB,🚀 默认节点
+  - RULE-SET,Line,🚀 默认节点
+  - RULE-SET,Linktree,🚀 默认节点
+  - RULE-SET,Medium,🚀 默认节点
+  - RULE-SET,Meta,🚀 默认节点
+  - RULE-SET,明報,🚀 默认节点
+  - RULE-SET,PetalSearch,🚀 默认节点
+  - RULE-SET,Pinterest,🚀 默认节点
+  - RULE-SET,pixiv,🚀 默认节点
+  - RULE-SET,Proton,🚀 默认节点
+  - RULE-SET,Reddit,🚀 默认节点
+  - RULE-SET,REUTERS,🚀 默认节点
+  - RULE-SET,SoundCloud,🚀 默认节点
+  - RULE-SET,Telegram,🚀 默认节点
+  - RULE-SET,TeraBox,🚀 默认节点
+  - RULE-SET,Tor,🚀 默认节点
+  - RULE-SET,USCongress,🚀 默认节点
+  - RULE-SET,WallStreetJournal,🚀 默认节点
+  - RULE-SET,WashingtonPost,🚀 默认节点
+  - RULE-SET,WhatsApp,🚀 默认节点
+  - RULE-SET,Wikipedia,🚀 默认节点
+  - RULE-SET,X,🚀 默认节点
+  - RULE-SET,yahoo!,🚀 默认节点
+  - RULE-SET,YOU,🚀 默认节点
+  - RULE-SET,zoom,🚀 默认节点
+  - RULE-SET,Epic,🦾 游戏分发
+  - RULE-SET,DMM,📺 DMM
+  - RULE-SET,bing,Ⓜ️ 必应
+  - RULE-SET,联合早报,🇸🇬 联合早报
+  - RULE-SET,Microsoft,🪟 微软
+  - RULE-SET,Apple,🍎 Apple
+  - RULE-SET,UltraMobile,🚧 SIM
+  - RULE-SET,T-Mobile,🚧 SIM
+  - RULE-SET,IP,🚧 IP
+  - RULE-SET,DigiCert,🚀 默认节点
+  - RULE-SET,Akamai,🚀 默认节点
+  - RULE-SET,Cloudflare,🚀 默认节点
+  - RULE-SET,GFWList,🐟 漏网之鱼
+  - RULE-SET,ChinaMax_Classical,🇨🇳 虞夏路由
+  - RULE-SET,Download,🇨🇳 虞夏路由
+  - RULE-SET,HKRoute,🇭🇰 香港路由
+  - RULE-SET,MORoute,🇲🇴 澳门路由
+  - RULE-SET,TWRoute,🇨🇳 台湾路由
+  - RULE-SET,JPRoute,🇯🇵 日本路由
+  - RULE-SET,SGRoute,🇸🇬 狮城路由
+  - RULE-SET,IRRoute,🇮🇷 波斯路由
+  - RULE-SET,USRoute,🇺🇸 美国路由
+  - RULE-SET,ISPRoute,🐟 漏网之鱼
+  - MATCH,🐟 漏网之鱼
