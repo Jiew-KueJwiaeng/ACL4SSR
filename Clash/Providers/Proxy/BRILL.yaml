@@ -1,0 +1,2 @@
+payload:
+  - AND,((DOMAIN,brill.com),(NETWORK,tcp))
