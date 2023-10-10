@@ -1,0 +1,6 @@
+payload:
+  - AND,((DOMAIN,cdn-client.medium.com),(NETWORK,tcp))
+  - AND,((DOMAIN,glyph.medium.com),(NETWORK,tcp))
+  - AND,((DOMAIN,help.medium.com),(NETWORK,tcp))
+  - AND,((DOMAIN,miro.medium.com),(NETWORK,tcp))
+  - AND,((DOMAIN,medium.com),(NETWORK,tcp))
