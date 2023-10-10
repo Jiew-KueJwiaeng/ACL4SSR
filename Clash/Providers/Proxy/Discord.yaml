@@ -1,0 +1,12 @@
+payload:
+  # - AND,((DOMAIN-SUFFIX,discord.co),(NETWORK,tcp))
+  - AND,((DOMAIN,click.discord.com),(NETWORK,tcp))
+  - AND,((DOMAIN,status.discord.com),(NETWORK,tcp))
+  - AND,((DOMAIN,discord.com),(NETWORK,tcp))
+  - AND,((DOMAIN,gateway.discord.gg),(NETWORK,tcp))
+  - AND,((DOMAIN,remote-auth-gateway.discord.gg),(NETWORK,tcp))
+  - AND,((DOMAIN,discord.gg),(NETWORK,tcp))
+  # - AND,((DOMAIN-SUFFIX,discord.media),(NETWORK,tcp))
+  - AND,((DOMAIN,cdn.discordapp.com),(NETWORK,tcp))
+  - AND,((DOMAIN,images-ext-1.discordapp.net),(NETWORK,tcp))
+  - AND,((DOMAIN,media.discordapp.net),(NETWORK,tcp))
