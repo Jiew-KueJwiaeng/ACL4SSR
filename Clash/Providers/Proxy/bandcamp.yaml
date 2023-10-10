@@ -1,4 +1,4 @@
 payload:
-  - 'DOMAIN,bandcamp.com'
+  - 'AND,((DOMAIN,bandcamp.com),(NETWORK,tcp))'
   # - 'DOMAIN,bcbits.com'
   # https://github.com/v2fly/domain-list-community/blob/master/data/bandcamp
