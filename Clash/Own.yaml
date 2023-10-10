@@ -203,6 +203,26 @@ proxies:
       public-key: 'octlXzdbzQ4kd253cGaHzouulxNvEio3jaXtxjwXiW4'
       #short-id: xxx # optional
     client-fingerprint: 'ios'
+  - name: 'tuic_racknerd-newyork_IPv4'
+    server: 'racknerd-newyork.nk2028.tk'
+    port: '25567'
+    type: 'tuic'
+    uuid: '63c65240-a7a5-4f02-a719-a9c62d3de961'
+    password: '610a5ca3'
+    ip: '23.95.170.29'
+    # heartbeat-interval: 10000
+    alpn: [h3]
+    # disable-sni: true
+    # reduce-rtt: true
+    # request-timeout: 8000
+    udp-relay-mode: 'quic'
+    congestion-controller: 'bbr'
+    # cwnd: 10 # default: 32
+    # max-udp-relay-packet-size: 1500
+    # fast-open: true
+    # skip-cert-verify: true
+    # max-open-streams: 20 # default 100, too many open streams may hurt performance
+    # sni: example.com
   - name: 'vision_racknerd-newyork_IPv4'
     type: 'vless'
     server: '23.95.170.29'
@@ -233,9 +253,9 @@ proxy-groups:
       - 'tuic_racknerd-losangeles_IPv4'
       - 'vision_racknerd-losangeles_IPv6'
       - 'vision_racknerd-losangeles_IPv4'
+      - 'tuic_racknerd-newyork_IPv4'
       - 'vision_racknerd-newyork_IPv4'
       
-
 #  - name: 'tuic_racknerd-losangeles_IPv6'
 #  #  server: '2607:f130:0:f8:ff:ff:7364:328c'
 #  #  port: '25566'
