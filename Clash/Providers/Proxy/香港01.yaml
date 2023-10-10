@@ -1,0 +1,7 @@
+payload:
+  - AND,((DOMAIN,cdn.hk01.com),(NETWORK,tcp))
+  - AND,((DOMAIN,social-reaction-api.hk01.com),(NETWORK,tcp))
+  - AND,((DOMAIN,track.hk01.com),(NETWORK,tcp))
+  - AND,((DOMAIN,web-data.api.hk01.com),(NETWORK,tcp))
+  - AND,((DOMAIN,www.hk01.com),(NETWORK,tcp))
+  - AND,((DOMAIN,hk01.com),(NETWORK,tcp))
