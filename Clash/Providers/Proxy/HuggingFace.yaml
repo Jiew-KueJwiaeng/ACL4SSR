@@ -1,0 +1,4 @@
+payload:
+  - 'AND,((DOMAIN,api-inference.huggingface.co),(NETWORK,tcp))'
+  - 'AND,((DOMAIN,cdn-lfs.huggingface.co),(NETWORK,tcp))'
+  - 'AND,((DOMAIN,huggingface.co),(NETWORK,tcp))'
