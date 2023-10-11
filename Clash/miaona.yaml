@@ -1,0 +1,33 @@
+port:
+socks-port:
+allow-lan:
+mode:
+log-level:
+external-controller:
+dns:
+proxies:
+  - {name: 🇭🇰 IEPL | 香港 | FDC, server: asia.miaocn.cyou, port: 10931, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇭🇰 IEPL | 香港 | WAP, server: asia.miaocn.cyou, port: 10920, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇭🇰 IEPL | 香港 | HKT, server: asia.miaocn.cyou, port: 10933, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇸🇬 IEPL | 狮城, server: asia.miaocn.cyou, port: 10934, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇨🇳 IEPL | 台湾 | Hinet, server: asia.miaocn.cyou, port: 36505, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇮🇩 IEPL | 印尼 | APIK, server: asia.miaocn.cyou, port: 10932, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇰🇷 IEPL | 韩国, server: asia.miaocn.cyou, port: 10915, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇻🇳 IEPL | 越南 | FPT, server: asia.miaocn.cyou, port: 10916, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇵🇭 IEPL | 菲律宾, server: asia.miaocn.cyou, port: 10917, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇹🇭 IEPL | 泰国 | CAT, server: asia.miaocn.cyou, port: 10935, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇰🇭 IEPL | 柬埔寨, server: asia.miaocn.cyou, port: 36503, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 日本 | Linode, server: asia.miaocn.cyou, port: 10925, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 日本 | Sonet, server: asia.miaocn.cyou, port: 10924, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇮🇳 IEPL | 印度, server: asia.miaocn.cyou, port: 10928, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇩🇪 IEPL | 德国, server: eu.miaocn.cyou, port: 10910, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇬🇧 IEPL | 英国, server: eu.miaocn.cyou, port: 10929, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇫🇷 IEPL | 法国, server: eu.miaocn.cyou, port: 10913, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇹🇷 IEPL | 土耳其, server: eu.miaocn.cyou, port: 10912, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇺🇸 IEPL | 美国 | LA, server: na.miaocn.cyou, port: 10930, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇦🇺 IEPL | 澳洲, server: na.miaocn.cyou, port: 10927, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇦🇷 IEPL | 阿根廷, server: na.miaocn.cyou, port: 10914, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇧🇷 IEPL | 巴西, server: na.miaocn.cyou, port: 10926, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+  - {name: 🇯🇵 IEPL | 尼日利亚, server: eu.miaocn.cyou, port: 10919, type: ss, cipher: aes-128-gcm, password: 63c65240-a7a5-4f02-a719-a9c62d3de961, udp: true}
+proxy-groups:
+rules:
