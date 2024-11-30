@@ -1,0 +1,16 @@
+# https://linux.do/t/topic/86218
+
+# AND,((DOMAIN,cdn.auth0.com),(NOT,((RULE-SET,gaoyifan.china-operator-ip.china6+misakaio.chnroutes))),(OR,((AND,((DST-PORT,80),(NETWORK,tcp))),(DST-PORT,443))))
+# DOMAIN,openaiapi-site.azureedge.net
+AND,((DOMAIN-SUFFIX,chatgpt.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+# DOMAIN,challenges.cloudflare.com
+AND,((DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN-SUFFIX,oaistatic.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN-SUFFIX,oaiusercontent.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,auth0.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,android.chat.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,ios.chat.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,tcr9i.chat.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,chat.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN,platform.openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
+AND,((DOMAIN-SUFFIX,openai.com),(NOT,((OR,((RULE-SET,gaoyifan.china-operator-ip.china6),(RULE-SET,misakaio.chnroutes2.chnroutes),(RULE-SET,metowolf.iplist.CN),(RULE-SET,17mon.china_ip_list.china_ip_list),(GEOIP,CN))))))
